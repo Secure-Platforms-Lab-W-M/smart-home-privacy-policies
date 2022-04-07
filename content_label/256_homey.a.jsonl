@@ -1,0 +1,151 @@
+{"id": 858, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 859, "data": "Athom Privacy Policy", "label": []}
+{"id": 860, "data": "This is the Privacy Policy of Athom B.V., based at Rigtersbleek-Zandvoort 10, 7521 BE Enschede, The Netherlands (\"Athom\"). It details which data Athom collects and uses, including personal data - which is data that identifies you, like your name, email address or invoice information.", "label": []}
+{"id": 861, "data": "We design our product and services with your privacy in mind. Because we believe your home should be a safe place - your safe place. We take strict measures to protect the personal data we have about you, and will not sell it to third parties. We only use services from renowned third parties which have Data Processing Agreements in place, and which respect your privacy in the same way we do.", "label": []}
+{"id": 862, "data": "At the same time, we keep the amount of personal data we process to a bare minimum. We do not collect the commands you give to Homey, nor do we log your sensor data. Because we believe in transparency, we have listed all our services, data usage goals and data collection below.", "label": []}
+{"id": 863, "data": "As a company, Athom provides:", "label": []}
+{"id": 864, "data": "a website that may be accessed at www.athom.com (Website);", "label": []}
+{"id": 865, "data": "applications for mobile devices to control your Homey (Apps); and", "label": []}
+{"id": 866, "data": "services accessible through the Website or Apps for users with an Athom account (Web Services),", "label": []}
+{"id": 867, "data": "altogether referred to as the \"Services\" and all for use in conjunction with Athom's hardware product 'Homey' (\"Homey\") and in other ways that Athom provides.", "label": []}
+{"id": 868, "data": "This Privacy Policy may be updated over time. Users are advised to regularly review the Privacy Policy for possible updates. If you have a Homey account, we will notify you of any updates of this Privacy Policy. This Privacy Policy was last updated on February 1, 2019.", "label": []}
+{"id": 869, "data": "This Privacy Policy can be stored or printed.", "label": []}
+{"id": 870, "data": "1 When is this Privacy Policy applicable?", "label": []}
+{"id": 871, "data": "This Privacy Policy is applicable to and provides information on the processing by Athom of personal data of users of the Services and anyone who contacts Athom for any of the other purposes as set forth under 3 (For what purpose do we process your personal data?).", "label": []}
+{"id": 872, "data": "2 Who is the controller of your data?", "label": []}
+{"id": 873, "data": "Athom is the controller for the processing of your personal data. Athom has notified the Dutch Data Protection Authority (DDPA) in The Hague of its processing of personal data. The notification indicates what data are processed by Athomand for what purpose, and to which persons or entities the data will be provided.", "label": []}
+{"id": 874, "data": "--------------2. Collection --------------", "label": []}
+{"id": 875, "data": "3 For what purpose do we process your personal data?", "label": []}
+{"id": 876, "data": "(1) For ordering and delivering your product.", "label": [[0, 45, "collect_purpose"]]}
+{"id": 877, "data": "What does this purpose entail?", "label": []}
+{"id": 878, "data": "If you pre-order or purchase a product from our Website, we need your contact details to complete the transaction and deliver your product to you.", "label": [[0, 146, "collect_purpose"]]}
+{"id": 879, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 880, "data": "For this purpose, we process your name, email address, your shipping address, your bank account number, PayPal number or the last four digits of your credit card and whether you have paid for your product(s), the date of your order and the product number of your Homey. We do not process any other payment information ourselves. For payments, we use the services of the payment processor Adyen. For more information on how Adyen processes your payment information and applicable terms and conditions, please refer to their website.", "label": [[0, 394, "collection"]]}
+{"id": 881, "data": "For what period do we retain your personal data for this purpose?", "label": []}
+{"id": 882, "data": "Your data will be deleted from our systems once you request the deletion of that data.", "label": []}
+{"id": 883, "data": "(2) For product warranty on your Homey.", "label": [[0, 39, "collect_purpose"]]}
+{"id": 884, "data": "What does this purpose entail?", "label": []}
+{"id": 885, "data": "When your Homey does not function as it should and if this is attributable to us, we make sure that we repair or replace your Homey.", "label": [[0, 132, "collect_purpose"]]}
+{"id": 886, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 887, "data": "For this purpose we process your name, email address, address, the date of the order of your Homey and the product number of your Homey.", "label": [[0, 136, "collection"]]}
+{"id": 888, "data": "For what period do we retain your personal data for this purpose?", "label": []}
+{"id": 889, "data": "Your data will be deleted from our systems once you request the deletion of that data.", "label": []}
+{"id": 890, "data": "(3) For creating and maintaining an Athom account", "label": [[0, 49, "collect_purpose"]]}
+{"id": 891, "data": "What does this purpose entail?", "label": []}
+{"id": 892, "data": "In order to set-up and use your Homey, the Web Services and the Apps, you need to create an Athom account that will be connected to your Homey.", "label": [[0, 143, "collect_purpose"]]}
+{"id": 893, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 894, "data": "For this purpose, we process your email address, password-hash and the product number of your Homey. If you choose to do so, you may also set a profile picture for your account and enter your name, gender and address information.", "label": [[0, 229, "collection"]]}
+{"id": 895, "data": "For what period do we retain your personal data for this purpose?", "label": []}
+{"id": 896, "data": "The personal data will be deleted from our systems once you request the deletion of that data.", "label": []}
+{"id": 897, "data": "(4) For running Apps and Services on Homey", "label": [[0, 42, "collect_purpose"]]}
+{"id": 898, "data": "What does this purpose entail?", "label": []}
+{"id": 899, "data": "In order to properly run services on your Homey, we need some information. Services include the weather forecast, automation or notifications.", "label": [[0, 142, "collect_purpose"]]}
+{"id": 900, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 901, "data": "For this purpose, we process your IP Address, Geolocation (based on coordinates), Apps you have installed on your Homey, and the linked mobile devices in your Athom Account, as well as the email address associated with your Athom Account.", "label": [[0, 238, "collection"]]}
+{"id": 902, "data": "For what period do we retain your personal data for this purpose?", "label": []}
+{"id": 903, "data": "The personal data will be deleted from our systems once you request the deletion of that data.", "label": []}
+{"id": 904, "data": "(5) For sending you information about Homey and Athom.", "label": [[0, 54, "collect_purpose"]]}
+{"id": 905, "data": "What does this purpose entail?", "label": []}
+{"id": 906, "data": "We would like to keep you updated on our latest developments, events, news, vacancies and other opportunities and developments within Athom by email, social media or via the Services. If you would like to stay informed on these topics, you can indicate this by ticking the appropriate box before registering your account, subscribing on the Website, or when placing an order on the Website.", "label": [[0, 390, "collect_purpose"]]}
+{"id": 907, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 908, "data": "\uf0de For this purpose we process your name, address (if needed), gender, purchase date, your email address, Apps installed on Homey, and an overview of which emails we have sent you.", "label": [[0, 179, "collection"]]}
+{"id": 909, "data": "For what period do we retain your personal data?", "label": []}
+{"id": 910, "data": "We retain your personal data for as long as you wish to receive information from Athom. In case you do not want to receive such emails, you can unsubscribe by using the unsubscribe option included in each email by Athom. We do not process al this data ourselves. Newsletter data is processed by Mailchimp, according to their Data Processing Agreement.", "label": []}
+{"id": 911, "data": "(6) For authenticating you for login", "label": [[0, 36, "collect_purpose"]]}
+{"id": 912, "data": "What does this purpose entail?", "label": []}
+{"id": 913, "data": "If you want to control your Homey from the App or if you want to access the online environment for Homey (e.g. for adding devices to the structure in your home), you need to log in first via our servers for security reasons.", "label": [[0, 224, "collect_purpose"]]}
+{"id": 914, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 915, "data": "Your email address and password-hash.", "label": [[0, 37, "collection"]]}
+{"id": 916, "data": "For what period do we retain your personal data for this purpose?", "label": []}
+{"id": 917, "data": "We retain your personal data related to this session until authorization is complete, with a maximum of up to 5 minutes.", "label": []}
+{"id": 918, "data": "(7) To command your Homey", "label": [[0, 25, "collect_purpose"]]}
+{"id": 919, "data": "What does this purpose entail?", "label": []}
+{"id": 920, "data": "If you use the App to give your Homey a command, this command will be led to your Homey via Athom's servers. Homey will then execute the command.", "label": [[0, 145, "collect_purpose"]]}
+{"id": 921, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 922, "data": "For this purpose we process the personal data under (3)For creating and maintaining an Athom account and your command. Also, a log file of all commands is stored locally on your Homey.", "label": [[0, 184, "collection"]]}
+{"id": 923, "data": "For what period do we retain your personal data for this purpose?", "label": []}
+{"id": 924, "data": "We retain the information concerning your command until the command is confirmed, with a maximum of up to 5 minutes.", "label": []}
+{"id": 925, "data": "(8) For the improvement of our products and services", "label": [[0, 52, "collect_purpose"]]}
+{"id": 926, "data": "What does this purpose entail?", "label": []}
+{"id": 927, "data": "Your Homey executes commands following algorithms developed by Athom. If you give your Homey a command by voice, Athom saves the audio files and the text file returned by the speech recognition operator in order to help improve its algorithms. Athom also aggregates your usage data with the data from other users, in order to improve our products and services.", "label": [[0, 360, "collect_purpose"]]}
+{"id": 928, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 929, "data": "For this purpose we collect aggregated data on the use of Homey. This includes the Apps installed on Homey and the devices linked to it.", "label": [[0, 136, "collection"]]}
+{"id": 930, "data": "We also collect statistics on the usage of our App and Website. This includes visited pages, source, duration and other analytical information. These are anonymized until you give your explicit consent for identification. In that case also your IP address is stored.", "label": []}
+{"id": 931, "data": "For what period do we retain your personal data for this purpose?", "label": []}
+{"id": 932, "data": "The data will be deleted from our systems once you request the deletion of that data. We do not process all of this data ourselves. In the case of explicit identification consent, Google Analytics also processes personal data, according to their Data Processing Agreement.", "label": []}
+{"id": 933, "data": "(9) For answering your questions.", "label": [[0, 33, "collect_purpose"]]}
+{"id": 934, "data": "What does this purpose entail?", "label": []}
+{"id": 935, "data": "Via our Website, Web Services and App you can ask us questions. You may also be able to contact us by other means (such as email or telephone). In this case we will use your personal data to answer your question(s).", "label": [[0, 215, "collect_purpose"]]}
+{"id": 936, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 937, "data": "For this purpose we process your name, your contact information, your correspondence with Athom about your question and all other personal data you provide us with and which is required to answer your question, which may include the product number of your Homey.", "label": [[0, 262, "collection"]]}
+{"id": 938, "data": "For what period do we retain your personal data for this purpose?", "label": []}
+{"id": 939, "data": "Your data will be deleted from our systems once you request the deletion of that data. We do not process all of this data ourselves. In case of a support ticket, we use the services of Zendesk to help you, according to their Data Processing Agreement.", "label": []}
+{"id": 940, "data": "(10) For business intelligence and marketing", "label": [[0, 44, "collect_purpose"]]}
+{"id": 941, "data": "What does this purpose entail?", "label": []}
+{"id": 942, "data": "We like to know what kind of users use Homey, so that we can adjust our services and tailor our marketing strategy accordingly.", "label": [[0, 127, "collect_purpose"]]}
+{"id": 943, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 944, "data": "For this purpose we process only the information that you provide us, which may or may not include date of birth, gender, payment information and date of order, address, installed devices and Apps, and aggregated usage data. We do not process data on individual actions you take or commands you send to Homey.", "label": [[0, 309, "collection"]]}
+{"id": 945, "data": "We also collect statistics on the usage of our App and Website. This includes visited pages, source, duration and other analytical information. These are anonymized until you give your explicit consent for identification. In that case also your IP address is stored.", "label": [[0, 266, "collection"]]}
+{"id": 946, "data": "For what period do we retain your personal data for this purpose?", "label": []}
+{"id": 947, "data": "The personal data will be deleted from our systems once you request the deletion of that data.", "label": []}
+{"id": 948, "data": "(11) For participating in our prize contests, events, competitions, promotions and/or games of chance", "label": [[0, 101, "collect_purpose"]]}
+{"id": 949, "data": "What does this purpose entail?", "label": []}
+{"id": 950, "data": "To be able to organize prize contests, events, competitions, promotions and or games of chance and to announce its winners and measure the response, we process personal data, if you participate.", "label": [[0, 194, "collect_purpose"]]}
+{"id": 951, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 952, "data": "For this purpose we process your name, address, email address and payment information (if needed) with a unique ID. This unique ID may be your Facebook profile, Twitter Alias, Youtube account, or other identifier, dependent of the platform used by the contest.", "label": [[0, 260, "collection"]]}
+{"id": 953, "data": "For what period do we retain your personal data for this purpose?", "label": []}
+{"id": 954, "data": "The personal data will be deleted from our systems once you request the deletion of that data.", "label": []}
+{"id": 955, "data": "(12) For attribution of content you post", "label": [[0, 40, "collect_purpose"]]}
+{"id": 956, "data": "What does this purpose entail?", "label": []}
+{"id": 957, "data": "In order to correctly attribute you for the apps you post to the Homey app store, post on the Athom forums or other content in communication and content channels from Athom.", "label": [[0, 173, "collect_purpose"]]}
+{"id": 958, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 959, "data": "For this purpose, we process your account information (please refer to (3)For creating and maintaining an Athom account), and any information or content that you post on the Homey app store, the Athom forums or other communication and content channels from Athom.", "label": [[0, 263, "collection"]]}
+{"id": 960, "data": "For what period do we retain your personal data for this purpose?", "label": []}
+{"id": 961, "data": "The personal data will be deleted from our systems once you request the deletion of that data.", "label": []}
+{"id": 962, "data": "(13) For bookkeeping", "label": [[0, 20, "collect_purpose"]]}
+{"id": 963, "data": "What does this purpose entail?", "label": []}
+{"id": 964, "data": "We save all the invoices we send to keep our books in a legal way. These might include personal information.", "label": [[0, 108, "collect_purpose"]]}
+{"id": 965, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 966, "data": "For this purpose, we process your name, address, VAT number, Chamber of Commerce number, order lines and date of orders.", "label": [[0, 120, "collection"]]}
+{"id": 967, "data": "For what period do we retain your personal data for this purpose?", "label": []}
+{"id": 968, "data": "The personal data will be deleted from our systems once you request the deletion of that data, unless this prohibits us from meeting a legal obligation. We do not process all of this data ourselves. For bookkeeping, data is processed by Moneybird, according to their Data Processing Agreement.", "label": []}
+{"id": 969, "data": "(14) For restoring your Homey data", "label": [[0, 34, "collect_purpose"]]}
+{"id": 970, "data": "What does this purpose entail?", "label": []}
+{"id": 971, "data": "In case your device gets bricked or reset, a stored back-up can revert your Homey to the state it was in before, so you don't lose your setup.", "label": [[0, 142, "collect_purpose"]]}
+{"id": 972, "data": "Which personal data do we process for this purpose?", "label": []}
+{"id": 973, "data": "For this purpose, we process the information under (3)For creating and maintaining an Athom account, (4)For running Apps and Services on Homey, and all the usage data of your Homey, including installed Apps and their settings, the structure of your home and the scenarios you created for automating your home.", "label": [[0, 309, "collection"]]}
+{"id": 974, "data": "For what period do we retain your personal data for this purpose?", "label": []}
+{"id": 975, "data": "We create back-ups on a daily basis, or when you manually back-up your Homey. We retain the back-up until the next back-up is made, or until you request the deletion of this data.", "label": []}
+{"id": 976, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 977, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 978, "data": "4 Who has access to your data?", "label": []}
+{"id": 979, "data": "Athom uses third parties for certain processing, such as the hosting and Analytics of our Website and servers, providing support, emailing newsletters and the processing of payments. With all these parties we have signed Data Processing Agreements as required under EU's GDPR directive. These parties include:", "label": [[0, 309, "sharing"]]}
+{"id": 980, "data": "Google (Analytics)", "label": [[0, 18, "sharing"]]}
+{"id": 981, "data": "Amazon Web Services (Hosting)", "label": [[0, 29, "sharing"]]}
+{"id": 982, "data": "Adyen (Payments)", "label": [[0, 16, "sharing"]]}
+{"id": 983, "data": "Mailchimp (Newsletters)", "label": [[0, 23, "sharing"]]}
+{"id": 984, "data": "Zendesk (Support)", "label": [[0, 17, "sharing"]]}
+{"id": 985, "data": "Moneybird (Bookkeeping)", "label": [[0, 23, "sharing"]]}
+{"id": 986, "data": "Only if Athom is required to do so by law, your personal data will be provided to supervisory agencies, fiscal authorities and investigative agencies. Note that Athom does not have access to your history log or full sensor data, since those are only logged on your local device.", "label": [[0, 151, "sharing"], [151, 278, "not_sharing"]]}
+{"id": 987, "data": "--------------5. Retention --------------", "label": []}
+{"id": 988, "data": "--------------6. Children --------------", "label": []}
+{"id": 989, "data": "7 May persons below the age of 16 provide personal data?", "label": []}
+{"id": 990, "data": "Persons below the age of 16 may only provide personal data to Athom if they have written permission of one of their parents or their legal guardian who has read this Privacy Policy.", "label": []}
+{"id": 991, "data": "--------------7. Contact --------------", "label": []}
+{"id": 992, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 993, "data": "5 Which cookies does Athom use?", "label": []}
+{"id": 994, "data": "The Website and App use cookies. A cookie is a small text file that we send to your internet browser so that we are able to recognise your browser when you return. Cookies can collect data on the use of the Website or App such as which pages are visited and the duration of a user session. When you use the Website or App, the cookie sends data to Athom.", "label": []}
+{"id": 995, "data": "On the website, Athom always uses functional and analytical cookies. These cookies do not collect user data, but rather anonymous data in order for the website to function properly, and to make sure it stays functioning properly. These cookies include an anonymous visitor-counter and shopping cart functionality.", "label": []}
+{"id": 996, "data": "Only after your explicit consent, the Website and App place tracking/identifying cookies. These cookies add unique user information to tailor the Website to your needs. Also, they might be used to target you with information about Athom or its products on other sites or platforms, and help Athom and possible third parties to characterize you as a user.", "label": []}
+{"id": 997, "data": "Your choices:", "label": []}
+{"id": 998, "data": "Only if you have given explicit prior consent, Athom places cookies that might identify you. If you do not consent to this, no identification will take place, and all data collected won't be traceable back to you as a person.", "label": []}
+{"id": 999, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 1000, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 1001, "data": "--------------11. Extra--------------", "label": []}
+{"id": 1002, "data": "6 How to treat links to other websites and social media?", "label": []}
+{"id": 1003, "data": "On the website you will find a number of links to other websites. Although these websites are selected with care, we are not responsible for the processing of your personal data through these websites. Athom Terms of Use and this Privacy Policy are therefore not applicable to the use of such websites.", "label": []}
+{"id": 1004, "data": "If you choose to share our Website through social media such as LinkedIn, Facebook and/or Twitter, your personal data (such as your name and the fact that you are interested in Athom) may also be visible to all the visitors of that social media platform. On the use of such social media websites only the terms and conditions (including the privacy policy) of the social media website apply. Athom is not responsible for the processing of personal data or the privacy policy of such social media websites. Athom Terms of Use and this Privacy Policy is therefore not applicable to the use of such websites.", "label": []}
+{"id": 1005, "data": "8 How do we secure the data?", "label": []}
+{"id": 1006, "data": "Your personal data are treated strictly confidential and Athom has taken the appropriate technical and organizational security measures against loss or unlawful processing of this data. To this purpose Athom uses several security techniques including secure servers, firewalls and encryption.", "label": []}
+{"id": 1007, "data": "9 Who to address regarding questions and requests of access, removal etc.", "label": []}
+{"id": 1008, "data": "You can request access of the data that Athom processes about you at any time, and have these corrected or removed by sending a request to data@athom.com", "label": []}

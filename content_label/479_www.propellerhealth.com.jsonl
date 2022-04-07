@@ -1,0 +1,127 @@
+{"id": 9345, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 9346, "data": "PROPELLER PRIVACY NOTICE", "label": []}
+{"id": 9347, "data": "Your privacy is important to us. Reciprocal Labs Corporation (d/b/a Propeller Health) (throughout this notice as \"Propeller Health,\" \"we,\" \"us,\" \"our\") is committed to protecting your privacy. As part of our commitment to honoring your privacy, this Privacy Notice explains the approach we take in protecting and using the information that we gather from you. Your personal data is processed in compliance with all applicable federal regulations, state, and local regulations, including the California Consumer Privacy Act (CCPA) of 2018, including the Attorney General Regulations proposed in 2019.", "label": []}
+{"id": 9348, "data": "Our Privacy Notice explains how we process your personal data when you use our services. These services include: sensors, hubs, the website, and mobile application, (collectively, \"the Propeller System\") that gather, store and process data to provide you insights to help you breathe easier.", "label": []}
+{"id": 9349, "data": "Who is In Charge:", "label": []}
+{"id": 9350, "data": "Propeller Health, located at 1 South Pinckney Street, Suite 610, Madison, WI 53703, and email help@propellerhealth.com is considered the \"data controller\" with regard to the processing of personal data in the context of the Services. Propeller Health has appointed a Data Privacy Officer, Stacy Tyman, located at the above address, who may be contacted at dpo@propellerhealth.com", "label": []}
+{"id": 9351, "data": "--------------2. Collection --------------", "label": []}
+{"id": 9352, "data": "Types of Information We Collect:", "label": []}
+{"id": 9353, "data": "User Provided Information:", "label": [[0, 26, "collection"]]}
+{"id": 9354, "data": "We collect information that you share with us when you enter your personal information to register for an account with us, communicate with our customer support team, and interact with the Propeller System.", "label": [[0, 206, "collection"]]}
+{"id": 9355, "data": "This information might include personal information, protected information, health information, and biometric information as described below:", "label": [[0, 141, "collection"]]}
+{"id": 9356, "data": "First and last name", "label": [[0, 19, "collection"]]}
+{"id": 9357, "data": "Date of birth", "label": [[0, 13, "collection"]]}
+{"id": 9358, "data": "Email Address", "label": [[0, 13, "collection"]]}
+{"id": 9359, "data": "Mailing Address", "label": [[0, 15, "collection"]]}
+{"id": 9360, "data": "Phone Number", "label": [[0, 12, "collection"]]}
+{"id": 9361, "data": "IP Address/device ID", "label": [[0, 20, "collection"]]}
+{"id": 9362, "data": "Geolocation Data (can be turned off within your device)", "label": [[0, 55, "collection"]]}
+{"id": 9363, "data": "Whether you have asthma or COPD", "label": [[0, 31, "collection"]]}
+{"id": 9364, "data": "Information regarding your medications include: the medication name, dosage, and schedule", "label": [[0, 89, "collection"]]}
+{"id": 9365, "data": "Usage information from your Sensor, a Hub or as manually entered by you into the mobile application", "label": [[0, 99, "collection"]]}
+{"id": 9366, "data": "Usage information will include the date and time you used your medication and in some cases the location where you used your medication.", "label": [[0, 136, "collection"]]}
+{"id": 9367, "data": "Commercial Information:", "label": [[0, 23, "collection"]]}
+{"id": 9368, "data": "Propeller Health maintains information about the products that you receive from us in order to support your use of the Propeller System.", "label": [[0, 136, "collect_purpose"]]}
+{"id": 9369, "data": "Integrations:", "label": []}
+{"id": 9370, "data": "Patients may have the option to enable integration with the HealthKit application if they use an Apple device. Users who enable this functionality will allow Propeller Health to access their health and exercise data as collected by the HealthKit application. HealthKit data will be collected and stored by the Propeller System. You can disable this integration at any time through your device settings.", "label": [[111, 327, "collection"]]}
+{"id": 9371, "data": "Use and Storage of Your Personal Information:", "label": []}
+{"id": 9372, "data": "We may use personal information collected through the Propeller System for the following purposes:", "label": []}
+{"id": 9373, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 9374, "data": "Support and Communication:", "label": [[0, 26, "collect_purpose"]]}
+{"id": 9375, "data": "Propeller Health may use the information you've provided us through your use of the Propeller System to contact you to assist you with your use of the Propeller System. We may reach out to obtain updates on your health status, to send important Service announcements, to send you information about services we think may be of interest to you, or to ask for your feedback on the Propeller System. This information may come to you via email, push notifications in the App, telephone, or SMS/text messages. You can opt out of these notifications by changing your settings on your mobile device or within the web portal.", "label": [[0, 396, "collect_purpose"]]}
+{"id": 9376, "data": "Analytics:", "label": [[0, 10, "collect_purpose"]]}
+{"id": 9377, "data": "Propeller Health may use your information to provide you with information on how well your disease is being managed. We may use your location information to provide you with weather and environmental information that may impact your disease management.", "label": [[0, 252, "collect_purpose"]]}
+{"id": 9378, "data": "Research:", "label": [[0, 9, "collect_purpose"]]}
+{"id": 9379, "data": "Propeller Health is dedicated to understanding the management and impact of respiratory disease and identifying and supporting better ways to address it. We may de-identify and combine your data with the data of other users (aggregated data) to conduct research on chronic respiratory disease, with the goals of improving diagnosis and treatment,mitigating the impact of environmental factors such as pollution, and continually improving Propeller to provide you the best possible experience.", "label": [[0, 492, "collect_purpose"]]}
+{"id": 9380, "data": "Laws, Regulations, and Legal Processes", "label": [[0, 38, "collect_purpose"]]}
+{"id": 9381, "data": "Propeller Health may be required to use information collected from you to comply with various laws and regulations, in the event of an investigation or legal proceedings, in the event of a merger, sale or other transfer of assets, and to protect the rights and safety of Propeller Health, its employees, its customers, or the public.", "label": [[0, 333, "collect_purpose"]]}
+{"id": 9382, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 9383, "data": "Sharing Your Personal Information", "label": []}
+{"id": 9384, "data": "We may share your personal information with the following groups:", "label": []}
+{"id": 9385, "data": "Third Parties Who Perform Services for Propeller", "label": [[0, 48, "sharing"]]}
+{"id": 9386, "data": "We may share your information with third-party service providers who help us to carry out the services we provide through the Propeller System. We limit the information shared with these providers solely to the information needed for the purposes described in our contracts.", "label": [[0, 274, "share_purpose"]]}
+{"id": 9387, "data": "Third Party Partners or Research/Public Health Agencies", "label": [[0, 55, "sharing"]]}
+{"id": 9388, "data": "In addition to serving your individual needs, and the needs of our customers, we provide information to our Partners who may be supporting the services you receive from Propeller, and other third parties such as public health agencies, to include information for use in their health-related activities and scientific research. We remove personally identifiable information that could be used to identify you prior to sharing this information.", "label": [[0, 327, "share_purpose"]]}
+{"id": 9389, "data": "Sale of Propeller Health:", "label": []}
+{"id": 9390, "data": "In the event of a business transaction such as the sale of all or part of our business (ex: a merger, liquidation, reorganization, transfer, or other business transaction or negotiation) we reserve the right to transfer your information to a third-party acquiring our assets. You will receive communication regarding this.", "label": [[0, 322, "share_purpose"]]}
+{"id": 9391, "data": "Caregivers, Health Providers, Other Individuals", "label": [[0, 47, "sharing"]]}
+{"id": 9392, "data": "As a Propeller Health user, you have the option to share your information with Caregivers, Health Care Providers, or other individuals. This is set up by you within your profile and can be removed at any time.", "label": [[0, 209, "share_purpose"]]}
+{"id": 9393, "data": "--------------5. Retention --------------", "label": []}
+{"id": 9394, "data": "--------------6. Children --------------", "label": []}
+{"id": 9395, "data": "Information for Parents of Users Who are Under Age 13:", "label": []}
+{"id": 9396, "data": "In order for a parent to register their child(ren) for the Service, we need to obtain verified consent from the Parent. To verify your information, we use a third party service. Parents will submit their information to the third party. This data may include name, postal address, and date of birth. This information is used only to verify your identity and will not be shared with any other party.", "label": []}
+{"id": 9397, "data": "Propeller does not intend for the System to be used by children who are under 13 years old without the consent of a parent or guardian. If you are the parent or guardian of a child who is under 13 years old, and you believe that your child has provided us with information without your consent, please contact us at dpo@propellerhealth.com, so we can promptly delete that information.", "label": []}
+{"id": 9398, "data": "--------------7. Contact --------------", "label": []}
+{"id": 9399, "data": "Contact information", "label": []}
+{"id": 9400, "data": "If you have any questions or concerns about this Privacy Notice, please send us an email to dpo@propellerhealth.com", "label": []}
+{"id": 9401, "data": "Effective date: 12/19/2019", "label": []}
+{"id": 9402, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 9403, "data": "Cookies:", "label": []}
+{"id": 9404, "data": "Cookies are small text files that can be used by websites to make a user's experience more personalized. Propeller Health uses cookies to personalize content and ads, and to analyze our traffic. This helps us to provide you with the most relevant information to your experience with Propeller.", "label": []}
+{"id": 9405, "data": "Propeller Health uses Google Analytics, a web analytics service provided by Google to help us understand how people use our website and make changes to improve their experience. The data collected by Google will be stored in cookies on your browser and will be transmitted and stored on a Google server. The IP address (or reduced IP address) transmitted from your browser during the course of Google Analytics will not be associated with any other data held by Google. You can prevent the storage of Google Analytics cookies by selecting the appropriate settings on your browser.", "label": []}
+{"id": 9406, "data": "For users who access Propeller Health's System through Facebook advertisements, Propeller Health uses conversion tracking tools made by Facebook to assess how well we are reaching users like you. When you create a Propeller account, your name and potential respiratory condition is collected by Facebook to measure the effectiveness of our current advertising efforts and help reach other potential users who could benefit from Propeller.", "label": []}
+{"id": 9407, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 9408, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 9409, "data": "--------------11. Extra--------------", "label": []}
+{"id": 9410, "data": "Your Choices", "label": []}
+{"id": 9411, "data": "Propeller Health offers you certain choices on how your personal data is used and how we interact with you. You can withdraw your consent at any time from the following:", "label": []}
+{"id": 9412, "data": "You can elect not to receive marketing materials or information from us, by changing your notification settings within the mobile application or the web portal or via the communications we send you.", "label": []}
+{"id": 9413, "data": "You can elect not to receive SMS messaging by changing your settings within the user web portal.", "label": []}
+{"id": 9414, "data": "You can elect not to receive push notifications by changing the settings on your mobile device.", "label": []}
+{"id": 9415, "data": "You can manage and update the personal information you provide us within your account settings.", "label": []}
+{"id": 9416, "data": "After receiving an SMS message, you can reply with the word STOP to be removed from receiving future SMS messages.", "label": []}
+{"id": 9417, "data": "If at any point, you decide you no longer want to use the Propeller System, you may contact our support team at help@propellerhealth.com or by calling 877-251-5451 to delete your account.", "label": []}
+{"id": 9418, "data": "Propeller Health will not change collect additional personal information or use the personal information we collect for a different, unrelated, or incompatible purpose without providing you notice.", "label": []}
+{"id": 9419, "data": "Additional Information for California Residents", "label": []}
+{"id": 9420, "data": "Sale of Personal Information:", "label": []}
+{"id": 9421, "data": "Over the past twelve (12) months, we have not sold any categories of personal information. Propeller Health does not sell personal information to third parties.", "label": []}
+{"id": 9422, "data": "Your Rights and Choices:", "label": []}
+{"id": 9423, "data": "CCPA provides consumers (California residents) with specific rights regarding their personal information. You have the following rights:", "label": []}
+{"id": 9424, "data": "Disclosure Rights:", "label": []}
+{"id": 9425, "data": "You have the right to request that we disclose the categories of personal information we collect in the 12-month period preceding the request date. Consumer requests of this nature may be made no more than twice in a 12-month period. The categories of personal information are as follows (note: areas in bold are categories where Propeller collects data):", "label": []}
+{"id": 9426, "data": "Category A: Identifiers", "label": []}
+{"id": 9427, "data": "Category B: California Customer Records personal information categories", "label": []}
+{"id": 9428, "data": "Category C: Protected classification characteristics under California or federal law", "label": []}
+{"id": 9429, "data": "Category D: Commercial information", "label": []}
+{"id": 9430, "data": "Category E: Biometric information", "label": []}
+{"id": 9431, "data": "Category F: Internet or other similar network activity", "label": []}
+{"id": 9432, "data": "Category G: Geolocation data", "label": []}
+{"id": 9433, "data": "Category H: Sensory data", "label": []}
+{"id": 9434, "data": "Category I: Professional or employment-related information", "label": []}
+{"id": 9435, "data": "Category J: Non-public education information", "label": []}
+{"id": 9436, "data": "Category K: Inferences drawn from other personal information", "label": []}
+{"id": 9437, "data": "Data Access Request:", "label": []}
+{"id": 9438, "data": "You have the right to request that Propeller Health disclose certain information to you about our collection and use of your personal information over the past 12 months. Once we receive and confirm your request (see: \"Exercising Your Data Rights\"), we will disclose the following information to you:", "label": []}
+{"id": 9439, "data": "The categories of personal information we collected about you.", "label": []}
+{"id": 9440, "data": "The categories of sources for the personal information we collected about you.", "label": []}
+{"id": 9441, "data": "Our business or commercial purpose for collecting or selling that personal information.", "label": []}
+{"id": 9442, "data": "The specific pieces of personal information we collected about you.", "label": []}
+{"id": 9443, "data": "If we shared personal information with third parties, we will disclose the categories of these third parties.", "label": []}
+{"id": 9444, "data": "If we disclosed your personal information for a business purpose, we will provide a list identifying the personal information categories that each category of recipient obtained.", "label": []}
+{"id": 9445, "data": "Deletion Requests:", "label": []}
+{"id": 9446, "data": "You have the right to request that Propeller Health delete any of your personal information that we collected from you and retained, subject to certain exceptions as required by applicable law. Once we receive and confirm your consumer request (see: \"Exercising Your Data Rights\"), we will delete (and direct our service providers to delete) your personal information from our records, unless an exception applies.", "label": []}
+{"id": 9447, "data": "We may deny your deletion request if retaining the information is necessary for us or our service provider(s) to:", "label": []}
+{"id": 9448, "data": "Complete the transaction for which we collected the personal information, provide a good or service that you requested, take actions reasonably anticipated within the context of our ongoing business relationship with you, or otherwise perform our contract with you", "label": []}
+{"id": 9449, "data": "Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for such activities", "label": []}
+{"id": 9450, "data": "Identify and repair errors that impair existing intended product functionality", "label": []}
+{"id": 9451, "data": "Exercise free speech, ensure the right of another consumer to exercise their free speech rights, or exercise another right provided for by law", "label": []}
+{"id": 9452, "data": "Engage in public or peer-reviewed scientific, historical, or statistical research in the public interest that adheres to all other applicable ethics and privacy laws, when the information's deletion may likely render impossible or seriously impair the research's achievement, if you previously provided informed consent", "label": []}
+{"id": 9453, "data": "Enable internal-only uses that are reasonably aligned with consumer expectations based on your relationship with us", "label": []}
+{"id": 9454, "data": "Comply with a legal obligation", "label": []}
+{"id": 9455, "data": "Make other internal and lawful uses of that information that are compatible with the context in which you provided it.", "label": []}
+{"id": 9456, "data": "Exercising Your Data Rights:", "label": []}
+{"id": 9457, "data": "To exercise your disclose, access, data portability, and deletion rights described above, submit a request to us through one of the following methods:", "label": []}
+{"id": 9458, "data": "Call us at 877-251-5451", "label": []}
+{"id": 9459, "data": "Email us at datarequests@propellerhealth.com", "label": []}
+{"id": 9460, "data": "Complete this Online Web Form", "label": []}
+{"id": 9461, "data": "Only you, or a person registered with the California Secretary of State who you authorize to act on your behalf, may make a consumer request related to your personal information. You may also make a consumer request on behalf of your minor child. You may only make a consumer request for access or data portability twice within a 12-month period. The consumer request must:", "label": []}
+{"id": 9462, "data": "Provide sufficient information that allows us to reasonably verify you are the person about whom we collected personal information or proves you are an authorized representative of that person", "label": []}
+{"id": 9463, "data": "Describe your request with sufficient detail that allows us to properly understand, evaluate and respond to it. We cannot respond to your request or provide you with personal information if we cannot verify your identity or authority to make the request and confirm the personal information relates to you. We will only use personal information provided in a consumer request to authenticate the requestor's identity or authority to make the request.", "label": []}
+{"id": 9464, "data": "Response timing and format", "label": []}
+{"id": 9465, "data": "Our intent is to respond to a consumer request within 45 days of its receipt. If we require more time (up to 90 days), we will inform you of the reason and extension period in writing. We will deliver our written response electronically. Any disclosures we provide will only cover the 12-month period preceding the consumer request's receipt. The response we provide will also explain the reasons we cannot comply with a request, if applicable. For data access requests, we will deliver the data in a readily usable format.", "label": []}
+{"id": 9466, "data": "Non-discrimination", "label": []}
+{"id": 9467, "data": "We will not discriminate against you for exercising any of your CCPA rights.", "label": []}
+{"id": 9468, "data": "Other California privacy rights", "label": []}
+{"id": 9469, "data": "California's \"Shine the Light\" law (Civil Code Section \u00a7 1798.83) permits users of our website who are California residents to request certain information regarding our disclosure of personal information to third parties for their direct marketing purposes. We do not disclose personal information to third parties for their direct marketing purposes.", "label": []}
+{"id": 9470, "data": "Revisions", "label": []}
+{"id": 9471, "data": "This Privacy Notice is subject to change at our discretion. We will indicate changes, including material changes, tothe Privacy Notice by updating the \"Effective date.\" Your use of the Service after any update to this Privacy Notice will constitute your acceptance of the changes.", "label": []}

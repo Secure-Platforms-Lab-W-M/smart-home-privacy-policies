@@ -1,0 +1,143 @@
+{"id": 35637, "text": "--------------1. Preamble --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35638, "text": "Danfoss respects your privacy. Whether you are buying one of Danfoss' quality products, or just browsing the Danfoss websites, Danfoss wants to make you comfortable with our privacy policy and the security measures that we take to protect your personal data.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35639, "text": "For that reason, Danfoss has implemented a set of Binding Corporate Rules (BCRs), introducing a global standard of data protection requirements to be complied with by all Danfoss entities. The BCRs have been approved by the European data protection agencies and establish the foundation for Danfoss' processing of personal data.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35640, "text": "If you provide Danfoss with personal data or we collect personal data about you from other sources, Danfoss will treat it in accordance with this policy which also contains the primary contents of the Danfoss BCRs. Danfoss encourages you to read this privacy policy in full.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35641, "text": "1. General principles for processing of personal data", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35642, "text": "In order to ensure that your personal data is processed correctly and with a suitable level of data protection, Danfoss has adopted the following processing principles:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35643, "text": "Personal data is processed lawfully, fairly and in a transparent manner;", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35644, "text": "Personal data is collected only for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35645, "text": "Personal data shall be adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35646, "text": "Personal Data shall be accurate and, where necessary kept up to date and inaccurate or incomplete personal data will be rectified or erased or further processing suspended.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35647, "text": "Personal data shall not be kept in a form which permits identification of the Data Subjects for longer time than necessary for the purposes for which the data was collected or for which it is further processed.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35648, "text": "Personal data shall be processed in a manner that ensures appropriate security of the personal data.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35649, "text": "Danfoss will always inform you of the collection and processing of your personal data unless we have a legitimate reason not to do so.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35650, "text": "--------------2. Collection --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35651, "text": "2. Types of personal data", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35652, "text": "We will collect and process your personal data in a number of ways when you engage with us via the various existing channels.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35653, "text": "Some of the personal data is necessary to process in order for us to provide you with the services you have requested and some personal data you can choose to provide voluntarily. We will always let you know which personal data is necessary (e.g. via the use of an asterisk (*)) and the consequences of not providing such data to us, for instance that we will not be able to (fully) satisfy your request.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35654, "text": "The personal data that we collect and process can generally be divided into the following categories:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35655, "text": "Contact information such as name, address, phone number, email address, title, place of work, etc.", "meta": {}, "annotation_approver": null, "labels": [[0, 98, "collection"]]}
+{"id": 35656, "text": "Information that you provide when contacting us via online contact forms, emails or phone", "meta": {}, "annotation_approver": null, "labels": [[0, 89, "collection"]]}
+{"id": 35657, "text": "Profile information in case you create a profile or account with us, including username and password", "meta": {}, "annotation_approver": null, "labels": [[0, 100, "collection"]]}
+{"id": 35658, "text": "User information such as technical data regarding usage and viewing, including IP addresses when you visit our websites or applications, including on third party sites", "meta": {}, "annotation_approver": null, "labels": [[0, 167, "collection"]]}
+{"id": 35659, "text": "Transaction information, including credit card information when you purchase goods or services from us", "meta": {}, "annotation_approver": null, "labels": [[0, 102, "collection"]]}
+{"id": 35660, "text": "Information from smart metering, metering the consumption of heating, cooling, water and other utilities", "meta": {}, "annotation_approver": null, "labels": [[0, 104, "collection"]]}
+{"id": 35661, "text": "Application information, including your CV, in case you apply for a job with Danfoss. You will receive separate information regarding the processing of personal data in such respect when you submit your application.", "meta": {}, "annotation_approver": null, "labels": [[0, 215, "collection"]]}
+{"id": 35662, "text": "Information received via our Ethics Hotline", "meta": {}, "annotation_approver": null, "labels": [[0, 43, "collection"]]}
+{"id": 35663, "text": "As a general rule we will not process any special categories of personal data (special personal data) about you unless you have provided your explicit consent thereto or we are required to do in order to comply with applicable regulation.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35664, "text": "--------------3. Purpose/Use --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35665, "text": "3. Our purposes for processing your personal data", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35666, "text": "We only process your personal in order to pursue a legitimate purpose and generally we will only process your personal data if:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35667, "text": "You have provided your consent to such processing; or", "meta": {}, "annotation_approver": null, "labels": [[0, 53, "collect_purpose"]]}
+{"id": 35668, "text": "The processing is necessary for the performance of a contract; or", "meta": {}, "annotation_approver": null, "labels": [[0, 65, "collect_purpose"]]}
+{"id": 35669, "text": "The processing is necessary for compliance with a legal obligation that we are subject to; or", "meta": {}, "annotation_approver": null, "labels": [[0, 93, "collect_purpose"]]}
+{"id": 35670, "text": "The processing is necessary for the purposes of the legitimate interests pursued by us or by a third party and such processing is not considered to be harmful towards you.", "meta": {}, "annotation_approver": null, "labels": [[0, 171, "collect_purpose"]]}
+{"id": 35671, "text": "We process your personal data for the following purposes:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35672, "text": "To provide you with products, services and information that you request from us; or", "meta": {}, "annotation_approver": null, "labels": [[0, 83, "collect_purpose"]]}
+{"id": 35673, "text": "To send you newsletters or other marketing material, including surveys; or", "meta": {}, "annotation_approver": null, "labels": [[0, 74, "collect_purpose"]]}
+{"id": 35674, "text": "To administer our business relations and negotiate and execute agreements; or", "meta": {}, "annotation_approver": null, "labels": [[0, 77, "collect_purpose"]]}
+{"id": 35675, "text": "To provide general customer service and support; or", "meta": {}, "annotation_approver": null, "labels": [[0, 51, "collect_purpose"]]}
+{"id": 35676, "text": "To gain customer insights and knowledge of how our various services, including websites and applications, and products are used as well as evaluation and improvement hereof; or", "meta": {}, "annotation_approver": null, "labels": [[0, 176, "collect_purpose"]]}
+{"id": 35677, "text": "To communicate with you regarding various matters; or", "meta": {}, "annotation_approver": null, "labels": [[0, 53, "collect_purpose"]]}
+{"id": 35678, "text": "To complete investigations of reports filed by you via our whistle blower system, the \"Ethics Hotline\"; or", "meta": {}, "annotation_approver": null, "labels": [[0, 106, "collect_purpose"]]}
+{"id": 35679, "text": "comply with any applicable law.", "meta": {}, "annotation_approver": null, "labels": [[0, 31, "collect_purpose"]]}
+{"id": 35680, "text": "5. Use of your personal data throughout the Danfoss group", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35681, "text": "Danfoss is a global organisation with entities across the world. As a general rule, the data controller with respect to the personal data processed about you will be the local Danfoss entity in which you are a customer, with whom you engage in contact or enter into an agreement with. However, in order to pursue the purposes listed above in section 3, we may share your personal data with other Danfoss group entities either to carry out a task as instructed by the data controller (recipient acting as data processor) or to pursue a legitimate purpose of its own (recipient acting as individual data controller) provided that such making available or disclosure of your personal data is not restricted by law.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35682, "text": "With respect to Danfoss entities established in countries outside the EEA not considered a safe third country (i.e. not ensuring an adequate level of data protection), the Danfoss BCRs serve as the legitimate basis for the transfer of your personal data.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35683, "text": "You will be able to get an overall view of the countries with a Danfoss presence here", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35684, "text": "--------------4. Sharing --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35685, "text": "6. Disclosure, transfer and making available personal data to recipients", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35686, "text": "Our disclosure and transfer of your personal data to recipients (natural or legal persons, public authorities, agencies or another body, to which the personal data is disclosed) is kept to a minimum and is subject to the existence of an adequate level of data protection.", "meta": {}, "annotation_approver": null, "labels": [[0, 271, "sharing"]]}
+{"id": 35687, "text": "We may disclose or make personal data available to recipients under the following circumstances:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35688, "text": "Recipients who carry out services on our behalf, such as e.g. hosting, cloud computing, IT-support, marketing services, administrative services, training services or other data processing. Such recipients are only allowed to process the personal data in accordance with our instructions and the relationship will be governed by a written data processor agreement; or", "meta": {}, "annotation_approver": null, "labels": [[0, 188, "sharing"]]}
+{"id": 35689, "text": "To establish, exercise or defend our legal rights; or", "meta": {}, "annotation_approver": null, "labels": [[0, 53, "share_purpose"]]}
+{"id": 35690, "text": "If you have provided your prior consent to the disclosure of personal data to a recipient or", "meta": {}, "annotation_approver": null, "labels": [[0, 92, "sharing"]]}
+{"id": 35691, "text": "In the event of any merger, sale, joint venture, assignment, transfer or other disposition of all or any portion of Danfoss' assets or stock (including without limitation in connection with any bankruptcy or similar proceedings) or", "meta": {}, "annotation_approver": null, "labels": [[0, 231, "share_purpose"]]}
+{"id": 35692, "text": "As set out in our cookie-policy, cf. section 4 above.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35693, "text": "If the recipient of the personal data is located in a country outside the EU/EEA not ensuring an adequate level of data protection, we will only transfer your personal data to such recipient following execution of a written transfer agreement based on the EU Commissions Standard Contractual Clauses.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35694, "text": "--------------5. Retention --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35695, "text": "--------------6. Children --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35696, "text": "--------------7. Contact --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35697, "text": "13. Complaints", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35698, "text": "If you have any complaints about the processing of personal data carried out by Danfoss, please feel free to contact us at any time.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35699, "text": "Danfoss has established a privacy complaint system - the Danfoss Ethics Hotline - where you will be able to submit your complaint online. The Danfoss Ethics Hotline is available here", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35700, "text": "You may also submit a complaint directly with your local Danfoss entity or with the parent company Danfoss A/S:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35701, "text": "Danfoss A/S", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35702, "text": "Nordborgvej 81", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35703, "text": "DK-6430 Nordborg", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35704, "text": "Att. Global Data Protection Office", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35705, "text": "GDPO@danfoss.com", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35706, "text": "We will review and assess your complaint and if necessary we may contact you in order to obtain further information.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35707, "text": "We strive at processing any complaint or objection within one month. If it is not possible to make a decision within one month, we will inform you grounds for the delay and of the time (not exceeding 6 months from receipt) at which the decision can be expected to be provided.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35708, "text": "At any time before, during or after the complaint process described above, you may also raise a complaint/file a case with your local data protection agency, or other authorities within the jurisdiction of the relevant local Danfoss entity or Danfoss A/S.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35709, "text": "16. Contact information", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35710, "text": "If you have a request or a question regarding you processing of personal data or this privacy policy in general, please contact our General Data Protection Officer:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35711, "text": "Danfoss A/S", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35712, "text": "Nordborgvej 81", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35713, "text": "DK-6430 Nordborg", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35714, "text": "Att. Global Data Protection Office", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35715, "text": "GDPO@danfoss.com", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35716, "text": "In some Danfoss companies you may also contact your Local Data Protection Officer, the contact details of which you can find here:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35717, "text": "Local Protection Officers:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35718, "text": "Danfoss GmbH", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35719, "text": "Datenschutzbeauftragter", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35720, "text": "Carl-Legien-Straße 8", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35721, "text": "63073 Offenbach", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35722, "text": "datenschutz@danfoss.com", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35723, "text": "Danfoss Power Solutions GmbH & Co. OHG", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35724, "text": "Datenschutzbeauftragter", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35725, "text": "Krokamp 35", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35726, "text": "24539 Neumünster", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35727, "text": "datenschutzbeauftragter@danfoss.com", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35728, "text": "Sondex Deutschland GmbH", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35729, "text": "Datenschutzbeauftragter", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35730, "text": "Robert-Koch-Straße 3", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35731, "text": "21423 Winsen / Luhe", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35732, "text": "gdpo@danfoss.com", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35733, "text": "Danfoss Silicon Power GmbH", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35734, "text": "Datenschutzbeauftragter", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35735, "text": "Husumer Str. 251", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35736, "text": "24941 Flensburg", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35737, "text": "gdpo@danfoss.com", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35738, "text": "***", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35739, "text": "Version 1.2, May 08, 2018", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35740, "text": "--------------8. Cookies --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35741, "text": "4. Cookies", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35742, "text": "We may use cookies on our websites or our applications. Please read more about the use of cookies in our cookie policy, which you can find in the footer of each website.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35743, "text": "The purposes of processing of data collected by the use of cookies, are the following:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35744, "text": "to operate, improve and optimize the performance and user experience of the website and its services,", "meta": {}, "annotation_approver": null, "labels": [[0, 101, "collect_purpose"]]}
+{"id": 35745, "text": "perform customer and user analysis and segmentation in order to improve our understanding of our users, and provide better and tailored services to users, including you,", "meta": {}, "annotation_approver": null, "labels": [[0, 169, "collect_purpose"]]}
+{"id": 35746, "text": "statistical purposes.", "meta": {}, "annotation_approver": null, "labels": [[0, 21, "collect_purpose"]]}
+{"id": 35747, "text": "--------------9. Storage/Transfer --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35748, "text": "--------------10. Irrelevant:--------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35749, "text": "--------------11. Extra--------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35750, "text": "7. Automated individual decisions", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35751, "text": "We may use automated decision making based on your personal data. Automated decision making will only take place if the decision is:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35752, "text": "necessary for entering into, or performance of a contract between you and Danfoss;", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35753, "text": "authorized by Union or Member State law to which Danfoss is subject and which also lays down suitable measures to safeguard your rights and freedoms and legitimate interests; or", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35754, "text": "based on your consent.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35755, "text": "In case we use automated decision making, we will ensure that suitable security measures are implemented.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35756, "text": "Special personal data will in no event be subject to automated decision making unless you have provided your explicit consent or the processing is necessary for reasons of substantial public interest, on the basis of applicable law.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35757, "text": "8. Your consent", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35758, "text": "As stated above some of our processing activities will be based on your consent. In such case, you will have the right to withdraw your consent at any time.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35759, "text": "If you withdraw your consent, we will cease to process your personal data, unless and to the extent the continued processing or storage is permitted or required according to the applicable personal data legislation or other applicable laws and regulations.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35760, "text": "Please note that the withdrawal of your consent will not affect the lawfulness of processing conducted prior to the withdrawal. Further, as a consequence of your withdrawal of your consent, we may not be able to satisfy your requests or provide you with our services.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35761, "text": "9. Data Security", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35762, "text": "In order to safeguard your personal data, Danfoss has implemented appropriate technical and organizational measures to ensure a level of security appropriate to the risks represented by the processing and the nature of the personal data to be protected, having regard to the state of art and the costs of their implementation.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35763, "text": "Following the evaluation of the risk, Danfoss has taken measures to protect personal data against accidental or unlawful destruction or accidental loss, alteration, unauthorized disclosure or access, in particular where the processing involves the transmission of personal data over a network, and against all other unlawful forms of processing.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35764, "text": "10. Training", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35765, "text": "In order to ensure that we always comply with applicable data protection legislation and the requirements laid down in the Danfoss BCRs and to ensure that our employees are familiar with such regulation, we have established an internal privacy training and education program that our employees across the world with permanent or regular access to personal data are obligated to complete.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35766, "text": "11. Internal audits", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35767, "text": "Danfoss carries out regular audits of the ongoing processing of personal data to ensure that all Danfoss entities abide to the Danfoss BCRs and process personal data accordingly.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35768, "text": "The audits cover all aspects of the BCRs including all IT systems, databases, security policies/standards, training programmes, privacy policies and manuals in place within Danfoss in respect of the BCRs.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35769, "text": "12. Your rights", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35770, "text": "You have the right to access to the data processed about you, subject to certain statutory exceptions. Furthermore, you can object to the collection and further processing of your personal data. In addition, you have the right to correct your personal data, if necessary. You may also choose to request us to restrict the processing.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35771, "text": "We will delete or correct any information, which is inaccurate or out of date by reason of the time elapsed since it was collected or by reason of any other information in our possession.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35772, "text": "If you provide us with a written request, we will also delete your personal data without undue delay, unless we have a legal basis to continue the processing, e.g. if the processing is necessary to establish, exercise or defeat a legal claim or necessary to the performance of a contract with you.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35773, "text": "In order to make use of any of the rights mentioned above, please contact us via the points of contacts listed in section 16.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35774, "text": "With regard to such requests, kindly provide us with relevant information to take care of your request, including your full name and email address so that we can identify you. We will respond to your request as soon as possible and within one month.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35775, "text": "If you disagree with our processing of your personal data please be informed that you can lodge a complaint with your local data protection agency.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35776, "text": "14. Links to other websites, etc.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35777, "text": "Our websites may contain links to other websites or to integrated sites. We are not responsible for the contents of the websites of other companies (third-party websites) or for the practices of such companies regarding the collection of personal data. When you visit third-party websites, you should read the owners' policies on the protection of personal data and other relevant policies.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35778, "text": "15. Changes to this Privacy Policy", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 35779, "text": "We reserve the right to amend this Privacy Policy in the future due to changes in applicable legislation, the Danfoss BCRs or in Danfoss' processes. We will inform you of any such amendments.", "meta": {}, "annotation_approver": null, "labels": []}

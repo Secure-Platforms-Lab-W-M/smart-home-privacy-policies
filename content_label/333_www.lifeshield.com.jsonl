@@ -1,0 +1,234 @@
+{"id": 3326, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 3327, "data": "Last updated on January 1, 2020", "label": []}
+{"id": 3328, "data": "ADT recognizes that your privacy is important. This privacy policy describes the information we collect, how we collect it, and how we use and share it in connection with ADT's websites, product and service offerings, and from your Internet-connected devices. The policy also describes ADT's information processing activities on behalf of third parties and your choices regarding use, access, and correction of your personal information.", "label": []}
+{"id": 3329, "data": "--------------2. Collection --------------", "label": []}
+{"id": 3330, "data": "Information Collection", "label": []}
+{"id": 3331, "data": "What Information ADT Collects:", "label": []}
+{"id": 3332, "data": "In General: When you use our website(s), service(s), and your device(s) you may be asked to provide personal information such as:", "label": []}
+{"id": 3333, "data": "Name and/or business name", "label": [[0, 25, "collection"]]}
+{"id": 3334, "data": "Home address and/or business address", "label": [[0, 36, "collection"]]}
+{"id": 3335, "data": "Home, business, and/or mobile telephone number", "label": [[0, 46, "collection"]]}
+{"id": 3336, "data": "Email address", "label": [[0, 13, "collection"]]}
+{"id": 3337, "data": "Credit, debit, or other payment account number and related information", "label": [[0, 70, "collection"]]}
+{"id": 3338, "data": "Date of birth or other identifying personal characteristics", "label": [[0, 59, "collection"]]}
+{"id": 3339, "data": "Social Security Number", "label": [[0, 22, "collection"]]}
+{"id": 3340, "data": "Emergency contact list information about others", "label": [[0, 47, "collection"]]}
+{"id": 3341, "data": "Personal identification code", "label": [[0, 28, "collection"]]}
+{"id": 3342, "data": "Product Specific: Certain device(s) or service(s) may collect additional information such as:", "label": [[0, 93, "collection"]]}
+{"id": 3343, "data": "Audio, video, and still-image recordings from your monitoring device(s)", "label": [[0, 71, "collection"]]}
+{"id": 3344, "data": "Geolocation and GPS information including physical location of your device(s) by using satellite, cell phone tower, or Wi-Fi signals", "label": [[0, 132, "collection"]]}
+{"id": 3345, "data": "Motion detection, accelerometer activity, and climate conditions surrounding your device(s)", "label": [[0, 91, "collection"]]}
+{"id": 3346, "data": "Monitoring event information such as arming and disarming your device(s)", "label": [[0, 72, "collection"]]}
+{"id": 3347, "data": "Internet protocol (IP) addresses, internet service provider (ISP), date/time stamp, and/or other event data which is automatically collected and stored in log files", "label": [[0, 164, "collection"]]}
+{"id": 3348, "data": "How ADT Collects Information: Your personal and non-personal information is collected in various ways in connection with our website(s), service(s), and your device(s):", "label": []}
+{"id": 3349, "data": "In many cases you give information directly to us. For example, you may be required to provide us personal information when:", "label": [[0, 124, "collection"]]}
+{"id": 3350, "data": "Registering for the service(s) or an account with us", "label": [[0, 52, "collection"]]}
+{"id": 3351, "data": "Activating your device(s)", "label": [[0, 25, "collection"]]}
+{"id": 3352, "data": "Signing up for special offers from ADT and selected third parties", "label": [[0, 65, "collection"]]}
+{"id": 3353, "data": "Submitting a paper form or transmitting information to us online or via telephone", "label": [[0, 81, "collection"]]}
+{"id": 3354, "data": "Submitting your credit card or other payment information", "label": [[0, 56, "collection"]]}
+{"id": 3355, "data": "Receiving our service(s) including talking with sales representatives, service technicians, and customer service and monitoring centers (some of which may be recorded to ensure service(s) quality and to maintain an accurate record of our communications with you)", "label": [[0, 262, "collection"]]}
+{"id": 3356, "data": "Visiting and interacting with our website(s).", "label": [[0, 45, "collection"]]}
+{"id": 3357, "data": "We may also collect your information using cookies or similar technologies to analyze trends, administer our websites, track users' movements around our websites, and to gather demographic information about our users as a whole, for example:", "label": [[0, 241, "collect_purpose"]]}
+{"id": 3358, "data": "Mobile Application: We may collect information such as registration and activation information from our mobile application(s) associated with our service(s) and your device(s).", "label": [[0, 176, "collection"]]}
+{"id": 3359, "data": "Device Data: We may collect various types of data and event information from your device(s) by using cameras, microphones, GPS, or other monitoring sensors.", "label": [[0, 156, "collection"]]}
+{"id": 3360, "data": "Cookies: We may receive and store certain information about your browsing preferences by using ADT and third-party cookies. Cookies are small text files placed on your computer to customize your experience.", "label": [[0, 123, "collection"], [123, 206, "collect_purpose"]]}
+{"id": 3361, "data": "Web Beacons: We may collect information about your browsing activities by using web beacons. Web beacons are transparent graphic pixels that are placed on web pages that enable us or a third party to track your actions on our website(s) and deliver interest-based advertisements.", "label": [[0, 92, "collection"], [92, 279, "collect_purpose"]]}
+{"id": 3362, "data": "Local Stored Objects: We may store information about your browsing activities through locally stored objects by using technologies such as \"Flash cookies\" and HTML5 (\"LSOs\"). LSOs tack your actions and store information about your preferences and can be used by third party partners to deliver interest-based advertisements.", "label": [[0, 174, "collection"], [174, 324, "collect_purpose"]]}
+{"id": 3363, "data": "Social Media Features: Our website(s) include social media features that may collect your Internet Protocol (IP) address of the page you are visiting and may set a cookie to enable the feature to function properly. These features are either hosted by a third party or hosted directly by us.", "label": [[0, 290, "collection"]]}
+{"id": 3364, "data": "Log Files: We gather certain information automatically and store it in log files. This information may include Internet Protocol (IP) addresses, browser type, Internet service provider (ISP), referring/exit pages, operating system, date/time stamp, and/or clickstream data.", "label": [[0, 273, "collection"]]}
+{"id": 3365, "data": "Mobile: When you download and use our service(s), we may automatically collect information on the type of device you use, operating system version, and the unique device identifier (or \"UDID\"). We collect your location-based information as part our service(s) to identify your location for dispatching or sharing with emergency service providers. We will only share this information with third party services for the sole purpose of providing you our service(s). You may opt-out of location-based services at any time by editing the setting at the device level. We also use mobile analytics software to allow us to better understand the functionality of our mobile software on your phone. This software may record information such as how often you use the application, the events that occur within the application, aggregated usage, performance data, and where the application was downloaded from. We do not link the information we store within the analytics software to any personally identifiable information you submit within the mobile application.", "label": [[347, 462, "share_purpose"], [194, 346, "share_purpose"], [0, 194, "collection"], [562, 688, "collect_purpose"], [689, 897, "collection"]]}
+{"id": 3366, "data": "We may combine the above information with other information we collect or receive from other sources, such as public databases, joint marketing partners, social media platforms, and other third parties including, but not limited to, credit reporting bureaus. We use the information collected from third party sources to determine the suitability of extending credit and for marketing purposes.", "label": [[0, 258, "collection"], [258, 393, "collect_purpose"]]}
+{"id": 3367, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 3368, "data": "Information Use and Sharing", "label": []}
+{"id": 3369, "data": "How ADT Uses Your Information: We may use the personal and non-personal information you provide us for our business purposes, including:", "label": []}
+{"id": 3370, "data": "Setting up your service(s) including establishing your ADT account and profile", "label": [[0, 78, "collect_purpose"]]}
+{"id": 3371, "data": "Providing your service(s) including responding to alarm and security events", "label": [[0, 75, "collect_purpose"]]}
+{"id": 3372, "data": "Processing payments for your service(s)", "label": [[0, 39, "collect_purpose"]]}
+{"id": 3373, "data": "Contacting you regarding your service(s) and responding to your inquiries and comments", "label": [[0, 86, "collect_purpose"]]}
+{"id": 3374, "data": "Enhancing, improving, or modifying our website(s) and service(s)", "label": [[0, 64, "collect_purpose"]]}
+{"id": 3375, "data": "Developing new products and services", "label": [[0, 36, "collect_purpose"]]}
+{"id": 3376, "data": "Conducting data analysis, including fraud monitoring and prevention", "label": [[0, 67, "collect_purpose"]]}
+{"id": 3377, "data": "Providing marketing and promotional materials", "label": [[0, 45, "collect_purpose"]]}
+{"id": 3378, "data": "Customer retention, feedback, and reactivation programs", "label": [[0, 55, "collect_purpose"]]}
+{"id": 3379, "data": "Engaging in lead generation activities", "label": [[0, 38, "collect_purpose"]]}
+{"id": 3380, "data": "If you submit any information to us relating to another person, you represent that you have the authority to do so and to permit us to use the information in accordance with this policy. We will only use that information for the specific reason for which it was provided to us.", "label": []}
+{"id": 3381, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 3382, "data": "How ADT Shares Your Information: We share your information in the following ways:", "label": []}
+{"id": 3383, "data": "Third Party Providers: We do not sell your information to third parties for their own marketing purposes. We may share your information with partners and service providers (including ADT Authorized Dealers) to provide some of our service(s) and to complete our business purposes as described above. Before we share personal information, we enter into written agreements with the business partners which contain data protection terms that safeguard your data. These companies may use your personal information only as necessary to provide these services to us, except as otherwise authorized by you for another purpose. We will also enable you to revoke any such authorization in a manner equivalent to that by which you provided it or by otherwise contacting us as provided below, if you no longer want us to share your personal information for such purpose.", "label": [[0, 858, "share_purpose"]]}
+{"id": 3384, "data": "Emergency Services: To provide our service(s), we will share your information with persons designated in your contact list and third-party emergency service providers such as police departments, fire departments, and emergency medical services.", "label": [[0, 244, "share_purpose"]]}
+{"id": 3385, "data": "Legal Authorities: We may also disclose your information for legal reasons including to comply with a subpoena or court order or similar legal process, to cooperate with law enforcement, or when we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request.", "label": [[0, 371, "share_purpose"]]}
+{"id": 3386, "data": "Transfer in the Event of Sale or Change of Control: We may transfer your information to a third party in the event of any reorganization, merger, sale, joint venture, assignment, transfer or other disposition of all or any portion of our business, assets or stock, including in connection with any bankruptcy or similar proceedings.", "label": [[0, 332, "share_purpose"]]}
+{"id": 3387, "data": "Cross-Border Transfer: We may transfer, store, and/or access your information electronically or in hard copy in the United States or Canada. We follow generally accepted standards to protect the personal information submitted to us, both during transmission and once it is received. Such information is subject to the laws of the country in which it is transferred, stored, or accessed.", "label": []}
+{"id": 3388, "data": "Note: Our website(s) and service(s) may include links to third-party websites and use third party services. If you submit personal information to any third-party websites or service providers, your information is governed by their privacy policies. This policy does not address the privacy practices of any third-party websites or service providers.", "label": []}
+{"id": 3389, "data": "--------------5. Retention --------------", "label": []}
+{"id": 3390, "data": "--------------6. Children --------------", "label": []}
+{"id": 3391, "data": "Collection from Minors", "label": []}
+{"id": 3392, "data": "What Information ADT Collects from Children:", "label": []}
+{"id": 3393, "data": "In General: ADT's website(s) and service(s) are intended for a general audience and we do not knowingly collect personal information from individuals that are less than 13 years of age.", "label": []}
+{"id": 3394, "data": "Product Specific: Certain ADT products and services may require the collection of personal information from individuals that are less than 13 years of age to use all features. For such products and situations where ADT does knowingly collect personal information from individuals that are less than 13 years of age, we make clear disclosures in the privacy policy applicable to product or service, we only collect the information with verifiable prior consent from a parent or legal guardian, and we allow the parent to review, delete, or withdraw parental consent by contacting us.", "label": []}
+{"id": 3395, "data": "--------------7. Contact --------------", "label": []}
+{"id": 3396, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 3397, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 3398, "data": "Cross-Border Transfers of Personal Data", "label": []}
+{"id": 3399, "data": "To facilitate our operations, we may transfer, store and process your personal information in jurisdictions other than where you live, including in the United States. Laws in these countries may differ from the laws applicable to your country of residence. For instance, if you are an European Economic Area (EEA) data subject and your personal information is shared with our affiliates, partners, or third-party service providers acting on our behalf outside of the EEA, then it is done so pursuant to necessary means to ensure an adequate level of protection.", "label": []}
+{"id": 3400, "data": "ADT Inc. (and its and its affiliated entities) participates in and has certified its compliance with the EU-U.S. Privacy Shield Framework and the Swiss-U.S. Privacy Shield Framework. We are committed to subjecting all personal data received from European Union (EU) member countries and Switzerland in reliance on each Privacy Shield Framework to the applicable Framework's Principles. To learn more about the Privacy Shield Frameworks, and to view our certification, visit the U.S. Department of Commerce's Privacy Shield List at https://www.privacyshield.gov.", "label": []}
+{"id": 3401, "data": "ADT Inc. is responsible for the processing of personal data it receives under each Privacy Shield Framework and subsequently transfers to a third party acting as an agent on its behalf. ADT Inc. complies with the Privacy Shield Principles for all onward transfers of personal data from the EU and Switzerland, including the onward transfer liability provisions. With respect to personal data received or transferred pursuant to the Privacy Shield Frameworks, ADT Inc. is subject to the regulatory enforcement powers of the U.S. Federal Trade Commission. In certain situations, we may be required to disclose personal data in response to lawful requests by public authorities, including to meet national security or law enforcement requirements.", "label": []}
+{"id": 3402, "data": "Under certain conditions, more fully described on the Privacy Shield website at https://www.privacyshield.gov/article?id=How-to-Submit-a-Complaint, you may be entitled to invoke binding arbitration when other dispute resolution procedures have been exhausted.", "label": []}
+{"id": 3403, "data": "Summary", "label": []}
+{"id": 3404, "data": "ADT participates in the EU-U.S. Privacy Shield Framework and the Swiss-U.S. Privacy Shield Framework which subject ADT to FTC enforcement. To learn more about Privacy Shield and its data principles please visit h", "label": []}
+{"id": 3405, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 3406, "data": "--------------11. Extra--------------", "label": []}
+{"id": 3407, "data": "Consent", "label": []}
+{"id": 3408, "data": "How ADT Obtains Consent: Each time you provide any personal information to us through our Site(s), Service(s), or your Device(s), you consent to the collection, use, and disclosure/sharing such information according to this Policy. Where required, consent for the collection, use, and disclosure/sharing of your information may be obtained either expressly or implied. Your express consent may be given in writing, verbally or electronically. Your implied consent may be given through an action you have taken, such as supplying your personal information for a specified purpose. If you do not notify us, we will consider you to have consented to our continued use and disclosure/sharing of your personal information. Revoking consent to collection, use and/or disclose/share your information for certain purposes may affect our ability to provide you with Service(s). You may contact us using the information below.", "label": []}
+{"id": 3409, "data": "Information Processing", "label": []}
+{"id": 3410, "data": "How ADT Processes Information on Behalf of our Clients: We may process information collected through our service(s) on behalf of our Client, such processing and use shall be limited to the purpose of providing the service for which the Client has engaged ADT.", "label": []}
+{"id": 3411, "data": "ADT collects information under the direction of its Clients, and may not have a direct relationship with the individuals whose personal data it processes. If you are a customer of one of our Clients and would no longer like to be contacted by one of our Clients that use our service, please contact the Client that you interact with directly. We may transfer personal information to companies that help us provide our service. Transfers to subsequent third parties are covered by the service agreements with our Clients.", "label": []}
+{"id": 3412, "data": "An individual who seeks access, or who seeks to correct, amend, or delete inaccurate data should direct his query to ADT's Client (the data controller). If requested to remove data we will respond within a reasonable timeframe.", "label": []}
+{"id": 3413, "data": "We will retain personal data we process on behalf of our Clients for as long as needed to provide services to our Client. ADT will retain this personal information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements.", "label": []}
+{"id": 3414, "data": "Online Tracking", "label": []}
+{"id": 3415, "data": "How ADT Responds to Do Not Track Signals: ADT partners with third parties to display advertising on our website or to manage our advertising on other websites. Our third party partners use cookies, web beacons, LSOs, tags, scripts, and similar technologies to gather information about you over time and across different websites or applications in order to help predict your preferences and show you interest-based advertisements. Our website(s) do not respond to browser Do Not Track (DNT) signals, however you may opt-out as described below.", "label": []}
+{"id": 3416, "data": "How Can I Opt-Out: If you wish to opt out of interest-based advertising click here or if located in the European Union click here. Please note you will continue to receive generic ads. You may opt out of our marketing and promotional emails by using the \"unsubscribe\" link provided in the email.", "label": []}
+{"id": 3417, "data": "Security", "label": []}
+{"id": 3418, "data": "How ADT Protects Your Information: We limit access to your personal information and seek to use reasonable organizational, technical and administrative measures to protect your information. Unfortunately, no information transmission or storage system can be guaranteed to be 100% secure. If you have reason to believe that your interaction with us is no longer secure, please contact us immediately using the information below.", "label": []}
+{"id": 3419, "data": "Other Information", "label": []}
+{"id": 3420, "data": "How You Update and Access Your Information: You have the right to amend or update inaccurate or incomplete personal information, request deletion of your personal information, or request that we no longer use it. You are responsible for ensuring the information you provide when using our website(s), registering for our service(s), and registering/activating your device(s) is accurate. To access, review or update your information for accuracy, please login to your ADT account or contact us using the information below. Upon request we will provide you with information about whether we hold any of your personal information. We will respond to your request within a reasonable timeframe.", "label": []}
+{"id": 3421, "data": "How ADT Retains Your Information: We will retain your personal information for as long as your account is active or for the period necessary to fulfill the purposes outlined in this policy and as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements.", "label": []}
+{"id": 3422, "data": "How ADT Notifies You of Policy Changes: We may update this policy to reflect changes to our information practices. If we make material changes, we will notify you by email (sent to the e-mail address specified in your account) or by means of a notice on this website prior to the change becoming effective. We encourage you to periodically review this policy for the latest information on our privacy practices.", "label": []}
+{"id": 3423, "data": "Information", "label": []}
+{"id": 3424, "data": "Category", "label": []}
+{"id": 3425, "data": "Examples", "label": []}
+{"id": 3426, "data": "Collected", "label": []}
+{"id": 3427, "data": "Sources", "label": []}
+{"id": 3428, "data": "Third Party Sharing Categories", "label": []}
+{"id": 3429, "data": "Disclosed to Third Parties", "label": []}
+{"id": 3430, "data": "Business/Commercial Purposes", "label": []}
+{"id": 3431, "data": "Business/Commercial Purposes", "label": []}
+{"id": 3432, "data": "1. Identifiers.", "label": []}
+{"id": 3433, "data": "Name, alias, postal address, unique personal identifier, online identifier, IP address, email address, account name, SSN, driver's license number, passport number, or other similar identifiers.", "label": []}
+{"id": 3434, "data": "Yes", "label": []}
+{"id": 3435, "data": "- Directly from you.", "label": []}
+{"id": 3436, "data": "For example, from forms you complete or products and services you purchase.", "label": []}
+{"id": 3437, "data": "- Indirectly from you.", "label": []}
+{"id": 3438, "data": "For example, from observing your actions on our Website.", "label": []}
+{"id": 3439, "data": "- From third parties.", "label": []}
+{"id": 3440, "data": "For example, from our authorized dealers or partner companies to provide the services.", "label": []}
+{"id": 3441, "data": "- Service providers", "label": []}
+{"id": 3442, "data": "- Dealers", "label": []}
+{"id": 3443, "data": "- Affiliates", "label": []}
+{"id": 3444, "data": "- Advertisers", "label": []}
+{"id": 3445, "data": "- Partners", "label": []}
+{"id": 3446, "data": "- Parent or subsidiary organizations", "label": []}
+{"id": 3447, "data": "- Internet cookie information recipients", "label": []}
+{"id": 3448, "data": "- Insurance Companies", "label": []}
+{"id": 3449, "data": "Yes", "label": []}
+{"id": 3450, "data": "See Section Above:", "label": []}
+{"id": 3451, "data": "Information Use and Sharing", "label": []}
+{"id": 3452, "data": "See Section Above:", "label": []}
+{"id": 3453, "data": "Information Use and Sharing", "label": []}
+{"id": 3454, "data": "2. Personal information categories listed in the California Customer Records statute.", "label": []}
+{"id": 3455, "data": "Name, signature, SSN, physical characteristics/description, address, telephone number, passport number, driver's license or ID card number, insurance policy number, education, employment, employment history, bank account/credit card/debit card numbers, or any other financial information, medical information, or health insurance information.", "label": []}
+{"id": 3456, "data": "Yes", "label": []}
+{"id": 3457, "data": "Yes", "label": []}
+{"id": 3458, "data": "See Section Above:", "label": []}
+{"id": 3459, "data": "Information Use and Sharing", "label": []}
+{"id": 3460, "data": "See Section Above:", "label": []}
+{"id": 3461, "data": "Information Use and Sharing", "label": []}
+{"id": 3462, "data": "3. Protected classification characteristics under California or federal law.", "label": []}
+{"id": 3463, "data": "Age (40 years or older), race, color, ancestry, national origin, citizenship, religion or creed, marital status, medical condition, physical or mental disability, sex (including gender, gender identity, gender expression, pregnancy or childbirth and related medical conditions), sexual orientation, veteran or military status, personal & familial genetic information.", "label": []}
+{"id": 3464, "data": "Yes", "label": []}
+{"id": 3465, "data": "Yes", "label": []}
+{"id": 3466, "data": "See Section Above:", "label": []}
+{"id": 3467, "data": "Information Use and Sharing", "label": []}
+{"id": 3468, "data": "See Section Above:", "label": []}
+{"id": 3469, "data": "Information Use and Sharing", "label": []}
+{"id": 3470, "data": "4. Commercial information.", "label": []}
+{"id": 3471, "data": "Records of personal property, products/services purchased, obtained, or considered, or other purchasing or consuming histories or tendencies.", "label": []}
+{"id": 3472, "data": "Yes", "label": []}
+{"id": 3473, "data": "Yes", "label": []}
+{"id": 3474, "data": "See Section Above:", "label": []}
+{"id": 3475, "data": "Information Use and Sharing", "label": []}
+{"id": 3476, "data": "See Section Above:", "label": []}
+{"id": 3477, "data": "Information Use and Sharing", "label": []}
+{"id": 3478, "data": "5. Biometric information.", "label": []}
+{"id": 3479, "data": "Genetic, physiological, behavioral, and biological characteristics, or activity patterns used to extract a template or other identifier or identifying information, such as, fingerprints, faceprints, and voiceprints, iris or retina scans, keystroke, gait, or other physical patterns, and sleep, health, or exercise data.", "label": []}
+{"id": 3480, "data": "Yes", "label": []}
+{"id": 3481, "data": "Yes", "label": []}
+{"id": 3482, "data": "See Section Above:", "label": []}
+{"id": 3483, "data": "Information Use and Sharing", "label": []}
+{"id": 3484, "data": "See Section Above:", "label": []}
+{"id": 3485, "data": "Information Use and Sharing", "label": []}
+{"id": 3486, "data": "6. Internet or other similar network activity.", "label": []}
+{"id": 3487, "data": "Browsing/search history, information on a consumer's interaction with a website, application, or advertisement.", "label": []}
+{"id": 3488, "data": "Yes", "label": []}
+{"id": 3489, "data": "Yes", "label": []}
+{"id": 3490, "data": "See Section Above:", "label": []}
+{"id": 3491, "data": "Information Use and Sharing", "label": []}
+{"id": 3492, "data": "See Section Above:", "label": []}
+{"id": 3493, "data": "Information Use and Sharing", "label": []}
+{"id": 3494, "data": "7. Geolocation data.", "label": []}
+{"id": 3495, "data": "GPS, physical location, or movements.", "label": []}
+{"id": 3496, "data": "Yes", "label": []}
+{"id": 3497, "data": "Yes", "label": []}
+{"id": 3498, "data": "See Section Above:", "label": []}
+{"id": 3499, "data": "Information Use and Sharing", "label": []}
+{"id": 3500, "data": "See Section Above:", "label": []}
+{"id": 3501, "data": "Information Use and Sharing", "label": []}
+{"id": 3502, "data": "8. Sensory data.", "label": []}
+{"id": 3503, "data": "Audio, electronic, visual, thermal, olfactory, or similar information.", "label": []}
+{"id": 3504, "data": "Yes", "label": []}
+{"id": 3505, "data": "Yes", "label": []}
+{"id": 3506, "data": "See Section Above:", "label": []}
+{"id": 3507, "data": "Information Use and Sharing", "label": []}
+{"id": 3508, "data": "See Section Above:", "label": []}
+{"id": 3509, "data": "Information Use and Sharing", "label": []}
+{"id": 3510, "data": "9. Professional or employment-related information.", "label": []}
+{"id": 3511, "data": "Current or past job history or performance evaluations.", "label": []}
+{"id": 3512, "data": "No", "label": []}
+{"id": 3513, "data": "No", "label": []}
+{"id": 3514, "data": "N/A", "label": []}
+{"id": 3515, "data": "N/A", "label": []}
+{"id": 3516, "data": "10. Non-public education information (per the Family Educational Rights and Privacy).", "label": []}
+{"id": 3517, "data": "Education records such as student grades, transcripts, class lists, schedules, ID codes, financial information, or disciplinary records maintained by an educational institution or party acting on its behalf.", "label": []}
+{"id": 3518, "data": "No", "label": []}
+{"id": 3519, "data": "No", "label": []}
+{"id": 3520, "data": "N/A", "label": []}
+{"id": 3521, "data": "N/A", "label": []}
+{"id": 3522, "data": "11. Inferences drawn from other personal information.", "label": []}
+{"id": 3523, "data": "Profile reflecting a person's preferences, characteristics, psychological trends, predispositions, behavior, attitudes, intelligence, abilities, and aptitudes.", "label": []}
+{"id": 3524, "data": "No", "label": []}
+{"id": 3525, "data": "No", "label": []}
+{"id": 3526, "data": "N/A", "label": []}
+{"id": 3527, "data": "N/A", "label": []}
+{"id": 3528, "data": "Sale of Personal Information", "label": []}
+{"id": 3529, "data": "No Sale - In the previous 12 months, ADT has not sold your personal information in the enumerated categories above. Further, ADT does not sell the personal information of minors under 16 years of age without affirmative authorization.", "label": []}
+{"id": 3530, "data": "California Consumer Rights", "label": []}
+{"id": 3531, "data": "Your Rights - You have the right to:", "label": []}
+{"id": 3532, "data": "request ADT to disclose the personal information we collect from you,", "label": []}
+{"id": 3533, "data": "request ADT to disclose if we sell your personal information,", "label": []}
+{"id": 3534, "data": "request ADT to delete your personal information,", "label": []}
+{"id": 3535, "data": "request ADT to opt-out of the sale of your personal information, and", "label": []}
+{"id": 3536, "data": "be free from discrimination if you exercise the above rights.", "label": []}
+{"id": 3537, "data": "Exercising Your Rights: Verifiable Consumer Request/Opting Out", "label": []}
+{"id": 3538, "data": "Submitting Requests - To exercise your rights stated above, contact ADT by submitting a request on this Online Request Form or by calling 1-877-871-5625", "label": []}
+{"id": 3539, "data": "Authorizing an Agent - You may also authorize an agent to act on your behalf to exercise the rights stated above. To authorize an agent please provide written authorization to ADT at the contact information listed in the Feedback section below.", "label": []}
+{"id": 3540, "data": "Verifying your Request - Upon receiving your request ADT will verify the request by matching the information provided to the personal information ADT currently has.", "label": []}
+{"id": 3541, "data": "----summary", "label": []}
+{"id": 3542, "data": "Summary", "label": []}
+{"id": 3543, "data": "This privacy policy describes the information ADT collects and how it is used and shared in connection with ADT's websites, ADT's security services, and your Internet-connected device(s). The policy also describes ADT's processing activities and your privacy choices.", "label": []}
+{"id": 3544, "data": "Summary", "label": []}
+{"id": 3545, "data": "ADT participates in the EU-U.S. Privacy Shield Framework and the Swiss-U.S. Privacy Shield Framework which subject ADT to FTC enforcement. To learn more about Privacy Shield and its data principles please visit https://www.privacyshield.gov.", "label": []}
+{"id": 3546, "data": "Summary", "label": []}
+{"id": 3547, "data": "Your personal and non-personal information is collected in a variety of ways on ADT's websites and when using ADT's security services including through your Internet-connected device(s). Certain ADT products or services may require the collection of additional information such as audio, video, location information, and information about the device's surroundings. You may be required to provide a minimum amount of information in order to receive ADT's services.", "label": []}
+{"id": 3548, "data": "Summary", "label": []}
+{"id": 3549, "data": "We use your information for our business purposes and to provide ADT's services. Your information may be shared with third party service providers, and emergency services providers to deliver or enhance ADT's services. We may share your information for legal reasons, including to cooperate with legal authorities, when we receive valid requests, to protect our rights, or in the event of a sale of all or any part of our company.", "label": []}
+{"id": 3550, "data": "Summary", "label": []}
+{"id": 3551, "data": "You may consent to the collection, use and disclosure/sharing of your information in a variety of ways including in writing, verbally, or electronically. Your consent can be express or implied by your actions. If you revoke consent, we may not be able to provide you Service(s)", "label": []}
+{"id": 3552, "data": "Summary", "label": []}
+{"id": 3553, "data": "ADT may process information on behalf of third parties. Any such processing will be limited to the purpose the third party engaged ADT for. You must contact the third party directly regarding updating your information.", "label": []}
+{"id": 3554, "data": "Summary", "label": []}
+{"id": 3555, "data": "ADT's websites do not respond to browser Do Not Track signals, but you can opt-out of interested-based ads by visiting the links here or here. You can opt-out of other tracking technologies we use by visiting the specific links provided.", "label": []}
+{"id": 3556, "data": "Summary", "label": []}
+{"id": 3557, "data": "Generally we do not target or knowingly collect personal information from people less than 13 years of age. For certain services we may collect personal information from people less than 13 years of age upon making disclosures, obtaining verifiable parental consent, and allowing the parent to review, delete or withdraw consent.", "label": []}
+{"id": 3558, "data": "Summary", "label": []}
+{"id": 3559, "data": "We do our best to protect your information.", "label": []}

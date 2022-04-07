@@ -1,0 +1,66 @@
+{"id": 34928, "text": "We will share personal information with companies, organizations or individuals outside of carbonTRACK if we have a good-faith belief that access, use, preservation or disclosure of the information is reasonably necessary to:", "meta": {}, "annotation_approver": null, "labels": [[0, 102, "sharing"], [102, 225, "share_purpose"]]}
+{"id": 34929, "text": "meet any applicable law, regulation, legal process or enforceable governmental request.", "meta": {}, "annotation_approver": null, "labels": [[0, 87, "share_purpose"]]}
+{"id": 34930, "text": "enforce applicable Terms of Service, including investigation of potential violations.", "meta": {}, "annotation_approver": null, "labels": [[0, 85, "share_purpose"]]}
+{"id": 34931, "text": "detect, prevent, or otherwise address fraud, security or technical issues.", "meta": {}, "annotation_approver": null, "labels": [[0, 74, "share_purpose"]]}
+{"id": 34932, "text": "protect against harm to the rights, property or safety of carbonTRACK, our users or the public as required or permitted by law.", "meta": {}, "annotation_approver": null, "labels": [[0, 127, "share_purpose"]]}
+{"id": 34905, "text": "--------------1. Preamble --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34906, "text": "carbonTRACK App for Google Home Privacy Policy", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34907, "text": "carbonTRACK is committed to protecting your privacy and managing any personal and credit information that we hold about you in accordance with the requirements of the Privacy Act 1988 (Cth) and the Australian Privacy Principles contained in that Act.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34908, "text": "About this policy", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34909, "text": "This Privacy Policy relates to the collection, use and disclosure of information generally in connection with the Google Home product. It explains how carbonTRACK manages your information provided through the Google Home Control Platform. It also explains how Google manages your information after you have connected carbonTRACK with Google Home.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34910, "text": "--------------2. Collection --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34911, "text": "What information does carbonTRACK collect?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34912, "text": "We collect data transmitted by the Actions on Google API this contains the device id and user identity token. This data doesn't contain any of your personal details, it only contains information for your carbonTRACK system and Google home device to work together. We use the carbonTRACK device id to identify the device status and control the switching of the devices linked to you carbonTrack account.", "meta": {}, "annotation_approver": null, "labels": [[0, 263, "collection"]]}
+{"id": 34913, "text": "What information does Google collect?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34914, "text": "Google collects data that's meant to make your services faster, smarter, more relevant, and more useful to you. Google Home learns over time to provide better and more personalised suggestions and answers. You can learn more by visiting Google's Privacy Policy. Learn more about Google Home privacy.", "meta": {}, "annotation_approver": null, "labels": [[0, 206, "collect_purpose"]]}
+{"id": 34915, "text": "--------------3. Purpose/Use --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34916, "text": "How does carbonTRACK use information we collect?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34917, "text": "We use the information we collect from all of our services to provide, maintain, protect and improve them, to develop new ones, and to protect carbonTRACK and our users.", "meta": {}, "annotation_approver": null, "labels": [[0, 169, "collect_purpose"]]}
+{"id": 34918, "text": "When you contact carbonTRACK, we keep a record of your communication to help solve any issues you might be facing. We may use your email address to inform you about our services, such as letting you know about upcoming changes or improvements.", "meta": {}, "annotation_approver": null, "labels": [[0, 243, "collect_purpose"]]}
+{"id": 34919, "text": "We use information collected from cookies and other technologies, like pixel tags, to improve your user experience and the overall quality of our services. One of the products we use to do this is Google Analytics.", "meta": {}, "annotation_approver": null, "labels": [[0, 155, "collect_purpose"]]}
+{"id": 34920, "text": "We will ask for your consent before using information for a purpose other than those that are set out in this Privacy Policy.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34921, "text": "What does Google do with the information it collects?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34922, "text": "Google uses data to make its services faster, smarter, and more useful to you, such as by providing better search results and timely traffic updates. Data also helps protect you from malware, phishing, and other suspicious activity. For example, Google warns you when you try to visit dangerous websites.", "meta": {}, "annotation_approver": null, "labels": [[0, 304, "collect_purpose"]]}
+{"id": 34923, "text": "Also, on surfaces where ads are shown, Google uses data to show you ads that are relevant and useful, and to keep its services free for everyone. Google Home learns over time to provide better and more personalised suggestions and answers. For more information, visit Google's Privacy Policy.", "meta": {}, "annotation_approver": null, "labels": [[0, 239, "collect_purpose"]]}
+{"id": 34924, "text": "--------------4. Sharing --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34925, "text": "Does carbonTRACK share the information we collect?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34926, "text": "We do not share personal information with companies, organizations and individuals outside of carbonTRACK unless one of the following circumstances applies:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34927, "text": "For legal reasons", "meta": {}, "annotation_approver": null, "labels": [[0, 17, "share_purpose"]]}
+{"id": 34933, "text": "We may share non-personally identifiable information publicly and with our partners - like publishers, advertisers or connected sites. For example, we may share information publicly to show trends about the general use of our services.", "meta": {}, "annotation_approver": null, "labels": [[0, 235, "sharing"]]}
+{"id": 34934, "text": "What information Google Home know about you?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34935, "text": "If you have opted to share information with Google, Google uses that information, along with your Google history, to better assist you with customisations like your name and interests.", "meta": {}, "annotation_approver": null, "labels": [[52, 184, "share_purpose"]]}
+{"id": 34936, "text": "You can delete your history, which will limit the personalised experience for features like the Google Assistant. You can view your history with the Google Assistant in My Activity, which is accessible through the setup app and online at myactivity.google.com. You have control over your data and the power to delete history at any time.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34937, "text": "Does Google Home record all conversations?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34938, "text": "No. Google Home listens in short snippets (a few seconds) for the hotword. Those snippets are deleted if the hotword isn't detected, and none of that information leaves your device until the hotword is heard.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34939, "text": "When Google Home detects that you've said \"Ok Google,\" the LED lights on top of the device light up to tell you that it is recording what you say, and sends that recording (including the few-second hotword recording) to Google in order to fulfil your request. You can delete those recordings through My Activity anytime. Learn more about Google Home privacy.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34940, "text": "What information does Google save if you delete your location / search / conversation history?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34941, "text": "When you delete items from My Activity, they are permanently deleted from your Google Account. However, Google may keep service-related information about your account, like which Google products you used and when, to prevent spam and abuse and to improve your services.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34942, "text": "--------------5. Retention --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34943, "text": "--------------6. Children --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34944, "text": "--------------7. Contact --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34945, "text": "Contact us if you have questions or concerns about your information and Google Home.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34946, "text": "How to contact us", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34947, "text": "You can contact us by:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34948, "text": "Submitting a form on our Contact page.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34949, "text": "Emailing us:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34950, "text": "info@carbontrack.com.au", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34951, "text": "Writing to us:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34952, "text": "carbonTRACK (Aust) Pty Ltd", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34953, "text": "ACN 162 220 662", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34954, "text": "Level 1, 58 Burwood Rd", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34955, "text": "Hawthorn VIC 3122", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34956, "text": "Australia", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34957, "text": "Calling us on:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34958, "text": "+61 1300 288 648 (Australian Office)", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34959, "text": "+61 1300 288 648 (South African Office)", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34960, "text": "--------------8. Cookies --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34961, "text": "--------------9. Storage/Transfer --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34962, "text": "Where does carbonTRACK save your information?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34963, "text": "carbonTRACK processes personal information on our servers in Australia and Singapore. We may process your personal information on a server located outside the country where you live.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34964, "text": "Where does Google save your information?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34965, "text": "Google stores data about your conversations on its servers, which reside in its data centres. For more information, you can visit https://www.google.com/about/datacenters/.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34966, "text": "You can view and delete your past interactions with the Google Home in My Activity.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34967, "text": "--------------10. Irrelevant:--------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34968, "text": "--------------11. Extra--------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34969, "text": "Changes", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 34970, "text": "Our Privacy Policy for Google Home may change from time to time. We will not reduce your rights under this Privacy Policy without your explicit consent. We will post any privacy policy changes on this page and, if the changes are significant, we will provide a more prominent notice (including, for certain services, email notification of privacy policy changes). We will also keep prior versions of this Privacy Policy in an archive for your review.", "meta": {}, "annotation_approver": null, "labels": []}

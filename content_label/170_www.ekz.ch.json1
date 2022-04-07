@@ -1,0 +1,224 @@
+{"id": 36730, "text": "--------------1. Preamble --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36731, "text": "Data Privacy Statement - EKZ Smart Home", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36732, "text": "1. Scope", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36733, "text": "This EKZ Smart Home Data Privacy Statement (henceforth 'Data Privacy Statement') explains how Elektrizitätswerke des Kantons Zürich (EKZ) (henceforth 'EKZ') collects and processes personal data in order to provide the EKZ Smart Home offer to customers. Personal data refers to all information related to an identified or identifiable person. In the following, the processing of personal data refers to any operation with personal data.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36734, "text": "2. Controller / data protection officer", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36735, "text": "Elektrizitätswerke des Kantons Zürich (EKZ) is responsible for the processing of personal", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36736, "text": "data in connection with the EKZ Smart Home offer. You can send any questions or comments regarding the processing of your personal data to the following contact address:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36737, "text": "Tel. 058 359 56 56", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36738, "text": "Email: smarthome@ekz.ch", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36739, "text": "You can reach the EKZ data protection officer at the following address:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36740, "text": "Elektrizitätswerke des Kantons Zürich", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36741, "text": "Jan Svenningson", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36742, "text": "Dreikönigsstrasse 18", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36743, "text": "CH-8002 Zurich", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36744, "text": "Tel. 058 359 56 56", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36745, "text": "Email: smarthome@ekz.ch", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36746, "text": "--------------2. Collection --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36747, "text": "3. Collection and processing of personal data", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36748, "text": "We collect and process your personal data and the personal data of others living within the same household in connection with the provision of our EKZ Smart Home offer. We thus process your personal data whenever we have contact with you or you use EKZ Smart Home such as in the following situations:", "meta": {}, "annotation_approver": null, "labels": [[0, 300, "collection"]]}
+{"id": 36749, "text": " You acquire our Smart Home hardware and/or software components;", "meta": {}, "annotation_approver": null, "labels": [[0, 65, "collection"]]}
+{"id": 36750, "text": " You open a customer account;", "meta": {}, "annotation_approver": null, "labels": [[0, 30, "collection"]]}
+{"id": 36751, "text": " You use Smart Home hardware and/or software components;", "meta": {}, "annotation_approver": null, "labels": [[0, 57, "collection"]]}
+{"id": 36752, "text": " You register a product or service purchased from us;", "meta": {}, "annotation_approver": null, "labels": [[0, 54, "collection"]]}
+{"id": 36753, "text": " You utilise a service provided by our customer support;", "meta": {}, "annotation_approver": null, "labels": [[0, 57, "collection"]]}
+{"id": 36754, "text": " You use or communicate with us or third parties via our websites;", "meta": {}, "annotation_approver": null, "labels": [[0, 67, "collection"]]}
+{"id": 36755, "text": " Apps for mobile devices or offers on the online platform, multimedia portals or social", "meta": {}, "annotation_approver": null, "labels": [[0, 88, "collection"]]}
+{"id": 36756, "text": "networks;", "meta": {}, "annotation_approver": null, "labels": [[0, 9, "collection"]]}
+{"id": 36757, "text": " You communicate with us by telephone, fax, email, voice message, text message", "meta": {}, "annotation_approver": null, "labels": [[0, 79, "collection"]]}
+{"id": 36758, "text": "(SMS), picture message (MMS), video message or instant messaging;", "meta": {}, "annotation_approver": null, "labels": [[0, 65, "collection"]]}
+{"id": 36759, "text": " You receive a service by an electrician or another employee of EKZ in your home,", "meta": {}, "annotation_approver": null, "labels": [[0, 82, "collection"]]}
+{"id": 36760, "text": "such as for the installation of your Smart Home system;", "meta": {}, "annotation_approver": null, "labels": [[0, 55, "collection"]]}
+{"id": 36761, "text": " You obtain a newsletter or other advertising about our products and services;", "meta": {}, "annotation_approver": null, "labels": [[0, 79, "collection"]]}
+{"id": 36762, "text": " You take part in one of our market research campaigns or opinion surveys;", "meta": {}, "annotation_approver": null, "labels": [[0, 75, "collection"]]}
+{"id": 36763, "text": " You take part in a prize draw.", "meta": {}, "annotation_approver": null, "labels": [[0, 32, "collection"]]}
+{"id": 36764, "text": "In this context, we process contact data and Smart Home data:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36765, "text": "Contact data:", "meta": {}, "annotation_approver": null, "labels": [[0, 13, "collection"]]}
+{"id": 36766, "text": " First name and surname;", "meta": {}, "annotation_approver": null, "labels": [[0, 25, "collection"]]}
+{"id": 36767, "text": " Gender / title;", "meta": {}, "annotation_approver": null, "labels": [[0, 17, "collection"]]}
+{"id": 36768, "text": " Email address(es);", "meta": {}, "annotation_approver": null, "labels": [[0, 20, "collection"]]}
+{"id": 36769, "text": " Telephone number(s);", "meta": {}, "annotation_approver": null, "labels": [[0, 22, "collection"]]}
+{"id": 36770, "text": " Residential address(es);", "meta": {}, "annotation_approver": null, "labels": [[0, 26, "collection"]]}
+{"id": 36771, "text": " Date of birth and age;", "meta": {}, "annotation_approver": null, "labels": [[0, 24, "collection"]]}
+{"id": 36772, "text": " Language preferences;", "meta": {}, "annotation_approver": null, "labels": [[0, 23, "collection"]]}
+{"id": 36773, "text": " Identification numbers of your technical devices;", "meta": {}, "annotation_approver": null, "labels": [[0, 51, "collection"]]}
+{"id": 36774, "text": " Information on subscribed newsletters;", "meta": {}, "annotation_approver": null, "labels": [[0, 40, "collection"]]}
+{"id": 36775, "text": " Consent for receiving advertising.", "meta": {}, "annotation_approver": null, "labels": [[0, 36, "collection"]]}
+{"id": 36776, "text": "Smart Home data:", "meta": {}, "annotation_approver": null, "labels": [[0, 16, "collection"]]}
+{"id": 36777, "text": "The Smart Home hardware components send data about your device status to the EKZ Smart Home Hub and also to the EKZ Smart Home Cloud. This data is sent with a timestamp (date and time). The data is sent and stored at an appropriate interval depending on the category and function of the device. Only the devices that you also use in your EKZ Smart Home system can send data. Smart Home data can be divided into three groups:", "meta": {}, "annotation_approver": null, "labels": [[0, 424, "collection"]]}
+{"id": 36778, "text": " Connection status data: All devices connected with EKZ Smart Home send data", "meta": {}, "annotation_approver": null, "labels": [[0, 77, "collection"]]}
+{"id": 36779, "text": "about their network status (active/inactive connection) and their device identifier (ID) in the network.", "meta": {}, "annotation_approver": null, "labels": [[0, 104, "collection"]]}
+{"id": 36780, "text": " Functionality data: All battery-powered devices (such as door/window contact sensors) signal their battery status in percent. Some devices also report any attempts to open the device housing in order to detect attempted tampering", "meta": {}, "annotation_approver": null, "labels": [[0, 231, "collection"]]}
+{"id": 36781, "text": "(tampering: yes/no).", "meta": {}, "annotation_approver": null, "labels": [[0, 20, "collection"]]}
+{"id": 36782, "text": " Device-specific readings:", "meta": {}, "annotation_approver": null, "labels": [[0, 27, "collection"]]}
+{"id": 36783, "text": "o Lighting: on/off status, setting (such as light colour or brightness);", "meta": {}, "annotation_approver": null, "labels": [[0, 72, "collection"]]}
+{"id": 36784, "text": "o Sensors, for example:", "meta": {}, "annotation_approver": null, "labels": [[0, 23, "collection"]]}
+{"id": 36785, "text": " Door/window contacts: contact status (open/closed);", "meta": {}, "annotation_approver": null, "labels": [[0, 53, "collection"]]}
+{"id": 36786, "text": " Motion detectors: logging of motion events in the house/garden;", "meta": {}, "annotation_approver": null, "labels": [[0, 65, "collection"]]}
+{"id": 36787, "text": " Brightness sensors: brightness and sunlight;", "meta": {}, "annotation_approver": null, "labels": [[0, 46, "collection"]]}
+{"id": 36788, "text": " Water/moisture sensors: wetness;", "meta": {}, "annotation_approver": null, "labels": [[0, 34, "collection"]]}
+{"id": 36789, "text": " Temperature sensors: interior temperature;", "meta": {}, "annotation_approver": null, "labels": [[0, 44, "collection"]]}
+{"id": 36790, "text": "o Consumption sensors:", "meta": {}, "annotation_approver": null, "labels": [[0, 22, "collection"]]}
+{"id": 36791, "text": " Switch/smart plug: energy consumption, electricity consumption, effective power;", "meta": {}, "annotation_approver": null, "labels": [[0, 82, "collection"]]}
+{"id": 36792, "text": "o Switches and buttons, remote controls and mobile apps: when which electrical devices are switched on/off;", "meta": {}, "annotation_approver": null, "labels": [[0, 107, "collection"]]}
+{"id": 36793, "text": "o Heating: flow temperature, heating setting (value open/closed), time series of temperature changes in case of setting changes on the thermostat;", "meta": {}, "annotation_approver": null, "labels": [[0, 146, "collection"]]}
+{"id": 36794, "text": "o Blind actuators: control and open status of blinds;", "meta": {}, "annotation_approver": null, "labels": [[0, 53, "collection"]]}
+{"id": 36795, "text": "o Weather data: current weather;", "meta": {}, "annotation_approver": null, "labels": [[0, 32, "collection"]]}
+{"id": 36796, "text": "o EKZ Smart Home Hub:", "meta": {}, "annotation_approver": null, "labels": [[0, 21, "collection"]]}
+{"id": 36797, "text": " Customer data in the EKZ Smart Home App: such as number of floors, rooms, living area;", "meta": {}, "annotation_approver": null, "labels": [[0, 88, "collection"]]}
+{"id": 36798, "text": " Configuration of the EKZ Smart Home: number and type of connected", "meta": {}, "annotation_approver": null, "labels": [[0, 67, "collection"]]}
+{"id": 36799, "text": "devices, user-specific rules and switch automations;", "meta": {}, "annotation_approver": null, "labels": [[0, 52, "collection"]]}
+{"id": 36800, "text": " User account-specific data. Certain devices combine several functions. For instance, a 4-in-1 sensor combines motion, temperature, brightness and door contact sensors.", "meta": {}, "annotation_approver": null, "labels": [[0, 169, "collection"]]}
+{"id": 36801, "text": "--------------3. Purpose/Use --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36802, "text": "4. Purposes of data processing and legal bases. We primarily use the personal data we collect in order to conclude and execute our contracts with our customers and business partners, in particular for the provision of the EKZ Smart. Home offer to our customers and the procurement of products and services from our suppliers and subcontractors. In particular, we process the collected personal data for the following purposes:", "meta": {}, "annotation_approver": null, "labels": [[0, 426, "collect_purpose"]]}
+{"id": 36803, "text": " Detecting and representing Smart Home statuses;", "meta": {}, "annotation_approver": null, "labels": [[0, 49, "collect_purpose"]]}
+{"id": 36804, "text": " Enabling remote control and automating the control of Smart Home components;", "meta": {}, "annotation_approver": null, "labels": [[0, 78, "collect_purpose"]]}
+{"id": 36805, "text": " Providing services in connection with the Smart Home offer, such as processing various customer enquiries;", "meta": {}, "annotation_approver": null, "labels": [[0, 108, "collect_purpose"]]}
+{"id": 36806, "text": " Handling contract administration;", "meta": {}, "annotation_approver": null, "labels": [[0, 35, "collect_purpose"]]}
+{"id": 36807, "text": " Further developing the EKZ Smart Home offer;", "meta": {}, "annotation_approver": null, "labels": [[0, 46, "collect_purpose"]]}
+{"id": 36808, "text": " Informing customers about products and services.", "meta": {}, "annotation_approver": null, "labels": [[0, 50, "collect_purpose"]]}
+{"id": 36809, "text": "We process your personal data based on and in connection with your consent, insofar as we", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36810, "text": "have no other legal basis and require such.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36811, "text": "--------------4. Sharing --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36812, "text": "--------------5. Retention --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36813, "text": "7. Duration of the retention of personal data", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36814, "text": "We store your personal data for the duration of the use of the Smart Home service and for a maximum of one year following the usage phase. The data is deleted thereafter, unless statutory retention periods stipulate longer retention.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36815, "text": "--------------6. Children --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36816, "text": "--------------7. Contact --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36817, "text": "--------------8. Cookies --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36818, "text": "--------------9. Storage/Transfer --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36819, "text": "--------------10. Irrelevant:--------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36820, "text": "--------------11. Extra--------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36821, "text": "5. Data storage and data security", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36822, "text": "Your data is stored in your local EKZ Smart Home Hub as well as in cloud data storage of", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36823, "text": "EKZ (in Germany). We take suitable technical and organisational measures to protect your", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36824, "text": "personal data against unauthorised or unlawful processing and/or against accidental loss,", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36825, "text": "alteration, disclosure or access.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36826, "text": "Information transmitted over the Internet and other electronic means is unencrypted and", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36827, "text": "therefore involves certain security risks. The customer is responsible for the security of information sent in this way.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36828, "text": "Where possible, we use pseudonymised data to provide our services. Pseudonymisation refers to the processing of personal data in a manner in which the personal data can no longer be associated with a specific data subject without reference to additional information.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36829, "text": "6. Data provision and data transmission abroad", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36830, "text": "We may pass on your personal data to other members of the EKZ Group or to third parties outside the EKZ Group in order to avail ourselves of services required for the fulfilment of the aforementioned purposes. This particularly concerns the storage of your data with an external cloud service provider and access to data by service providers for the purposes of analysing and resolving technical problems. Our service providers are contractually bound to process personal data only on our behalf and according to our instructions. We also commit our service providers to compliance with technical and organisational measures that ensure the protection of personal data. These service providers may also be located abroad. If the service providers are located in countries in which the applicable laws do not stipulate a level of protection for personal data that is comparable with Swiss law, we will ensure by means of contract that the relevant service providers comply with the Swiss level of data protection. We may also pass on your personal data if we are obliged to do so in order to comply with applicable laws and provisions.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36831, "text": "8. What rights do you have relating to your personal data?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36832, "text": "In connection with applicable data protection law and to the extent stipulated therein, you have the right to:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36833, "text": " Information;", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36834, "text": " Rectification;", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36835, "text": " Erasure;", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36836, "text": " Restriction of data processing;", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36837, "text": " Object to our data processing;", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36838, "text": " Data portability (transfer of certain personal data to another body)", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36839, "text": "Please note that the exercising of these rights may contradict contractual agreements and, in which case, use of the EKZ Smart Home offer will in any event no longer be possible.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36891, "text": "about their network status (active/inactive connection) and their device identifier (ID) in the network.", "meta": {}, "annotation_approver": null, "labels": [[0, 104, "collection"]]}
+{"id": 36840, "text": "Contact details are provided in Section 2 of this Data Privacy Statement. Every data subject also has the right to assert their claims in court or to lodge a complaint with the competent supervisory authority. The competent supervisory authority in Switzerland is the Swiss Federal Data Protection and Information Commissioner.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36841, "text": "Zurich, 2018/11/01", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36892, "text": " Functionality data: All battery-powered devices (such as door/window contact sensors) signal their battery status in percent. Some devices also report any attempts to open the device housing in order to detect attempted tampering", "meta": {}, "annotation_approver": null, "labels": [[0, 231, "collection"]]}
+{"id": 36893, "text": "(tampering: yes/no).", "meta": {}, "annotation_approver": null, "labels": [[0, 20, "collection"]]}
+{"id": 36894, "text": " Device-specific readings:", "meta": {}, "annotation_approver": null, "labels": [[0, 27, "collection"]]}
+{"id": 36895, "text": "o Lighting: on/off status, setting (such as light colour or brightness);", "meta": {}, "annotation_approver": null, "labels": [[0, 72, "collection"]]}
+{"id": 36896, "text": "o Sensors, for example:", "meta": {}, "annotation_approver": null, "labels": [[0, 23, "collection"]]}
+{"id": 36897, "text": " Door/window contacts: contact status (open/closed);", "meta": {}, "annotation_approver": null, "labels": [[0, 53, "collection"]]}
+{"id": 36898, "text": " Motion detectors: logging of motion events in the house/garden;", "meta": {}, "annotation_approver": null, "labels": [[0, 65, "collection"]]}
+{"id": 36899, "text": " Brightness sensors: brightness and sunlight;", "meta": {}, "annotation_approver": null, "labels": [[0, 46, "collection"]]}
+{"id": 36900, "text": " Water/moisture sensors: wetness;", "meta": {}, "annotation_approver": null, "labels": [[0, 34, "collection"]]}
+{"id": 36901, "text": " Temperature sensors: interior temperature;", "meta": {}, "annotation_approver": null, "labels": [[0, 44, "collection"]]}
+{"id": 36902, "text": "o Consumption sensors:", "meta": {}, "annotation_approver": null, "labels": [[0, 22, "collection"]]}
+{"id": 36903, "text": " Switch/smart plug: energy consumption, electricity consumption, effective power;", "meta": {}, "annotation_approver": null, "labels": [[0, 82, "collection"]]}
+{"id": 36904, "text": "o Switches and buttons, remote controls and mobile apps: when which electrical devices are switched on/off;", "meta": {}, "annotation_approver": null, "labels": [[0, 107, "collection"]]}
+{"id": 36905, "text": "o Heating: flow temperature, heating setting (value open/closed), time series of temperature changes in case of setting changes on the thermostat;", "meta": {}, "annotation_approver": null, "labels": [[0, 146, "collection"]]}
+{"id": 36906, "text": "o Blind actuators: control and open status of blinds;", "meta": {}, "annotation_approver": null, "labels": [[0, 53, "collection"]]}
+{"id": 36907, "text": "o Weather data: current weather;", "meta": {}, "annotation_approver": null, "labels": [[0, 32, "collection"]]}
+{"id": 36908, "text": "o EKZ Smart Home Hub:", "meta": {}, "annotation_approver": null, "labels": [[0, 21, "collection"]]}
+{"id": 36909, "text": " Customer data in the EKZ Smart Home App: such as number of floors, rooms, living area;", "meta": {}, "annotation_approver": null, "labels": [[0, 88, "collection"]]}
+{"id": 36910, "text": " Configuration of the EKZ Smart Home: number and type of connected", "meta": {}, "annotation_approver": null, "labels": [[0, 67, "collection"]]}
+{"id": 36911, "text": "devices, user-specific rules and switch automations;", "meta": {}, "annotation_approver": null, "labels": [[0, 52, "collection"]]}
+{"id": 36912, "text": " User account-specific data. Certain devices combine several functions. For instance, a 4-in-1 sensor combines motion, temperature, brightness and door contact sensors.", "meta": {}, "annotation_approver": null, "labels": [[0, 169, "collection"]]}
+{"id": 36913, "text": "--------------3. Purpose/Use --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36914, "text": "4. Purposes of data processing and legal bases. We primarily use the personal data we collect in order to conclude and execute our contracts with our customers and business partners, in particular for the provision of the EKZ Smart. Home offer to our customers and the procurement of products and services from our suppliers and subcontractors. In particular, we process the collected personal data for the following purposes:", "meta": {}, "annotation_approver": null, "labels": [[0, 426, "collect_purpose"]]}
+{"id": 36915, "text": " Detecting and representing Smart Home statuses;", "meta": {}, "annotation_approver": null, "labels": [[0, 49, "collect_purpose"]]}
+{"id": 36916, "text": " Enabling remote control and automating the control of Smart Home components;", "meta": {}, "annotation_approver": null, "labels": [[0, 78, "collect_purpose"]]}
+{"id": 36917, "text": " Providing services in connection with the Smart Home offer, such as processing various customer enquiries;", "meta": {}, "annotation_approver": null, "labels": [[0, 108, "collect_purpose"]]}
+{"id": 36918, "text": " Handling contract administration;", "meta": {}, "annotation_approver": null, "labels": [[0, 35, "collect_purpose"]]}
+{"id": 36919, "text": " Further developing the EKZ Smart Home offer;", "meta": {}, "annotation_approver": null, "labels": [[0, 46, "collect_purpose"]]}
+{"id": 36920, "text": " Informing customers about products and services.", "meta": {}, "annotation_approver": null, "labels": [[0, 50, "collect_purpose"]]}
+{"id": 36921, "text": "We process your personal data based on and in connection with your consent, insofar as we", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36922, "text": "have no other legal basis and require such.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36923, "text": "--------------4. Sharing --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36924, "text": "--------------5. Retention --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36925, "text": "7. Duration of the retention of personal data", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36926, "text": "We store your personal data for the duration of the use of the Smart Home service and for a maximum of one year following the usage phase. The data is deleted thereafter, unless statutory retention periods stipulate longer retention.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36927, "text": "--------------6. Children --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36928, "text": "--------------7. Contact --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36929, "text": "--------------8. Cookies --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36930, "text": "--------------9. Storage/Transfer --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36931, "text": "--------------10. Irrelevant:--------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36932, "text": "--------------11. Extra--------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36933, "text": "5. Data storage and data security", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36934, "text": "Your data is stored in your local EKZ Smart Home Hub as well as in cloud data storage of", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36935, "text": "EKZ (in Germany). We take suitable technical and organisational measures to protect your", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36936, "text": "personal data against unauthorised or unlawful processing and/or against accidental loss,", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36937, "text": "alteration, disclosure or access.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36938, "text": "Information transmitted over the Internet and other electronic means is unencrypted and", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36939, "text": "therefore involves certain security risks. The customer is responsible for the security of information sent in this way.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36940, "text": "Where possible, we use pseudonymised data to provide our services. Pseudonymisation refers to the processing of personal data in a manner in which the personal data can no longer be associated with a specific data subject without reference to additional information.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36941, "text": "6. Data provision and data transmission abroad", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36842, "text": "--------------1. Preamble --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36843, "text": "Data Privacy Statement - EKZ Smart Home", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36844, "text": "1. Scope", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36845, "text": "This EKZ Smart Home Data Privacy Statement (henceforth 'Data Privacy Statement') explains how Elektrizitätswerke des Kantons Zürich (EKZ) (henceforth 'EKZ') collects and processes personal data in order to provide the EKZ Smart Home offer to customers. Personal data refers to all information related to an identified or identifiable person. In the following, the processing of personal data refers to any operation with personal data.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36846, "text": "2. Controller / data protection officer", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36847, "text": "Elektrizitätswerke des Kantons Zürich (EKZ) is responsible for the processing of personal", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36848, "text": "data in connection with the EKZ Smart Home offer. You can send any questions or comments regarding the processing of your personal data to the following contact address:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36849, "text": "Tel. 058 359 56 56", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36850, "text": "Email: smarthome@ekz.ch", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36851, "text": "You can reach the EKZ data protection officer at the following address:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36852, "text": "Elektrizitätswerke des Kantons Zürich", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36853, "text": "Jan Svenningson", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36854, "text": "Dreikönigsstrasse 18", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36855, "text": "CH-8002 Zurich", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36856, "text": "Tel. 058 359 56 56", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36857, "text": "Email: smarthome@ekz.ch", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36858, "text": "--------------2. Collection --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36859, "text": "3. Collection and processing of personal data", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36860, "text": "We collect and process your personal data and the personal data of others living within the same household in connection with the provision of our EKZ Smart Home offer. We thus process your personal data whenever we have contact with you or you use EKZ Smart Home such as in the following situations:", "meta": {}, "annotation_approver": null, "labels": [[0, 300, "collection"]]}
+{"id": 36861, "text": " You acquire our Smart Home hardware and/or software components;", "meta": {}, "annotation_approver": null, "labels": [[0, 65, "collection"]]}
+{"id": 36862, "text": " You open a customer account;", "meta": {}, "annotation_approver": null, "labels": [[0, 30, "collection"]]}
+{"id": 36863, "text": " You use Smart Home hardware and/or software components;", "meta": {}, "annotation_approver": null, "labels": [[0, 57, "collection"]]}
+{"id": 36864, "text": " You register a product or service purchased from us;", "meta": {}, "annotation_approver": null, "labels": [[0, 54, "collection"]]}
+{"id": 36865, "text": " You utilise a service provided by our customer support;", "meta": {}, "annotation_approver": null, "labels": [[0, 57, "collection"]]}
+{"id": 36866, "text": " You use or communicate with us or third parties via our websites;", "meta": {}, "annotation_approver": null, "labels": [[0, 67, "collection"]]}
+{"id": 36867, "text": " Apps for mobile devices or offers on the online platform, multimedia portals or social", "meta": {}, "annotation_approver": null, "labels": [[0, 88, "collection"]]}
+{"id": 36868, "text": "networks;", "meta": {}, "annotation_approver": null, "labels": [[0, 9, "collection"]]}
+{"id": 36869, "text": " You communicate with us by telephone, fax, email, voice message, text message", "meta": {}, "annotation_approver": null, "labels": [[0, 79, "collection"]]}
+{"id": 36870, "text": "(SMS), picture message (MMS), video message or instant messaging;", "meta": {}, "annotation_approver": null, "labels": [[0, 65, "collection"]]}
+{"id": 36871, "text": " You receive a service by an electrician or another employee of EKZ in your home,", "meta": {}, "annotation_approver": null, "labels": [[0, 82, "collection"]]}
+{"id": 36872, "text": "such as for the installation of your Smart Home system;", "meta": {}, "annotation_approver": null, "labels": [[0, 55, "collection"]]}
+{"id": 36873, "text": " You obtain a newsletter or other advertising about our products and services;", "meta": {}, "annotation_approver": null, "labels": [[0, 79, "collection"]]}
+{"id": 36874, "text": " You take part in one of our market research campaigns or opinion surveys;", "meta": {}, "annotation_approver": null, "labels": [[0, 75, "collection"]]}
+{"id": 36875, "text": " You take part in a prize draw.", "meta": {}, "annotation_approver": null, "labels": [[0, 32, "collection"]]}
+{"id": 36876, "text": "In this context, we process contact data and Smart Home data:", "meta": {}, "annotation_approver": null, "labels": [[0, 61, "collection"]]}
+{"id": 36877, "text": "Contact data:", "meta": {}, "annotation_approver": null, "labels": [[0, 13, "collection"]]}
+{"id": 36878, "text": " First name and surname;", "meta": {}, "annotation_approver": null, "labels": [[0, 25, "collection"]]}
+{"id": 36879, "text": " Gender / title;", "meta": {}, "annotation_approver": null, "labels": [[0, 17, "collection"]]}
+{"id": 36880, "text": " Email address(es);", "meta": {}, "annotation_approver": null, "labels": [[0, 20, "collection"]]}
+{"id": 36881, "text": " Telephone number(s);", "meta": {}, "annotation_approver": null, "labels": [[0, 22, "collection"]]}
+{"id": 36882, "text": " Residential address(es);", "meta": {}, "annotation_approver": null, "labels": [[0, 26, "collection"]]}
+{"id": 36883, "text": " Date of birth and age;", "meta": {}, "annotation_approver": null, "labels": [[0, 24, "collection"]]}
+{"id": 36884, "text": " Language preferences;", "meta": {}, "annotation_approver": null, "labels": [[0, 23, "collection"]]}
+{"id": 36885, "text": " Identification numbers of your technical devices;", "meta": {}, "annotation_approver": null, "labels": [[0, 51, "collection"]]}
+{"id": 36886, "text": " Information on subscribed newsletters;", "meta": {}, "annotation_approver": null, "labels": [[0, 40, "collection"]]}
+{"id": 36887, "text": " Consent for receiving advertising.", "meta": {}, "annotation_approver": null, "labels": [[0, 36, "collection"]]}
+{"id": 36888, "text": "Smart Home data:", "meta": {}, "annotation_approver": null, "labels": [[0, 16, "collection"]]}
+{"id": 36889, "text": "The Smart Home hardware components send data about your device status to the EKZ Smart Home Hub and also to the EKZ Smart Home Cloud. This data is sent with a timestamp (date and time). The data is sent and stored at an appropriate interval depending on the category and function of the device. Only the devices that you also use in your EKZ Smart Home system can send data. Smart Home data can be divided into three groups:", "meta": {}, "annotation_approver": null, "labels": [[0, 424, "collection"]]}
+{"id": 36890, "text": " Connection status data: All devices connected with EKZ Smart Home send data", "meta": {}, "annotation_approver": null, "labels": [[0, 77, "collection"]]}
+{"id": 36942, "text": "We may pass on your personal data to other members of the EKZ Group or to third parties outside the EKZ Group in order to avail ourselves of services required for the fulfilment of the aforementioned purposes. This particularly concerns the storage of your data with an external cloud service provider and access to data by service providers for the purposes of analysing and resolving technical problems. Our service providers are contractually bound to process personal data only on our behalf and according to our instructions. We also commit our service providers to compliance with technical and organisational measures that ensure the protection of personal data. These service providers may also be located abroad. If the service providers are located in countries in which the applicable laws do not stipulate a level of protection for personal data that is comparable with Swiss law, we will ensure by means of contract that the relevant service providers comply with the Swiss level of data protection. We may also pass on your personal data if we are obliged to do so in order to comply with applicable laws and provisions.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36943, "text": "8. What rights do you have relating to your personal data?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36944, "text": "In connection with applicable data protection law and to the extent stipulated therein, you have the right to:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36945, "text": " Information;", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36946, "text": " Rectification;", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36947, "text": " Erasure;", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36948, "text": " Restriction of data processing;", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36949, "text": " Object to our data processing;", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36950, "text": " Data portability (transfer of certain personal data to another body)", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36951, "text": "Please note that the exercising of these rights may contradict contractual agreements and, in which case, use of the EKZ Smart Home offer will in any event no longer be possible.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36952, "text": "Contact details are provided in Section 2 of this Data Privacy Statement. Every data subject also has the right to assert their claims in court or to lodge a complaint with the competent supervisory authority. The competent supervisory authority in Switzerland is the Swiss Federal Data Protection and Information Commissioner.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 36953, "text": "Zurich, 2018/11/01", "meta": {}, "annotation_approver": null, "labels": []}

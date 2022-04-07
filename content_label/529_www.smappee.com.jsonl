@@ -1,0 +1,350 @@
+{"id": 11717, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 11718, "data": "1. Introduction", "label": []}
+{"id": 11719, "data": "Smappee is committed to safeguarding the privacy of the visitors on our website and the users of the Smappee Energy Services. In this policy we explain how we will handle and protect your personal data.", "label": []}
+{"id": 11720, "data": "2. Glossary of terms", "label": []}
+{"id": 11721, "data": "In this Privacy Policy document, the following terms are to be understood as:", "label": []}
+{"id": 11722, "data": " 'Smappee':", "label": []}
+{"id": 11723, "data": "Smappee NV, with registered office at Evolis 100, 8500 Kortrijk (BTW-BE0849.366.642).", "label": []}
+{"id": 11724, "data": " 'Customer':", "label": []}
+{"id": 11725, "data": "Any entity (B2C, B2B) that is using the Smappee Smart Devices, Smappee Energy Services or that has or will be having a contractual relationship of whatever nature with Smappee.", "label": []}
+{"id": 11726, "data": " 'GDPR':", "label": []}
+{"id": 11727, "data": "EU General Data Protection Regulation (GDPR) from 14 April 2016.", "label": []}
+{"id": 11728, "data": " 'Smappee Smart Devices':", "label": []}
+{"id": 11729, "data": "All Smappee hardware devices that are intended to operate at the site of the user. It also includes the software components that are installed on these devices.", "label": []}
+{"id": 11730, "data": "Smappee Smart Devices include, for example: Smappee Energy, Smappee Solar, Smappee Plus, Smappee Pro, Smappee Gas & Water, Smappee Switch, Comfort Plug, etc.", "label": []}
+{"id": 11731, "data": " 'Smappee Energy System'", "label": []}
+{"id": 11732, "data": "The system that consists of the - central and decentral - hardware, software, cloud services, interfaces and communication protocols provided by Smappee.", "label": []}
+{"id": 11733, "data": "This includes:", "label": []}
+{"id": 11734, "data": "all Smappee Smart Devices (Smappee Energy, Smappee Solar, Smappee Plus, Smappee Pro, Smappee Gas & Water, Smappee Switch, Comfort Plug, etc.)", "label": []}
+{"id": 11735, "data": "the online cloud services that consist of the server infrastructure and the software running on these servers", "label": []}
+{"id": 11736, "data": "the Apps (iOS, Android) and the websites (such as my.smappee.net and pro.smapppee.net) that provide access to the services", "label": []}
+{"id": 11737, "data": "the interfaces to other connected IoT services", "label": []}
+{"id": 11738, "data": "all communication and communication protocols between the listed components", "label": []}
+{"id": 11739, "data": "This system is continuously evolving and may include additional components in the future.", "label": []}
+{"id": 11740, "data": "The term 'Energy' should here be understood in de broadest sense, including - but not limited to - electricity, gas, water, light, battery capacity, consumption, production etc.", "label": []}
+{"id": 11741, "data": " 'Smappee Energy Services':", "label": []}
+{"id": 11742, "data": "The services that are provided by the Smappee Energy Systems.", "label": []}
+{"id": 11743, "data": " 'Products':", "label": []}
+{"id": 11744, "data": "The subject of one or more sales contracts, in this case - but not exclusively limited to - the Smappee Smart Devices, Smappee Energy Services, other hardware, software, websites and web-based services.", "label": []}
+{"id": 11745, "data": "--------------2. Collection --------------", "label": []}
+{"id": 11746, "data": "3. Where we process data", "label": []}
+{"id": 11747, "data": "In this section we explain in what systems of Smappee we process personal data.", "label": []}
+{"id": 11748, "data": "3.1 Website and Webshop www.smappee.com", "label": []}
+{"id": 11749, "data": "We may process data that originates from the Smappee website and webshop (www.smappee.com), such as:", "label": [[0, 100, "collection"]]}
+{"id": 11750, "data": "Details of the order, invoice and shipment", "label": [[0, 42, "collection"]]}
+{"id": 11751, "data": "General Payment data. (However, Smappee does not process credit card numbers or other information that was used to authorize payment transactions.)", "label": [[0, 147, "collection"]]}
+{"id": 11752, "data": "Data for billing, shipment and logistics", "label": [[0, 40, "collection"]]}
+{"id": 11753, "data": "Tracking information, such as IP address, connection time, navigation", "label": [[0, 69, "collection"]]}
+{"id": 11754, "data": "Tracking cookies", "label": [[0, 16, "collection"]]}
+{"id": 11755, "data": "Newsletter subscriptions", "label": [[0, 24, "collection"]]}
+{"id": 11756, "data": "Information request and contact forms", "label": [[0, 37, "collection"]]}
+{"id": 11757, "data": "Partner request forms", "label": [[0, 21, "collection"]]}
+{"id": 11758, "data": "Webinar subscriptions", "label": [[0, 21, "collection"]]}
+{"id": 11759, "data": "We may process data relating to customer orders that the customer provided to Smappee by other means than the Smappee website and webshop.", "label": [[0, 138, "collection"]]}
+{"id": 11760, "data": "If you choose to create a webshop user account, we may process the data that you provided for that user account.", "label": [[0, 112, "collection"]]}
+{"id": 11761, "data": "3.2 Smappee Energy System", "label": []}
+{"id": 11762, "data": "We may process data that are part of the - central and decentral - Smappee Energy Services and Smappee Energy Systems. That refers to data that is being collected and processed by, for example:", "label": [[0, 193, "collection"]]}
+{"id": 11763, "data": "systems and servers that make up the Smappee cloud systems", "label": [[0, 58, "collection"]]}
+{"id": 11764, "data": "Apps (iOS, Android)", "label": [[0, 19, "collection"]]}
+{"id": 11765, "data": "websites and web dashboards that provide access to the Smappee services, such as my.smappee.net and pro.smapppee.net", "label": [[0, 116, "collection"]]}
+{"id": 11766, "data": "Smappee Smart Devices (such as the Smappee Energy, Smappee Pro, Smappee Gas & Water, etc.)", "label": [[0, 90, "collection"]]}
+{"id": 11767, "data": "interfaces to Third-Party IoT Service", "label": [[0, 37, "collection"]]}
+{"id": 11768, "data": "all underlying IT infrastructure", "label": [[0, 32, "collection"]]}
+{"id": 11769, "data": "all communication and communication protocols between the listed components", "label": [[0, 75, "collection"]]}
+{"id": 11770, "data": "operational systems used for Research & Development and Testing of our services", "label": [[0, 79, "collection"]]}
+{"id": 11771, "data": "This data includes, for example:", "label": []}
+{"id": 11772, "data": "measurements from the Smappee distributed devices, including data that is derived from those measurements", "label": [[0, 105, "collection"]]}
+{"id": 11773, "data": "internal states and configurations of the Smappee distributed devices", "label": [[0, 69, "collection"]]}
+{"id": 11774, "data": "data that you enter in the Smappee Apps or the Web Dashboards", "label": [[0, 61, "collection"]]}
+{"id": 11775, "data": "account data and user credentials", "label": [[0, 33, "collection"]]}
+{"id": 11776, "data": "network control data", "label": [[0, 20, "collection"]]}
+{"id": 11777, "data": "3.3 Our Smappee Office Systems", "label": []}
+{"id": 11778, "data": "We may process data in the various operational systems of our offices, in particular the systems used by the Support Team, Reception, Research and Development, and Sales and Marketing Team.", "label": [[0, 189, "collect_purpose"]]}
+{"id": 11779, "data": "This data includes, for example:", "label": []}
+{"id": 11780, "data": "data that you provided to our office systems during the initial request and further correspondence and follow-up with our staff", "label": [[0, 127, "collection"]]}
+{"id": 11781, "data": "data that you provided as part of your correspondence", "label": [[0, 53, "collection"]]}
+{"id": 11782, "data": "emails or other messages that you sent to us", "label": [[0, 44, "collection"]]}
+{"id": 11783, "data": "communication logs (telephony, network)", "label": [[0, 39, "collection"]]}
+{"id": 11784, "data": "data from all sources that are in the scope of this Privacy Policy and that is reasonably related to your request, inquiry or correspondence", "label": [[0, 140, "collection"]]}
+{"id": 11785, "data": "4. What are the General Categories of Data", "label": []}
+{"id": 11786, "data": "In this section we explain the general categories of personal data that we process.", "label": []}
+{"id": 11787, "data": "4.1 Account Data", "label": [[0, 16, "collection"]]}
+{"id": 11788, "data": "We process account data, which refers to data that identifies you and allows us to get in contact with you. This includes, for example: your name, address, email, telephone number, general payment data, gender, birthdate, hobbies and interest, relationship status and others.", "label": [[0, 275, "collection"]]}
+{"id": 11789, "data": "4.2 Technical Data", "label": [[0, 18, "collection"]]}
+{"id": 11790, "data": "We process technical data, which refers to all data that we need to provide good and secure services.", "label": [[0, 101, "collection"]]}
+{"id": 11791, "data": "This includes, for example, the serial numbers of your devices, the configuration details internal states of your devices and services, the software version of the system components and others. This also includes access credentials needed to process the data of the various Smappee systems.", "label": [[0, 290, "collection"]]}
+{"id": 11792, "data": "4.3 Usage Data", "label": [[0, 14, "collection"]]}
+{"id": 11793, "data": "We process usage data, which refers to all data that are collected from the Smappee Monitors, other distributed devices, apps, and websites, as well as data resulting from actions and activity of the users.", "label": [[0, 206, "collection"]]}
+{"id": 11794, "data": "We may combine this data with other data categories of this privacy policy, and process data that is derived from this data.", "label": [[0, 124, "collection"]]}
+{"id": 11795, "data": "This incudes, for example, electrical measurements, geo-location data, detected appliances, events, messages, alerts, internal states of the Smappee Monitors or other distributed devices, and data that is manually entered in the Smappee apps or Websites.", "label": [[0, 254, "collection"]]}
+{"id": 11796, "data": "4.4 Interaction Data", "label": [[0, 20, "collection"]]}
+{"id": 11797, "data": "We process interaction data, which refers to all data that result from user interaction with our systems, devices, apps, or websites.", "label": [[0, 133, "collection"]]}
+{"id": 11798, "data": "This includes, for example, the use of the websites and apps. This also includes browser cookies, for which the Smappee Cookie policy is applicable.", "label": [[0, 148, "collection"]]}
+{"id": 11799, "data": "4.5 Network Data", "label": [[0, 16, "collection"]]}
+{"id": 11800, "data": "We process network data, which refers to data resulting from network traffic.", "label": [[0, 77, "collection"]]}
+{"id": 11801, "data": "This includes, for example, IP address and MAC address.", "label": [[0, 55, "collection"]]}
+{"id": 11802, "data": "4.6 Support, Inquiry, Correspondence", "label": [[0, 36, "collection"]]}
+{"id": 11803, "data": "We process data for support, inquiry and correspondence, which refers to all data resulting from interaction with our staff, in particular with the Support Team, Reception, Sales Team.", "label": [[0, 184, "collection"]]}
+{"id": 11804, "data": "This includes, for example, data that is provided as part of your correspondence, communication logs (telephony, network).", "label": [[0, 122, "collection"]]}
+{"id": 11805, "data": "4.7 Survey Data", "label": [[0, 15, "collection"]]}
+{"id": 11806, "data": "We may process data gathered as part of surveys, polls and studies.", "label": [[0, 67, "collection"]]}
+{"id": 11807, "data": "This data includes, for example, data that identifies you and data that represents your responses.", "label": [[0, 98, "collection"]]}
+{"id": 11808, "data": "4.8 Derived Data", "label": [[0, 16, "collection"]]}
+{"id": 11809, "data": "We may process derived data, which refers to all data that is a result of combining and analysing data. We may combine data of all of the data categories provided in this Security Policy and data that we received from Third Parties.", "label": [[0, 232, "collection"]]}
+{"id": 11810, "data": "4.9 Data from Third Parties", "label": [[0, 27, "collection"]]}
+{"id": 11811, "data": "We may process data that we received from Third Parties in order to improve the services and better adapt them to the needs of the users.", "label": [[0, 137, "collect_purpose"]]}
+{"id": 11812, "data": "4.10 Data of non-customers and prospects", "label": [[0, 40, "collection"]]}
+{"id": 11813, "data": "We may process data of persons that are not yet customers of Smappee or Smappee Partners, in order to offer them personal products and services.", "label": [[0, 144, "collect_purpose"]]}
+{"id": 11814, "data": "4.11 Special Data Categories", "label": []}
+{"id": 11815, "data": "Sensitive Data", "label": [[0, 14, "collection"]]}
+{"id": 11816, "data": "As required by the privacy law, Smappee does not process sensitive data such as racial or ethnic origin, political opinions, religious beliefs, sexual orientation, and health.", "label": [[0, 175, "not_collect"]]}
+{"id": 11817, "data": "Appliance Scan Feature", "label": []}
+{"id": 11818, "data": "Smappee may process data that is collected as part of the Appliance Scan Feature, for the purpose of improving the detection of appliance activity. This data includes the network identity (MAC address) , timestamps, name, and Vendor of appliances that are connected to the local network.", "label": [[0, 148, "collect_purpose"], [148, 287, "collection"]]}
+{"id": 11819, "data": "This feature is inactive by default. It needs to be activated by an expert user before first use. This feature can be activated and deactivated in the Smappee Expert Modus \"Enable/disable MAC address arp-scan\".", "label": []}
+{"id": 11820, "data": "The legal basis for this processing is consent and the performance of a contract. By activating this feature the user agrees to this processing. This consent can be withdrawn at any time by deactivating this feature.", "label": []}
+{"id": 11821, "data": "Other Persons data", "label": []}
+{"id": 11822, "data": "Please do not supply any other person's personal data to us, unless we prompt you to do so.", "label": []}
+{"id": 11823, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 11824, "data": "5. For what Purpose do we Process your Data", "label": []}
+{"id": 11825, "data": "In this section we explain the purposes for which we may process personal data, and the legal bases of the processing.", "label": []}
+{"id": 11826, "data": "5.1 Order Fulfilment", "label": [[0, 20, "collect_purpose"]]}
+{"id": 11827, "data": "Smappee processes data for the purpose of order fulfilment and contract fulfilment:", "label": [[0, 83, "collect_purpose"]]}
+{"id": 11828, "data": "fulfillment of orders (which includes logistics, payment, shipment, invoicing, accounting)", "label": [[0, 90, "collect_purpose"]]}
+{"id": 11829, "data": "supplying the goods and services that are part of the order of contract", "label": [[0, 71, "collect_purpose"]]}
+{"id": 11830, "data": "keeping a proper record of transactions relating to fulfillment of the order or contract", "label": [[0, 88, "collect_purpose"]]}
+{"id": 11831, "data": "The legal basis for this processing is:", "label": []}
+{"id": 11832, "data": "the performance of a contract between you and us and/or taking steps, at your request, to enter into such a contract or", "label": [[0, 119, "collect_purpose"]]}
+{"id": 11833, "data": "5.2 Providing and Improving Smappee Energy Services", "label": [[0, 51, "collect_purpose"]]}
+{"id": 11834, "data": "Smappee processes data for the purpose of providing the Smappee Energy Services and the Web presence, which includes, for example:", "label": [[0, 130, "collect_purpose"]]}
+{"id": 11835, "data": "providing the various parts of the Smappee Energy Services", "label": [[0, 58, "collect_purpose"]]}
+{"id": 11836, "data": "help the user to understand and control energy flows and usage patterns", "label": [[0, 71, "collect_purpose"]]}
+{"id": 11837, "data": "change the user behaviour according to energy flows and usage patterns", "label": [[0, 70, "collect_purpose"]]}
+{"id": 11838, "data": "perform benchmarking of energy flows and usage patterns to the level of appliances and users, using various criteria", "label": [[0, 116, "collect_purpose"]]}
+{"id": 11839, "data": "change the time when energy is used (demand-response and peak-shaving)", "label": [[0, 70, "collect_purpose"]]}
+{"id": 11840, "data": "create or validate invoices and usage records for energy consumption", "label": [[0, 68, "collect_purpose"]]}
+{"id": 11841, "data": "in-app notifications", "label": [[0, 20, "collect_purpose"]]}
+{"id": 11842, "data": "others", "label": []}
+{"id": 11843, "data": "These services are continuously evolving and may include new services and features in the future.", "label": []}
+{"id": 11844, "data": "The legal basis for this processing is", "label": []}
+{"id": 11845, "data": "our legitimate interests", "label": [[0, 24, "collect_purpose"]]}
+{"id": 11846, "data": "the performance of a contract between you and us and/or taking steps, at your request, to enter into such a contract", "label": [[0, 116, "collect_purpose"]]}
+{"id": 11847, "data": "5.3 Operating and Improving the Smappee Services", "label": [[0, 48, "collect_purpose"]]}
+{"id": 11848, "data": "Smappee processes data for the purpose of continuously improving its product, service and web presence. This includes, for example:", "label": [[0, 131, "collect_purpose"]]}
+{"id": 11849, "data": "improvement of user experience of products, services and web presence", "label": [[0, 69, "collect_purpose"]]}
+{"id": 11850, "data": "optimizing the systems", "label": [[0, 22, "collect_purpose"]]}
+{"id": 11851, "data": "proactively identifying problems", "label": [[0, 32, "collect_purpose"]]}
+{"id": 11852, "data": "security and fraud prevention", "label": [[0, 29, "collect_purpose"]]}
+{"id": 11853, "data": "monitoring of systems and services", "label": [[0, 34, "collect_purpose"]]}
+{"id": 11854, "data": "maintenance of systems", "label": [[0, 22, "collect_purpose"]]}
+{"id": 11855, "data": "analyze specific or general cases of incidents, issues or problem", "label": [[0, 65, "collect_purpose"]]}
+{"id": 11856, "data": "The legal basis for this processing is", "label": []}
+{"id": 11857, "data": "our legitimate interests", "label": [[0, 38, "collect_purpose"]]}
+{"id": 11858, "data": "the performance of a contract between you and us and/or taking steps, at your request, to enter into such a contract", "label": [[0, 116, "collect_purpose"]]}
+{"id": 11859, "data": "5.4 Providing Value-Added Services", "label": [[0, 34, "collect_purpose"]]}
+{"id": 11860, "data": "Smappee processes data for the purpose of providing value-added services:", "label": [[0, 73, "collect_purpose"]]}
+{"id": 11861, "data": "enable Smappee to provide value-added and innovative services to the users", "label": [[0, 74, "collect_purpose"]]}
+{"id": 11862, "data": "enable Third Parties to provide value-added and innovative services", "label": [[0, 67, "collect_purpose"]]}
+{"id": 11863, "data": "send advise and recommendations based on consumption patterns", "label": [[0, 61, "collect_purpose"]]}
+{"id": 11864, "data": "The legal basis for this processing is", "label": []}
+{"id": 11865, "data": "our legitimate interests", "label": [[0, 24, "collect_purpose"]]}
+{"id": 11866, "data": "the performance of a contract between you and us and/or taking steps, at your request, to enter into such a contract", "label": [[0, 116, "collect_purpose"]]}
+{"id": 11867, "data": "5.5 Support, Inquiries, Correspondence", "label": [[0, 38, "collect_purpose"]]}
+{"id": 11868, "data": "Smappee processes data for the purpose of providing support, responding to inquiries and correspondence:", "label": [[0, 104, "collect_purpose"]]}
+{"id": 11869, "data": "support for any contract, product or service provided by Smappee", "label": [[0, 64, "collect_purpose"]]}
+{"id": 11870, "data": "support for the installation, configuration and testing of products or services", "label": [[0, 79, "collect_purpose"]]}
+{"id": 11871, "data": "optimally respond to your support request, inquiry or correspondence", "label": [[0, 68, "collect_purpose"]]}
+{"id": 11872, "data": "resolve issues, incidents and problems effectively and efficiently", "label": [[0, 66, "collect_purpose"]]}
+{"id": 11873, "data": "detecting and preventing similar issues in the same or other components of our systems", "label": [[0, 86, "collect_purpose"]]}
+{"id": 11874, "data": "to proactively reduce occurrence of incidents and problems and improve response to and resolution of further incidents, problems, support requests, inquiries and correspondence", "label": [[0, 176, "collect_purpose"]]}
+{"id": 11875, "data": "customize and optimize its correspondence to the user", "label": [[0, 53, "collect_purpose"]]}
+{"id": 11876, "data": "In case Smappee detects an issue with the configuration or other data of accounts, services or remote devices, Smappee may modify the configuration or other data for the involved accounts, services or remote devices.", "label": []}
+{"id": 11877, "data": "The legal basis for this processing is", "label": []}
+{"id": 11878, "data": "our legitimate interests", "label": [[0, 24, "collect_purpose"]]}
+{"id": 11879, "data": "the performance of a contract between you and us and/or taking steps, at your request, to enter into such a contract", "label": [[0, 116, "collect_purpose"]]}
+{"id": 11880, "data": "5.6 Direct Marketing", "label": [[0, 20, "collect_purpose"]]}
+{"id": 11881, "data": "We may process the data that is in the scope of this Privacy Policy for the purpose of", "label": [[0, 86, "collect_purpose"]]}
+{"id": 11882, "data": "Direct Marketing:", "label": [[0, 17, "collect_purpose"]]}
+{"id": 11883, "data": "send Direct Marketing correspondence", "label": [[0, 36, "collect_purpose"]]}
+{"id": 11884, "data": "customize and optimize our correspondence to the user", "label": [[0, 53, "collect_purpose"]]}
+{"id": 11885, "data": "send recommendations based on consumption patterns", "label": [[0, 50, "collect_purpose"]]}
+{"id": 11886, "data": "contact you to offer, market and sell to you relevant goods and/or services.", "label": [[0, 76, "collect_purpose"]]}
+{"id": 11887, "data": "The legal basis for this processing is", "label": []}
+{"id": 11888, "data": "legitimate interest or", "label": [[0, 22, "collect_purpose"]]}
+{"id": 11889, "data": "taking steps, at your request, to enter into a contract", "label": [[0, 55, "collect_purpose"]]}
+{"id": 11890, "data": "You have the right to object to this processing. For more information, see section \"Your rights\", on page 13 .", "label": []}
+{"id": 11891, "data": "5.7 Research and Gaining Insights", "label": [[0, 33, "collect_purpose"]]}
+{"id": 11892, "data": "We may process the data that is in the scope of this Privacy Policy for the purpose of Research, Investigation and for gaining Business Insights. This includes, for example:", "label": [[0, 173, "collect_purpose"]]}
+{"id": 11893, "data": "energy usage and production patterns", "label": [[0, 36, "collect_purpose"]]}
+{"id": 11894, "data": "user behaviour in Apps and Websites", "label": [[0, 35, "collect_purpose"]]}
+{"id": 11895, "data": "the analysis of long-term trends, evolutions, changes, behaviour and developments", "label": [[0, 81, "collect_purpose"]]}
+{"id": 11896, "data": "user surveys", "label": [[0, 12, "collect_purpose"]]}
+{"id": 11897, "data": "The legal basis for this processing is legitimate interest.", "label": [[0, 59, "collect_purpose"]]}
+{"id": 11898, "data": "5.8 Development", "label": [[0, 15, "collect_purpose"]]}
+{"id": 11899, "data": "We may process the data that is in the scope of this Privacy Policy for the purpose of System Development. This includes, for example:", "label": []}
+{"id": 11900, "data": "development, testing and validation of new systems, components and features", "label": [[0, 75, "collect_purpose"]]}
+{"id": 11901, "data": "software systems and hardware systems", "label": [[0, 37, "collect_purpose"]]}
+{"id": 11902, "data": "algorithms and data processing methods", "label": [[0, 38, "collect_purpose"]]}
+{"id": 11903, "data": "The legal basis for this processing is legitimate interest.", "label": [[0, 59, "collect_purpose"]]}
+{"id": 11904, "data": "5.9 Other purposes", "label": []}
+{"id": 11905, "data": "In addition to the specific purposes for which we may process your personal data set out in this Section , we may also process data from all available sources that are in the scope of this Privacy Policy where such processing is necessary for compliance with a legal obligation to which we are subject, or in order to protect your vital interests or the vital interests of another natural person.", "label": []}
+{"id": 11906, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 11907, "data": "6. Providing your Data to Others", "label": []}
+{"id": 11908, "data": "This section explains to what external parties we may disclose the personal data.", "label": []}
+{"id": 11909, "data": "6.1 Company Group", "label": [[0, 17, "sharing"]]}
+{"id": 11910, "data": "We may disclose your personal data to any member of our group of companies - this means our subsidiaries, our ultimate holding company and all its subsidiaries - insofar as reasonably necessary for the purposes set out in this policy.", "label": [[0, 234, "sharing"]]}
+{"id": 11911, "data": "6.2 Business Transfers", "label": [[0, 22, "sharing"]]}
+{"id": 11912, "data": "We may transfer your personal data as part of a merger, acquisition, divestiture, joint venture, or similar transaction of all or a portion of our business or business assets. In that case the receiving entity will assume the rights and obligations regarding your personal information as described in this policy.", "label": [[0, 313, "share_purpose"]]}
+{"id": 11913, "data": "6.3 Insurers and Advisors", "label": [[0, 25, "sharing"]]}
+{"id": 11914, "data": "We may disclose data from all available sources that are in the scope of this Privacy Policy to our insurers and/or professional advisers insofar as reasonably necessary for the purposes of obtaining and maintaining insurance coverage, managing risks, obtaining professional advice and managing legal disputes.", "label": [[0, 310, "share_purpose"]]}
+{"id": 11915, "data": "6.4 Payment Services", "label": [[0, 20, "sharing"]]}
+{"id": 11916, "data": "Financial transactions may be handled by our payment services providers. We will share transaction data with our payment services providers only to the extent necessary for the purposes of processing your payments, refunding such payments and dealing with complaints and queries relating to such payments and refunds. You can find information about the payment services providers' privacy policies and practices below.", "label": [[0, 317, "share_purpose"]]}
+{"id": 11917, "data": "Payment service Providers:", "label": [[0, 26, "sharing"]]}
+{"id": 11918, "data": "Multisafepay https://www.multisafepay.com/privacy-cookies/", "label": [[0, 12, "sharing"]]}
+{"id": 11919, "data": "Paypal https://www.paypal.com/be/webapps/mpp/ua/privacy-prev", "label": [[0, 6, "sharing"]]}
+{"id": 11920, "data": "6.5 Suppliers and Subcontractors", "label": [[0, 32, "sharing"]]}
+{"id": 11921, "data": "We may disclose personal data obtained on our Website and Webshop to our suppliers and subcontractors insofar as reasonably necessary for", "label": [[0, 137, "sharing"]]}
+{"id": 11922, "data": "order handling and shipment", "label": [[0, 27, "share_purpose"]]}
+{"id": 11923, "data": "payments", "label": [[0, 8, "share_purpose"]]}
+{"id": 11924, "data": "support", "label": [[0, 7, "share_purpose"]]}
+{"id": 11925, "data": "operational purposes", "label": [[0, 20, "share_purpose"]]}
+{"id": 11926, "data": "6.6 Data Processors", "label": [[0, 19, "sharing"]]}
+{"id": 11927, "data": "We may disclose personal data that are in the scope of this Privacy Policy to our data processors. The Categories of these Subcontractors are:", "label": []}
+{"id": 11928, "data": "marketing providers", "label": [[0, 19, "sharing"]]}
+{"id": 11929, "data": "hosting providers", "label": [[0, 17, "sharing"]]}
+{"id": 11930, "data": "integrated third parties", "label": [[0, 24, "sharing"]]}
+{"id": 11931, "data": "logistics providers", "label": [[0, 19, "sharing"]]}
+{"id": 11932, "data": "payment providers", "label": [[0, 17, "sharing"]]}
+{"id": 11933, "data": "problem tracking and support service providers", "label": [[0, 46, "sharing"]]}
+{"id": 11934, "data": "operational services providers", "label": [[0, 30, "sharing"]]}
+{"id": 11935, "data": "6.7 Partners for Installation and Support", "label": [[0, 41, "sharing"]]}
+{"id": 11936, "data": "We may disclose personal data available on our Smappee Energy Systems to Partners insofar as reasonably necessary for", "label": [[0, 117, "sharing"]]}
+{"id": 11937, "data": "performing the installation and configuration of our products", "label": [[0, 61, "share_purpose"]]}
+{"id": 11938, "data": "providing ongoing support", "label": [[0, 25, "share_purpose"]]}
+{"id": 11939, "data": "6.8 Partners, Installers, Resellers", "label": [[0, 35, "sharing"]]}
+{"id": 11940, "data": "If you obtained your Smappee Products or your Smappee Energy Services from any Third Party other than Smappee NV, or if you obtained support for installation, configuration or operations of your Smappee from any other Third Party than Smappee NV, Smappee may disclose your personal data that is in the scope of this Privacy Policy to this Third Party.", "label": [[0, 351, "sharing"]]}
+{"id": 11941, "data": "Each such Third Party will act as a data controller in relation to the data that we supply to it; and upon contacting you, each such Third Party will supply to you a copy of its own privacy policy, which will govern that Third Party's use of your personal data.", "label": []}
+{"id": 11942, "data": "6.9 Third Party Data Controller", "label": [[0, 31, "sharing"]]}
+{"id": 11943, "data": "We may disclose the data that is in the scope of this Privacy Policy to selected Third Parties for the purposes that are described in section 5, \"For what Purpose do we Process your Data\", in particular - but not limited to - to contact you so that they can offer, market and sell to you relevant goods and/or services .", "label": []}
+{"id": 11944, "data": "Each such Third Party will act as a data controller in relation to the data that we supply to it; and upon contacting you, each such Third Party will supply to you a copy of its own privacy policy, which will govern that Third Party's use of your personal data.", "label": []}
+{"id": 11945, "data": "6.10 Integrated Third Party Services", "label": [[0, 36, "sharing"]]}
+{"id": 11946, "data": "The Smappee Energy Services allow the user to connect and integrate his or her account with Third Party Services. We may disclosure your personal data to these services insofar as reasonably necessary for the purpose of making the corresponding features and functions available.", "label": [[114, 278, "share_purpose"]]}
+{"id": 11947, "data": "Note: In those cases where these Third Party Services are located outside the European Union, additional safeguards apply. These safeguards are described in section 1560152871.39, \"Integrated Third Party Services\".", "label": []}
+{"id": 11948, "data": "6.11 Remote Access", "label": []}
+{"id": 11949, "data": "The Smappee Energy Services provide various way to access your data remotely, such as the \"Developers API\". Each of these access methods is protected by an authentication process that requires your password.", "label": []}
+{"id": 11950, "data": "As explained in section \"10 How you can help to keep your personal data secure\", Smappee will provide access to your data to anyone who has access to your password or other access credentials during the authentication process.", "label": []}
+{"id": 11951, "data": "6.12 If you are a Partner, Installer, or Reseller", "label": []}
+{"id": 11952, "data": "If you are a Partner, Installer, or Reseller of Smappee products or services, we may publish your contact information on our website and include it in other sales and marketing communication.", "label": []}
+{"id": 11953, "data": "If you wish not to be included in this publications, please let us know (see section \"Questions and Requests\" on page 15).", "label": []}
+{"id": 11954, "data": "6.13 Enquiry Data", "label": []}
+{"id": 11955, "data": "We may disclose your enquiry data to Installation Partners and selected Third Party suppliers of goods and services for the purpose of enabling them to contact you so that they can offer, market and sell to you relevant goods and/or services. Each such Third Party will act as a data controller in relation to the enquiry data that we supply to it; and upon contacting you, each such Third Party will supply to you a copy of its own privacy policy, which will govern that Third Party's use of your personal data.", "label": [[0, 115, "sharing"], [116, 243, "share_purpose"]]}
+{"id": 11956, "data": "6.14 Publication", "label": []}
+{"id": 11957, "data": "You acknowledge that personal data that you submit for publication through our website or services may be available, via the internet, around the world. We cannot prevent the use (or misuse) of such personal data by others.", "label": []}
+{"id": 11958, "data": "6.15 Others", "label": []}
+{"id": 11959, "data": "In addition to the specific disclosures of personal data set out in this Section , we may also disclose your personal data where such disclosure is necessary for compliance with a legal obligation to which we are subject, or in order to protect your vital interests or the vital interests of another natural person.", "label": [[0, 315, "share_purpose"]]}
+{"id": 11960, "data": "--------------5. Retention --------------", "label": []}
+{"id": 11961, "data": "8. Retaining and deleting personal data", "label": []}
+{"id": 11962, "data": "This Section sets out our data retention policies and procedure, which are designed to help ensure that we comply with our legal obligations in relation to the retention and deletion of personal data.", "label": []}
+{"id": 11963, "data": "In case you wish to delete the personal data related to your Smappee Energy Services, please use the function \"Delete All My Data\" in the Smappee App. If you require assistance, please contact Smappee Support.", "label": []}
+{"id": 11964, "data": "Personal data that we process for any purpose or purposes shall not be kept for longer than is necessary or reasonable for that purpose or those purposes. We may retain personal data longer than this period if it is in our legitimate interest and not prohibited by law.", "label": []}
+{"id": 11965, "data": "Notwithstanding the other provisions of this Section , we may retain your personal data where such retention is necessary for compliance with a legal obligation to which we are subject, or in order to protect your vital interests or the vital interests of another natural person.", "label": []}
+{"id": 11966, "data": "--------------6. Children --------------", "label": []}
+{"id": 11967, "data": "--------------7. Contact --------------", "label": []}
+{"id": 11968, "data": "13. Questions and Requests", "label": []}
+{"id": 11969, "data": "If you are a user of a Smappee product and have any requests regarding your personal data, or", "label": []}
+{"id": 11970, "data": "if you would like to exercise your rights, or", "label": []}
+{"id": 11971, "data": "if you wish to update the information we have about you or your preferences,", "label": []}
+{"id": 11972, "data": "please contact us here:", "label": []}
+{"id": 11973, "data": "privacy@smappee.com or", "label": []}
+{"id": 11974, "data": "support@smappee.com", "label": []}
+{"id": 11975, "data": "14. Data Protection Officer", "label": []}
+{"id": 11976, "data": "If you have any questions or comments regarding the Smappee Privacy Policy, or your rights regarding your personal data, please contact our Data Protection Officer:", "label": []}
+{"id": 11977, "data": "Heiko Unterstab", "label": []}
+{"id": 11978, "data": "Data Protection Officer", "label": []}
+{"id": 11979, "data": "dpo@smappee.com", "label": []}
+{"id": 11980, "data": "Smappee NV, Evolis 100, 8500 Kortrijk, Belgium", "label": []}
+{"id": 11981, "data": "Effective Date: 25-05-2018", "label": []}
+{"id": 11982, "data": " 2013-2018 Smappee NV. All rights reserved.", "label": []}
+{"id": 11983, "data": "All product names are trademarks of their respective companies.", "label": []}
+{"id": 11984, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 11985, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 11986, "data": "7. International transfers of your personal data", "label": []}
+{"id": 11987, "data": "In this Section, we provide information about the circumstances in which your personal data may be transferred to countries outside the European Economic Area (EEA).", "label": []}
+{"id": 11988, "data": "7.1 General", "label": []}
+{"id": 11989, "data": "We may disclose your personal data, as described in the section 6, \"Providing your Data to Others\", to entities outside the EEA, provided the transfer is protected by appropriate safeguards, namely:", "label": []}
+{"id": 11990, "data": "the use of standard data protection clauses adopted or approved by the European Commission", "label": []}
+{"id": 11991, "data": "participation to the EU-US Privacy Shield", "label": []}
+{"id": 11992, "data": "binding corporate Rules", "label": []}
+{"id": 11993, "data": "your explicit consent", "label": []}
+{"id": 11994, "data": "For detailed information about these transfers and the safeguards, please contact us by email, as described in section \"Questions and Requests\" on page 15.", "label": []}
+{"id": 11995, "data": "7.2 Specific Transfers", "label": []}
+{"id": 11996, "data": "Smappee INC", "label": []}
+{"id": 11997, "data": "Smappee NV and it's full subsidiary, Smappee INC, have offices and facilities in the United States of America.", "label": []}
+{"id": 11998, "data": "Transfers to Smappee INC will be protected by appropriate safeguards, namely the use of standard data protection clauses adopted or approved by the European Commission. (Set II controller - processor, Commission Decision 2010/87/EU, dated 5th February 2010).", "label": []}
+{"id": 11999, "data": "New Group Members", "label": []}
+{"id": 12000, "data": "In case Smappee establishes new international group member companies, joint ventures, or similar, Smappee may transfer personal data to these entities. This data transfer will be protected by the appropriate safeguards for international transfers.", "label": []}
+{"id": 12001, "data": "Integrated Third Party Services", "label": []}
+{"id": 12002, "data": "As explained above, the Smappee Energy Services allow the user to connect and integrate his or her account with Third Party Services. The use of these services may require that personal data will be transferred to countries outside the European Union, where data privacy protection cannot be assured.", "label": []}
+{"id": 12003, "data": "In these cases, at the time that a user activates the connection to an integrated Third Party Service, Smappee informs the user about the possible risk of such transfers and obtains the consent of the user for such a transfer.", "label": []}
+{"id": 12004, "data": "Examples of those services:", "label": []}
+{"id": 12005, "data": "IFTTT", "label": []}
+{"id": 12006, "data": "Solarcoin", "label": []}
+{"id": 12007, "data": "Remote Access", "label": []}
+{"id": 12008, "data": "As explained above, the Smappee Energy Services provide various way to access your data remotely, such as the \"Developers API\".", "label": []}
+{"id": 12009, "data": "As explained in section 10, \"How you can help to keep your personal data secure\", Smappee will provide access to your data to anyone who has access to your password or other access credentials during the authentication process.", "label": []}
+{"id": 12010, "data": "The party who gains this type of access to your data may be located outside the EU, where no data protection laws may apply and where the protection of your personal data cannot be assured.", "label": []}
+{"id": 12011, "data": "For that reason, the user is not allowed to share the password or other access credentials with anyone else.", "label": []}
+{"id": 12012, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 12013, "data": "--------------11. Extra--------------", "label": []}
+{"id": 12014, "data": "10. How you can help to keep your personal data secure", "label": []}
+{"id": 12015, "data": "10.1 Do Not Share your Password", "label": []}
+{"id": 12016, "data": "Your user account of the Smappee App and the Smappee Dashboard website pro.smappee.com is protected by your personal password.", "label": []}
+{"id": 12017, "data": "Anyone who has access to or can guess your user name and password may get access to your personal data of your user account.", "label": []}
+{"id": 12018, "data": "This may result in the transfer of your personal data to third parties, inside or outside the European Union, and you may lose any protection that the European Data Protection Laws provide.", "label": []}
+{"id": 12019, "data": "Do not share your password of your user account with anyone else!", "label": []}
+{"id": 12020, "data": "10.2 Share your App Data with Trusted Persons Only", "label": []}
+{"id": 12021, "data": "The Smappee App allows you to share the measurement data of your home (\"service location\") with other users. When shared, the other users have full access to your personal data.", "label": []}
+{"id": 12022, "data": "You can revoke this sharing at any time using your App.", "label": []}
+{"id": 12023, "data": "Use this feature only to share your data with people you trust.", "label": []}
+{"id": 12024, "data": "10.3 Use Separate Logins for Webshop and App", "label": []}
+{"id": 12025, "data": "Please note that the Smappee Webshop (www.smappee.com) uses a different login than the Smappee App and the Dashboard (pro.smappee.net):", "label": []}
+{"id": 12026, "data": "The login for the Webshop www.smappee.com is used for purchasing products and services. This login does NOT give access to the Smappee Energy Services.", "label": []}
+{"id": 12027, "data": "The login for the Smappee App can be used for accessing the Smappee Energy Services. This login is identical with the login that you can use at the Smappee Dashboard (pro.smappee.net)", "label": []}
+{"id": 12028, "data": "We recommend to use different user names and passwords for these two applications.", "label": []}
+{"id": 12029, "data": "10.4 Protect your Local Network", "label": []}
+{"id": 12030, "data": "The Smappee Monitors use secure protocols with strong encryption when communicating with the Smappee cloud over the internet.", "label": []}
+{"id": 12031, "data": "Still, the Smappee Monitors, as well as the other Smappee Distributed Devices, are intended and designed to be used and operated in secure private local networks. An unauthorized or untrustworthy intruder to your local network may compromise the security of all your connected systems, including the Smappee Monitors, and gain unauthorized access to your personal data.", "label": []}
+{"id": 12032, "data": "We strongly recommend to protect your local network and Wi-Fi network.", "label": []}
+{"id": 12033, "data": "11. Your rights", "label": []}
+{"id": 12034, "data": "In this Section, we have summarized the rights that you have under data protection law. Some of the rights are complex, and not all of the details have been included in our summaries. Accordingly, you should read the relevant laws and guidance from the regulatory authorities for a full explanation of these rights.", "label": []}
+{"id": 12035, "data": "You may exercise any of your rights in relation to your personal data by written notice to", "label": []}
+{"id": 12036, "data": "Smappee NV, c/o DPO, Evolis 100, 8500 Kortrijk, Belgium", "label": []}
+{"id": 12037, "data": "or by contacting us by email, as described in section \"Questions and Requests\" on page 15.", "label": []}
+{"id": 12038, "data": "Your principal rights under data protection law are:", "label": []}
+{"id": 12039, "data": "the right to access", "label": []}
+{"id": 12040, "data": "the right to rectification", "label": []}
+{"id": 12041, "data": "the right to erasure", "label": []}
+{"id": 12042, "data": "the right to restrict processing", "label": []}
+{"id": 12043, "data": "the right to object to processing", "label": []}
+{"id": 12044, "data": "the right to data portability", "label": []}
+{"id": 12045, "data": "the right to complain to a supervisory authority", "label": []}
+{"id": 12046, "data": "the right to withdraw consent", "label": []}
+{"id": 12047, "data": "11.1 The right to access", "label": []}
+{"id": 12048, "data": "You have the right to confirmation as to whether or not we process your personal data and, where we do, access to the personal data, together with certain additional information. That additional information includes details of the purposes of the processing, the categories of personal data concerned and the recipients of the personal data. Providing the rights and freedoms of others are not affected, we will supply to you a copy of your personal data. The first copy will be provided free of charge, but additional copies may be subject to a reasonable fee.", "label": []}
+{"id": 12049, "data": "11.2 The right to rectification", "label": []}
+{"id": 12050, "data": "You have the right to have any inaccurate personal data about you rectified and, taking into account the purposes of the processing, to have any incomplete personal data about you completed.", "label": []}
+{"id": 12051, "data": "11.3 The right to erasure", "label": []}
+{"id": 12052, "data": "In some circumstances you have the right to the erasure of your personal data without undue delay. Those circumstances include: the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed; you withdraw consent to consent-based processing; the processing is for direct marketing purposes; and the personal data have been unlawfully processed. However, there are certain general exclusions of the right to erasure. Those general exclusions include where processing is necessary: for exercising the right of freedom of expression and information; for compliance with a legal obligation; or for the establishment, exercise or defense of legal claims.", "label": []}
+{"id": 12053, "data": "11.4 The right to restrict processing", "label": []}
+{"id": 12054, "data": "In some circumstances you have the right to restrict the processing of your personal data. Those circumstances are: you contest the accuracy of the personal data; processing is unlawful but you oppose erasure; we no longer need the personal data for the purposes of our processing, but you require personal data for the establishment, exercise or defense of legal claims; and you have objected to processing, pending the verification of that objection. Where processing has been restricted on this basis, we may continue to store your personal data. However, we will only otherwise process it: with your consent; for the establishment, exercise or defense of legal claims; for the protection of the rights of another natural or legal person; or for reasons of important public interest.", "label": []}
+{"id": 12055, "data": "11.5 The right to object to processing", "label": []}
+{"id": 12056, "data": "You have the right to object to our processing of your personal data on grounds relating to your particular situation, but only to the extent that the legal basis for the processing is that the processing is necessary for: the performance of a task carried out in the public interest or in the exercise of any official authority vested in us; or the purposes of the legitimate interests pursued by us or by a third party. If you make such an objection, we will cease to process the personal information unless we can demonstrate compelling legitimate grounds for the processing which override your interests, rights and freedoms, or the processing is for the establishment, exercise or defense of legal claims.", "label": []}
+{"id": 12057, "data": "You have the right to object to our processing of your personal data for direct marketing purposes (including profiling for direct marketing purposes). If you make such an objection, we will cease to process your personal data for this purpose.", "label": []}
+{"id": 12058, "data": "11.6 The right to data portability", "label": []}
+{"id": 12059, "data": "To the extent that the legal basis for our processing of your personal data is consent, and such processing is carried out by automated means, you have the right to receive your personal data from us in a structured, commonly used and machine-readable format. However, this right does not apply where it would adversely affect the rights and freedoms of others.", "label": []}
+{"id": 12060, "data": "11.7 The right to complain to a supervisory authority", "label": []}
+{"id": 12061, "data": "If you consider that our processing of your personal information infringes data protection laws, you have a legal right to lodge a complaint with a supervisory authority responsible for data protection. You may do so in the EU member state of your habitual residence, your place of work or the place of the alleged infringement.", "label": []}
+{"id": 12062, "data": "11.8 The right to withdraw consent", "label": []}
+{"id": 12063, "data": "To the extent that the legal basis for our processing of your personal information is consent, you have the right to withdraw that consent at any time. Withdrawal will not affect the lawfulness of processing before the withdrawal.", "label": []}
+{"id": 12064, "data": "12. Amendments", "label": []}
+{"id": 12065, "data": "We may update this policy from time to time by publishing a new version on our website.", "label": []}
+{"id": 12066, "data": "You should check this page occasionally to ensure you are happy with any changes to this policy.", "label": []}

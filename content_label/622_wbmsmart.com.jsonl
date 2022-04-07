@@ -1,0 +1,136 @@
+{"id": 16353, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 16354, "data": "--------------2. Collection --------------", "label": []}
+{"id": 16355, "data": "3.What personal data is collected", "label": []}
+{"id": 16356, "data": "This section describes the types of personal data we collect from you when you:", "label": []}
+{"id": 16357, "data": " Visit our websites", "label": [[0, 19, "collection"]]}
+{"id": 16358, "data": " Purchase products from us", "label": [[0, 26, "collection"]]}
+{"id": 16359, "data": " Use a Smart Thermostat", "label": [[0, 23, "collection"]]}
+{"id": 16360, "data": " Register with us for a service or membership", "label": [[0, 45, "collection"]]}
+{"id": 16361, "data": " Use one of our smartphone apps.", "label": [[0, 32, "collection"]]}
+{"id": 16362, "data": "We collect your personal data only where we are permitted to do so by law. The reasons we collect your personal data are to:", "label": []}
+{"id": 16363, "data": " Process your enquiry or registration", "label": [[0, 37, "collect_purpose"]]}
+{"id": 16364, "data": " Process payments", "label": [[0, 17, "collect_purpose"]]}
+{"id": 16365, "data": " Organise deliveries of any products you've ordered from us", "label": [[0, 59, "collect_purpose"]]}
+{"id": 16366, "data": " Activate and operate a Smart Thermostat and app.", "label": [[0, 49, "collect_purpose"]]}
+{"id": 16367, "data": "You are not obliged to provide us with your personal data, however, without it, we will be unable to provide any goods or services to you and our Smart Thermostats and App will not operate fully.", "label": []}
+{"id": 16368, "data": "More detail about the types of personal data we collect is provided below:", "label": []}
+{"id": 16369, "data": "Browsing our sites", "label": [[0, 18, "collection"]]}
+{"id": 16370, "data": "When you visit our website, a cookie is placed on your computer.", "label": []}
+{"id": 16371, "data": "Cookies are text files that help to improve your web browsing experience by holding information and any user preferences so that they don't need to be entered again.", "label": []}
+{"id": 16372, "data": "Cookies also help us to improve our websites by providing anonymous analytical data, through Google Analytics, about visitors to our websites.", "label": [[0, 142, "collect_purpose"]]}
+{"id": 16373, "data": "Cookies hold your computer's IP address, the operating system and web browser type, for system administration purposes. This is statistical data about user's general browsing actions and patterns and does not personally identify any individual.", "label": [[0, 244, "collection"]]}
+{"id": 16374, "data": "You can deactivate cookies at any time by activating the relevant setting in your internet browser. Please note if cookies are deactivated, certain functions of our websites will not function fully, such as updating the shopping basket in our online store.", "label": []}
+{"id": 16375, "data": "Detail about the cookies used and their purpose is provided below.", "label": []}
+{"id": 16376, "data": " Facebook targeting: used by Facebook to target the paid ads to a relevant audience", "label": [[1, 19, "sharing"], [19, 83, "share_purpose"]]}
+{"id": 16377, "data": " Google Analytics: used by Google to track analytics behaviour, goals and visits", "label": [[1, 17, "sharing"], [17, 80, "share_purpose"]]}
+{"id": 16378, "data": " Google Analytics_utma: used by Google to track analytics behaviour, goals and visits", "label": [[1, 22, "sharing"], [22, 85, "share_purpose"]]}
+{"id": 16379, "data": " Google Analytics_utmz: used by Google to track analytics behaviour, goals and visits", "label": [[1, 23, "sharing"], [23, 85, "share_purpose"]]}
+{"id": 16380, "data": " Wordpress_test_cookie: Cookie used by WordPress CMS to keep user session data", "label": [[1, 23, "sharing"], [23, 78, "share_purpose"]]}
+{"id": 16381, "data": " Google tag tracking: marketing tag used by Google Analytics to track user interaction with website", "label": [[1, 20, "sharing"], [20, 99, "share_purpose"]]}
+{"id": 16382, "data": " PHP SESSION Cookie: used by all forms you might fill in which collect customer data", "label": [[1, 19, "sharing"], [19, 84, "share_purpose"]]}
+{"id": 16383, "data": " Cookie Notice: displays the cookie policy and remembers if the cookie was accepted.", "label": [[1, 14, "sharing"], [14, 84, "share_purpose"]]}
+{"id": 16384, "data": "3", "label": []}
+{"id": 16385, "data": "Filling in forms on our sites", "label": [[0, 29, "collection"]]}
+{"id": 16386, "data": "When completing our website contact us, quote request or any other type of registration form, you will need to provide us your personal information. This is so that we can :", "label": [[0, 149, "collection"]]}
+{"id": 16387, "data": " Contact you about your enquiry", "label": [[0, 31, "collect_purpose"]]}
+{"id": 16388, "data": " Enable the registration of a product", "label": [[0, 37, "collect_purpose"]]}
+{"id": 16389, "data": " Enable the registration of an account", "label": [[0, 38, "collect_purpose"]]}
+{"id": 16390, "data": " Activate a product warranty.", "label": [[0, 29, "collect_purpose"]]}
+{"id": 16391, "data": "In addition to processing your request, we would also like to send you promotional information about related products and services.", "label": [[0, 131, "collect_purpose"]]}
+{"id": 16392, "data": "We will only contact you with this information if you have given us prior consent, by selecting the opt-in option within the related form. If you decide later you do not want any further marketing information from us, please select the unsubscribe option in the relevant marketing email.", "label": []}
+{"id": 16393, "data": "Interacting with us on social media", "label": []}
+{"id": 16394, "data": "We have a presence on Facebook, Twitter, Instagram, Pinterest, YouTube and LinkedIn. If you would like to participate in discussion boards, enter a competition, promotion or survey, or follow us to receive job-related updates you would need to provide information such as your name and email address when registering.", "label": [[84, 317, "collection"]]}
+{"id": 16395, "data": "We do not collect any personal data other than that which is collected by the social media service itself. We recommend that you review the privacy policies of the social media platforms before using them.", "label": []}
+{"id": 16396, "data": "Using a 4Ie Smart Thermostat and app", "label": []}
+{"id": 16397, "data": "You may give us information about yourself by filling in forms on MyHeating mobile application, or our web equivalent of the application www.my.warmup.com.", "label": [[0, 155, "collection"]]}
+{"id": 16398, "data": "When using our Smart Thermostat, the types of personal data you provide, or the thermostats collect, is listed below, along with the reason it is collected:", "label": [[0, 156, "collection"]]}
+{"id": 16399, "data": "Entered by you into the Thermostat and/or the MyHeating application:", "label": [[0, 68, "collection"]]}
+{"id": 16400, "data": " Address: Allows comparisons of energy usage and patterns with local area. Information is grouped to compare areas with other areas", "label": [[1, 8, "collection"], [8, 131, "collect_purpose"]]}
+{"id": 16401, "data": " Name: To address the user appropriately when using the interface", "label": [[1, 5, "collection"], [5, 65, "collect_purpose"]]}
+{"id": 16402, "data": " Email Address: Enable us to contact the user with information about their account", "label": [[1, 14, "collection"], [14, 82, "collect_purpose"]]}
+{"id": 16403, "data": " Postcode: Allow comparisons of energy usage and patterns with local area. Grouped to compare areas", "label": [[1, 9, "collection"], [9, 99, "collect_purpose"]]}
+{"id": 16404, "data": "with other areas-this may include publication of information in an anonymised form", "label": [[0, 82, "collect_purpose"]]}
+{"id": 16405, "data": " Occupation: To improve the accuracy of Warmup's energy saving algorithms - occupation affects working", "label": [[1, 11, "collection"], [11, 102, "collect_purpose"]]}
+{"id": 16406, "data": "hours and likelihood of inconsistent overrides to program.", "label": [[0, 58, "collect_purpose"]]}
+{"id": 16407, "data": "Collected Wirelessly by the Thermostat", "label": [[0, 38, "collection"]]}
+{"id": 16408, "data": " IP address: Server can identify IP address accessing it and control devices.", "label": [[0, 77, "collection"]]}
+{"id": 16409, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 16410, "data": "4.Our legal bases for using your personal data", "label": []}
+{"id": 16411, "data": "The information that we collect and store relating to you is primarily used to enable us to provide our services to you. In addition, Warmup Inc. relies on the following lawful grounds to collect and process any personal data you may have provided", "label": [[0, 247, "collect_purpose"]]}
+{"id": 16412, "data": "Contractual obligations", "label": [[0, 23, "collect_purpose"]]}
+{"id": 16413, "data": "We rely on this basis where processing personal data is necessary to provide you with the information, products and services that you request from us.", "label": [[0, 150, "collect_purpose"]]}
+{"id": 16414, "data": "Consent", "label": []}
+{"id": 16415, "data": "For home-owners, we may use and process their personal information to send energy saving advice and promotional information relating to our products. We will only send this information when we have obtained prior consent. We never pass on personal details to other companies for marketing purposes.", "label": [[0, 150, "collect_purpose"]]}
+{"id": 16416, "data": "If you choose to receive promotional information from us you can opt out of receiving any further information from us by clicking the unsubscribe link at the bottom of any promotional email we send,", "label": []}
+{"id": 16417, "data": "Legitimate business interests", "label": [[0, 29, "collect_purpose"]]}
+{"id": 16418, "data": "Legitimate interest means personal data can be collected to meet the interests of our business. This enables us to provide you with the service or product you requested. We make sure we consider and balance any potential impact on you (both positive and negative) and your rights before we process your personal data for our legitimate interests", "label": [[0, 345, "collect_purpose"]]}
+{"id": 16419, "data": "We will rely on legitimate interests to:", "label": []}
+{"id": 16420, "data": " Maintain, monitor and improve the performance of our websites enable us to create new services and improve our products", "label": [[0, 120, "collect_purpose"]]}
+{"id": 16421, "data": " Send related promotional information to our customers. Legal compliance", "label": [[0, 72, "collect_purpose"]]}
+{"id": 16422, "data": "We will rely on this basis to enable us to comply with financial legislation or to support an investigation into any criminal activity. We may pass the data of people involved with criminal acts to law enforcement if required.", "label": [[0, 226, "share_purpose"]]}
+{"id": 16423, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 16424, "data": "6. Sharing your personal data", "label": []}
+{"id": 16425, "data": "We may share your personal data with any member of our group, which means our subsidiaries, our ultimate holding company and its subsidiaries.", "label": [[0, 142, "sharing"]]}
+{"id": 16426, "data": "We may share your information with selected third parties including:", "label": []}
+{"id": 16427, "data": "Business partners, suppliers and sub-contractors for the performance of any contract we enter into with them or you", "label": [[0, 115, "sharing"]]}
+{"id": 16428, "data": "Advertisers and other third parties that require the data to select and serve relevant adverts to you and others. We may provide them with aggregate information about our users (for example, we may inform them that 500 men aged under 30 have clicked on their advertisement on any given day). We may also use such aggregate information to help advertisers reach the kind of audience they want to target. The information may be used to help us, and third parties analyse heating and energy usage. We may make use of the personal data we have collected from you to enable us to comply with our advertisers' wishes by displaying their advertisement to that target audience", "label": [[0, 35, "sharing"], [36, 113, "share_purpose"], [114, 291, "sharing"], [291, 668, "both_purpose"]]}
+{"id": 16429, "data": "Analytics and search engine providers that assist us in the improvement and optimisation of our site Credit reference agencies, to assess your credit score where this is a condition of us entering into a contract with you.", "label": [[0, 37, "sharing"], [37, 222, "both_purpose"]]}
+{"id": 16430, "data": "disclose your personal information to third parties:", "label": []}
+{"id": 16431, "data": "If we sell or buy any business or assets, in which case we may disclose your personal data to the prospective seller or buyer of such business or assets should it be necessary", "label": [[0, 175, "share_purpose"]]}
+{"id": 16432, "data": "If Warmup Inc. or its assets are acquired by a third party, in which case personal data held by it about its customers will be one of the transferred assets", "label": [[0, 156, "share_purpose"]]}
+{"id": 16433, "data": "If we are under a duty to disclose or share your personal data to comply with any legal obligation or to enforce or apply our Terms and Conditions or Terms and Conditions of Supply and other agreements; or to protect the rights, property, or safety of Warmup Inc., our customers, or others. This includes exchanging information with other companies and organisations for the purposes of fraud protection and credit risk reduction.", "label": [[0, 430, "share_purpose"]]}
+{"id": 16434, "data": "--------------5. Retention --------------", "label": []}
+{"id": 16435, "data": "9. How long we hold your personal data for", "label": []}
+{"id": 16436, "data": "We only hold your personal data for as long as required, based on the following criteria:", "label": []}
+{"id": 16437, "data": "As determined by legal and regulatory requirements. One example of this would be the need to retain your data associated with any financial transactions for a minimum period as required under financial law.", "label": []}
+{"id": 16438, "data": "For as long as we have a legitimate interest to do so. This includes managing our customer relationships, enabling certain products to operate, or to honour a product warranty for its full duration.", "label": []}
+{"id": 16439, "data": "--------------6. Children --------------", "label": []}
+{"id": 16440, "data": "10.Children's information", "label": []}
+{"id": 16441, "data": "Our websites, Smart thermostat and Smart thermostat app are not directed to children under 16.", "label": []}
+{"id": 16442, "data": "If you learn that your child has provided us with personal information without your consent, please contact us.", "label": []}
+{"id": 16443, "data": "--------------7. Contact --------------", "label": []}
+{"id": 16444, "data": "1.Our contact details", "label": []}
+{"id": 16445, "data": "If you have questions on information we may hold about you, you may contact us:", "label": []}
+{"id": 16446, "data": "By Email", "label": []}
+{"id": 16447, "data": "us@warmup.com", "label": []}
+{"id": 16448, "data": "Or to write to us at", "label": []}
+{"id": 16449, "data": "52 Federal Rd, Unit 1F Danbury, CT 06810", "label": []}
+{"id": 16450, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 16451, "data": "5. Web browser 'Do not track' signals", "label": []}
+{"id": 16452, "data": "Our Sites and Services do not collect personal information about your online activities over time and across third-party websites or online services.", "label": []}
+{"id": 16453, "data": "Therefore, \"do not track\" signals transmitted from web browsers do not apply to our Sites or Services.", "label": []}
+{"id": 16454, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 16455, "data": "7.Where your personal data is stored", "label": []}
+{"id": 16456, "data": "This site is operated in the United States. By using this site and providing us with information, you consent to this transfer, processing, and storage, of your information in the United States", "label": []}
+{"id": 16457, "data": "It may also be processed by staff operating outside the US who work for us or for one of our suppliers. Such staff may be engaged in the fulfilment of your order, the processing of your payment details and the provision of support services.", "label": []}
+{"id": 16458, "data": "By submitting your personal data, you agree to this transfer, storing or processing. If we do so, we'll make sure that suitable safeguards are in place before this takes place. For example, by using approved contractual agreements, unless certain exceptions apply.", "label": []}
+{"id": 16459, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 16460, "data": "--------------11. Extra--------------", "label": []}
+{"id": 16461, "data": "2.Links to third-party websites", "label": []}
+{"id": 16462, "data": "Our sites and apps may contain links to and from websites of our partner networks, advertisers and affiliates. This privacy policy does not cover how third-party websites process your personal information.", "label": []}
+{"id": 16463, "data": "Please check you are satisfied with their privacy policies before giving any personal data to these websites. We do not control third party sites and assume no responsibility for their content, policies or its practices.", "label": []}
+{"id": 16464, "data": "8.Data security", "label": []}
+{"id": 16465, "data": "We ensure that your data is treated securely.", "label": []}
+{"id": 16466, "data": "All information you provide to us is stored in secure cloud-based servers.", "label": []}
+{"id": 16467, "data": "We use SSL encryption technology to protect your personal data against loss, theft, misuse, unauthorised access and disclosure.", "label": []}
+{"id": 16468, "data": "We regularly monitor our system for vulnerabilities and attacks, to identify ways to further strengthen security.", "label": []}
+{"id": 16469, "data": "Although we will do our best to protect your personal data, we cannot guarantee the security of your data transmitted to our site; any transmission is at your own risk. Once we have received your information, we will use strict procedures and security features to try to prevent unauthorised access.", "label": []}
+{"id": 16470, "data": "11.Sensitive Data", "label": []}
+{"id": 16471, "data": "We do not collect any sensitive data such as social security or national identification numbers, information related to racial or ethnic origin, political opinions, religious beliefs, health data, biometrics or genetic, criminal background or trade union membership information.", "label": []}
+{"id": 16472, "data": "12.Your choices and individual rights", "label": []}
+{"id": 16473, "data": "We aim to take reasonable steps, so you can correct, amend, delete or limit the use of your Personal Data. We outline your choices below:", "label": []}
+{"id": 16474, "data": " E-mail. If you do not wish to receive promotional e-mails from us, you may opt out at any time by selecting the unsubscribe option at the bottom of the email. If you opt out of a promotional e-mail, we may still send you transactional and administrative emails about this privacy notice or about the products or services you have purchased.", "label": []}
+{"id": 16475, "data": " Cookies. Your browser's help function should contain instructions on how to set your computer to accept all cookies, to notify you when a cookie is issued, or not to receive cookies at any time.", "label": []}
+{"id": 16476, "data": " To initiate your rights for any of these actions please contact us at us@warmup.com.", "label": []}
+{"id": 16477, "data": "o To access and receive a copy of the Personal Data we hold about you o To rectify any Personal Data held about you that is inaccurate", "label": []}
+{"id": 16478, "data": "o To request the deletion of Personal Data held about you", "label": []}
+{"id": 16479, "data": "o You have the right to data portability for the information you have provided to us. You can request to obtain a copy of this information in a commonly used electronic format so that you can manage and move it. We will need to verify your identity before being able to respond to such requests. Please note that in some cases, we may not be able to remove your personal information, in which case we will let you know if we are unable to do so and why.", "label": []}
+{"id": 16480, "data": "You have rights as a California resident under the California Consumer Privacy Act of 2018 to: o Ask we not sell your data.", "label": []}
+{"id": 16481, "data": "\u25aa Warmup Inc. does not sell, as defined by the CCPA any consumer information so we do not need or have a \"do not Sell my info\" button", "label": []}
+{"id": 16482, "data": "o Request information about what information we hold on you", "label": []}
+{"id": 16483, "data": "o Request information about the specific pieces of personal information we have collected", "label": []}
+{"id": 16484, "data": "about you.", "label": []}
+{"id": 16485, "data": "o Request the categories of third parties with whom personal information is shared with. (Partners)", "label": []}
+{"id": 16486, "data": "o Have inaccurate data corrected", "label": []}
+{"id": 16487, "data": "o Request that we delete any personal information about you which Warmup Inc. has", "label": []}
+{"id": 16488, "data": "collected about you within the limits of the California Consumer Privacy Act of 2018. o Have equal service and price, even if you exercise your privacy rights.", "label": []}

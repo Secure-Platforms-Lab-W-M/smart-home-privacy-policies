@@ -1,0 +1,154 @@
+{"id": 3929, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 3930, "data": "At Linn we are committed to keeping your data safe, and handling it in accordance with our legal obligations.", "label": []}
+{"id": 3931, "data": "This Privacy Policy, together with our Terms & Conditions of Sale and Legal Notice, sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us.", "label": []}
+{"id": 3932, "data": "--------------2. Collection --------------", "label": []}
+{"id": 3933, "data": "Information we collect", "label": []}
+{"id": 3934, "data": "The information we collect varies based on the products, services and applications you use.", "label": []}
+{"id": 3935, "data": "Information that you provide", "label": []}
+{"id": 3936, "data": "Contact data: You may provide us with contact information, such as your name, email address, phone number and address. This may be information that we receive from you when you book tickets to an event; request a product demonstration; create a user account; contact an authorised Linn Retailer via one of our websites; or contact our service department. Calls may be recorded for training and quality purposes.", "label": [[0, 411, "collection"]]}
+{"id": 3937, "data": "Marketing preferences: If you opt-in for marketing communications, we will record that information alongside any contact data you provide.", "label": [[0, 138, "collection"]]}
+{"id": 3938, "data": "Product data: You may provide us with information about the products that you own. This may be information that we receive from you when you contact our service department, or when we're processing your order, or when you register a product though one of our applications or websites.", "label": [[0, 284, "collection"]]}
+{"id": 3939, "data": "Information we collect automatically", "label": []}
+{"id": 3940, "data": "Log data: When you use our websites or services, we record information about your interaction in log files. The data logged includes information about the device making the request, including its type, IP address, browser type and cookie data. We also log information about when the interaction took place and the services used.", "label": [[0, 328, "collection"]]}
+{"id": 3941, "data": "Website activity data: To gain a better understanding of how our websites are used, we use cookies and other tracking tools such as Google Analytics to collect and aggregate website activity data. Read more about our cookie policy.", "label": [[0, 231, "collection"]]}
+{"id": 3942, "data": "Product activity data: With your consent, we collect information about the activity of your product. This data includes the product serial number, software version, system configuration and information about any connected products.", "label": [[0, 231, "collection"]]}
+{"id": 3943, "data": "Application activity data: To gain a better understanding of how our applications are used, we collect and aggregate application activity data. This data includes information about features in use, the product version, and the operating system and IP address of the device used.", "label": [[0, 278, "collection"]]}
+{"id": 3944, "data": "Product state data: When you use our cloud platform, we need collect and use information about the current state of your product. This information includes the product serial number and system configuration.", "label": [[0, 207, "collection"]]}
+{"id": 3945, "data": "Crash reporting data: With your consent, we collect information about any failures that occur when you use our products or applications. This information can include the device serial number, connected products, software version and technical data describing the failure.", "label": [[0, 271, "collection"]]}
+{"id": 3946, "data": "Information we receive from our authorised retailers", "label": []}
+{"id": 3947, "data": "Event and demonstration information: When you use our website to request a demonstration with one of our retailers, or book a place at one of our retailers' events, we will follow-up with the retailer to confirm that the booking went ahead and to record any feedback they have received.", "label": [[0, 286, "collection"]]}
+{"id": 3948, "data": "Service and support data: Your retailer may pass your contact information to our service department when seeking support with a repair, upgrade or installation. We will record only the information necessary to allow us to provide the support requested.", "label": [[0, 252, "collection"]]}
+{"id": 3949, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 3950, "data": "How we use information we collect", "label": []}
+{"id": 3951, "data": "To deliver our services and process your requests", "label": [[0, 49, "collect_purpose"]]}
+{"id": 3952, "data": "We use the information we collect to provide, operate and support the products and services we offer.", "label": [[0, 101, "collect_purpose"]]}
+{"id": 3953, "data": "For example, we may use your contact data to send you confirmation of any event bookings or demonstration requests you make. Or we may process your product data as we fulfil your order.", "label": [[0, 185, "collect_purpose"]]}
+{"id": 3954, "data": "We collect and monitor activity data to help us effectively manage our platform and keep everything running smoothly.", "label": [[0, 117, "collection"]]}
+{"id": 3955, "data": "To provide support", "label": [[0, 18, "collection"]]}
+{"id": 3956, "data": "We may use information we have collected when responding to enquiries, diagnosing problems, repairing products or providing other customer care and support services.", "label": [[0, 165, "collection"]]}
+{"id": 3957, "data": "For example, our service department will use your product data and any service or support data they have received when handling service requests, warranty claims or other queries.", "label": [[0, 179, "collection"]]}
+{"id": 3958, "data": "To communicate with you", "label": [[0, 23, "collection"]]}
+{"id": 3959, "data": "We use the data we collect to deliver and personalise our communications with you.", "label": [[0, 82, "collection"]]}
+{"id": 3960, "data": "For example, we may use your contact data and product data to process and respond to queries or requests you make, or send administrative or support messages to you about your products or account.", "label": [[0, 196, "collection"]]}
+{"id": 3961, "data": "Furthermore, in accordance with your marketing preferences, we may contact you about products, services, events and other information that we think will be of interest to you.", "label": [[0, 175, "collection"]]}
+{"id": 3962, "data": "We may use data we collect, including your event and demonstration information, to gauge which products and services you may be interested in.", "label": [[0, 142, "collection"]]}
+{"id": 3963, "data": "To improve our products and services", "label": [[0, 36, "collection"]]}
+{"id": 3964, "data": "We use the data we collect to help us improve our products, applications, websites and cloud platform.", "label": [[0, 102, "collection"]]}
+{"id": 3965, "data": "For example, aggregated activity data gives us insight into how our products and applications are used, helping us identify potential features and improvements.", "label": [[0, 160, "collection"]]}
+{"id": 3966, "data": "Crash reporting data, along with log data, helps us better understand any failures that occur and under which configurations they arise. It can also give us a better understanding of the reliability of our products.", "label": [[0, 215, "collection"]]}
+{"id": 3967, "data": "In order to improve our ability to provide integrated services, support and other activities, we may consolidate information we receive from different sources.", "label": [[0, 159, "collection"]]}
+{"id": 3968, "data": "We may also aggregate data we have collected from different sources in order to perform statistical analysis and other reporting activities that enable us to make informed decisions about our business.", "label": [[0, 201, "collection"]]}
+{"id": 3969, "data": "To investigate and prevent security issues and abuse", "label": [[0, 52, "collection"]]}
+{"id": 3970, "data": "We may use the data we collect to prevent or detect fraud, identity malicious activity, and to prevent or detect abuse of our websites and other services.", "label": [[0, 154, "collection"]]}
+{"id": 3971, "data": "We may also use information we hold to comply with our legal obligations.", "label": [[0, 73, "collection"]]}
+{"id": 3972, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 3973, "data": "Information we share", "label": []}
+{"id": 3974, "data": "Information about you is an important part of our business and we will not sell or rent it to others.", "label": []}
+{"id": 3975, "data": "Authorised distributors and retailers", "label": [[0, 37, "sharing"]]}
+{"id": 3976, "data": "When necessary, we may share some of your data with our authorised retailers and distributors. This can happen, for example, when they need to contact you regarding services you have requested (such as events or product demonstrations) or to assist with product support or repair.", "label": [[0, 280, "share_purpose"]]}
+{"id": 3977, "data": "Agents", "label": [[0, 6, "sharing"]]}
+{"id": 3978, "data": "We occasionally employ other companies and individuals to perform functions on our behalf. Examples include delivering goods, sending postal mail and email, removing repetitive information from customer lists, analysing data, providing marketing assistance, processing credit card payments and providing customer services. They have access to your personal data needed to perform their functions, but may not use it for any other purposes. Further, they must process personal data in accordance with this Privacy Policy and in accordance with all relevant legislation.", "label": [[0, 568, "share_purpose"]]}
+{"id": 3979, "data": "Protection of Linn and others", "label": [[0, 29, "share_purpose"]]}
+{"id": 3980, "data": "We release your account details and other personal data when we believe release is appropriate to comply with law, to enforce or apply our Terms and Conditions and other agreements or to protect the rights, property or safety of Linn, our users or others. This includes exchanging information with other companies and organisations for fraud protection and credit risk reduction. Obviously, however, this does not include selling, renting, sharing or otherwise disclosing personal data for commercial purposes in a way that is contrary to this Privacy Policy.", "label": [[0, 559, "share_purpose"]]}
+{"id": 3981, "data": "--------------5. Retention --------------", "label": []}
+{"id": 3982, "data": "Data retention", "label": []}
+{"id": 3983, "data": "We will only keep your personal data for as long as necessary to fulfil the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements.", "label": []}
+{"id": 3984, "data": "We delete some information as soon as you opt-out of certain data collection activities. See our privacy controls for more details.", "label": []}
+{"id": 3985, "data": "In some circumstances we may anonymise your personal data (so that it can no longer be associated with you) for research or statistical purposes in which case we may use this information indefinitely without further notice to you.", "label": []}
+{"id": 3986, "data": "--------------6. Children --------------", "label": []}
+{"id": 3987, "data": "--------------7. Contact --------------", "label": []}
+{"id": 3988, "data": "Contact us", "label": []}
+{"id": 3989, "data": "If you have any questions about this Privacy Policy, or would like to exercise any of your rights, please contact us by email at helpline@linn.co.uk or by post to:", "label": []}
+{"id": 3990, "data": "Linn Products Limited", "label": []}
+{"id": 3991, "data": "Glasgow Road", "label": []}
+{"id": 3992, "data": "Waterfoot", "label": []}
+{"id": 3993, "data": "Glasgow", "label": []}
+{"id": 3994, "data": "G76 0EQ", "label": []}
+{"id": 3995, "data": "United Kingdom.", "label": []}
+{"id": 3996, "data": "Linn Products Limited is the data controller for personal data collected through the Linn websites, applications products and services subject to this Privacy Policy.", "label": []}
+{"id": 3997, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 3998, "data": "Cookies", "label": []}
+{"id": 3999, "data": "How we use cookies", "label": []}
+{"id": 4000, "data": "We use cookies for a variety of purposes. Some cookies are associated with your account and allow us to keep you logged in. Other cookies are not associated with you account, but are unique, and allow us to carry out usage analytics.", "label": []}
+{"id": 4001, "data": "Here is a summary of the kinds of cookies we use:", "label": []}
+{"id": 4002, "data": "Authentication cookies. When you sign-in in to our website, we use cookies to keep you logged on and help us personalise your experience.", "label": []}
+{"id": 4003, "data": "Activity cookies. These cookies allow our websites to remember pages you have visited and choices you make while browsing.", "label": []}
+{"id": 4004, "data": "Analytics cookies. We use these cookies to help us understand how visitors interact with our websites. For example, how long visitors spend on different page, how people arrive on our website, or in which countries our website is being viewed. We primarily use cookies generated by Google Analytics for this purpose.", "label": []}
+{"id": 4005, "data": "Similar technologies", "label": []}
+{"id": 4006, "data": "In addition to cookies, we may also use similar technologies, such as pixel tags, for the purposes outlined above.", "label": []}
+{"id": 4007, "data": "We also use pixel tags in in our marketing emails (if you have opted-in) to help us to understand whether our email communication has been viewed.", "label": []}
+{"id": 4008, "data": "How to control cookie settings", "label": []}
+{"id": 4009, "data": "Most web browsers allow you to control how cookies are used, including disabling the use of cookies altogether.", "label": []}
+{"id": 4010, "data": "If you choose to prevent the use of cookies on our websites, you may find that that some features no longer function correctly, and that personalised features become unavailable.", "label": []}
+{"id": 4011, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 4012, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 4013, "data": "--------------11. Extra--------------", "label": []}
+{"id": 4014, "data": "Key terms", "label": []}
+{"id": 4015, "data": "In this Privacy Policy, these terms have the following meanings:", "label": []}
+{"id": 4016, "data": "\"We\" and \"us\" means Linn Products Ltd.", "label": []}
+{"id": 4017, "data": "\"Websites\" means all of our websites, including:", "label": []}
+{"id": 4018, "data": "Linn Website (https://www.linn.co.uk),", "label": []}
+{"id": 4019, "data": "Linn Forums (https://forums.linn.co.uk),", "label": []}
+{"id": 4020, "data": "Linn Docs (http://docs.linn.co.uk),", "label": []}
+{"id": 4021, "data": "Linn OSS (http://oss.linn.co.uk),", "label": []}
+{"id": 4022, "data": "Linn Shop (http:// shop.linn.co.uk)", "label": []}
+{"id": 4023, "data": "Linn Microsite (http://linnproducts.co.uk)", "label": []}
+{"id": 4024, "data": "\"Applications\" means software we write and distribute, including:", "label": []}
+{"id": 4025, "data": "Kazoo", "label": []}
+{"id": 4026, "data": "Konfig", "label": []}
+{"id": 4027, "data": "Kazoo Server", "label": []}
+{"id": 4028, "data": "Songcast", "label": []}
+{"id": 4029, "data": "Kinsky", "label": []}
+{"id": 4030, "data": "\"Cloud Platform\" means the web-based services provided by us to support product features including:", "label": []}
+{"id": 4031, "data": "User accounts", "label": []}
+{"id": 4032, "data": "System configuration", "label": []}
+{"id": 4033, "data": "Playlists", "label": []}
+{"id": 4034, "data": "Pins", "label": []}
+{"id": 4035, "data": "Favourites", "label": []}
+{"id": 4036, "data": "\"Products\" means Linn music systems and components.", "label": []}
+{"id": 4037, "data": "Legal Basis", "label": []}
+{"id": 4038, "data": "We collect and process your personal data on the following legal basis:", "label": []}
+{"id": 4039, "data": "Performance of a contract", "label": []}
+{"id": 4040, "data": "The use of your personal information may be necessary to fulfil the agreement you have with us. For example, to deliver the services that you use, to fulfil requests that you make of us, or to provide support when requested.", "label": []}
+{"id": 4041, "data": "Legitimate interests", "label": []}
+{"id": 4042, "data": "We may use your personal information for our legitimate interests. For example, it is in our legitimate interest to analyse usage data to improve our products and services, or (with your consent) to send you marketing communications, or to use your personal information for administrative or legal purposes.", "label": []}
+{"id": 4043, "data": "Your rights and privacy controls", "label": []}
+{"id": 4044, "data": "Your rights", "label": []}
+{"id": 4045, "data": "We want you to be in control of how your personal information is used by us.", "label": []}
+{"id": 4046, "data": "Where we use your information on the basis of your consent, you are entitled to withdraw that consent at any time. We provide various privacy controls to help you with this.", "label": []}
+{"id": 4047, "data": "In addition, and subject to local law, you have the following rights:", "label": []}
+{"id": 4048, "data": "you can ask us for a copy of the personal information we hold about you;", "label": []}
+{"id": 4049, "data": "you can ask us to correct personal data about you that may be incomplete or inaccurate", "label": []}
+{"id": 4050, "data": "in certain circumstances, you can ask us to delete your data, or ask us to restrict how we process personal information we hold about you", "label": []}
+{"id": 4051, "data": "If you wish to exercise any of the rights set out above, please contact us.", "label": []}
+{"id": 4052, "data": "We may need to request specific information from you to help us confirm your identity. This is to ensure we disclose personal data only to those with the right to receive it.", "label": []}
+{"id": 4053, "data": "We aim to respond to all requests within one month. If your request proves more complex, it may take us longer. In that case, we will notify you and keep you up-to-date with our progress.", "label": []}
+{"id": 4054, "data": "You will not have to pay a fee to access your personal data (or to exercise any of your rights). However, we may charge a reasonable fee if your request is clearly unfounded, repetitive or excessive. Alternatively, we may refuse to comply with your request in these circumstances.", "label": []}
+{"id": 4055, "data": "Privacy controls", "label": []}
+{"id": 4056, "data": "Marketing preferences", "label": []}
+{"id": 4057, "data": "You can opt out of receiving direct marketing communications from us by following the 'unsubscribe' link we include in all of our marketing emails.", "label": []}
+{"id": 4058, "data": "Alternatively, you can contact us directly and will will update your marketing preferences as you request.", "label": []}
+{"id": 4059, "data": "Product activity data & crash reporting", "label": []}
+{"id": 4060, "data": "You can control what activity and crash data we collect from your product using our Konfig application.", "label": []}
+{"id": 4061, "data": "Opting-out of data collection will cause all product activity data previously collected to be erased.", "label": []}
+{"id": 4062, "data": "Kazoo application activity data & crash reporting", "label": []}
+{"id": 4063, "data": "You can control what activity and crash data we collect from Kazoo by visiting the 'Privacy' tab within the application settings.", "label": []}
+{"id": 4064, "data": "Product state data", "label": []}
+{"id": 4065, "data": "When you elect to use services provided by our cloud platform, we will collect and retain information about your product.", "label": []}
+{"id": 4066, "data": "If you no longer wish to use these services, you can deactivate cloud services by unlinking your product in the settings window in Kazoo.", "label": []}
+{"id": 4067, "data": "When you unlink your product, all related product state data will be deleted automatically. This information will also be deleted if the product is reset to its factory settings.", "label": []}
+{"id": 4068, "data": "Linn account", "label": []}
+{"id": 4069, "data": "If you are a registered user of any of the websites and wish to terminate your account with us, please contact us, specifying which accounts you wish to be terminated.", "label": []}
+{"id": 4070, "data": "Back to top", "label": []}
+{"id": 4071, "data": "Keeping your information secure", "label": []}
+{"id": 4072, "data": "Data security", "label": []}
+{"id": 4073, "data": "We have implemented security measures to prevent your personal data from being accidentally lost, disclosed, used or accessed in an unauthorised way.", "label": []}
+{"id": 4074, "data": "However, while we strive to protect your personal data, we cannot guarantee its absolute security or ensure that personal data will never be disclosed in ways outwith our control and not otherwise described in this Privacy Policy.", "label": []}
+{"id": 4075, "data": "Access to data", "label": []}
+{"id": 4076, "data": "We limit access to your personal data to only those employees, agents, contractors or other third parties who have a business need to know. Your data will only be processed in accordance with this Privacy Policy and our instructions.", "label": []}
+{"id": 4077, "data": "User account and service security", "label": []}
+{"id": 4078, "data": "As a user of the websites or other services you may create an account. You are responsible for maintaining the confidentiality and security of your account. You should not reveal your account information (including your password) to anyone else. You agree to immediately notify Linn of any unauthorised use of your account or any other breach of security. We are not responsible for any losses arising out of the unauthorised use of your account.", "label": []}
+{"id": 4079, "data": "Other websites", "label": []}
+{"id": 4080, "data": "Our websites may contain links to the websites of our authorised retailers, distributors, advertisers and other affiliates. If you follow any link to any of these websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liabilities for these policies.", "label": []}
+{"id": 4081, "data": "Changes to our Privacy Policy", "label": []}
+{"id": 4082, "data": "Any changes that we make to our Privacy Policy in the future will be posted on this page and, where appropriate, notified to you by email.", "label": []}

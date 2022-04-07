@@ -1,0 +1,52 @@
+{"id": 9566, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 9567, "data": "Privacy Policy", "label": []}
+{"id": 9568, "data": "Preface", "label": []}
+{"id": 9569, "data": "This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal data if anyone decided to use our Service. Using our Service means either purchasing one of our products from our webshop at www.remootio.com Using our Service means either purchasing one of our products from our webshop at www.remootio.com and/or downloading and using the Remootio smartphone application available for iOS and Android operating systems and/or using the Remootio Skill for Amazon Alexa. Assemblabs Ltd, the owner of the trademark Remootio considers the protection of our stakeholders' and customers' personal data to be a very important matter. The responsible for data processing in accordance with the basic data protection regulation (\"GDPR\" - General Data Protection Regulation - as amended) and other national data protection laws and regulations, is: Assemblabs Ltd. Addr.: 2120 Dunakeszi Pipa str 27/b Hungary E-mail.: info@remootio.com Website.: www.remootio.com Representative.: Csaba Szanto Phone.: +36205722758", "label": []}
+{"id": 9570, "data": "The definiton of personal data", "label": []}
+{"id": 9571, "data": "Personal data means any information relating to an identified or identifiable natural person ('data subject'); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person;", "label": []}
+{"id": 9572, "data": "--------------2. Collection --------------", "label": []}
+{"id": 9573, "data": "What type of personal data do we process?", "label": []}
+{"id": 9574, "data": "We process those of your personal data that we receive in the course our business relationship with you. The types of personal data we process can include your name, address, contact details, e-mail address, your ID data. In addition, this may include order data (e.g. payment orders), sales data, advertising data, and data for the fulfilment of our legal obligations. These data are either obtained directly from you or provided to us by third parties, such as our partner companies.", "label": [[0, 485, "collection"]]}
+{"id": 9575, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 9576, "data": "What is the purpose of processing your personal data?", "label": []}
+{"id": 9577, "data": "We process your data for the following purposes:", "label": []}
+{"id": 9578, "data": "To fullfil pre-contractual measures and contract obligations with you based on our business relationship. (E.g.: Delivering your order, creating the invoice etc...)", "label": [[0, 164, "collect_purpose"]]}
+{"id": 9579, "data": "If you have given us your consent for contacting you for the purpose of sending promotions, offers", "label": [[0, 98, "collect_purpose"]]}
+{"id": 9580, "data": "For the fullfilment of our fiscal and other legal obligations", "label": [[0, 61, "collect_purpose"]]}
+{"id": 9581, "data": "To fullfil our obligations in context to the services that you voluntarily use through our smartphone applications.", "label": [[0, 115, "collect_purpose"]]}
+{"id": 9582, "data": "Your consent to allow us to process your data is voluntarily. You can refuse to give your consent. However, your consent to process your data is required for successfully establishing the business relationship with you, to process, and ship your ordered products, to mantain and provide the services you use while using our smartphone applications. If you don't give your consent or provide us with data, we generally have to refuse to sign a contract or implement an order or we can terminate an existing contract due to no longer being able to execute it or we have to stop providin the services of our smartphone application to you", "label": []}
+{"id": 9583, "data": "The use of the Remootio smartphone application and the corresponding web services", "label": [[0, 81, "collect_purpose"]]}
+{"id": 9584, "data": "As we value our users' privacy the Remootio app only sends personal information to our databases when it is necessary for the enabled feature. By just installing the application and using your device via Bluetooth or local Wi-Fi no information will be shared. Below we describe the different scenarios where data will be shared and that might be subsequently processed by us.", "label": []}
+{"id": 9585, "data": "Shared data when registering a Remootio account for smart home hub access: E-mail address", "label": [[0, 89, "collection"]]}
+{"id": 9586, "data": "Shared data when enabling the EasyConnect feature: The name of the respective key, serial number of your Remootio device", "label": [[0, 120, "collection"]]}
+{"id": 9587, "data": "Shared data when enabling notifications that require EasyConnect feature: The name of the respective key, serial number of your Remootio device: The name of the shared keys where you enabled to receive notifications when your gate or garage door was operated, the languge of your Remootio application", "label": [[0, 300, "collection"]]}
+{"id": 9588, "data": "Shared data when performing a software update for your Remootio device: Serial number of your Remootio devicen", "label": [[0, 110, "collection"]]}
+{"id": 9589, "data": "All of the above mentioned data if stored are stored as encrypted data.", "label": []}
+{"id": 9590, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 9591, "data": "To whom do we disclose your personal data and for what purpose?", "label": []}
+{"id": 9592, "data": "We will only disclose on your personal data to the extent required for the fulfilment of the objective of the business agreement. We only give your data to such persons or legal entities who need them for the fulfilment of contractual and/or legal obligations.", "label": [[0, 260, "share_purpose"]]}
+{"id": 9593, "data": "The persons or entities to which we disclose your personal data are", "label": []}
+{"id": 9594, "data": "Government authorities where we are forced by law to disclose your data, competent courts or authorities for legal cases, prosecution.", "label": [[0, 22, "sharing"], [22, 134, "share_purpose"]]}
+{"id": 9595, "data": "Shipping and delivery companies", "label": [[0, 31, "sharing"]]}
+{"id": 9596, "data": "Accountants and tax advisors for the purpose of fulfilment of our fiscal obligations.", "label": [[0, 28, "sharing"], [28, 85, "share_purpose"]]}
+{"id": 9597, "data": "Insurance companies for the purpose of settling our insurance cases.", "label": [[0, 19, "sharing"], [19, 68, "share_purpose"]]}
+{"id": 9598, "data": "IT companies for provision, maintenance and support of our IT system as well as for IT-based implementation for the purpose of data processing.", "label": [[0, 12, "sharing"], [12, 143, "share_purpose"]]}
+{"id": 9599, "data": "After-sales partners, and marketing companies if you have given your consent", "label": [[0, 76, "sharing"]]}
+{"id": 9600, "data": "--------------5. Retention --------------", "label": []}
+{"id": 9601, "data": "How long is your data stored?", "label": []}
+{"id": 9602, "data": "We will store your data only for as long as necessary for the purpose of which the data was collected. In any case, we will store your data for as long as we are obliged to do so by law (legal retention times) or if periods of limitation for potential legal claims have not yet expired.", "label": []}
+{"id": 9603, "data": "--------------6. Children --------------", "label": []}
+{"id": 9604, "data": "--------------7. Contact --------------", "label": []}
+{"id": 9605, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 9606, "data": "Cookies on the Remootio website", "label": []}
+{"id": 9607, "data": "Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory. We use cookies to improve the user experiece of our website's visitor. No data stored in cookies can be associated with the visitor, as these data are pseudonymized. During this process the website might store your language setting of the website, and auto-fill data to input forms into cookies. The website might also store data in cookies regarding how often and which parts of our website you use. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of the website.", "label": []}
+{"id": 9608, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 9609, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 9610, "data": "--------------11. Extra--------------", "label": []}
+{"id": 9611, "data": "Your rights regarding the data processing", "label": []}
+{"id": 9612, "data": "You are entitled to all the rights decribed in the applicable law (\"GDPR\"). These are the following:", "label": []}
+{"id": 9613, "data": "You have the right to know whether and which personal data we are processing and you have the right to receive copies of these data", "label": []}
+{"id": 9614, "data": "You are entitled to require deletion or correction of the personal data that is processed not in conformity with the law", "label": []}
+{"id": 9615, "data": "You have the right to disagree with the processing of personal data and to make a complaint to a data protection supervisory authority within the EU.", "label": []}
+{"id": 9616, "data": "You are entitled to require us to limit processing your data to only those activities that are necessary for fullfilling our legal requirements", "label": []}
+{"id": 9617, "data": "You are entitled to require data portability and be informed about the third parties to whom personal data are disclosed.", "label": []}

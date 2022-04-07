@@ -1,0 +1,91 @@
+{"id": 32259, "text": "--------------1. Preamble --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32260, "text": "Last Updated: December 23, 2019", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32261, "text": "This is Alula's Privacy Policy. The Privacy Policy applies to our website: http://www.alula.com, Alula Connect and any mobile platforms or applications operated by Alula; and (ii) any combination of products and services we provide or which can be purchased or accessed via any User Interface (the \"Services\"). It also describes your choices regarding the use and access of your personal information.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32262, "text": "--------------2. Collection --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32263, "text": "WHAT INFORMATION DO WE COLLECT?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32264, "text": "When you interact with Alula, we collect information that can be used to uniquely contact, identify or locate you (\"Personal Information\").", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32265, "text": "Information that is Automatically Collected", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32266, "text": "When you use our website, or apps or other user interfaces, Alula automatically collects and stores certain information from or about you from your computer or other electronic devices through which you access, browse, download or receive the Alula User Interfaces. Information we automatically collect includes:", "meta": {}, "annotation_approver": null, "labels": [[0, 311, "collection"]]}
+{"id": 32267, "text": "Your IP address", "meta": {}, "annotation_approver": null, "labels": [[0, 15, "collection"]]}
+{"id": 32268, "text": "Browser type", "meta": {}, "annotation_approver": null, "labels": [[0, 12, "collection"]]}
+{"id": 32269, "text": "Device type, model and ID", "meta": {}, "annotation_approver": null, "labels": [[0, 25, "collection"]]}
+{"id": 32270, "text": "Referring or exiting pages", "meta": {}, "annotation_approver": null, "labels": [[0, 26, "collection"]]}
+{"id": 32271, "text": "Website interaction history", "meta": {}, "annotation_approver": null, "labels": [[0, 27, "collection"]]}
+{"id": 32272, "text": "Alula and its partners use cookies or similar technologies to analyze trends, administer the website, track users' movements around the website, and to gather demographic information about our user base as a whole. You can control the use of cookies at the individual browser level, but if you choose to disable cookies, it may limit your use of certain features or functions on our website or service.", "meta": {}, "annotation_approver": null, "labels": [[0, 213, "collection"]]}
+{"id": 32273, "text": "Enrollment Data", "meta": {}, "annotation_approver": null, "labels": [[0, 15, "collection"]]}
+{"id": 32274, "text": "When you enroll as a subscriber to Alula Services, we may collect and store Personal Information about you, such as:", "meta": {}, "annotation_approver": null, "labels": [[0, 106, "collection"]]}
+{"id": 32275, "text": "Your name", "meta": {}, "annotation_approver": null, "labels": [[0, 9, "collection"]]}
+{"id": 32276, "text": "Account number", "meta": {}, "annotation_approver": null, "labels": [[0, 14, "collection"]]}
+{"id": 32277, "text": "Password", "meta": {}, "annotation_approver": null, "labels": [[0, 8, "collection"]]}
+{"id": 32278, "text": "User profile information", "meta": {}, "annotation_approver": null, "labels": [[0, 24, "collection"]]}
+{"id": 32279, "text": "Home or business address", "meta": {}, "annotation_approver": null, "labels": [[0, 24, "collection"]]}
+{"id": 32280, "text": "Phone number", "meta": {}, "annotation_approver": null, "labels": [[0, 12, "collection"]]}
+{"id": 32281, "text": "Email address", "meta": {}, "annotation_approver": null, "labels": [[0, 13, "collection"]]}
+{"id": 32282, "text": "Plan selection and other purchase details", "meta": {}, "annotation_approver": null, "labels": [[0, 41, "collection"]]}
+{"id": 32283, "text": "Emergency contact information.", "meta": {}, "annotation_approver": null, "labels": [[0, 30, "collection"]]}
+{"id": 32284, "text": "Device Data", "meta": {}, "annotation_approver": null, "labels": [[0, 11, "collection"]]}
+{"id": 32285, "text": "When you utilize our Services, you may provide us with certain information, once your system is activated, or from direct interactions with your account. Alula receives this information from devices that are monitored or controlled by Alula, and we may also receive and collect such information from third parties, such as your Security Professional The information we receive may include the following:", "meta": {}, "annotation_approver": null, "labels": [[0, 349, "collection"]]}
+{"id": 32286, "text": "Home or business size", "meta": {}, "annotation_approver": null, "labels": [[0, 21, "collection"]]}
+{"id": 32287, "text": "Home or business system configuration", "meta": {}, "annotation_approver": null, "labels": [[0, 37, "collection"]]}
+{"id": 32288, "text": "Sensor zone names", "meta": {}, "annotation_approver": null, "labels": [[0, 17, "collection"]]}
+{"id": 32289, "text": "Account information (schedules, devices monitored, mode, automation settings, device settings)", "meta": {}, "annotation_approver": null, "labels": [[0, 94, "collection"]]}
+{"id": 32290, "text": "Performance of security devices (heating and cooling information, light or other fixture settings, usage logs)", "meta": {}, "annotation_approver": null, "labels": [[0, 110, "collection"]]}
+{"id": 32291, "text": "System status", "meta": {}, "annotation_approver": null, "labels": [[0, 13, "collection"]]}
+{"id": 32292, "text": "System event records and alarm frequency", "meta": {}, "annotation_approver": null, "labels": [[0, 40, "collection"]]}
+{"id": 32293, "text": "Video clips", "meta": {}, "annotation_approver": null, "labels": [[0, 11, "collection"]]}
+{"id": 32294, "text": "Family members, ages, disabilities", "meta": {}, "annotation_approver": null, "labels": [[0, 34, "collection"]]}
+{"id": 32295, "text": "Energy consumption data", "meta": {}, "annotation_approver": null, "labels": [[0, 23, "collection"]]}
+{"id": 32296, "text": "Location information from activated location-based services or devices, such as location-activated arming reminders and thermostat adjustments and sensors.", "meta": {}, "annotation_approver": null, "labels": [[0, 155, "collection"]]}
+{"id": 32297, "text": "Video and/or audio recordings from your monitoring equipment (Visual Verification services, connected doorbells, cameras, image sensors, or other connected devices).", "meta": {}, "annotation_approver": null, "labels": [[0, 165, "collection"]]}
+{"id": 32298, "text": "Data protection and privacy laws in your state or country may impose certain responsibilities on you and your use of security cameras, connected doorbells and other devices with recording capabilities. You (not Alula) are responsible for ensuring that you comply with any applicable laws. For example, you may need to display a notice that alerts visitors to your home or business that they may be recorded using security cameras and other devices with recording capabilities. Alula takes no responsibility for your compliance with these laws.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32299, "text": "HOW DO WE COLLECT INFORMATION?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32300, "text": "Alula collects and maintains Personal Information", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32301, "text": "Directly from you", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32302, "text": "Through the security devices you have chosen to install", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32303, "text": "Through communications with our partners, which may include your Security Professional central stations and other service providers", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32304, "text": "From our website through cookies or other tracking technologies", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32305, "text": "--------------3. Purpose/Use --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32306, "text": "--------------4. Sharing --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32307, "text": "HOW DO WE SHARE YOU INFORMATION?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32308, "text": "Alula may disclose your Personal Information:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32309, "text": "as necessary to provide the User Interfaces and Services to you;", "meta": {}, "annotation_approver": null, "labels": [[0, 63, "share_purpose"]]}
+{"id": 32310, "text": "to your service provider (Alula Dealer), the company through which you subscribed to our Services;", "meta": {}, "annotation_approver": null, "labels": [[0, 97, "sharing"]]}
+{"id": 32311, "text": "to the central station selected by you or your Security Professional to receive alarm signals and coordinate emergency response;", "meta": {}, "annotation_approver": null, "labels": [[0, 127, "sharing"]]}
+{"id": 32312, "text": "an entity who works on our behalf to provide the Services (these entities agree not to use the Personal Information we provide to them beyond what is necessary to assist us);", "meta": {}, "annotation_approver": null, "labels": [[0, 57, "sharing"]]}
+{"id": 32313, "text": "to provide you with information that you request", "meta": {}, "annotation_approver": null, "labels": [[0, 48, "share_purpose"]]}
+{"id": 32314, "text": "to respond to your questions or concerns", "meta": {}, "annotation_approver": null, "labels": [[0, 40, "share_purpose"]]}
+{"id": 32315, "text": "to notify you about additional products and services that may interest you", "meta": {}, "annotation_approver": null, "labels": [[0, 74, "share_purpose"]]}
+{"id": 32316, "text": "as necessary, for our business purposes; and", "meta": {}, "annotation_approver": null, "labels": [[0, 39, "share_purpose"]]}
+{"id": 32317, "text": "as required or permitted by law.", "meta": {}, "annotation_approver": null, "labels": [[0, 31, "share_purpose"]]}
+{"id": 32318, "text": "In addition, we may anonymize or de-identify your information and convert it to a form that cannot be used to identify you (\"Aggregated Data\"). We may utilize this information for a variety of purposes, including improvement of our products and services. Alula will not share personally identifiable information about you without your consent.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32319, "text": "We do not sell and will not give your Personal Information to any other entity for any marketing purposes. We may use your Personal Information to communicate with you about our Services.", "meta": {}, "annotation_approver": null, "labels": [[0, 105, "not_sharing"]]}
+{"id": 32320, "text": "--------------5. Retention --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32321, "text": "WHAT INFORMATION DO WE KEEP?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32322, "text": "Alula retains your information as needed to provide our Services. We will retain and use your information as necessary to comply with our legal obligations and in accordance with our commitments.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32323, "text": "--------------6. Children --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32324, "text": "--------------7. Contact --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32325, "text": "Contact Information", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32326, "text": "If you have any questions, concerns, or suggestions regarding this Privacy Policy, please contact us at:", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32327, "text": "support@alula.net", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32328, "text": "or", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32329, "text": "Alula", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32330, "text": "2340 Energy Park Drive, Suite 100", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32331, "text": "St. Paul, MN 55108", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32332, "text": "--------------8. Cookies --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32333, "text": "--------------9. Storage/Transfer --------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32334, "text": "WHERE DO WE KEEP YOUR INFORMATION?", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32335, "text": "Alula retains your information in the United States on our servers.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32336, "text": "--------------10. Irrelevant:--------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32337, "text": "--------------11. Extra--------------", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32338, "text": "Information Protection", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32339, "text": "Alula follows reasonable physical, electronic and managerial procedures designed to safeguard and secure your data and Personal Information. However, no company can fully eliminate security risks associated with data transmission services. We use multiple layers of security to protect your Personal Information and data, including firewalls, intrusion detection tools and antivirus software.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32340, "text": "Right to Access, Correct and Delete Personal Information", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32341, "text": "You may view, update, or delete your Personal Information at any time by following the links at www.alula.com. Changes to your user profile on the Alula User Interfaces may not automatically change the records of your Alula Dealer. You should contact your Alula Dealer directly to make changes to its records.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32342, "text": "Third Party Websites", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32343, "text": "From time to time, Alula may offer hyperlinks to third-party websites from our User Interfaces. The third-party websites are not under Alula's control. Alula is not responsible for, and this Privacy Policy does not apply to, the privacy practices any companies that Alula does not own or control.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32344, "text": "Utilizing our User Interfaces from Outside of the United States", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32345, "text": "If you are utilizing our User Interfaces from outside the United States, please be aware that your information may be transferred to, stored or processed in the United States, By using our Services, you understand and consent to the transfer of your information to our facilities in the United States and sharing of your information with the third parties described in this Privacy Policy.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32346, "text": "Your California Privacy Rights", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32347, "text": "California Civil Code Section 1798 gives California residents the right to request to see what Personal Information we maintain about you and to request that the Personal Information be deleted. if you choose to delete your Personal Information, it may not be possible to continue to utilize our devices or Services. To make such a request, please contact us using the information provided below.", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32348, "text": "Changes to this Privacy Policy", "meta": {}, "annotation_approver": null, "labels": []}
+{"id": 32349, "text": "Alula may change or modify this Policy at any time. We encourage you to check this Privacy Policy often to review any changes. If we make any change to this Privacy Policy, we will always update the \"Last Updated\" information at the top of this Privacy Policy.", "meta": {}, "annotation_approver": null, "labels": []}

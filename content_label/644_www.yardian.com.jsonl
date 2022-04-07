@@ -1,0 +1,78 @@
+{"id": 17456, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 17457, "data": "What this policy covers", "label": []}
+{"id": 17458, "data": "Aeon Matrix, Inc. respect your privacy. Your privacy is important to us, and so is being transparent about how we collect, use, and share information about you.", "label": []}
+{"id": 17459, "data": "This policy is intended to help you understand:", "label": []}
+{"id": 17460, "data": "What information we collect about you", "label": []}
+{"id": 17461, "data": "How we use your information", "label": []}
+{"id": 17462, "data": "How we protect your information", "label": []}
+{"id": 17463, "data": "How we share your information", "label": []}
+{"id": 17464, "data": "How our global services operate", "label": []}
+{"id": 17465, "data": "How to delete your information", "label": []}
+{"id": 17466, "data": "Other important privacy information", "label": []}
+{"id": 17467, "data": "When we refer to \"Aeon Matrix,\" \"we,\" or \"us\" in this policy, we mean Aeon Matrix, Inc., which controls the information Aeon Matrix collects from our website aeonmatrix.com (the \"Site\"), our user portal yardian.com (the \"Portal\"), our Yardian product (the \"Product\"), our mobile Application (the \"App\"), and the services available through our Site, Portal, Product and App (collectively, the \"Services\").", "label": []}
+{"id": 17468, "data": "--------------2. Collection --------------", "label": []}
+{"id": 17469, "data": "What information we collect about you", "label": []}
+{"id": 17470, "data": "Information you provide:", "label": []}
+{"id": 17471, "data": "When ordering or registering on our Site or when installing our Product, you may be asked to enter your name, email address, mailing address, phone number, payment information or other details to create your personal profile.", "label": [[0, 225, "collection"]]}
+{"id": 17472, "data": "Environmental data from our Product:", "label": [[0, 36, "collection"]]}
+{"id": 17473, "data": "We may collect environmental data from our Product (such as: video and audio signals, humidity data, rain sensor data, flow sensor data, and sensor information when something is moving or lighting status to turn on the night vision). We may also collect direct adjustments you make to the Product to learn the environmental data or help you with your user experience.", "label": [[0, 367, "collection"]]}
+{"id": 17474, "data": "Usage and technical information from our Product", "label": [[0, 48, "collection"]]}
+{"id": 17475, "data": "We may collect the model and serial number of the Product, the location and usage of the Product, the software version, the connectivity status and other technical information to perform our Services or improve your experience.", "label": [[0, 227, "collection"]]}
+{"id": 17476, "data": "Device information", "label": [[0, 18, "collection"]]}
+{"id": 17477, "data": "We may collect information from or about the computers, phones, or other devices where you install or access our Services, depending on the permissions you have granted. We may associate the information we collect from your different devices, which helps us provide consistent Services across your devices. Here are some examples of the device information we collect:", "label": [[0, 367, "collection"]]}
+{"id": 17478, "data": "Attributes, such as the operating system, browser type, language, and time zone.", "label": [[0, 80, "collection"]]}
+{"id": 17479, "data": "Device identifiers, such as MAC address. Device locations, including specific geographic locations and information, such as zip code, city name, address type, or water provider.", "label": [[0, 177, "collection"]]}
+{"id": 17480, "data": "Connection information, such as the name of your mobile operator, firmware version, and IP address.", "label": [[0, 99, "collection"]]}
+{"id": 17481, "data": "Saved and shared content from our camera", "label": [[0, 40, "collection"]]}
+{"id": 17482, "data": "You may save or choose to share certain video content recorded from our Product. We will collect and store information to allow us to save or share your content as directed and permitted by you through the Services.", "label": [[0, 215, "both"]]}
+{"id": 17483, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 17484, "data": "How we use your information", "label": []}
+{"id": 17485, "data": "To personalize user's experience and to allow us to deliver the type of content and product offerings in which you are most interested.", "label": []}
+{"id": 17486, "data": "To develop and improve our Product and Services in order to better serve you.", "label": [[0, 77, "collect_purpose"]]}
+{"id": 17487, "data": "To allow us to better help you in responding to your customer service requests.", "label": [[0, 79, "collect_purpose"]]}
+{"id": 17488, "data": "To quickly process your transactions.", "label": [[0, 37, "collect_purpose"]]}
+{"id": 17489, "data": "To ask for ratings and reviews of Services or Products.", "label": [[0, 55, "collect_purpose"]]}
+{"id": 17490, "data": "To follow up with service requests after correspondence (live chat, email or phone inquiries)", "label": [[0, 93, "collect_purpose"]]}
+{"id": 17491, "data": "To communicate with you about updates in our Services or policies and about marketing promotions.", "label": [[0, 97, "collect_purpose"]]}
+{"id": 17492, "data": "To analyze data at aggregated level (non-personally identifiable information only) for research purposes and to study regional information and improve product performance and sensitivity.", "label": [[0, 187, "collect_purpose"]]}
+{"id": 17493, "data": "To analyze data at aggregated level (non-personally identifiable information only) to improve our advertising and to measure effectiveness of ads and services.", "label": [[0, 159, "collect_purpose"]]}
+{"id": 17494, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 17495, "data": "How we share your information", "label": []}
+{"id": 17496, "data": "We do not sell, trade, or share your personal information for any commercial or marketing purpose unrelated to the delivery and use of our Product and Services unless you give us permission.", "label": []}
+{"id": 17497, "data": "With your explicit consent, we may share your personal information to improve your user experience. For example, if you authorize other user to have access to your Product, or if you sign up services offered by our partners and we would only share certain information with the partner when necessary.", "label": [[0, 300, "share_purpose"]]}
+{"id": 17498, "data": "We may share your information with third-party service providers who assist us in operating our Site, analyzing how our Services are used, measuring the effectiveness of ads and services, or serving our users. These third-party service providers must adhere to strict confidentiality obligations in a way that is consistent with this Data Policy and the agreements we enter into with them.", "label": [[0, 64, "sharing"], [65, 210, "share_purpose"]]}
+{"id": 17499, "data": "We may also release your information when it is appropriate to comply with the law, enforce our site policies, or protect ours or others' rights, property and safety.", "label": [[0, 166, "share_purpose"]]}
+{"id": 17500, "data": "Only the aggregated and non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.", "label": [[0, 147, "share_purpose"]]}
+{"id": 17501, "data": "--------------5. Retention --------------", "label": []}
+{"id": 17502, "data": "--------------6. Children --------------", "label": []}
+{"id": 17503, "data": "--------------7. Contact --------------", "label": []}
+{"id": 17504, "data": "Contact us", "label": []}
+{"id": 17505, "data": "If you have any questions or concerns about this privacy policy, you can contact us at:", "label": []}
+{"id": 17506, "data": "Aeon Matrix Inc.", "label": []}
+{"id": 17507, "data": "1551 McCarthy Blvd., Suite 102", "label": []}
+{"id": 17508, "data": "Milpitas, CA. 95035", "label": []}
+{"id": 17509, "data": "E-Mail: support@aeonmatrix.com.", "label": []}
+{"id": 17510, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 17511, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 17512, "data": "How our global services operate", "label": []}
+{"id": 17513, "data": "We operate and collect information globally and primarily store that information in the United States. Where the laws of your country allow you to do so, you authorize us to transfer, store, and use your data in the United States and any other country where we operate. Whenever we transfer your personal information, we ensure an adequate level of protection for the data transfer.", "label": []}
+{"id": 17514, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 17515, "data": "--------------11. Extra--------------", "label": []}
+{"id": 17516, "data": "How we protect your information", "label": []}
+{"id": 17517, "data": "We use a variety of security technologies and procedures and make sure our methods are up-to-date with industry-standard to keep your information safe and secure.", "label": []}
+{"id": 17518, "data": "Our Site is scanned on a regular basis for security holes and known vulnerabilities in order to make your visit to our Site as safe as possible.", "label": []}
+{"id": 17519, "data": "We use regular Malware Scanning.", "label": []}
+{"id": 17520, "data": "Your personal information is securely stored in a controlled environment protected from unauthorized access, use or disclosure.", "label": []}
+{"id": 17521, "data": "When sensitive Personal Information, such as credit card number, is collected on our Site, it is protected through the use of encryption, such as the Secure Socket Layer (SSL) protocol.", "label": []}
+{"id": 17522, "data": "We implement a variety of security measures when you place an order, enter, submit, or access your information to maintain the safety of your personal information.", "label": []}
+{"id": 17523, "data": "How to delete your information", "label": []}
+{"id": 17524, "data": "You may request deletion or inactivation of your Account by sending an e-mail to support@aeonmatrix.com.", "label": []}
+{"id": 17525, "data": "We will periodically send you free newsletters and emails that directly promote the use of the Site, Product and Services. When you receive newsletters or promotional communications from us, you may indicate a preference to stop receiving further communications from us and you will have the opportunity to \"opt-out\" by following the unsubscribe instructions provided in the email you receive, by changing your Account settings, or by notifying us at support@aeonmatrix.com. Despite your indicated email preferences, we may send you service related communications, including notices of any updates to our Terms of Use or Privacy Policy.", "label": []}
+{"id": 17526, "data": "You can stop all collection of information by the App by uninstalling the App. You may use the standard uninstall processes as may be available as part of your mobile device.", "label": []}
+{"id": 17527, "data": "Other important privacy information", "label": []}
+{"id": 17528, "data": "Information you provide:", "label": []}
+{"id": 17529, "data": "Our Product and Services are not directed to individuals under 16. We do not knowingly collect personal information from children under 16.", "label": []}
+{"id": 17530, "data": "General Data Protection Regulation", "label": []}
+{"id": 17531, "data": "In order to be in line with General Data Protection Regulation (GDPR), we will notify the users via email within 72 hours should a data breach occur.", "label": []}
+{"id": 17532, "data": "Changes to our Privacy Policy", "label": []}
+{"id": 17533, "data": "We may change this privacy policy from time to time. We will post any privacy policy changes on this page and, if the changes are significant, we will provide a more prominent notice by adding a notice on the Services homepages, login screens, or by sending you an email notification. We will keep prior versions of this Privacy Policy in an archive for your review.", "label": []}

@@ -1,0 +1,38 @@
+{"id": 18009, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 18010, "data": "This Privacy Policy tells you how we use personal information collected at this site and is a companion document to our published Terms of Use. We will use the term \"the Services\" to collectively describe the Amcrest Cloud website, Amcrest View Website, Amcrest GPS website, Amcrest.com website, Amcrest Email Subscriptions & Newsletters as well as mobile apps and associated features and functions.", "label": []}
+{"id": 18011, "data": "Please read this Privacy Policy before using the the Services or submitting any personal information. By using the Services, you are accepting the practices described in this Privacy Policy. These practices may be changed, but any changes will be posted on this page. You are encouraged to review the Privacy Policy whenever you visit the site to make sure that you understand how any personal information you provide will be used.", "label": []}
+{"id": 18012, "data": "--------------2. Collection --------------", "label": []}
+{"id": 18013, "data": "What Information is Collected", "label": []}
+{"id": 18014, "data": "In order to use the Services, we request users to provide the following Personal and Device Information.", "label": []}
+{"id": 18015, "data": "Personal Information:", "label": []}
+{"id": 18016, "data": "\u25cf When you register on the website, we collect the following information: name, email, password, and a username to identify yourself to the website. You can also choose to supply additional information about your company and mailing address but this is not required.", "label": [[0, 266, "collection"]]}
+{"id": 18017, "data": "\u25cf The information you provide is used to uniquely identify you to the website and give you private access to the service. This information is only used to provide access to the Services, as well as communicate with you for service alerts or marketing and product updates. You can control over whether you choose to receive these types of communications.", "label": [[2, 122, "collection"], [122, 272, "collect_purpose"]]}
+{"id": 18018, "data": "\u25cf To process a purchase, additional information is requested by our 3rd party payment processing provider, Braintree (a Paypal company), Authorize.net and/or Paypal Direct. Amcrest does not process or store your credit card information.", "label": [[1, 24, "share_purpose"], [25, 172, "sharing"], [172, 236, "not_collect"]]}
+{"id": 18019, "data": "Device Information:", "label": [[0, 19, "collection"]]}
+{"id": 18020, "data": "\u25cf If you choose to configure your device for use with the Services, we require some information about that device.", "label": [[0, 114, "collection"]]}
+{"id": 18021, "data": "\u25cf Examples of device information required for the Services include but is not limited to, model and serial number, network information (including IP address), device username and password, device activity logs, and general device configuration.", "label": [[0, 244, "collection"]]}
+{"id": 18022, "data": "\u25cf IP cameras are used to capture audio and video data (media), and when these devices are configured for the Services -- and only when they are configured with the Services -- will media be transmitted to our servers where it is stored securely to ensure you can access it and playback video footage or watch live video.", "label": [[0, 320, "collection"]]}
+{"id": 18023, "data": "\u25cf Information about your web browser and operating system, mobile device type and operating system, and IP addresses used by these clients.", "label": [[0, 139, "collection"]]}
+{"id": 18024, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 18025, "data": "How We Use Your Information", "label": []}
+{"id": 18026, "data": "We use the Personal and Device information solely for the purpose of delivering the Services to you, within the private account you have configured with the Services", "label": [[0, 165, "collect_purpose"]]}
+{"id": 18027, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 18028, "data": "--------------5. Retention --------------", "label": []}
+{"id": 18029, "data": "--------------6. Children --------------", "label": []}
+{"id": 18030, "data": "--------------7. Contact --------------", "label": []}
+{"id": 18031, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 18032, "data": "Cookie/Tracking Technology", "label": []}
+{"id": 18033, "data": "This website uses cookies to improve the user experience and gather information such as browser type and operating system, tracking the number of visitors to the website, and understanding how visitors use the website. In general, personal information cannot be collected via cookies and other tracking technology, however, if you previously provided personally identifiable information, cookies may be tied to such information.", "label": [[0, 56, "collect_purpose"], [61, 218, "collection"]]}
+{"id": 18034, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 18035, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 18036, "data": "--------------11. Extra--------------", "label": []}
+{"id": 18037, "data": "How You Can Control Your Information", "label": []}
+{"id": 18038, "data": "\u25cf You can delete your account at anytime, and all Personal and Device Information, along with any stored media (video or images) will be permanently deleted. This option is available on the Settings page inside your account.", "label": []}
+{"id": 18039, "data": "\u25cf You can download your stored media and archive it yourself. You can also delete individual pieces of media that you don't want saved anymore on our servers.", "label": []}
+{"id": 18040, "data": "\u25cf You can review the information that is stored in your account by visiting the Settings page inside your account.", "label": []}
+{"id": 18041, "data": "Distribution of Information", "label": []}
+{"id": 18042, "data": "We will not share your personal information with anyone unless we are required by law or you have provided consent to do so.", "label": []}
+{"id": 18043, "data": "Commitment to Data Security", "label": []}
+{"id": 18044, "data": "We are committed to protecting your privacy and are using commercially reasonable measures to protect your personal information against loss or theft. The entirety of the Services are hosted at Amazon Web Services and Microsoft Azure data centers, primarily in the United States. It's important to know that no method of data storage or transmission is guaranteed to be 100% secure, therefore you acknowledge that you use the Services at your own risk.", "label": []}
+{"id": 18045, "data": "Privacy Contact Information", "label": []}
+{"id": 18046, "data": "If you have any questions, concerns, or comments about our privacy policy you may contact us at support@amcrest.com. We reserve the right to make changes to this policy. Any changes to this policy will be posted on this page.", "label": []}

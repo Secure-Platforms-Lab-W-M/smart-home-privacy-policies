@@ -1,0 +1,139 @@
+{"id": 15453, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 15454, "data": "Data Privacy Policy for VELUX ACTIVE with NETATMO", "label": []}
+{"id": 15455, "data": "Effective from 1st April 2019", "label": []}
+{"id": 15456, "data": "1. Purpose of document", "label": []}
+{"id": 15457, "data": "Collecting, processing and storing data is essential to deliver the key benefits of VELUX ACTIVE, namely indoor climate control. We continuously aim to improve the VELUX ACTIVE products and services for a relevant and safe up-to-date user experience (hereinafter \"the products and services\").", "label": []}
+{"id": 15458, "data": "It is fundamental to VELUX A/S that your personal data is protected and that you as the customer can easily understand what personal data we collect, process and store and for what purposes. We are completely open and informative about how we handle your data and we go to great lengths to keep your personal data safe. The purpose of this document is to clearly inform you about how we collect, process and store your personal data.", "label": []}
+{"id": 15459, "data": "2. Our promise", "label": []}
+{"id": 15460, "data": "Based on our corporate principles, as well as our commitment to comply with the European Union General Data Protection Regulation (2016/679 of 27 April 2016), \"GDPR\", we promise the user the following:", "label": []}
+{"id": 15461, "data": "VELUX A/S will only collect the personal data outlined in table 3. Only selected, trusted employees at VELUX A/S (hereinafter referred to as \"VELUX\"), NETATMO and the VELUX sales companies (the data processors) will have access to your personal data and will treat it confidentially.", "label": []}
+{"id": 15462, "data": "To be transparent and open about our collection, processing and use of personal data.", "label": []}
+{"id": 15463, "data": "--------------2. Collection --------------", "label": []}
+{"id": 15464, "data": "3. What personal data are we collecting and for what purposes?", "label": []}
+{"id": 15465, "data": "3.1. Contact information", "label": [[0, 24, "collection"]]}
+{"id": 15466, "data": "Data type", "label": [[0, 9, "collection"]]}
+{"id": 15467, "data": "Location, user name and email provided by the user through account registration in the application.", "label": [[0, 99, "collection"]]}
+{"id": 15468, "data": "Directly/indirectly identifiable personal data", "label": [[0, 46, "collection"]]}
+{"id": 15469, "data": "Your email, location and user name are considered as information that can directly identify a user. This information is thus directly identifiable data fields.", "label": [[0, 159, "collection"]]}
+{"id": 15470, "data": "What we are using it for (processing & purpose)", "label": []}
+{"id": 15471, "data": "Contact information is needed to enable you to use the products and services, send you account notifications, product and service updates, software updates and upgrades.", "label": [[0, 169, "collect_purpose"]]}
+{"id": 15472, "data": "In case you sign up for receiving information and marketing material from VELUX (separate consent), we will use your contact information for this purpose as well.", "label": [[0, 162, "collect_purpose"]]}
+{"id": 15473, "data": "Who has access?", "label": []}
+{"id": 15474, "data": "If you agree to receive information and marketing material, your acceptance hereof and your email account will be forwarded to the VELUX sales company established in your home country. During the periodin which you receive information and marketing material, your personal data will be stored at NETATMO's data center and in VELUX.", "label": []}
+{"id": 15475, "data": "3.2. User data", "label": [[0, 14, "collection"]]}
+{"id": 15476, "data": "Data type", "label": []}
+{"id": 15477, "data": "User data relates to your activity in the application, the settings in the app, and has a unique ID attached to you as a user.", "label": [[0, 126, "collection"]]}
+{"id": 15478, "data": "Directly/indirectly identifiable personal data", "label": []}
+{"id": 15479, "data": "When tracking movements in the app, we cannot see who is using the app. However, in the rare case of an app continuously crashing, we have the option of taking the unique ID of the user ID in the app analytics system and look for the user email in another system. User data is hence indirect personal data.", "label": [[0, 306, "collection"]]}
+{"id": 15480, "data": "What we are using it for (processing & purpose)", "label": []}
+{"id": 15481, "data": "User data enables us to improve the product functionalities and services and to ensure that the product functionalities are continuously up-to-date with new technologies etc.", "label": [[0, 174, "collect_purpose"]]}
+{"id": 15482, "data": "Examples of user data are: how frequent certain functions or buttons in the app are used to interact with the VELUX products (for example a manual \"open window\"), frequency of manual interventions in the algorithms and how many times the functions are executed.", "label": [[0, 261, "collection"]]}
+{"id": 15483, "data": "Who has access?", "label": []}
+{"id": 15484, "data": "VELUX & NETATMO", "label": []}
+{"id": 15485, "data": "3.3. Product status data, information & sensor* data", "label": [[0, 52, "collection"]]}
+{"id": 15486, "data": "Data type", "label": []}
+{"id": 15487, "data": "Information about the user's VELUX ACTIVE software version, IP address, product IDs, hardware version and installation.", "label": [[0, 119, "collection"]]}
+{"id": 15488, "data": "Further, the sensor* values measured, the number of rooms & houses and actuator movements.", "label": [[0, 90, "collection"]]}
+{"id": 15489, "data": "Directly/indirectly identifiable personal data", "label": []}
+{"id": 15490, "data": "Unique identifiers such as the IP address and the MAC address of your devices are considered directly identifiable personal information. Hardware version, software version and sensor* values are considered as indirectly identifiable, as they, if isolated, cannot lead to anyone identifying a person.", "label": [[0, 299, "collection"]]}
+{"id": 15491, "data": "What we are using it for (processing & purpose)", "label": []}
+{"id": 15492, "data": "The product information and sensor* data enable the algorithms to provide you with the core services of VELUX ACTIVE to ventilate and automatically regulate your indoor climate. Further, it enables us to improve our software and hardware, and understand and respect your preferences for a better service experience.", "label": [[0, 315, "collect_purpose"]]}
+{"id": 15493, "data": "Who has access?", "label": []}
+{"id": 15494, "data": "VELUX and selected individuals within the VELUX sales companies as listed below will have access to this data for support purposes. The data is collected and stored by NETATMO & VELUX.", "label": []}
+{"id": 15495, "data": "3.4. Service history", "label": [[0, 20, "collection"]]}
+{"id": 15496, "data": "Data type", "label": []}
+{"id": 15497, "data": "Service history is the accumulation of service calls or requests, visits and other online support. Further, when provided by the user in tickets, it includes name, phone number, email address and home address.", "label": [[0, 209, "collection"]]}
+{"id": 15498, "data": "Directly/indirectly identifiable personal data", "label": []}
+{"id": 15499, "data": "The accumulated service history is both directly and indirectly personal information. When requesting support online, you are asked to fill in personal information, for us to contact you. When filling in this information and sending it to us, you agree that we may contact you concerning the request and save your information for this purpose.", "label": [[0, 343, "collection"]]}
+{"id": 15500, "data": "What we are using it for (processing & purpose)", "label": []}
+{"id": 15501, "data": "Service history enables us to provide you with service on the product. Further, it enables us to support you concerning questions on warranty and troubleshooting. In the unlikely event of a more general problem occurring on several products, we can quickly rectify and remedy the issue.", "label": [[0, 286, "collect_purpose"]]}
+{"id": 15502, "data": "Who has access?", "label": []}
+{"id": 15503, "data": "VELUX and selected individuals within the VELUX sales companies as listed below will have access to this data for support purposes. The data is collected and stored by VELUX.", "label": []}
+{"id": 15504, "data": "*Only applicable for customers with an installed Indoor climate sensor", "label": []}
+{"id": 15505, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 15506, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 15507, "data": "--------------5. Retention --------------", "label": []}
+{"id": 15508, "data": "--------------6. Children --------------", "label": []}
+{"id": 15509, "data": "--------------7. Contact --------------", "label": []}
+{"id": 15510, "data": "13. Contact", "label": []}
+{"id": 15511, "data": "Feel free to contact us for further details here: active-support@velux.com", "label": []}
+{"id": 15512, "data": "VELUX America LLC.", "label": []}
+{"id": 15513, "data": "450 Old Brickyard Road", "label": []}
+{"id": 15514, "data": "PO Box 5001", "label": []}
+{"id": 15515, "data": "Greenwood, SC 29648-5001", "label": []}
+{"id": 15516, "data": "Tel - 1-800-888-3589", "label": []}
+{"id": 15517, "data": "Web - www.veluxusa.com", "label": []}
+{"id": 15518, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 15519, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 15520, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 15521, "data": "--------------11. Extra--------------", "label": []}
+{"id": 15522, "data": "4. Erasure of personal data", "label": []}
+{"id": 15523, "data": "We store your personal data for the entire period you use our products and services and until you disconnect the products from the server - plus one (1) year. Thereafter, we either delete your personal data or anonymise/aggregate it so that you can no longer be identified on the basis of your personal data.", "label": []}
+{"id": 15524, "data": "In case you have signed up for VELUX information and marketing material, we will store your contact information until you unsubscribe from VELUX information and marketing material.", "label": []}
+{"id": 15525, "data": "5. Limitations", "label": []}
+{"id": 15526, "data": "This privacy policy governs the data retrieved by VELUX through its own products and services. If you use other third-party smart home control systems (eg Apple Homekit or Google Home) to execute functions with VELUX products and services, these systems or kits may collect, process and share personal data, for which VELUX cannot be held responsible or liable. Please make sure to read the privacy policies from such third-party providers as you will give such third-party providers (eg Apple or Google) permission to control your devices by linking your account.", "label": []}
+{"id": 15527, "data": "6. The right to be forgotten and access to personal data", "label": []}
+{"id": 15528, "data": "The user of the products and services has the right to be forgotten, meaning that the user can request to have his or her account closed and have all direct personal data information deleted. When the direct personal data has been deleted, you will no longer be identifiable on the basis of the indirect personal data.", "label": []}
+{"id": 15529, "data": "The user can at any time contact VELUX to obtain an overview of the personal data stored and processed on the user by VELUX and request a transcript of the personal data stored by VELUX.", "label": []}
+{"id": 15530, "data": "Moreover, you may request that your personal data be corrected and/or updated in the event of e.g. a name change. Contact us via the mobile application or at active-support@velux.com for such requests.", "label": []}
+{"id": 15531, "data": "If you have provided your consent to receive VELUX information and marketing material, and you no longer wish to receive it, you may revoke your consent at the end of information and marketing emails, by contacting the above email address, or following the appropriate link in the marketing email.", "label": []}
+{"id": 15532, "data": "7. The users, homes and guests", "label": []}
+{"id": 15533, "data": "One user of the products and services can have several homes, in which case the same privacy policy applies to all the user's homes and to the entire user setup.", "label": []}
+{"id": 15534, "data": "The user of a home can also invite up to 20 guests to operate the products and services. In case of the latter, the guest accounts are governed by the same privacy policy, and with the same data and operational setup as the host.", "label": []}
+{"id": 15535, "data": "8. Governing legislation", "label": []}
+{"id": 15536, "data": "The GDPR applies to personal data from which an individual is identifiable, whether directly or indirectly.", "label": []}
+{"id": 15537, "data": "VELUX and the VELUX sales companies comply with the GDPR effective as of 25 May 2018, and all other relevant national laws in effect from time to time.", "label": []}
+{"id": 15538, "data": "9. Server", "label": []}
+{"id": 15539, "data": "Personal information will be stored on a server located in the European Union. VELUX instructs the data processor responsible for the server to have technical and safety measures in place to keep your personal data safe.", "label": []}
+{"id": 15540, "data": "10. Updates", "label": []}
+{"id": 15541, "data": "It is the responsibility of the user of the product to stay updated on the privacy policy relating to the products and services. We recommend that you read the privacy policy from time to time to keep yourself updated.", "label": []}
+{"id": 15542, "data": "11. The parties", "label": []}
+{"id": 15543, "data": "The role of the provider(s) of the products and services is:", "label": []}
+{"id": 15544, "data": "Data controller: VELUX A/S, \u00c5dalsvej 99, 2970 H\u00f8rsholm, Denmark - CVR 46 91 14 15, is accountable for collecting, processing and storing your personal data.", "label": []}
+{"id": 15545, "data": "Data processor 1: VELUX sales companies, which are owned 100 % by VELUX. VELUX sales companies in each country are responsible for the sales and services of VELUX ACTIVE products to end-users in the country where they are located. Please see the list of VELUX sales companies at the end of this privacy policy.", "label": []}
+{"id": 15546, "data": "Data processor 2: NETATMO SAS, 93 Rue Nationale, 92100 Boulogne-Billancourt, France, Reg no. 532501848, is responsible for developing the VELUX ACTIVE products and for transferring personal data to VELUX. VELUX instructs NETATMO SAS to have technical and safety measures in place to keep your personal data safe.", "label": []}
+{"id": 15547, "data": "See appendix 1 for VELUX affiliates.", "label": []}
+{"id": 15548, "data": "12. Legal requirements for data sharing", "label": []}
+{"id": 15549, "data": "We will not share personal data with any third-party company, except from the listed parties in Section 11. We will under no circumstances sell your personal data.", "label": []}
+{"id": 15550, "data": "From time to time, we use third-party IT consultants to service and maintain the products and IT systems, but such third-party IT consultants will be under confidentiality obligations and instructions from VELUX.", "label": []}
+{"id": 15551, "data": "In certain cases, we are required by law or legal processes to share specifically required data with the relevant legislative body requesting access to the personal data. This is relevant only under strict legal requirements, such as by court order, and will be treated with due care. If we must share your personal data with the above-mentioned legal entities, we will do our best to provide you with notice in advance by email or by other means, unless we are prohibited by a court order from doing so or where the request or legal process is directly related to a regulatory investigation. In the latter case, we will ensure that your disclosed personal data is treated as confidential.", "label": []}
+{"id": 15552, "data": "14. Appendix 1 - VELUX Sales Companies", "label": []}
+{"id": 15553, "data": "UE VELUX Roof Windows, Str. L. Bedi 31 Minsk, Belarus - Reg.no. 800013811", "label": []}
+{"id": 15554, "data": "VELUX (CHINA) Co., Ltd., No. 21 Baihe Road Hebei Province, China - Reg. no. 131000400004111", "label": []}
+{"id": 15555, "data": "VELUX America LLC, 104 Ben Casey Drive Fort Mill, United States of America - Reg. no. 04-2559488", "label": []}
+{"id": 15556, "data": "VELUX Argentina S.A., Colectora Panamericana Buenos Aires, Argentina - Reg. no. 10.928, of Book 122, Volume \"A\"", "label": []}
+{"id": 15557, "data": "VELUX Australia Pty. Ltd., 78 Henderson Road, Alexandria, New South Wales, Australia - ACN 001 841 541", "label": []}
+{"id": 15558, "data": "VELUX Belgium, Boulevard de l'Europe 121 Bierges, Belgium - BE 0412.621.370 (VAT)", "label": []}
+{"id": 15559, "data": "VELUX Bosna i Hercegovina d.o.o., Dzemala Bijedica 295 Ilidza, Bosnia and Herzegovina - Reg.no. 1-18783", "label": []}
+{"id": 15560, "data": "VELUX Bulgaria EOOD, Pelister 6 Sofia, Bulgaria - 121745393 (REG) /BG121745393 (VAT)", "label": []}
+{"id": 15561, "data": "VELUX Canada Inc., 2740 Sherwood Heights Dr. Oakville Ontario, Canada - 016617-1 (Co. No.)/10550434RC0001 (BN - Business No.)", "label": []}
+{"id": 15562, "data": "VELUX \u00c7ati Pencereleri Ticaret Limited Sirketi, Girne Mah. Girne Cad. Istanbul, Turkey - 9240119663 Erenkoy (REG)", "label": []}
+{"id": 15563, "data": "VELUX Cesk\u00e1, republika, s.r.o. Sokolova 654/1d, Horn\u00ed Her\u0161pice, 619 00 Brno, Czech Republic - 00532592 (IC)/ CZ00532592 (VAT)", "label": []}
+{"id": 15564, "data": "VELUX Chile Limitada, San Patricio 4099 Santiago, Chile - Reg. on page 6926 No. 3787, year 1983", "label": []}
+{"id": 15565, "data": "VELUX Company Ltd., Woodside Way Fife, United Kingdom - SC070286 (REG)", "label": []}
+{"id": 15566, "data": "VELUX Danmark A/S, Breeltevej 18 H\u00f8rsholm, Denmark - DK 46911415 (VAT)/4911415 (CVR)", "label": []}
+{"id": 15567, "data": "VELUX Deutschland GmbH, Gazellenkamp 168 Hamburg, Germany - 10042086 (REG)/EE100272657 (VAT)", "label": []}
+{"id": 15568, "data": "VELUX Eesti O\u00dc, Peterburi tee 2 A Tallinn, Estonia - DE118585357 (VAT)", "label": []}
+{"id": 15569, "data": "VELUX France, 1 rue Paul C\u00e9zanne Morangis, France - 970200044 0083 (SIREN/SIRET)/FR05 97020044 (VAT)", "label": []}
+{"id": 15570, "data": "VELUX Hrvatska d.o.o., Avenija Veceslava Holjevca 40 Zagreb, Croatia - 17798323753 (OIB)", "label": []}
+{"id": 15571, "data": "VELUX Italia s.p.a., Via Str\u00e0 152 Colognola ai Colli, Italy - 03726650157 (CF - Codice Fiscale)", "label": []}
+{"id": 15572, "data": "VELUX Japan Ltd., 1-23-14 Sendagaya Tokyo, Japan - Reg.no. 018011", "label": []}
+{"id": 15573, "data": "VELUX Latvia SIA, Liepajas iela 34 Riga, Latvia - 40003279195 (Co. REG)/40003279195 (VAT)", "label": []}
+{"id": 15574, "data": "VELUX Lietuva, UAB, S.\u017dukausko 49 - 8A Vilnius, Lithuania - 111543443 (Co. REG/Valst.reg.Nr.)", "label": []}
+{"id": 15575, "data": "VELUX Magyarorsz\u00e1g Kft., Zs\u00f3fia utca 1-3 Budapest, Hungary - 10192207208 (VAT)", "label": []}
+{"id": 15576, "data": "VELUX Nederland B.V., Molensteijn 2 De Meern, Netherlands - 30090412 (KvK Nummer)/NL001763775B01 (VAT)", "label": []}
+{"id": 15577, "data": "VELUX New Zealand Ltd., 62B Princes Street Auckland, New Zealand - 649329 (REG)/9429000070706 (NZBN -Business no.)", "label": []}
+{"id": 15578, "data": "VELUX Norge AS, Gjerdrumsvei 10D Oslo, Norway - NO917170967MVA (VAT)", "label": []}
+{"id": 15579, "data": "VELUX Polska Sp. z o.o., ul. Krakowiak\u00f3w 34 Warszawa, Poland - 006228649 (REGON)/KRS 0000018788 /PL5210091891 (VAT)", "label": []}
+{"id": 15580, "data": "VELUX Portugal, Lda., Travessa das Pedras Negras Lisboa, Portugal - 507564138 (Fiscal No.)/PT507564138 (VAT)", "label": []}
+{"id": 15581, "data": "VELUX Romania S.R.L., Aurel Vlaicu 40 Brasov, Romania - RO9434380 (Registry of commerce/VAT)", "label": []}
+{"id": 15582, "data": "VELUX Schweiz AG, Industriestrasse 7 Trimbach, Switzerland - CHE-105.915.054 (Handelsregister-Nr.)/CHE-105.915.054 MwSt (VAT)", "label": []}
+{"id": 15583, "data": "VELUX Slovenija d.o.o., Ljubljanska cesta 51A Trzin, Slovenia - 5933951 (Company ID)/SI88149161 (VAT)", "label": []}
+{"id": 15584, "data": "VELUX Slovensko, s.r.o., Galvaniho 17/A Bratislava, Slovakia - Sri 4901/B (Co. Reg. No.)/31348611 (ID No.)/SK1010191460 (VAT)", "label": []}
+{"id": 15585, "data": "VELUX Spain, S.A., Calle Chile 8 Madrid, Spain - A82477571 (CIF)/ESA82477571 (VAT)", "label": []}
+{"id": 15586, "data": "VELUX Srbija d.o.o., dr Ive Popovica \u00d0anija 3 Beograd, Serbia - Reg. no. BD 62807", "label": []}
+{"id": 15587, "data": "VELUX Suomi Oy, L\u00e4mmitt\u00e4j\u00e4nkatu 6 Helsink, Finland - FI 03983401 (VAT)", "label": []}
+{"id": 15588, "data": "VELUX Svenska AB, Karbingatan 22 Helsingborg, Sweden - SE556221330501 (VAT)", "label": []}
+{"id": 15589, "data": "VELUX Ukraina TOV, Revutskoho 44 Kiev, Ukraine - 31662199 (REG)", "label": []}
+{"id": 15590, "data": "VELUX \u00d6sterreich GmbH, Veluxstrasse 1 Wolkersdorf, Austria - ATU19046100 (VAT)", "label": []}
+{"id": 15591, "data": "ZAO VELUX ul., Nizhnyaya Syromyatnicheskaya 10 Moscow, Russian Federation - MPII 007.058", "label": []}

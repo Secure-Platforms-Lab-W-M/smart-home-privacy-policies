@@ -1,0 +1,94 @@
+{"id": 14236, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 14237, "data": "Telldus Privacy Policy", "label": []}
+{"id": 14238, "data": "As of 25 May, the entire EU received a new data protection regulation, called GDPR, which regulates how companies and organizations treat personal data. We at Telldus Technologies AB would like to ask you as our customer to please read the policy carefully.", "label": []}
+{"id": 14239, "data": "Protecting your data, privacy and personal information is very important for us at Telldus Technologies AB. It is important for us that our customers feel secure when using the Services.", "label": []}
+{"id": 14240, "data": "--------------2. Collection --------------", "label": []}
+{"id": 14241, "data": "What Information we collect", "label": []}
+{"id": 14242, "data": "When you use our Software and Services we only collect information provided by you. We attempt to limit the information we collect to only what is necessary to legitimately provide our services.", "label": []}
+{"id": 14243, "data": "The following information is collected when you first register with Telldus Live!", "label": []}
+{"id": 14244, "data": "Name", "label": [[0, 4, "collection"]]}
+{"id": 14245, "data": "Email Address", "label": [[0, 13, "collection"]]}
+{"id": 14246, "data": "Activation Code associated with your Telldus Gateway.", "label": [[0, 53, "collection"]]}
+{"id": 14247, "data": "The Activation code is used to connect/activate a gateway to your Telldus account. Once activated, the following information is collected via the Gateway:", "label": [[0, 81, "collect_purpose"]]}
+{"id": 14248, "data": "IP Address", "label": [[0, 10, "collection"]]}
+{"id": 14249, "data": "Firmware version which is installed on the Gateway", "label": [[0, 50, "collection"]]}
+{"id": 14250, "data": "MAC address", "label": [[0, 11, "collection"]]}
+{"id": 14251, "data": "The IP address is used to lookup latitude and longitude coordinates and city/country. The purpose of collected coordinates is to determine sunrise and sunset which can be used to control light switches. The city/country is used determine if newsletter is to be sent for the geographic location", "label": [[0, 293, "collect_purpose"]]}
+{"id": 14252, "data": "Location", "label": [[0, 8, "collection"]]}
+{"id": 14253, "data": "The IP address is used to lookup latitude and longitude coordinates and city/country. In order to be more accurate location may be set manually by you. The purpose of collecting coordinates is to determine sunrise and sunset which can be used to control light switches. The city/country is used determine if newsletter is to be sent for the geographic location. If you do not want the coordinates to be stored by us you can set location to 0 0 coordinates.", "label": [[0, 456, "collect_purpose"]]}
+{"id": 14254, "data": "The following information is received when you contact our Support. This information is logged into the Support Platform", "label": [[0, 120, "collection"]]}
+{"id": 14255, "data": "Name", "label": [[0, 4, "collection"]]}
+{"id": 14256, "data": "Email address", "label": [[0, 13, "collection"]]}
+{"id": 14257, "data": "When you use our Mobile Application for Android & iOS and Web Portal , the following information is collected in Google Analytics and Fabric Crashlytics.", "label": [[0, 153, "collection"]]}
+{"id": 14258, "data": "OS, browser version, browser language, country, city, viewed pages", "label": [[0, 66, "collection"]]}
+{"id": 14259, "data": "Crash logs", "label": [[0, 10, "collection"]]}
+{"id": 14260, "data": "The information we collect in Google Analytics is anonymized and cannot be connected to you. If our Telldus Mobile Application on your smart device crashes for some reason, a crash log is uploaded to us. Only when you contact customer support is the crash log used to help investigate the problem. The log is not used for any other purposes but only for improvement of the Software.", "label": [[204, 298, "collect_purpose"]]}
+{"id": 14261, "data": "When sensors and devices are connected to your account, the following information is collected:", "label": [[0, 95, "collection"]]}
+{"id": 14262, "data": "device name,", "label": [[0, 12, "collection"]]}
+{"id": 14263, "data": "sensor values", "label": [[0, 13, "collection"]]}
+{"id": 14264, "data": "device state", "label": [[0, 12, "collection"]]}
+{"id": 14265, "data": "battery status (if available)", "label": [[0, 29, "collection"]]}
+{"id": 14266, "data": "Your type of service you have subscribed to:", "label": [[0, 44, "collection"]]}
+{"id": 14267, "data": "Basic Access", "label": [[0, 12, "collection"]]}
+{"id": 14268, "data": "Premium Access", "label": [[0, 14, "collection"]]}
+{"id": 14269, "data": "When you are connecting third party devices that work with Telldus Software, we also collect the information coming from these sensors and devices; which could be periodic readings around", "label": [[0, 187, "collection"]]}
+{"id": 14270, "data": "Weather information and data", "label": [[0, 28, "collection"]]}
+{"id": 14271, "data": "Temperature", "label": [[0, 11, "collection"]]}
+{"id": 14272, "data": "Pressure", "label": [[0, 8, "collection"]]}
+{"id": 14273, "data": "And so on", "label": []}
+{"id": 14274, "data": "We also collect/store the event triggers and schedules that the customers are setting up to control their devices and sensors. This information is stored in our cloud and is available to you each time you log into use the Telldus Smart Automation Services. This data is vital for you to control your home automation.", "label": [[0, 126, "collection"], [257, 316, "collect_purpose"]]}
+{"id": 14275, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 14276, "data": "How the information is used", "label": []}
+{"id": 14277, "data": "We may use your e-mail address to contact you as a proactive measure to provide technical support.", "label": [[0, 98, "collect_purpose"]]}
+{"id": 14278, "data": "We perform usage trends analysis based on anonymized data. This analysis is important to us as it helps us in maintaining the system and provide improvements to the web portal and app . This also is a value add for you as our user in improving the service for you.", "label": [[0, 264, "collect_purpose"]]}
+{"id": 14279, "data": "When you contact our customer support relating to an application crash we may use the crash log that has been automatically uploaded. The crash log is not used for any other purpose and only when you contact support. It is also available for you if you would like to have a copy of it.", "label": [[0, 285, "collect_purpose"]]}
+{"id": 14280, "data": "We perform research on the equipment that is connected to Telldus Live to provide enhancements and new product offerings. Reports that are generated from the usage is anonymized.", "label": [[0, 178, "collect_purpose"]]}
+{"id": 14281, "data": "We perform research on support errands to better understand the challenges encountered by you. Any reports that are generated from the usage are anonymized.", "label": [[0, 156, "collect_purpose"]]}
+{"id": 14282, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 14283, "data": "Who do we share your data with", "label": []}
+{"id": 14284, "data": "No data is shared without your consent.", "label": []}
+{"id": 14285, "data": "Telldus Live provides a framework where external services can access your data (example IFTTT and Alexa). External services require to login to Telldus Live and a list of profiles that are intended to be accessed by the service are listed. By logging in you grant access to listed profiles (example, ability to turn on and off lights through the external service).", "label": []}
+{"id": 14286, "data": "We are not always aware of how the external service use your data but if there are any question about these external services please contact us at privacy@telldus.com.", "label": []}
+{"id": 14287, "data": "--------------5. Retention --------------", "label": []}
+{"id": 14288, "data": "How long the information is kept", "label": []}
+{"id": 14289, "data": "There are 2 forms of subscriptions with Telldus Live!; a free service called BASIC Access and a Paid Service called PREMIUM ACCESS. Each service has a different amount of storage time defined as to how long the historical data is kept for each device or sensor.", "label": []}
+{"id": 14290, "data": "The device state is only stored for 1 week.", "label": []}
+{"id": 14291, "data": "The sensor history is kept for 1 week for BASIC Access and indefinitely for PREMIUM Access.", "label": []}
+{"id": 14292, "data": "When a premium subscriber chooses to leave a service they have a choice to remove the historical data or keep it. Note the historical data is only available for premium subscribers.", "label": []}
+{"id": 14293, "data": "Your data is kept for as long as you are an active user. If you are inactive for 3 years in Telldus Live a notification will be sent asking if your account should be removed. If after 5 years no activity or response the account is removed along with all the historical data and support communication.", "label": []}
+{"id": 14294, "data": "We collect through Google analytics data associated with your IP address for a period of 26 months.", "label": []}
+{"id": 14295, "data": "--------------6. Children --------------", "label": []}
+{"id": 14296, "data": "--------------7. Contact --------------", "label": []}
+{"id": 14297, "data": "How to contact us", "label": []}
+{"id": 14298, "data": "Please contact us if you have any questions about our privacy policy or information we hold about you:", "label": []}
+{"id": 14299, "data": "by email (privacy@telldus.se)", "label": []}
+{"id": 14300, "data": "or write to us at: Telldus Technologies, Dalbyv\u00e4gen 20, 224 60 Lund, Sweden.", "label": []}
+{"id": 14301, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 14302, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 14303, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 14304, "data": "--------------11. Extra--------------", "label": []}
+{"id": 14305, "data": "Topics", "label": []}
+{"id": 14306, "data": "What Information we collect", "label": []}
+{"id": 14307, "data": "How the information is used", "label": []}
+{"id": 14308, "data": "How long the information is kept", "label": []}
+{"id": 14309, "data": "Who do we share your data with", "label": []}
+{"id": 14310, "data": "Promotions and Marketing", "label": []}
+{"id": 14311, "data": "Cookies", "label": []}
+{"id": 14312, "data": "Your rights", "label": []}
+{"id": 14313, "data": "Changes to the privacy policy", "label": []}
+{"id": 14314, "data": "How to contact us", "label": []}
+{"id": 14315, "data": "Promotions and Marketing", "label": []}
+{"id": 14316, "data": "We also would like to contact you with new Promotional offers, Digital Newsletters and marketing emails relating to our current and future services and products. We don't collect any other data for contacting you with Promotions and Marketing material rather use your email.", "label": []}
+{"id": 14317, "data": "To send you details about unrelated services or products or special offers and discounts which are being provided by our selected business partners.", "label": []}
+{"id": 14318, "data": "We also provide an option to unsubscribe or opt-out of further communication on any electronic marketing communication sent to you or you may opt out by contacting us.", "label": []}
+{"id": 14319, "data": "Cookies", "label": []}
+{"id": 14320, "data": "Cookies are text files placed on your computer to collect standard internet log information and visitor behaviour information. This information is used to track visitor use of the website and to compile statistical reports on website activity. For further information visit www.aboutcookies.org or www.allaboutcookies.org", "label": [[127, 243, "collect_purpose"]]}
+{"id": 14321, "data": "Your rights", "label": []}
+{"id": 14322, "data": "Under GDPR regulation you have the following rights relating to the data we collect about you.", "label": []}
+{"id": 14323, "data": "You have the right to request a copy of the information that we hold about you.", "label": []}
+{"id": 14324, "data": "You also have the right for data portability and transfer the data we have collected to another service.", "label": []}
+{"id": 14325, "data": "You have the right for your personal information is accurate and up to date. You may ask us to correct or remove information you think is inaccurate.", "label": []}
+{"id": 14326, "data": "When you discontinue using the Telldus Live services you have the right to request that the personal data we have collected is removed.", "label": []}
+{"id": 14327, "data": "Please contact us at privacy@telldus.se to exercise any of these rights. If you request the information in digital form we need to secure that you own the account by requesting that you provide us some form of identification before the information is shared.", "label": []}
+{"id": 14328, "data": "Changes to the privacy policy", "label": []}
+{"id": 14329, "data": "We keep our privacy policy under regular review and we will place any updates on this web page. This privacy policy was last updated and launched on 25th May 2018.", "label": []}

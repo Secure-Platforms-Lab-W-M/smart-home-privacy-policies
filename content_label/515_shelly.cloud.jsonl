@@ -1,0 +1,95 @@
+{"id": 11073, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 11074, "data": "CONFIDENTIALITY POLICY", "label": []}
+{"id": 11075, "data": "(In force as of 25.05.2018)", "label": []}
+{"id": 11076, "data": "Shelly Cloud (the Service) allows you to access and control a device form the Shelly home automation series (excluding the device Shelly Eye) and the data associated with them.", "label": []}
+{"id": 11077, "data": "Controller of the personal data processed for the purposes related to the Shelly Cloud mobile application is ALLTERCO ROBOTICS EOOD, UIC: 202320104, having its seat and registered address in Sofia, No 103 Cherni Vruh Blvd.", "label": []}
+{"id": 11078, "data": "The Data protection officer of ALTERCO ROBOTICS EOOD shall reply to all your queries concerning processing and protection of personal data and shall make the process of exercising your data subject rights easier and more comprehensible. Establishing direct contact with him/her for your convenience and ease is being facilitated via email: dpo@allterco.com", "label": []}
+{"id": 11079, "data": "ALLTERCO ROBOTICS EOOD strives to expand and diversify its portfolio of goods and services by collaborating and going into partnerships with mobile carriers at different countries. We wish to inform you about our new products, services and promotions for which we need your consent:", "label": []}
+{"id": 11080, "data": "I consent to receive messages for new products, services and promotions of ALLTERCO ROBOTICS EOOD:", "label": []}
+{"id": 11081, "data": "via an email from my profile", "label": []}
+{"id": 11082, "data": "You may withdraw the consent provided above through the settings of the application Shelly Cloud. Upon withdrawal of the consent, processing of the respective type of personal data shall be terminated for the stated purposes. Withdrawal of consent shall not prejudice the legality of processing based on consent given prior to its withdrawal.", "label": []}
+{"id": 11083, "data": "--------------2. Collection --------------", "label": []}
+{"id": 11084, "data": " The types of personal data we process:", "label": []}
+{"id": 11085, "data": "on a contractual basis for the provision of the Service:", "label": [[0, 56, "collection"]]}
+{"id": 11086, "data": "1.1. Profile data", "label": [[0, 17, "collection"]]}
+{"id": 11087, "data": "- E-mail address;", "label": [[0, 17, "collection"]]}
+{"id": 11088, "data": "- Serial number of a device from Shelly series;", "label": [[0, 47, "collection"]]}
+{"id": 11089, "data": "- Password;", "label": [[0, 11, "collection"]]}
+{"id": 11090, "data": "1.2. Data concerning the Shelly device and the paired (connected) mobile devices", "label": [[0, 80, "collection"]]}
+{"id": 11091, "data": "- Model and device number of the Shelly device and paired mobile devices;", "label": [[0, 73, "collection"]]}
+{"id": 11092, "data": "- version of the installed Shelly Cloud application, chosen language and time zone;", "label": [[0, 83, "collection"]]}
+{"id": 11093, "data": "- IP address of the paired mobile device and the Shelly device;", "label": [[0, 63, "collection"]]}
+{"id": 11094, "data": "On the basis of your explicit consent, expressed via the device settings or by a deliberate action by populating certain fields on the application:", "label": []}
+{"id": 11095, "data": "1.3. Data derived from the settings of the Shelly Cloud application", "label": [[0, 67, "collection"]]}
+{"id": 11096, "data": "- Operations mode", "label": [[0, 17, "collection"]]}
+{"id": 11097, "data": "- Choosing periods of work and rest/sleep", "label": [[0, 41, "collection"]]}
+{"id": 11098, "data": "- Other input by you into the Shelly Cloud application in the application's and Shelly device's functional parameters;", "label": [[0, 118, "collection"]]}
+{"id": 11099, "data": "You may withdraw each and every consent provided above through the settings of the application and your mobile device. Upon withdrawal of the consent, processing of the respective type of personal data shall be terminated for the stated purposes. Withdrawal of consent shall not prejudice the legality of processing based on consent given prior to its withdrawal.", "label": []}
+{"id": 11100, "data": "ALTERCO ROBOTICS EOOD processes data for business analysis of the sales extrapolated from de-personified anonymous data (legitimate ground):", "label": []}
+{"id": 11101, "data": "1.4. Anonymized data", "label": []}
+{"id": 11102, "data": "- Statistical information concerning the total number of active devices and their geographical allocation (general dispersal).", "label": [[0, 126, "collection"]]}
+{"id": 11103, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 11104, "data": "2. Purposes of personal data processing;", "label": []}
+{"id": 11105, "data": "2.1. Data concerning the profile for the purposes of:", "label": []}
+{"id": 11106, "data": "- Remote control of a Shelly device;", "label": [[0, 36, "collect_purpose"]]}
+{"id": 11107, "data": "- Provision of servicing and maintenance for removal of technical defects, limiting the access to the Service, etc.;", "label": [[0, 116, "collect_purpose"]]}
+{"id": 11108, "data": "- Email verification to ensure the security of data access for your profile and the Shelly device;", "label": [[0, 98, "collect_purpose"]]}
+{"id": 11109, "data": "- Sending messages for the purposes of direct marketing and advertisement upon explicit consent on your part;", "label": [[0, 109, "collect_purpose"]]}
+{"id": 11110, "data": "- Authentication when signing in to the application;", "label": [[0, 52, "collect_purpose"]]}
+{"id": 11111, "data": "- Password change;", "label": [[0, 18, "collect_purpose"]]}
+{"id": 11112, "data": "2.2. Data concerning the Shelly device and the paired mobile devices for the purposes of:", "label": []}
+{"id": 11113, "data": "- Providing a connection between the Shelly device device and the mobile device on which the application is installed;", "label": [[0, 118, "collect_purpose"]]}
+{"id": 11114, "data": "- Device Shelly Product Sheet Access Control;", "label": [[0, 45, "collect_purpose"]]}
+{"id": 11115, "data": "- Provision of services concerning servicing and maintenance for the correct functioning of the Shelly device;", "label": [[0, 110, "collect_purpose"]]}
+{"id": 11116, "data": "- Improving the Shelly Cloud Service;", "label": [[0, 37, "collect_purpose"]]}
+{"id": 11117, "data": "- Providing information on new services and products.", "label": [[0, 53, "collect_purpose"]]}
+{"id": 11118, "data": "2.3. Anonymized data for the purposes of:", "label": []}
+{"id": 11119, "data": "- Statistical analysis of consumption and consumer demand in various regions. Identification of a concrete person from this information is impossible.", "label": [[0, 150, "collect_purpose"]]}
+{"id": 11120, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 11121, "data": " Third parties to whom we provide your personal information:", "label": []}
+{"id": 11122, "data": "3.1. call centers that help us assist you in case of issues with the handling, configuration, and operation of the Shelly Cloud mobile application and the Shelly devices;", "label": [[0, 170, "share_purpose"]]}
+{"id": 11123, "data": "3.2. consultants in various fields in view of protection of our legitimate interests in the maintenance and improving the quality of the service, compliance with regulatory requirements, protection of legitimate rights and interests in court and administrative proceedings;", "label": [[0, 273, "share_purpose"]]}
+{"id": 11124, "data": "3.3. state bodies and institutions in connection to checks and probes performed by them in compliance with the legal requirements and restrictions;", "label": [[0, 147, "share_purpose"]]}
+{"id": 11125, "data": "3.4. Affiliated parties of ALLTERCO ROBOTICS EOOD in a connection with usage of shared technical and human resources, transformations and others.", "label": [[0, 145, "share_purpose"]]}
+{"id": 11126, "data": "In regards to private individuals, we require and pay attention that the above stated third parties apply all required technical and organizational measures for protection of such data.", "label": []}
+{"id": 11127, "data": " The Data is processed in regards of the following time limits:", "label": []}
+{"id": 11128, "data": "4.1. Profile data - until the account is deleted or up to 3 years following the last log-in into the application. The time limit is determined in view of the need to allow the Shelly device to be used in the event of its loss or theft and the subsequent rediscovery of the said item form its legal owner;", "label": []}
+{"id": 11129, "data": "4.2. Device data for the Shelly device and the paired mobile devices - until termination of the Service;", "label": []}
+{"id": 11130, "data": "4.3. Data provided on the basis of consent - until it is withdrawn, as provided, including through the settings of the application or the mobile device to which it is installed or deleted, if applicable, to the extent that the data is required for the use of a certain functionality of the mobile application;", "label": []}
+{"id": 11131, "data": "Following expiration of the above stated time limit, the data is deleted and may not be retrieved and used any longer. The data shall not be deleted but shall continue to be processed only for the purposes of protection of our legitimate rights and interests or in compliance with our legitimate obligations, in the event that as of the date of expiration of the above stated time limit there is pending court, administrative and pre-court proceedings - until its termination.", "label": []}
+{"id": 11132, "data": "--------------5. Retention --------------", "label": []}
+{"id": 11133, "data": "--------------6. Children --------------", "label": []}
+{"id": 11134, "data": "--------------7. Contact --------------", "label": []}
+{"id": 11135, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 11136, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 11137, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 11138, "data": "--------------11. Extra--------------", "label": []}
+{"id": 11139, "data": "Your rights as a data subject:", "label": []}
+{"id": 11140, "data": "5.1. Right to access, including right to copy data undergoing processing:", "label": []}
+{"id": 11141, "data": "At any time you have the right of information in regards to your personal data processed by us. You may contact us and after filling out a written request form and verifying your identity the requested information will be provided to you;", "label": []}
+{"id": 11142, "data": "5.2. Right to correct inaccurate personal data:", "label": []}
+{"id": 11143, "data": "You have the right to request correction and/or supplementation of your personal data when the data is incorrect and/or incomplete. This you can accomplish via your profile in the Shelly Cloud application or by contacting us, filling out a written request form and verifying your identity", "label": []}
+{"id": 11144, "data": "5.3. Right to delete (\"The right to be forgotten\") in the following cases:", "label": []}
+{"id": 11145, "data": "Removal of the need to process;", "label": []}
+{"id": 11146, "data": "Withdrawal of consent when the processing of the data is on the legal bases of provided consent;", "label": []}
+{"id": 11147, "data": "Illegal data processing;", "label": []}
+{"id": 11148, "data": "Legal obligation to delete;", "label": []}
+{"id": 11149, "data": "The right to be forgotten is not an absolute right and might not be respected in cases provided for by law and because of a lack of reliable verification of your identity.", "label": []}
+{"id": 11150, "data": "5.4. Right of limiting processing when:", "label": []}
+{"id": 11151, "data": "The veracity of data is disputed, for the period for which their veracity should be checked; or", "label": []}
+{"id": 11152, "data": "Processing of data is without legal ground, but instead of deletion on our part, you want their restricted processing; or", "label": []}
+{"id": 11153, "data": "Need for data concerning establishment, exercise or protection of your legal claims; or", "label": []}
+{"id": 11154, "data": "Objection has been submitted as regards data processing pending check as to the legality of the grounds of the administrator.", "label": []}
+{"id": 11155, "data": "In case of correction, deletion or restriction of processing, we will notify every recipient whose personal data has been disclosed unless this is impossible or requires disproportionately huge efforts.", "label": []}
+{"id": 11156, "data": "5.5. Right of portability of the data;", "label": []}
+{"id": 11157, "data": "we provide the data directly to you", "label": []}
+{"id": 11158, "data": "at your request and technical possibility, the data is provided to another administrator of your choice", "label": []}
+{"id": 11159, "data": "5.6. Right to object to the processing based on legitimate interest:", "label": []}
+{"id": 11160, "data": "You have the right to object to the processing of your personal data when the processing is based on legitimate interest of the Controller or a third party. ALLTERCO ROBOTICS EOOD will not continue processing your data, accept if there is a proof of founded legal basis for the continuation of it, which override your interests, rights and freedoms or are required for the establishment, exercise or defence of legal claims.", "label": []}
+{"id": 11161, "data": "5.7. Right to object to the processing for the purposes of direct marketing:", "label": []}
+{"id": 11162, "data": "You have the right to object to receiving messages for the purposes of direct marketing, including to the profiling and analysis concerning the direct marketing", "label": []}
+{"id": 11163, "data": "5.8. Right to lodge a complaint with a supervisory in the Member State of your habitual residence, place of work or place of the alleged infringement if you considers that the processing of personal data relating to you infringes GDPR.", "label": []}
+{"id": 11164, "data": "You may exercise the aforementioned data subject rights after filling out a written predefined request form which you may receive from the business address of the Controller or via electronic means after contacting the Data Protection Officer and filling out the electronic form which you will receive in response.", "label": []}
+{"id": 11165, "data": " Response of our request will be delivered in within one month of receiving your written request form.", "label": []}
+{"id": 11166, "data": "6. Used automated individual decision-making, including profiling (automated algorithms)", "label": []}
+{"id": 11167, "data": "We do not use any automated algorithms and/or profiling.", "label": []}

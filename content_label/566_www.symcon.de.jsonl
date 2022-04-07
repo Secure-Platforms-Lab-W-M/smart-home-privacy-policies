@@ -1,0 +1,40 @@
+{"id": 13834, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 13835, "data": "PRIVACY POLICY", "label": []}
+{"id": 13836, "data": "WEBSITE", "label": []}
+{"id": 13837, "data": "The use of this website is usually possible without providing any personal data. If personal data is gathered (e.g., name, address, or email address), this is done voluntarily whenever possible. The data is not passed to third parties without explicit approval.", "label": []}
+{"id": 13838, "data": "We indicate that communication via internet (e.g., communication via email) can contain security flaws. A flawless protection of the data against access from third parties is not possible.", "label": []}
+{"id": 13839, "data": "The use of published contact data, that were provided in accordance with the editorial requirements, for not explicitely allowed advertisement or information material is explicitely gainsaid. The providers of this website explicitely reserve legal steps in case of unrequested delivery of advertisement, e.g., spam mails.", "label": []}
+{"id": 13840, "data": "IP-SYMCON", "label": []}
+{"id": 13841, "data": "This privacy policy is valid for IP-Symcon Version 4.3 and above.", "label": []}
+{"id": 13842, "data": "AN ELICITATION OF USAGE DATA IS DONE VOLUNTARILY", "label": []}
+{"id": 13843, "data": "As a user, you can decide on the first use of an IP-Symcon version, if you want to allow the elicitation of usage data. This decision can be changed at any time and the elicitation can be activated or deactivated at any time in the Utils instance in the range of core instances.", "label": []}
+{"id": 13844, "data": "ELICITATION OF USAGE DATA", "label": []}
+{"id": 13845, "data": "If you allow the elicitation of usage data, IP-Symcon sends usage data to the Symcon GmbH. The sent data are stored by the Symcon GmbH. The data includes the license ID of the user and different non-personalized data, e.g., the number of used variables or used modules. The license ID is only used to verify a valid license and is only used with your explicit approval.", "label": [[135, 269, "collection"], [269, 369, "collect_purpose"]]}
+{"id": 13846, "data": "UTILIZATION OF USAGE DATA", "label": []}
+{"id": 13847, "data": "The elicited data is evaluated anonymously by the Symcon GmbH to optimize and improve IP-Symcon. During the evaluation, the license ID is removed. Thus, it is not possible to reference the user during the evaluation.", "label": [[0, 95, "collect_purpose"]]}
+{"id": 13848, "data": "Your usage data is only used personalized if you explicitely request to. Thus, you can learn which usage data was collected about you or the data can be used to aid a support process.", "label": [[0, 183, "collect_purpose"]]}
+{"id": 13849, "data": "IP-SYMCON MOBILE FOR IOS/ANDROID", "label": []}
+{"id": 13850, "data": "This privacy policy is valid for the product IP-Symcon Mobile for iOS/Android", "label": []}
+{"id": 13851, "data": "COMMUNICATION WITH IP-SYMCON", "label": []}
+{"id": 13852, "data": "The app only communicates with IP-Symcon servers that you added.", "label": []}
+{"id": 13853, "data": "With the exception of the optional push message service/history or the optional Connect Service, no further communication with the servers of the Symcon GmbH is done.", "label": []}
+{"id": 13854, "data": "PUSH MESSAGE SERVICE", "label": []}
+{"id": 13855, "data": "If you agree, the device specific token for push messages will be sent to servers of the Symcon GmbH to enable the registration to the push message service. The specified device then appears in your IP-Symcon in the Notification Control. There, you have the possibility to remove the device, which also removes the device specific token from the servers of the Symcon GmbH completely. The token is only used to transfer the push messages that you sent to your device.", "label": [[0, 155, "collect_purpose"]]}
+{"id": 13856, "data": "PUSH MESSAGE HISTORY", "label": []}
+{"id": 13857, "data": "To enable an overview over the recent push messages, the sent push messages are stored temporaryly on servers of the Symcon GmbH. These messages can be accessed with your device specific token. The sent messages are deleted at the latest after seven days and are not available in the history afterwards.", "label": [[0, 52, "collect_purpose"], [53, 129, "collection"]]}
+{"id": 13858, "data": "SYMCON CONNECT", "label": []}
+{"id": 13859, "data": "If you activate the Connect Service, a secured connection will be established to the servers of the Symcon GmbH. The access is done via the personalized ipmagic.de address. Every access is protocolled and allows, e.g., an analysis of errors, the used data amount, or unauthorized access. The data is deleted at latest after 30 days.", "label": []}
+{"id": 13860, "data": "MODULE STORE (CONSUMER)", "label": []}
+{"id": 13861, "data": "Within the context of the Module Store, person related data is stored when a module is installed or updated. These are used, e.g., to present an overview over installed modules in the Module Store or inform customers specifically in case of problems with specific modules. In addition, the data is used anonymised and aggregated for statistical use.", "label": [[0, 349, "collection"]]}
+{"id": 13862, "data": "MODULE STORE (DEVELOPER)", "label": []}
+{"id": 13863, "data": "Within the context of the Module Store, all entered data is saved when creating or updating a template. In addition, the source code will be downloaded from the specified server at the defined revision and stored on the servers of the Symcon GmbH to provide a download to customers after publication. After submission and possibly publication, the data is available publicly.", "label": [[0, 301, "collection"]]}
+{"id": 13864, "data": "--------------2. Collection --------------", "label": []}
+{"id": 13865, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 13866, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 13867, "data": "--------------5. Retention --------------", "label": []}
+{"id": 13868, "data": "--------------6. Children --------------", "label": []}
+{"id": 13869, "data": "--------------7. Contact --------------", "label": []}
+{"id": 13870, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 13871, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 13872, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 13873, "data": "--------------11. Extra--------------", "label": []}

@@ -1,0 +1,130 @@
+{"id": 1709, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 1710, "data": "HMS Customer Privacy Policy", "label": []}
+{"id": 1711, "data": "This privacy policy was last updated on November 27, 2019.", "label": []}
+{"id": 1712, "data": "At HMS Industrial Networks we place great importance on the protection of your personal data and want to be transparent regarding how personal data is collected, processed and shared by us.", "label": []}
+{"id": 1713, "data": "Personally Identifiable Information refers to any data that can be related to you as a person and processing refers to all our handling, including the use of it, storage and possible 3rd party transfer.", "label": []}
+{"id": 1714, "data": "This privacy policy covers our relationship with customers and potential customers including marketing activities. When we refer to \"you\" below, we refer to you as a customer representative.", "label": []}
+{"id": 1715, "data": "The policy may be updated from time to time and you will always find the latest version on our web sites. If we make a major update that impacts how we handle data in the future, we will notify you via the email address we have registered or notify you when using our webservices.", "label": []}
+{"id": 1716, "data": "--------------2. Collection --------------", "label": []}
+{"id": 1717, "data": "Personal information we collect and process about you", "label": []}
+{"id": 1718, "data": "In general, HMS is a business to business company and we process information about our customers' contact persons based on legitimate interest to maintain our business relationship.", "label": []}
+{"id": 1719, "data": "In some cases, we may also collect and process personal data based on your consent.", "label": []}
+{"id": 1720, "data": "Our purpose of processing personal data is to communicate and refer to our customers' contact persons within our business relationship as well as, if applicable, enabling you to use the services provided to the company you represent.", "label": [[0, 233, "collect_purpose"]]}
+{"id": 1721, "data": "The personal data is mainly collected directly from you. However, we may also collect your personal data from the company you represent.", "label": []}
+{"id": 1722, "data": "Collapse all", "label": []}
+{"id": 1723, "data": "Information types and reason for collection", "label": []}
+{"id": 1724, "data": "Q: To deliver products or services you order", "label": [[0, 44, "collect_purpose"]]}
+{"id": 1725, "data": "Processing of personal data is necessary to handle orders and deliver products or services to the company where you are employed, as well as handle warranty and payments.", "label": [[0, 170, "collect_purpose"]]}
+{"id": 1726, "data": "We process your information about which company you represent and your contact information, payment information and information about the products ordered. If you use our on-line services related to this, your IP number will also be stored.", "label": [[0, 240, "collection"]]}
+{"id": 1727, "data": "The data collected during order handling can also be used to contact you regarding products updates and advisories, HMS customer surveys and marketing of new products and services.", "label": [[0, 180, "collect_purpose"]]}
+{"id": 1728, "data": "If you do not want to receive such information you can ask us to block delivery by contacting us. We will store your data for seven years after your last contact with us, it will then be erased at the end of that year.", "label": []}
+{"id": 1729, "data": "In addition, economic transaction data will be archived according to the legal requirements for bookkeeping and taxes, in general for maximum ten years + current year.", "label": []}
+{"id": 1730, "data": "Q: Talk2M and Argos and HMS Hub cloud services", "label": []}
+{"id": 1731, "data": "When using our cloud services, we are responsible data controller for processing information in the following categories:", "label": []}
+{"id": 1732, "data": " Identification data (name, address, telephone, phone number, email address, company name and company identification)", "label": [[0, 117, "collection"]]}
+{"id": 1733, "data": " Account data (user name, account name)", "label": [[0, 39, "collection"]]}
+{"id": 1734, "data": " List of connected devices (like Flexy/Cosy/CD/Netbiter, Anybus Edge devices etc.)", "label": [[0, 82, "collection"]]}
+{"id": 1735, "data": " Traffic metadata (including: the time and duration of the connection, number of bytes transferred, device identification and similar metadata)", "label": [[0, 143, "collection"]]}
+{"id": 1736, "data": " Credentials (password, hint password)", "label": [[0, 38, "collection"]]}
+{"id": 1737, "data": "We process your data as long as you have an active service account. If there has not been any traffic associated to the account for seven years, the account and any associated data will be permanently deleted.", "label": []}
+{"id": 1738, "data": "We process this information to be able to provide the services as defined in the terms of usage and to develop and maintain our cloud services.", "label": [[0, 143, "collect_purpose"]]}
+{"id": 1739, "data": "This processing is based on our legitimate interest. The processing of personal data is necessary to ensure that only authorized individuals access the cloud services and to ensure that the cloud services are fully functioning and continuously developed, which we also believe is beneficial for you as a customer representative or user. In light of the above we have come to the conclusion that our legitimate interest outweighs your interest of not having your personal data processed for these purposes. You may object to this assessment, please read more about your rights below.", "label": [[0, 582, "collect_purpose"]]}
+{"id": 1740, "data": "If you do not provide your personal data to us we may not be able to provide you with access to the cloud services.", "label": []}
+{"id": 1741, "data": "Personally Identifiable Information in customer data / log data", "label": []}
+{"id": 1742, "data": "Traffic data generated to/from connected devices (log data) is owned by the HMS customer responsible for the current account. In case there is personal identifiable information processed in this data, the account owner (HMS Customer) is the responsible data controller and HMS will act as data processor in regards of this data.", "label": []}
+{"id": 1743, "data": "Q: Customer relationship management", "label": []}
+{"id": 1744, "data": "To deliver excellent services and provide you with quotations etc. we use a customer relationship management system. In this system we process your contact information, our activities (phone calls, emails, visits etc.) and what kind of information you want to receive.", "label": [[0, 116, "collect_purpose"], [116, 268, "collection"]]}
+{"id": 1745, "data": "We base this process on legitimate interest and keep this information for seven years from the last activity.", "label": []}
+{"id": 1746, "data": "Q: Technical support and RMA handling", "label": []}
+{"id": 1747, "data": "To provide you with customer support we process your contact details, information about the product or service supported and other information you may submit related to the support case.", "label": [[0, 69, "collect_purpose"], [69, 186, "collection"]]}
+{"id": 1748, "data": "To be able to follow up on your cases we keep this data for seven years after last contact, after this period we may keep general support information to improve our products and solutions but will remove any information that can be linked to an individual.", "label": []}
+{"id": 1749, "data": "We base this process on legitimate interest.", "label": []}
+{"id": 1750, "data": "Q: Marketing communication from HMS", "label": []}
+{"id": 1751, "data": "We will send you marketing information if you are a customer, have actively signed up to receive email marketing or otherwise showed clear interest in HMS and our products and services, for example, at fairs or seminars. We may also get address information from marketing partners that provide addresses to relevant companies.", "label": [[0, 326, "collect_purpose"]]}
+{"id": 1752, "data": "For statistical purposes we use web beacons in our marketing emails to measure if the email is opened, the links that are followed together with date and time.", "label": [[0, 159, "collect_purpose"]]}
+{"id": 1753, "data": "You can say no to further marketing information at any time by clicking the unsubscribe link in the footer of the email you receive from us. You can also say no to further marketing activities by contacting us at the address at the end of this policy. You have the possibility to say no to specific communication channels (phone, e-mail, fax etc.)", "label": []}
+{"id": 1754, "data": "We base our processing for marketing purposes on legitimate interest or by your consent when you sign up on mailing lists or otherwise show clear interest in our products.", "label": [[0, 171, "collect_purpose"]]}
+{"id": 1755, "data": "Q: Customer surveys", "label": []}
+{"id": 1756, "data": "To enhance our offering, check trends and your overall satisfaction with HMS and our product and services, we do customer surveys from time to time.", "label": [[0, 148, "collect_purpose"]]}
+{"id": 1757, "data": "If not otherwise mentioned, we will store your contact information together with your answers to be able to follow up on you if necessary.", "label": []}
+{"id": 1758, "data": "We will send you surveys based on our legitimate interest, as described in the beginning of this section. The processing of your answers is based on your consent to participate in the survey.", "label": [[0, 191, "collect_purpose"]]}
+{"id": 1759, "data": "Q: Attendance to events (seminars, trainings etc.)", "label": []}
+{"id": 1760, "data": "If you attend our seminars, presentations or training workshops arranged by HMS, on-line or at location, we will store your contact information for follow up and for marketing activities.", "label": [[0, 187, "collect_purpose"]]}
+{"id": 1761, "data": "Recordings of presentations may occur, if we record questions etc from participants, we will inform you about this.", "label": [[0, 115, "collection"]]}
+{"id": 1762, "data": "In case food is provided we may ask for specific food preferences, this information can be sensitive and is only processed if required for the arrangement of the event and is then deleted.", "label": [[0, 67, "collection"], [67, 188, "collect_purpose"]]}
+{"id": 1763, "data": "Q: On-line forums and social media activities", "label": []}
+{"id": 1764, "data": "If you submit information to our on-line forums or social media accounts managed by HMS, you provide this information based on your consent for us to process it. We ask you to not post any information that can be related to any third person.", "label": []}
+{"id": 1765, "data": "Q: When you visit our webpages", "label": []}
+{"id": 1766, "data": "When you visit our webpages, we automatically collect some technical information on the web server:", "label": []}
+{"id": 1767, "data": "Name of the file accessed, date and time of access, amount of data transmitted, notification of successful access, web browser, requesting domain and the public IP addresses of the requesting computer.", "label": [[0, 201, "collection"]]}
+{"id": 1768, "data": "We store this information based on legitimate interest only to be able to detect misuse or technical problems. The server logs are stored for six months.", "label": [[0, 153, "collect_purpose"]]}
+{"id": 1769, "data": "Q: When you use our LiveChat feature", "label": []}
+{"id": 1770, "data": "When using our live chat service, we store such data as name, email address, IP number, browser information, operating system, geolocation, previous visited pages on our website and a copy of the chat text transcript.", "label": [[0, 217, "collection"]]}
+{"id": 1771, "data": "We process this information based on your consent, given before you start the chat service.", "label": []}
+{"id": 1772, "data": "Data will be kept for a maximum of 45 days, to allow both HMS and yourselves to continue an existing chat thread.", "label": []}
+{"id": 1773, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 1774, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 1775, "data": "Sharing, processing and storage of personal data", "label": []}
+{"id": 1776, "data": "Collapse all", "label": []}
+{"id": 1777, "data": "Sharing and storage procedures", "label": []}
+{"id": 1778, "data": "Q: How we share your data", "label": []}
+{"id": 1779, "data": "To be able to provide our services and fulfill the purposes stated above, we may transfer your personal data to external parties, that act as separate data controllers, this includes:", "label": []}
+{"id": 1780, "data": "Address and contact information to transportation companies to deliver orders to the company you represent.", "label": [[0, 107, "sharing"]]}
+{"id": 1781, "data": "Contact details and invoicing information, like data usage, to an HMS Distributor when we sell to you via such channel.", "label": [[0, 119, "sharing"]]}
+{"id": 1782, "data": "We will never sell your information to any third party but can process your information within the HMS group globally. We may also share some of your personal data with HMS Distributors to organize marketing and promotional operations, contests, games and similar events; and to prevent fraud.", "label": [[119, 293, "share_purpose"]]}
+{"id": 1783, "data": "Please be informed that, notwithstanding the above mentioned, in the event a supervisory authority lawfully requests HMS Industrial Networks to retain and provide personal data, we will provide all reasonable assistance and information to fulfill such request.", "label": []}
+{"id": 1784, "data": "Q: External data processors", "label": []}
+{"id": 1785, "data": "We use external data processors to provide us with different services, including:", "label": []}
+{"id": 1786, "data": "IT service providers (Hosting, back-up, cloud solutions etc.)", "label": [[0, 61, "sharing"]]}
+{"id": 1787, "data": "Marketing partners (Surveys, e-mailing etc.)", "label": [[0, 44, "sharing"]]}
+{"id": 1788, "data": "Services to handle payments, like credit cards", "label": [[0, 46, "sharing"]]}
+{"id": 1789, "data": "These service providers are only allowed to process information on behalf of HMS and as specifically instructed by us.", "label": [[0, 118, "share_purpose"]]}
+{"id": 1790, "data": "Q: Protection of your data", "label": []}
+{"id": 1791, "data": "For us it is important that your data is safe. We use up-to-date data protection mechanisms and have implemented appropriate information security measures.", "label": []}
+{"id": 1792, "data": "HMS Industrial Networks entities ensure due care and take appropriate organizational and technical measures to protect the confidentiality and integrity of the personal data and communication data provided, collected and/or stored on our systems and shall not retain it any longer than permitted in order to perform its services or as required under relevant legislation.", "label": []}
+{"id": 1793, "data": "Your personal data can only be accessed by authorized employees of HMS Industrial Networks that need to have access to this data in order to be able to fulfill their given duties.", "label": []}
+{"id": 1794, "data": "Q: Data storage and location", "label": []}
+{"id": 1795, "data": "Your information may be stored and processed in any country in which HMS Industrial Networks maintain facilities, including outside of the European Economic Area (EU, Norway, Liechtenstein and Iceland). Furthermore, we may use data processors in countries outside the European Economic Area.", "label": []}
+{"id": 1796, "data": "We only make such transfers outside the European Economic Area if the recipient of the data is located in a country which provides an adequate level of protection following a European Commission adequacy decision or if appropriate safeguards have been provided by HMS Industrial Networks by executing standard contractual clauses.", "label": []}
+{"id": 1797, "data": "The standard contractual clauses can be found via this link: https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en", "label": []}
+{"id": 1798, "data": "--------------5. Retention --------------", "label": []}
+{"id": 1799, "data": "--------------6. Children --------------", "label": []}
+{"id": 1800, "data": "--------------7. Contact --------------", "label": []}
+{"id": 1801, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 1802, "data": "Cookies - What are they?", "label": []}
+{"id": 1803, "data": "A cookie is a small text file that's stored on your computer or mobile device when you visit a website. We use cookies on our websites and platforms.", "label": []}
+{"id": 1804, "data": "Learn more", "label": []}
+{"id": 1805, "data": "Social Media", "label": []}
+{"id": 1806, "data": "HMS communicates via various social media channels. We are responsible for information we post on these channels, if you have any concerns or questions on such content please contact us.", "label": []}
+{"id": 1807, "data": "For the social media service in general and how data is handled by these companies we refer you to these companies and their privacy policies.", "label": []}
+{"id": 1808, "data": "Facebook: https://www.facebook.com/privacy/explanation", "label": []}
+{"id": 1809, "data": "Google and YouTube: https://policies.google.com/privacy", "label": []}
+{"id": 1810, "data": "LinkedIn: https://www.linkedin.com/legal/privacy-policy", "label": []}
+{"id": 1811, "data": "Twitter: https://twitter.com/en/privacy", "label": []}
+{"id": 1812, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 1813, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 1814, "data": "--------------11. Extra--------------", "label": []}
+{"id": 1815, "data": "What are my rights?", "label": []}
+{"id": 1816, "data": "Collapse all", "label": []}
+{"id": 1817, "data": "Right to data and contact information", "label": []}
+{"id": 1818, "data": "Q: Your data - Your Rights", "label": []}
+{"id": 1819, "data": "You have the right to know what personal data we process about you and to request a copy of such personal data. You also have the right to object to processing, have your personal data corrected and in some cases, you may request that we delete your personal data or limit the processing of it. You also have the right of data portability.", "label": []}
+{"id": 1820, "data": "If we process data based on your consent, you can withdraw your consent for processing at any time. Please note that such withdrawal will not affect the lawfulness of processing based on your consent before the withdrawal.", "label": []}
+{"id": 1821, "data": "Please not that limitation or deletion of your personal data may result in us not being able to provide you with access to relevant services.", "label": []}
+{"id": 1822, "data": "If you want to exercise one of your rights, please contact us using the contact information below. Within a reasonable period of time and upon verification of your identity and to the extent your request is legitimate, we will fulfill your request, provided we will not act contrary to applicable legislation by fulfilling your request.", "label": []}
+{"id": 1823, "data": "Q: Responsible data controller and contact information", "label": []}
+{"id": 1824, "data": "HMS is responsible for your personal data, do not hesitate to contact us in case you have questions. HMS refers to HMS Industrial Networks AB and its subsidiary companies. The data controller of your personal data will be the HMS affiliate which is providing services or communicating to you.", "label": []}
+{"id": 1825, "data": "For data protection questions in general, or questions regarding our global processing:", "label": []}
+{"id": 1826, "data": "HMS Industrial Networks AB", "label": []}
+{"id": 1827, "data": "Att: Data protection responsible", "label": []}
+{"id": 1828, "data": "PO Box 4126", "label": []}
+{"id": 1829, "data": "SE-300 04 Halmstad", "label": []}
+{"id": 1830, "data": "Sweden", "label": []}
+{"id": 1831, "data": "dataprotection@hms-networks.com", "label": []}
+{"id": 1832, "data": "For Talk2M cloud services:", "label": []}
+{"id": 1833, "data": "HMS Industrial Networks SA", "label": []}
+{"id": 1834, "data": "Att: Data protection responsible", "label": []}
+{"id": 1835, "data": "22, Avenue Robert Schuman", "label": []}
+{"id": 1836, "data": "1400 Nivelles", "label": []}
+{"id": 1837, "data": "Belgium", "label": []}
+{"id": 1838, "data": "dataprotection@hms-networks.com", "label": []}

@@ -1,0 +1,57 @@
+{"id": 14368, "data": "--------------1. Preamble --------------", "label": []}
+{"id": 14369, "data": "Thinka for KNX", "label": []}
+{"id": 14370, "data": "Privacy Statement", "label": []}
+{"id": 14371, "data": "Thinka BV processes personal data within the framework of purchasing and / or using the Thinka for KNX (hereafter Thinka Box). We need the data we process for, among other things, supplying the Thinka and updating it and for being able to provide the service for which the Thinka is intended.", "label": []}
+{"id": 14372, "data": "In this privacy statement we inform you about which data we process, what we do with that information and why, and what your rights are in that respect.", "label": []}
+{"id": 14373, "data": "--------------2. Collection --------------", "label": []}
+{"id": 14374, "data": "Purchase", "label": []}
+{"id": 14375, "data": "If you order a Thinka Box from us, we process your name and address, e-mail address and payment details.", "label": [[0, 104, "collection"]]}
+{"id": 14376, "data": "The processing of this personal data is necessary for the execution of the shipping of the Thinka Box. We keep this information for as long as necessary for the execution of the agreement.", "label": [[0, 103, "collect_purpose"]]}
+{"id": 14377, "data": "In addition, we will process the payment details and the information stated on the invoice to comply with a legal obligation that applies to us. We keep this information during the term of the agreement and the term for the fiscal retention.", "label": [[0, 144, "collect_purpose"]]}
+{"id": 14378, "data": "We share this data with our logistics partners Jortt, DHL and / or MyParcel.", "label": [[0, 76, "sharing"]]}
+{"id": 14379, "data": "Your name and e-mail address will be used to keep you informed of the shipment and to send you help with the installation of the Thinka Box.", "label": [[0, 140, "both_purpose"]]}
+{"id": 14380, "data": "Registration and account", "label": [[0, 24, "collection"]]}
+{"id": 14381, "data": "For the use of the Thinka Box, regardless of who you bought it from, it is desirable that you register your Thinka Box. Then, and only then, do we process the serial number of your Thinka Box and your IP address. Your Thinka Box will then periodically contact our servers to verify the legitimate use of the software and to check whether updates to the software are available and to install them. Without registration, the Thinka Box will function completely, but will receive no updates.", "label": [[141, 212, "collection"], [213, 397, "collect_purpose"]]}
+{"id": 14382, "data": "Optionally , you can state a name and e-mail address when registering. This name and this e-mail address can be used by us to proactively contact us for support purposes.", "label": [[71, 170, "collect_purpose"], [0, 71, "collection"]]}
+{"id": 14383, "data": "We can share this support data with our partner Zendesk.", "label": [[0, 56, "sharing"]]}
+{"id": 14384, "data": "Use", "label": []}
+{"id": 14385, "data": "The Thinka Box has a link with your home automation system (KNX), and makes it possible to control (a selection of) the devices in the installation. This is all done indoors and goes via the wired KNX network or (optionally) via the LAN via a KNX IP Gateway.", "label": []}
+{"id": 14386, "data": "The link to the home automation installation can be simplified by reading in an ETS (KNX programming) file. Reading and processing this file (privacy sensitive data about the design of your house) is done exclusively on the Thinka Box and will never be read by us.", "label": []}
+{"id": 14387, "data": "Operating the Thinka Box with HomeKit is also all local and does not leave the home network. When operating the Thinka Box via a HomeHub from Apple, the security by Apple is controlled through hardware encryption in the iOS device and the Thinka Box.", "label": []}
+{"id": 14388, "data": "Voice control", "label": []}
+{"id": 14389, "data": "If you use Siri to operate the Thinka Box, your iOS device will contact Apple for the translation of a voice command to a HomeKit instruction, this translation requires Internet access, but the Thinka does not know about it. The Thinka Box only executes the HomeKit instructions from the iOS device locally.", "label": []}
+{"id": 14390, "data": "Voice control with Amazon or Google requires a connection from the Thinka Box to the Internet. The assignments are initiated from the Amazon and Google Cloud environment respectively. The Thinka Box has a secure connection with Thinka Cloud and processes the assignments of Alexa or Google Home. These commands may contain information about the devices connected to Thinka Box in your home. Thinka Cloud receives no speech, only the \"switch commands\". Thinka Box will also be able to report status changes in home automation to Alexa and / or Google. Alexa and / or Google will also periodically request the status of the Thinka Box and the link to the home automation installation.", "label": [[452, 682, "sharing"]]}
+{"id": 14391, "data": "We keep these received data and orders a maximum of one week for support and possible improvement of our service. However, we have no control over the processing by the provider you have chosen. For information on this, we refer you to the privacy statement of the relevant provider.", "label": []}
+{"id": 14392, "data": "This processing is necessary for the execution of the agreement between you and us (providing the interface function). In addition, the use of the Thinka Box means that you give us permission for this.", "label": [[0, 201, "collect_purpose"]]}
+{"id": 14393, "data": "--------------3. Purpose/Use --------------", "label": []}
+{"id": 14394, "data": "--------------4. Sharing --------------", "label": []}
+{"id": 14395, "data": "Who will receive your data?", "label": []}
+{"id": 14396, "data": "Your data is stored in a data center within the EU. We also share information with government authorities upon request if we are required to do so. For the data mentioned under the heading usage and voice control, we receive data from and share data with the provider you have chosen: Google, Apple and / or Amazon.", "label": [[148, 315, "both"]]}
+{"id": 14397, "data": "Furthermore, we share your data with the aforementioned logistics partners Jortt, DHL and / or MyParcel.", "label": [[0, 104, "sharing"]]}
+{"id": 14398, "data": "--------------5. Retention --------------", "label": []}
+{"id": 14399, "data": "How long do we store your data?", "label": []}
+{"id": 14400, "data": "We store your data for as long as necessary for the execution of the agreement and / or to comply with the legal obligations that apply to us. The retention periods can therefore vary depending on the type of data, the purpose of this and the duration of your user agreement. We retain some data after the end of the user agreement during the limitation period that applies to disputes concerning the execution of the agreement and for some data we have a fiscal retention obligation after the end of the user agreement.", "label": []}
+{"id": 14401, "data": "--------------6. Children --------------", "label": []}
+{"id": 14402, "data": "--------------7. Contact --------------", "label": []}
+{"id": 14403, "data": "Requests via e-mail: support@thinka.eu", "label": []}
+{"id": 14404, "data": "Thinka BV", "label": []}
+{"id": 14405, "data": "Cruquisweg 109 F", "label": []}
+{"id": 14406, "data": "1019 AG Amsterdam", "label": []}
+{"id": 14407, "data": "* Apple, HomeKit and Siri are (trade) brands of Apple Inc. registered in the US and other countries. Amazon, Alexa and all related logos are (trade) brands of Amazon.com, Inc. or affiliated parties. Google, Google Home and Google Assistant are (trade) brands of Google Inc.", "label": []}
+{"id": 14408, "data": "--------------8. Cookies --------------", "label": []}
+{"id": 14409, "data": "Cookies", "label": []}
+{"id": 14410, "data": "Through our website, cookies are placed from Google as part of the 'Analytics' service. We use this service to gain insight into how visitors use the website. This processor may be obliged to provide access to these data on the basis of applicable laws and regulations. We collect information about your surfing behavior. For this purpose, cookies are used. You can opt out of cookies by setting your internet browser so that it does not store cookies anymore. In addition, you can also delete all information previously saved via the settings of your browser.", "label": [[270, 321, "collection"], [88, 157, "share_purpose"], [0, 88, "sharing"]]}
+{"id": 14411, "data": "--------------9. Storage/Transfer --------------", "label": []}
+{"id": 14412, "data": "--------------10. Irrelevant:--------------", "label": []}
+{"id": 14413, "data": "--------------11. Extra--------------", "label": []}
+{"id": 14414, "data": "Support", "label": []}
+{"id": 14415, "data": "Optionally, the Thinka Box offers users support in the form of backup and restore of your configuration, as well as the creation and sending of diagnostic information. Both are on the initiative of you, the user. The data is encrypted and can only be read by Thinka support. Furthermore, we offer the possibility to protect the web interface (which is only accessible on the LAN) with a password on the Thinka Box. Thinka BV does not have access to this password.", "label": []}
+{"id": 14416, "data": "In rare cases, a user can give Thinka BV support access to his or her Thinka Box through an opening in the user's firewall. Only a Thinka support employee can gain access through a secure connection and a private key.", "label": []}
+{"id": 14417, "data": "Changes", "label": []}
+{"id": 14418, "data": "We reserve the right to change our privacy policy at any time. You can always find the most recent version on the https://thinka.eu/en/privacy_statement.html page. If the new privacy policy affects the way we process your previously collected data, we will notify you by e-mail.", "label": []}
+{"id": 14419, "data": "What are your rights?", "label": []}
+{"id": 14420, "data": "You have the right:", "label": []}
+{"id": 14421, "data": "to be informed about the processing, the legal basis and the purposes of the processing, what type of personal data we process, how long we store it and who you receive data", "label": []}
+{"id": 14422, "data": "on access to, rectification or deletion of personal data (under conditions stated in the GDPR)", "label": []}
+{"id": 14423, "data": "to request a limitation of the processing in some cases or to protest against the processing in", "label": []}
+{"id": 14424, "data": "order to file a complaint with the Authority for Personal Data", "label": []}
