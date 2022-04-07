@@ -1,0 +1,289 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--for stripe js error: Failed to execute 'postMessage' on 'DOMWindow' -->
+    <meta name="stripe-refresh" content="1585187181" data-turbolinks-track="reload">
+    <title>Netro-Shop</title>
+    <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="U9m7Qm3AlLB/hlVcEtGujRNj+wPrZmQtH49iT4pVYj52Y2Gfzpv4XEZlqTjXGVqk/y98pd3zX6dAgJrZiJUpRQ==">
+    <link rel="stylesheet" media="all" href="/assets/application-ea07d492067d81b24696be4eec211a026d01cc7e8b1526596e45919c266bb646.css">
+
+    <!-- For third-generation iPad with high-resolution Retina display: -->
+    <!-- Size should be 144 x 144 pixels -->
+    <link rel="apple-touch-icon-precomposed" type="image/png" href="/images/apple-touch-icon-144x144-precomposed.png" sizes="144x144">
+    <!-- For iPhone with high-resolution Retina display: -->
+    <!-- Size should be 114 x 114 pixels -->
+    <link rel="apple-touch-icon-precomposed" type="image/png" href="/images/apple-touch-icon-114x114-precomposed.png" sizes="114x114">
+    <!-- For first- and second-generation iPad: -->
+    <!-- Size should be 72 x 72 pixels -->
+    <link rel="apple-touch-icon-precomposed" type="image/png" href="/images/apple-touch-icon-72x72-precomposed.png" sizes="72x72">
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <!-- Size should be 57 x 57 pixels -->
+    <link rel="apple-touch-icon-precomposed" type="image/png" href="/images/apple-touch-icon-precomposed.png">
+    <!-- For all other devices -->
+    <!-- Size should be 32 x 32 pixels -->
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="/assets/application-6572f31908161ba706e1836327904f30b67805fd340cc85d1081a555ab79ff35.js"></script>
+    <!-- To use payola checkout form, need to include js lib -->
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+<script type="text/javascript" src="https://js.stripe.com/v3/"></script>
+<script type="text/javascript">
+  Stripe.setPublishableKey("pk_live_CXlZNf7tAigMt1qcuXjPpodw00PZXdE1jK");
+</script>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript"></script>
+    <![endif]-->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="/kindeditor/kindeditor.js"></script>
+    <script charset="utf-8" src="/kindeditor/lang/en.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-159082166-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-159082166-1');
+  // turbolinks
+  document.addEventListener('turbolinks:load', event => {
+    if (typeof gtag === 'function') {
+      gtag('config', 'UA-159082166-1', {
+        'page_location': event.data.url
+      });
+    }
+  });
+</script>
+
+
+  </head>
+  <body>
+    <div class="con">
+      <!-- Navigation -->
+      <link rel="stylesheet" media="screen" href="/assets/shop-7bd5e37a266e9c3137d442e0553291c5ce2958208179e38a47245c7ca8b6cd15.css">
+<div class="banner-top">
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="logo" style="padding-top:10px">
+	  <a href="/shop"><img alt="Netro" height="21px" src="/assets/netro-logo-6802130a8e97004b5c24380ed9f6a494b417bdf953f9fc4c1f8c15dd36b8f0bb.png"></a>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="/shop/products/sprite">
+                    <div class="row label_width">
+                      <div class="col-xs-3">
+                        <img src="/images/shop/sprite_icon.png" alt="Sprite icon" width="50" height="50">
+                      </div>
+                      <div class="col-xs-9 address_padding1">
+                        <strong>Sprite</strong><br>
+                        <span class="text_grey">Smart Sprinkler Controller</span>
+                      </div>
+                   </div>
+</a>                </li>
+                <li>
+                  <a href="/shop/products/whisperer">
+                    <div class="row label_width">
+                      <div class="col-xs-3">
+                        <img src="/images/shop/whisperer_icon.png" alt="Whisperer icon" width="50" height="50">
+                      </div>
+                      <div class="col-xs-9 address_padding1">
+                        <strong>Whisperer</strong><br>
+                        <span class="text_grey">Smart Plant Sensor</span>
+                      </div>
+                   </div>
+</a>                </li>
+                <li>
+                  <a href="/shop/products/pixie">
+                    <div class="row label_width">
+                      <div class="col-xs-3">
+                        <img src="/images/shop/pixie_icon.png" alt="Pixie icon" width="50" height="50">
+                      </div>
+                      <div class="col-xs-9 address_padding1">
+                        <strong>Pixie</strong><br>
+                        <span class="text_grey">Smart Hose Faucet Timer</span>
+                      </div>
+                   </div>
+</a>                </li>
+                <li>
+                  <a href="/shop/app">
+                    <div class="row label_width">
+                      <div class="col-xs-3 address_padding1">
+                        &nbsp;<img src="/assets/logo-cc1b7195893351ece9037fa9740b4c4445f9816d2b83326e157d9ee2bc3cafc2.png" alt="Logo" width="40" height="40">
+                      </div>
+                      <div class="col-xs-9 address_padding1">
+                        <strong>App</strong><br>
+                        <span class="text_grey">Netro App</span>
+                      </div>
+                   </div>
+</a>                </li>
+              </ul>
+          </li>
+          <li class="dropdown">
+            <a href="/shop/articles">Blog</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/shop/how_it_works">How It Works</a></li>
+                <li><a href="/shop/help_center?category=installation&amp;device_type=IRRIGATION_CONTROLLER">Help Center</a></li>
+                <li><a href="/forum/index" target="_Blank">Community Forum</a></li>
+                <li><a href="/shop/contact_us">Contact Us</a></li>
+              </ul>
+          </li>
+          <li class="dropdown">
+            <a href="/shop/products">Store</a>
+          </li>
+          <li class="dropdown">
+            <a href="/shop/refer">Referral</a>
+          </li>
+             <li class="dropdown"><a href="/auth/login">Log In</a></li>
+             <li class="dropdown"><a href="/auth/signup">Sign Up</a></li>
+        </ul>
+      </div>
+      <!--/.navbar-collapse-->
+   </nav>
+   <!--/.navbar-->
+  </div>
+</div>
+
+
+      <!-- Main view  -->
+      <div id="main_container">
+         
+         <div class="container"><br>
+  <div class="row">
+    <div class="col-md-2 user_sider1">
+    <div class="user_border2 top_padding1"><h4>Legal Items</h4> </div>
+    <ul class="nav nav-pills nav-stacked">
+     <li>
+       <a href="/shop/legal?type=privacy">
+           <span class="nav-label faq_h3">Privacy Policy</span>
+</a>     </li>
+     <li>
+       <a href="/shop/legal?type=community">
+           <span class="nav-label">Community Forum Agreement</span>
+</a>     </li> 
+     <li>
+       <a href="/shop/legal?type=fcc">
+           <span class="nav-label">FCC Compliance Notice</span>
+</a>     </li> 
+     <li>
+       <a href="/shop/legal?type=warranty">
+           <span class="nav-label">Warranty</span>
+</a>     </li>
+     <li>
+       <a href="/shop/legal?type=term">
+           <span class="nav-label">Terms of Service</span>
+</a>     </li>
+     <li>
+       <a href="/shop/legal?type=refer">
+           <span class="nav-label">Referral Program Terms</span>
+</a>     </li>
+     <li>
+       <a href="/shop/legal?type=shipping">
+           <span class="nav-label">Shipping Policy</span>
+</a>     </li>
+    </ul><br>
+    </div>
+    <div class="col-md-10">
+      <div>
+  <h3 class="faq_h3">Privacy Policy</h3><br>
+  <p>Netro, Inc. (“we,” “us, “our,” or “Company”) knows that you care about how your personal information is used and shared, and we take your privacy seriously. Please read the following to learn more about how we use your personal information. By visiting, accessing or using the netrohome.com website and domain name, and any other linked pages, features, content, the Iro Device (the “Product”), or application services (including, without limitation, mobile applications) offered from time to time by Company in connection therewith (collectively, the “Website”), or using any of our services, you acknowledge that you accept the practices and policies outlined in this Privacy Policy.</p><br>
+  <h4 class="faq_h3">What Does This Privacy Policy Cover?</h4>
+  <p>This Privacy Policy covers Company’s treatment of personally identifiable information (“Personal Information”) that Company gathers when you access the Website and when you use Company’s servicesices. This policy does not apply to the practices of companies that Company does not own or control (including any third-party products or services used for logging into the Website or that are integrated with the Website), or to individuals that Company does not employ or manage.</p><br>
+  <p>We do not knowingly collect or solicit personal information from anyone under the age of 13 or knowingly allow such persons to register for the Services (as that term is defined in our Terms of Service. If you are under 13, please do not attempt to register for the Services or send any information about yourself to us, including your name, address, telephone number, or email address. No one under age 13 may provide any personal information to us or on the Services. In the event that we learn that we have collected personal information from a child under age 13 without verification of parental consent, we will delete that information as quickly as possible. If you believe that we might have any information from or about a child under 13, please contact us at “Netro, Inc”.</p><br>
+  <h4 class="faq_h3">What Personal Information Does Netro Collect?</h4>
+  <p>The information we gather from customers enables us to personalize and improve our services, and allows our users to set up a user account and profile that can be used to personalize their experience on the Website. We collect the following types of information from our customers:</p><br>
+  <p class="faq_h3">Personal Information You Provide to Us:</p>
+  <p>We receive and store any information you enter on our Website or provide to us in any other way, including, without limitation, through use of the Product. The types of Personal Information collected in this fashion may include your name, your home address, your email address, IP address, browser and/or device information, username, password, your irrigation system’s activity data, and any other information necessary for us to provide our services. You can choose not to provide us with certain information, but then you may not be able to take advantage of many of our special features. The Personal Information you provide is used for such purposes as answering questions, improving the content of the Website, customizing the advertising and content you see, and communicating with you about Company’s products and services, including specials and new features.</p><br>
+  <p class="faq_h3">Personal Information Collected Automatically:</p>
+  <p>We receive and store certain types of information whenever you interact with our Website or use our services. Company automatically receives and records information on our server logs from your browser including your IP address, cookie information, browser and/or mobile device information, operating system, timestamps, the pages you request, and the actions and path you take on the Website.</p>
+  <p>Generally, our service automatically collects usage information, such as the numbers and frequency of visitors to our Website and how they use its various components, including, without limitation, irrigation system data from the Product. Company only uses this data in aggregate form, that is, as a statistical measure, and not in a manner that would identify you personally. This type of aggregate data enables us to figure out how customers use parts of the Website or services so that we can make the Website appealing to as many customers as possible, and improve those services. As part of this use of information, we may provide aggregate information to our partners about how our customers, collectively, use our Website or services. We share this type of statistical data so that our partners also understand how people use the Website or services, so that they, too, may provide you with an optimal online experience. Again, Company never discloses aggregate information to a partner in a manner that would identify you personally.</p><br>
+  <p class="faq_h3">E-mail Communications:</p>
+  <p>We may communicate with you if you’ve provided us the means to do so. For example, if you’ve given us your email address, we may send you promotional email offers on behalf of other businesses, or email you about your use of the Website. We may receive a confirmation when you open an email from Company if your computer or device supports this type of functionality. Company uses this confirmation to help us make emails more interesting and helpful and to improve the Website and our services. We also compare our customer list to lists received from other companies, in an effort to avoid sending unnecessary messages to our customers. When you receive e-mail from Company, you can opt out of receiving further e-mails by following the included instructions to unsubscribe.</p><br>
+  <h4 class="faq_h3">What About Cookies?</h4>
+  <p>Cookies are alphanumeric identifiers that we transfer to your computer’s (or other device’s) persistent storage medium (e.g., hard drive) through your browser to enable our systems to recognize your browser and tell us how and when pages in our site are visited and by how many people. We use cookies to enhance visitors’ experiences, to learn more about their use of the Website and to improve quality. Company cookies do not collect Personal Information, but we may combine the general information collected through cookies with other Personal Information to tell us who you are or what your screen name or email address is.</p><br>
+  <p>Most browsers have an option for turning off the cookie feature, which will prevent your browser from accepting new cookies, as well as (depending on the sophistication of your browser software) allowing you to decide on acceptance of each new cookie in a variety of ways. We strongly recommend that you leave the cookies activated, however, because cookies enable you to take advantage of some of our Website’s most attractive features.</p><br>
+  <p>Ads appearing on the Website may be delivered to users by our advertising partners, who may set cookies. These cookies allow the ad server to recognize your computer or other device each time they send you an online advertisement to compile information about you or others who use your computer or device. This information allows ad networks to, among other things, deliver targeted advertisements that they believe will be of most interest to you. This Privacy Policy covers the use of cookies by Company and does not cover the use of cookies by any advertisers.</p><br>
+  <h4 class="faq_h3">Will Company Share Any of the Personal Information it Receives?</h4>
+  <p>Personal Information about our customers is an integral part of our business. We neither rent nor sell your Personal Information to anyone. We share your Personal Information only as described below.</p><br>
+  <p><strong>Advertisers: </strong>As discussed above, we allow advertisers to choose the demographic information of users who will see their advertisements and you agree that we may use any of the information we have collected from you (including, without limitation, information you may have decided not to show to other users) to select or allow the advertiser to select the appropriate audience for those advertisements. For example, we may allow an advertiser to target an ad to you based on your query history. We may deliver a file to you through the Website (known as a “web beacon”) from an ad network. Web beacons allow ad networks to provide anonymized, aggregated auditing, research and reporting for us and for advertisers. Web beacons also enable ad networks to serve targeted advertisements to you when you visit other websites. Because your web browser must request these advertisements and web beacons from the ad network’s servers, these companies can view, edit, or set their own cookies, just as if you had requested a web page from their site.</p><br>
+  <p><strong>Affiliated Businesses We Do Not Control: </strong>We anticipate that we may become affiliated with a variety of businesses and work closely with them. In certain situations, these businesses may sell items to you through the Website. In other situations, Company may provide services, or sell products jointly with affiliated businesses. You can easily recognize when an affiliated business is associated with your transaction, and we will share your Personal Information that is related to such transactions with that affiliated business.</p><br>
+  <p><strong>Agents: </strong>We employ other companies and people to perform tasks on our behalf and need to share your information with them to provide products or services to you. Unless we tell you differently, Company’s agents do not have any right to use Personal Information we share with them beyond what is necessary to assist us. You hereby consent to our sharing of Personal Information for the above purposes.</p><br>
+  <p><strong>User profiles and submissions: </strong>Certain user profile information, including your name, location, and any video or image or other content that such user has uploaded to the Website, may be displayed to other users to facilitate user interaction within the Website or address your request for our services. Your account privacy settings may allow you to limit the other users who can see the Personal Information in your user profile and/or what information in your user profile is visible to others. Please remember that any content you upload to your public user profile, along with any Personal Information or content that you voluntarily disclose online in a manner other users can view (on discussion boards, in messages and chat areas, etc.) becomes publicly available, and can be collected and used by others. Your user name may also be displayed to other users if and when you send messages or comments or upload images or videos through the Website and other users can contact you through messages and comments. Additionally, if you sign into the Website through a third party social networking site or service, your list of “friends” from that site or service may be automatically imported to the Website, and such “friends,”” if they are also registered users of the Website, may be able to access certain non-public information you have entered in your Website user profile. Again, we do not control the policies and practices of any other third party site or service.</p><br>
+  <p><strong>Business Transfers: </strong>In some cases, we may choose to buy or sell assets. In these types of transactions, customer information is typically one of the business assets that are transferred. Moreover, if Company, or substantially all of its assets were acquired, or in the unlikely event that Company goes out of business or enters bankruptcy, customer information would be one of the assets that is transferred or acquired by a third party. You acknowledge that such transfers may occur, and that any acquirer of Company or its assets may continue to use your Personal Information as set forth in this policy.</p><br>
+  <p><strong>Business Transfers: </strong>We may release Personal Information when we believe in good faith that release is necessary to comply with the law; enforce or apply our conditions of use and other agreements; or protect the rights, property, or safety of Company, our employees, our users, or others. This includes exchanging information with other companies and organizations for fraud protection and credit risk reduction.</p><br>
+  <p><strong>With Your Consent: </strong>Except as set forth above, you will be notified when your Personal Information may be shared with third parties, and will be able to prevent the sharing of this information.</p><br>
+  <h4 class="faq_h3">Is Personal Information About me Secure?</h4>
+  <p>Your Company account Personal Information is protected by a password for your privacy and security. You need to ensure that there is no unauthorized access to your account and Personal Information by selecting and protecting your password appropriately and limiting access to your computer (or other device) and browser by signing off after you have finished accessing your account.</p><br>
+  <p>Company endeavors to protect user information to ensure that user account information is kept private, however, Company cannot guarantee the security of user account information. Unauthorized entry or use, hardware or software failure, and other factors, may compromise the security of user information at any time.</p><br>
+  <p>The Website contains links to other sites. Company is not responsible for the privacy policies and/or practices on other sites. When linking to another site you should read the privacy policy stated on that site. This Privacy Policy only governs information collected on the Website.</p><br>
+  <h4 class="faq_h3">What Personal Information Can I Access?</h4>
+  <p>Company allows you to access the following information about you for the purpose of viewing, and in certain situations, updating or deleting that information. This list will change as the Website changes.</p>
+  <p>* Real name</p>
+  <p>* Account and user profile information, including images and other data and information you have uploaded to the Website</p>
+  <p>* User e-mail address</p>
+  <p>* Location</p>
+  <p>* Username and password</p>
+  <p>* User preferences</p>
+  <p>* If you have any questions about viewing or updating information we have on file about you, please contact us at “Netro, Inc.”.</p><br>
+  <h4 class="faq_h3">What Choices Do I Have?</h4>
+  <p>As stated previously, you can always opt not to disclose information, even though it may be needed to take advantage of or register for certain features of the Website and services.</p><br>
+  <p>You are able to add or update certain information on pages, such as those listed in the “What Personal Information Can I Access” section above. When you update information, however, we often maintain a copy of the unrevised information in our records. We may use any aggregated data derived from or incorporating your Personal Information after you update or delete it, but not in a manner that would identify you personally.</p><br>
+  <p>You may request deletion or inactivation of your Company account by sending an e-mail to support@netrohome.com. Please note that some information may remain in our records after deletion of your account.</p><br>
+  <p>If you do not wish to receive email or other mail from us, please indicate this preference during the registration process, by changing your account settings, or by notifying us at “Netro, Inc.”. Please note that if you do not want to receive legal notices from us, such as this Privacy Policy, those legal notices will still govern your use of the Website, and you are responsible for reviewing such legal notices for changes.</p><br>
+  <h4 class="faq_h3">Changes to this Privacy Policy</h4>
+  <p>Company may amend this Privacy Policy from time to time. Use of information we collect now is subject to the Privacy Policy in effect at the time such information is used. If we make changes in the way we use Personal Information, we will notify you by posting an announcement on our Website or sending you an email. Users are bound by any changes to the Privacy Policy when he or she uses the Website after such changes have been first posted.</p><br>
+  <h4 class="faq_h3">Questions or Concerns</h4>
+  <p>If you have any questions or concerns regarding privacy on our Website, please send us a detailed message at “Netro, Inc.”. We will make every effort to resolve your concerns.</p><br>
+  <strong>Effective Date: January 1, 2019</strong>
+</div><br><br>
+
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</div>
+
+      </div> <!-- /container -->
+      <div class="footer news-letter">
+  <div class="container">
+    <!--<div class="footer_top"></br>
+       <div class="row copyright">
+         <div class="col-xs-6" align="right">
+           <a href= "/shop/legal?type=privacy"><p><span class="gray-point">Privacy Policy</span></p></a>
+         </div>
+         <div class="col-xs-5" align="left">
+           <a href= "/shop/legal?type=fcc"><p><span class="gray-point">FCC Compliance Notice</span></p></a>
+         </div></br>
+         <div class="clearfix"></div>
+       </div>
+    </div></br> -->
+    <div class="copyright text-center">
+      <p>© 2019 Netro. All Rights Reserved | <a href="/shop/legal?type=privacy"><span>Legal</span></a> | <a href="/shop/contact_us">Contact Us</a></p>
+    </div>
+  </div>
+</div>
+
+    </div>
+  
+
+<iframe name="stripeXDM_default762388_provider" id="stripeXDM_default762388_provider" aria-hidden="true" src="https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fwww.netrohome.com&amp;stripe_xdm_c=default762388&amp;stripe_xdm_p=1#__stripe_transport__" frameborder="0" style="position: absolute; top: -2000px; left: 0px;"></iframe><iframe frameborder="0" allowtransparency="true" scrolling="no" name="__privateStripeMetricsController0" allowpaymentrequest="true" src="https://js.stripe.com/v3/m-outer-a0f6c1465b8d9aab778cf2913d1d3c86.html#url=https%3A%2F%2Fwww.netrohome.com%2Fshop%2Flegal%3Ftype%3Dprivacy&amp;title=Netro-Shop&amp;referrer=&amp;muid=466f7222-c713-4c86-b33a-77cb5d0f5204&amp;sid=e7df6c48-1e88-4c0b-ade3-3c7974796a0a&amp;preview=false" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe></body></html>

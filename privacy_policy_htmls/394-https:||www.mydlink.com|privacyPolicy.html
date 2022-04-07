@@ -1,0 +1,280 @@
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!--<![endif]--><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-Ua-Compatible" content="IE=10;IE=9;IE=8;IE=7">
+<meta name="title" content="mydlink">
+<title>mydlink</title>
+<link href="/mod-core-utils/css/main.css?5e7aec5cdb4d9" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" media="screen" href="/css/optimized.css?1583741748=&amp;ver=5e7aec5cdb4d9">
+<link rel="stylesheet" type="text/css" media="screen" href="/css/official_info/privacy.css?ver=5e7aec5cdb4d9">
+<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" src="/js/optimized.js?1583741748=&amp;ver=5e7aec5cdb4d9"></script>
+<script type="text/javascript" src="/requirejs_nocache?ver=5e7aec5cdb4d9"></script>
+<script type="text/javascript" src="/components/requirejs/require.js?ver=5e7aec5cdb4d9"></script>
+<script type="text/javascript" src="/mydlink_components/requirejs-web-mod/main.global.min.js?ver=5e7aec5cdb4d9"></script>
+<meta property="og:title" content="mydlink: Watch what matters">
+<meta property="og:url" content="http://www.mydlink.com">
+<meta property="og:site_name" content="mydlink">
+<meta property="og:image" content="http://www.mydlink.com/images/og.png?5e7aec5cdb4d9">
+<meta property="og:description" content="mydlink is a free service that makes it easy to keep watch over the important things in your life. Just connect a mydlink-enabled camera to your home network, and you can see its video online on a PC or an iOS or Android mobile device!">
+<link rel="shortcut icon" href="/images/icon/favicon.ico?5e7aec5cdb4d9">
+</head>
+<body data-i18n="en" data-region="US" data-oapi-user-token="" data-oapi-app-token="o2MlAxxUT3MeOL29K5C0UMZKL5C9nxoy" data-subscription-site="">
+<div class="sub_body">
+<script>
+function showChange() {
+  $('body').css('overflow', 'hidden');
+  document.getElementById("changeCamera").style.display = "block";
+}
+function hideChange() {
+  $('body').css('overflow', 'auto');
+  document.getElementById("changeCamera").style.display = "none";
+}
+function getUserName(_callBack) {
+    $.ajax({
+        url: "https://mp-us-openapi.auto.mydlink.com/me/user/info?access_token=",
+        type: 'get',
+        dataType: 'json',
+        contentType: 'application/json',
+        success: function(result) {
+            if(_callBack) {
+                _callBack(result.data);
+                return;
+            }
+        },
+        error: function(error) {
+            if(_callBack) {
+                _callBack({});
+                return;
+            }
+        }
+    });
+}
+ $( document ).ready(function() {
+  $(".option_01").on('click', function() {
+    window.location.href = "/device";
+  })
+  $(".option_02").on('click', function() {
+    window.location.href = "/cameraPortal";
+  })
+ if (!(window.location.href.indexOf('/entrance') > 0) ) {
+    getUserName(function(_data) {
+      if(_data.first_name) {
+        $("#user_name_2").text(_data.first_name);
+        $("#user_name").attr('title', _data.first_name);
+      }
+    });
+ }
+});
+</script>
+<link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="screen" href="/css/device/camera_portal_light_box.css">
+
+   <div class="lb_bg_on_top" id="changeCamera" style="display: none;">
+    <div class="lb_container_50p" style="font-size: 14px;">
+      <div class="lb_sec_title">
+        <div class="lb_title">Select Your Portal</div>
+        <div class="lb_close_btn" onclick="hideChange();"></div>
+      </div>
+      <div class="lb_sec_content">
+        <div class="option_01">
+          <div class="app_icon"><img src="/images/cameraPortal/my_dlink_lite_plus.png"></div>
+          <div class="option_txt">
+            <div class="option_title"><p>1st Generation Portal</p></div>
+            <div class="option_content" onclick="window.location.href='/device'">For cameras and other devices which use the old mydlink Lite app (model numbers ending in L)</div>
+          </div>
+        </div>
+        <div class="option_02">
+          <div class="app_icon"><img src="/images/cameraPortal/mydlink_app_icon.png"></div>
+          <div class="option_txt">
+            <div class="option_title"><p>2nd Generation Portal</p></div>
+            <div class="option_content" onclick="window.location.href='/cameraPortal'">For cameras which use the new mydlink app (model numbers ending in LH)</div>
+          </div>
+        </div>
+        <div class="option_note">You can switch between these portals later by clicking "CHANGE PORTAL" from the menu at the top of the screen.</div>
+      </div>
+    </div>
+  </div>
+
+<div id="header">
+  <div id="header_main">
+    <a href="/device" class="logo">
+      <img src="https://d3w50y3vm0ysj5.cloudfront.net/mydlink-logo/logo_us.gif" alt="mydlink">
+    </a>
+    <!-- Begin user account-->
+    <div class="user article">
+      <p id="user_header_info">
+                <!-- <a href="#" target="_self">Create account</a><span class="separateLine">|</span> -->
+          <a href="/entrance" target="_self">Sign in</a>
+            </p>
+              <p>
+        </p>
+          </div>
+    <!-- End user account -->
+
+    <!-- Begin Menu -->
+    <div class="navBar">
+      <div class="slatenav_index article">
+        <ul>
+                    <a id="header-mydlink" href="/home">
+            <li><p>Home</p></li>
+          </a>
+                              <a id="header-productfamily" href="/content/productfamily"><li><p>Product</p></li></a>
+          <a id="header-mydlink_app" href="/apps"><li><p>Mobile App</p></li></a>
+          <a id="header-support" href="/download"><li><p>Support</p></li></a>
+                  </ul>
+      </div><!-- End slatenav -->
+    </div><!-- End navBar -->
+  </div>
+</div>
+
+<script>
+(function () {
+    var strRouteName = 'privacy_policy';
+    var strIDName = '#header-'.concat(strRouteName);
+
+    // pages for service
+    if (/^service/.test(strRouteName) && $('#header-service').length) {
+        strIDName = '#header-service';
+    }
+
+    if (strRouteName === 'contact' ||
+        strRouteName === 'download' ||
+        strRouteName === 'faq') {
+        // support include 3 part: FAQ, Download, Contact us
+        strIDName = '#header-support';
+    }
+
+    if ($(strIDName).size() > 0) {
+        $(strIDName).addClass('current');
+    }
+
+    if (strRouteName === 'mydlink') {
+        $('.user #user_header_info').hide();
+        $('#header').attr('id', 'header_index');
+    } else {
+        $('.user #user_header_info').show();
+        $('#header div:first').attr('id', 'header_main');
+    }
+})();
+</script>
+<div class="ct_titlebar">
+<div class="middle_area">
+<h4>D-Link Privacy Policy</h4>
+</div>
+</div><!--end ct_titlebar-->
+<!-- Begin the TRUSTe private policy -->
+
+<div class="container">
+<!-- Begin the TRUSTe private policy -->
+<div class="privacy_truste_row article"><a class="privacy_trustelogo" href="https://privacy.truste.com/privacy-seal/validation?rid=eff765a4-5009-47e3-8478-605ba25a0f3d" target="_blank"><img style="border: none;" src="https://privacy-policy.truste.com/privacy-seal/seal?rid=eff765a4-5009-47e3-8478-605ba25a0f3d" alt="TRUSTe" onerror="truste_error(this, 'en');"></a>
+<!-- Coporation TRUSTe text-->This privacy policy applies to https://www.mydlink.com owned  and operated by D-Link Corporation. This privacy policy describes how D-Link  Corporation collects and uses the personal information you provide for using  mydlink web portal and  cloud services. It also describes the choices available to you regarding our  use of your personal information and how you can access and update this  information.<br>
+  <br>
+  If you have an unresolved privacy or data use concern that we have not  addressed satisfactorily, please contact our U.S.-based third party dispute  resolution provider (free of charge) at  https://feedback-form.truste.com/watchdog/request.
+</div><!-- Ended here -->
+<div class="privacy_truste_row">
+<div class="privacy_description article">
+  <iframe src="https://d1rvtd08ngd4ef.cloudfront.net/new+mydlink/privacy_and_tos/privacy_policy_content.html?lang=en" width="100%" scrolling="yes" allowtransparency="true"></iframe>
+</div>
+<!--end privacy_description-->
+<div class="fix"></div>
+</div><!--end privacy_truste_row-->
+</div><!--end container-->
+<!-- InstanceEndEditable -->
+
+<!--pre footer img (except homepage) -->
+  <div id="footer-lab"></div>
+
+<!-- footer -->
+<div id="footer" class="article">
+   <div id="prefooter">
+    <div class="column stay-connected">
+    <h6>Official Information</h6>
+      <ul>
+      <li><a href="http://www.dlink.com/">Global D-Link</a></li>
+      <li><a href="/content/productfamily">About mydlink</a></li>
+      <li><a href="/termsOfUse">Terms of Use</a></li>
+      <li><a href="/privacyPolicy">Privacy Policy</a></li>
+      <li><div id="teconsent" style="display:inline; min-width:20px;" consent="undefined"><script async="async" src="//consent.trustarc.com/notice?domain=mydlink.com&amp;c=teconsent&amp;text=true&amp;language=en" crossorigin="" id="truste_0.7355549901469061"></script><script async="async" type="text/javascript" crossorigin="" src="https://consent.trustarc.com/asset/notice.js/v/v1.7-72"></script><a id="icon-id06157390121949846" tabindex="0" role="link" lang="en" style="cursor: pointer;">Cookie Preferences</a></div></li>
+      </ul>
+    </div>
+    <div class="divider"></div>
+    <div class="column services">
+    <h6>Product</h6>
+      <ul><!-- for temp solution -->
+      <li><a href="/content/productfamily#49tabM99">Cloud Cameras</a></li>
+      <li><a href="/content/productfamily#49tabM100">Cloud Routers</a></li>
+      <li><a href="/content/productfamily#50tabSD3">Cloud Storage</a></li>
+      </ul>
+    </div>
+    <div class="divider"></div>
+    <div class="column contact">
+    <h6>Mobile App</h6>
+      <ul>
+      <li><a href="/apps">Download Apps</a></li>
+      </ul>
+    </div>
+    <div class="divider"></div>
+    <div class="column products">
+    <h6>Support</h6>
+      <ul>
+      <li><a href="/faq">FAQ</a></li>
+      <li><a href="/download">Download</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="fix"></div>
+  </div><!-- end the prefooter -->
+
+  <div id="btmfooter">
+    <!--  Add truste logo -->
+    <!-- Begin TRUSTe-->
+    <!--end TRUSTe-->
+    <!--line-->
+    <div class="footer_separator"></div>
+    <div id="footer_tx" class="footer_text">
+    <p>Copyright ©&nbsp;2020&nbsp;D-Link Corporation. All rights reserved.  </p>
+        </div><!--[if lte IE 7]><div></div><![endif]-->
+    <!--begin footer_btmline-->
+    <div class="footer_btmline">
+    <span class="bg_r">Language: <a id="Lang" href="#">English▲</a>      </span>
+      <div id="language_menu" class="lang_switch_panel" style="display: none; visibility: visible; top: -183px; width: 158px;">
+        <div class="lang_switch">
+          <ul>
+                                                                  <li><a href="#" lang="cs">Česky</a></li>
+                                                      <li><a href="#" lang="de">Deutsch</a></li>
+                                                      <li><a href="#" lang="es">Español</a></li>
+                                                      <li><a href="#" lang="fr">Français</a></li>
+                                                      <li><a href="#" lang="it">Italiano</a></li>
+                                                      <li><a href="#" lang="hu">Magyar</a></li>
+                                                      <li><a href="#" lang="nl">Nederlands</a></li>
+                                                      <li><a href="#" lang="pl">Polski</a></li>
+                                                      <li><a href="#" lang="pt_BR">Português do Brasil</a></li>
+                                                      <li><a href="#" lang="ru">Русский</a></li>
+                                                      <li><a href="#" lang="sv">Svenska</a></li>
+                                                      <li><a href="#" lang="zh_TW">中文(繁體)</a></li>
+                                                      <li><a href="#" lang="zh_CN">中文(简体)</a></li>
+                                                      <li><a href="#" lang="ja">日本語</a></li>
+                                                      <li><a href="#" lang="ko">한국어</a></li>
+                                    </ul>
+        </div>
+      </div><!--end lang_switch_panel-->
+    </div><!--end footer_btmline-->
+
+    <div class="fix"></div>
+  </div><!-- end btmfooter -->
+</div>
+<!-- end footer -->
+<script>
+(function () {
+    var strRouteName = "sf_guard_signin";
+
+    if (strRouteName === "mydlink") {
+        $('#footer').attr('id', 'footer_index');
+        $('#prefooter').attr('id', 'prefooter_index');
+        $('#btmfooter').attr('id', 'btmfooter_index');
+    }
+})();
+</script>
+</div>
+
+
+</body></html>

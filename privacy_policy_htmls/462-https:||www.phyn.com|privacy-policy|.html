@@ -1,0 +1,796 @@
+<html itemscope="" itemtype="http://schema.org/WebPage" lang="en-US"><head>
+    <!-- Required meta tags always come first -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+        <link rel="icon" href="https://www.phyn.com/wp-content/uploads/favicon.png" sizes="32x32">
+    <link rel="apple-touch-icon-precomposed" href="https://www.phyn.com/wp-content/uploads/favicon.png">
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+ 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+      <script type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vfl13pyi5/www-widgetapi.js" async=""></script><script src="https://connect.facebook.net/signals/config/137066443405777?v=2.9.15&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://www.youtube.com/iframe_api"></script><script src="https://www.phyn.com/wp-content/themes/jbst-4-sass-master/assets/scripts/html5lightbox/froogaloop2.min.js"></script><script type="text/javascript" async="" src="https://cdn.livechatinc.com/tracking.js"></script><script async="" src="https://cdn1.affirm.com/js/v2/affirm.js"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/P6KLRNy7h3K160ZmYNUOAce7/recaptcha__en.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-56QG9GT"></script><script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <!-- Hotjar Tracking Code for https://www.phyn.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:993594,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script><script async="" src="https://static.hotjar.com/c/hotjar-993594.js?sv=6"></script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-56QG9GT');</script>
+      <link rel="icon" href="https://www.phyn.com/wp-content/uploads/phyn-fav-icon.png" sizes="32x32">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      
+	<style>
+		.wpcf7-submit{
+			display:none;
+		}
+		.recaptcha-btn{
+			display:block;
+		}
+		.grecaptcha-badge {display: none;} 
+	</style>
+	<script type="text/javascript">
+		var contactform = [];
+		var checkIfCalled = true;
+		var renderGoogleInvisibleRecaptchaFront = function() {
+			// prevent form submit from enter key
+			jQuery("input[name=_wpcf7]").attr("class","formid");
+				jQuery('.wpcf7-form').on('keyup keypress', "input", function(e) {
+				  var keyCode = e.keyCode || e.which;
+				  if (keyCode === 13) {
+					e.preventDefault();
+					return false;
+				  }
+				});
+
+			jQuery('.wpcf7-submit').each(function(index){
+
+				var checkexclude = 0;
+				var form = jQuery(this).closest('.wpcf7-form');
+				var value = jQuery(form).find(".formid").val();
+				// check form exclude from invisible recaptcha
+								if(checkexclude == 0){
+					// Hide the form orig submit button
+					form.find('.wpcf7-submit').hide();
+
+					// Fetch class and value of orig submit button
+					btnClasses = form.find('.wpcf7-submit').attr('class');
+					btnValue = form.find('.wpcf7-submit').attr('value');
+
+					// Add custom button and recaptcha holder
+
+					form.find('.wpcf7-submit').after('<input type="button" id="wpcf-custom-btn-'+index+'" class="'+btnClasses+'  recaptcha-btn recaptcha-btn-type-css" value="'+btnValue+'" title="'+btnValue+'" >');
+					form.append('<div class="recaptcha-holder" id="recaptcha-holder-'+index+'"></div>');
+					// Recaptcha rendenr from here
+					var holderId = grecaptcha.render('recaptcha-holder-'+index,{
+								'sitekey':'6LeerJgUAAAAAKIUbNX44RIwJJMvg6RdB3XMmktP',
+								'size': 'invisible',
+								'badge' : 'bottomright', // possible values: bottomright, bottomleft, inline
+								'callback' : function (recaptchaToken) {
+									//console.log(recaptchaToken);
+									var response=jQuery('#recaptcha-holder-'+index).find('.g-recaptcha-response').val();
+									//console.log(response);
+									//Remove old response and store new respone
+									jQuery('#recaptcha-holder-'+index).parent().find(".respose_post").remove();
+									jQuery('#recaptcha-holder-'+index).after('<input type="hidden" name="g-recaptcha-response"  value="'+response+'" class="respose_post">')
+									grecaptcha.reset(holderId);
+
+									if(typeof customCF7Validator !== 'undefined'){
+										if(!customCF7Validator(form)){
+											return;
+										}
+									}
+									// Call default Validator function
+									else if(contactFormDefaultValidator(form)){
+										return;
+									}
+									else{
+										// hide the custom button and show orig submit button again and submit the form
+										jQuery('#wpcf-custom-btn-'+index).hide();
+										form.find('input[type=submit]').show();
+										form.find("input[type=submit]").click();
+										form.find('input[type=submit]').hide();
+										jQuery('#wpcf-custom-btn-'+index).attr('style','');
+									}
+								}
+						},false);
+
+					// action call when click on custom button
+					jQuery('#wpcf-custom-btn-'+index).click(function(event){
+						event.preventDefault();
+						// Call custom validator function
+						if(typeof customCF7Validator == 'function'){
+							if(!customCF7Validator(form)){
+								return false;
+							}
+						}
+						// Call default Validator function
+						else if(contactFormDefaultValidator(form)){
+							return false;
+						}
+						else if(grecaptcha.getResponse(holderId) != ''){
+							grecaptcha.reset(holderId);
+						}
+						else{
+							// execute the recaptcha challenge
+							grecaptcha.execute(holderId);
+						}
+					});
+				}
+			});
+		}
+	</script><script src="https://www.google.com/recaptcha/api.js?onload=renderGoogleInvisibleRecaptchaFront&amp;render=explicit" async="" defer=""></script><title itemprop="name">Privacy Policy | Phyn.com</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v13.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://www.phyn.com/privacy-policy/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Privacy Policy | Phyn.com">
+<meta property="og:description" content="PRIVACY POLICY PHYN PRIVACY POLICY We at Phyn are committed to protecting your privacy. Our goal is to provide you with a positive experience on our websites and when using our apps, products and services, while at the same time keeping your Personal Information, as defined below, secure. Our privacy practices are described below, as...  Read more »">
+<meta property="og:url" content="https://www.phyn.com/privacy-policy/">
+<meta property="og:site_name" content="Phyn.com">
+<meta property="article:publisher" content="https://www.facebook.com/phyntech/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="PRIVACY POLICY PHYN PRIVACY POLICY We at Phyn are committed to protecting your privacy. Our goal is to provide you with a positive experience on our websites and when using our apps, products and services, while at the same time keeping your Personal Information, as defined below, secure. Our privacy practices are described below, as... Read more »">
+<meta name="twitter:title" content="Privacy Policy | Phyn.com">
+<meta name="twitter:site" content="@Phyn">
+<meta name="twitter:creator" content="@Phyn">
+<script type="application/ld+json" class="yoast-schema-graph yoast-schema-graph--main">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.phyn.com/#website","url":"https://www.phyn.com/","name":"Phyn.com","inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":"https://www.phyn.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://www.phyn.com/privacy-policy/#webpage","url":"https://www.phyn.com/privacy-policy/","name":"Privacy Policy | Phyn.com","isPartOf":{"@id":"https://www.phyn.com/#website"},"inLanguage":"en-US","datePublished":"2018-10-31T19:59:09+00:00","dateModified":"2019-12-31T20:09:31+00:00"}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="Phyn.com » Feed" href="https://www.phyn.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Phyn.com » Comments Feed" href="https://www.phyn.com/comments/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.phyn.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://www.phyn.com/wp-includes/js/wp-emoji-release.min.js?ver=5.3.2" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="https://www.phyn.com/wp-content/plugins/gutenberg/build/block-library/style.css?ver=1583275356" type="text/css" media="all">
+<link rel="stylesheet" id="wpml-menu-item-0-css" href="//www.phyn.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.css?ver=1" type="text/css" media="all">
+<link rel="stylesheet" id="megamenu-css" href="https://www.phyn.com/wp-content/uploads/maxmegamenu/style_en.css?ver=1a788e" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="https://www.phyn.com/wp-includes/css/dashicons.min.css?ver=5.3.2" type="text/css" media="all">
+<link rel="stylesheet" id="megamenu-genericons-css" href="https://www.phyn.com/wp-content/plugins/megamenu-pro/icons/genericons/genericons/genericons.css?ver=1.9" type="text/css" media="all">
+<link rel="stylesheet" id="megamenu-fontawesome-css" href="https://www.phyn.com/wp-content/plugins/megamenu-pro/icons/fontawesome/css/font-awesome.min.css?ver=1.9" type="text/css" media="all">
+<link rel="stylesheet" id="megamenu-fontawesome5-css" href="https://www.phyn.com/wp-content/plugins/megamenu-pro/icons/fontawesome5/css/all.min.css?ver=1.9" type="text/css" media="all">
+<link rel="stylesheet" id="cms-navigation-style-base-css" href="https://www.phyn.com/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation-base.css?ver=1.5.2" type="text/css" media="screen">
+<link rel="stylesheet" id="cms-navigation-style-css" href="https://www.phyn.com/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation.css?ver=1.5.2" type="text/css" media="screen">
+<link rel="stylesheet" id="wrmr-font-awesome-css" href="https://www.phyn.com/wp-content/plugins/wp-reviews-by-wiremo/classes/../assets/css/font-awesome.min.css?ver=screen" type="text/css" media="all">
+<link rel="stylesheet" id="wrmr-style-css" href="https://www.phyn.com/wp-content/plugins/wp-reviews-by-wiremo/classes/../assets/css/style.css?ver=1" type="text/css" media="all">
+<link rel="stylesheet" id="site-css-css" href="https://www.phyn.com/wp-content/themes/jbst-4-sass-master/assets/styles/style.css?ver=1582236662" type="text/css" media="all">
+<link rel="stylesheet" id="mdcf7-styles-css" href="https://www.phyn.com/wp-content/plugins/cf7-material-design/inc/../addons/css/cf7material-styles.css?ver=5.3.2" type="text/css" media="all">
+<style id="mdcf7-styles-inline-css" type="text/css">
+.wpcf7 .wpcf7-form .input-field label { color: #9e9e9e; } .wpcf7-form input:not([type]), .wpcf7-form input[type=text]:not(.browser-default), .wpcf7-form input[type=password]:not(.browser-default), .wpcf7-form input[type=email]:not(.browser-default), .wpcf7-form input[type=url]:not(.browser-default), .wpcf7-form input[type=time]:not(.browser-default), .wpcf7-form input[type=date]:not(.browser-default), .wpcf7-form input[type=datetime]:not(.browser-default), .wpcf7-form input[type=datetime-local]:not(.browser-default), .wpcf7-form input[type=tel]:not(.browser-default), .wpcf7-form input[type=number]:not(.browser-default), .wpcf7-form input[type=search]:not(.browser-default), .wpcf7-form textarea.materialize-textarea { border-bottom: 1px solid #9e9e9e; } .wpcf7 .wpcf7-form .input-field input[type=text]:focus + label, .wpcf7-form input:not([type]):focus:not([readonly])+label, .wpcf7-form input[type=text]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=password]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=email]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=url]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=time]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=date]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=datetime]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=tel]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=number]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form input[type=search]:not(.browser-default):focus:not([readonly])+label, .wpcf7-form textarea.materialize-textarea:focus:not([readonly])+label, .wpcf7-form .dropdown-content li>a, .wpcf7-form .dropdown-content li>span { color: #283dcd; } .wpcf7-form input:not([type]):focus:not([readonly]), .wpcf7-form input[type=text]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=password]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=email]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=url]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=time]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=date]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=datetime]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=datetime-local]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=tel]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=number]:not(.browser-default):focus:not([readonly]), .wpcf7-form input[type=search]:not(.browser-default):focus:not([readonly]), .wpcf7-form textarea.materialize-textarea:focus:not([readonly]) { border-bottom: 1px solid #283dcd; box-shadow: 0 1px 0 0 #283dcd; } .wpcf7-form .input-field .prefix { color: #000000 } .wpcf7-form .input-field .prefix.active { color: #283dcd } .wpcf7-form { background-color: #ffffff; } .wpcf7-form input:not([type]), .wpcf7-form input[type=text]:not(.browser-default), .wpcf7-form input[type=password]:not(.browser-default), .wpcf7-form input[type=email]:not(.browser-default), .wpcf7-form input[type=url]:not(.browser-default), .wpcf7-form input[type=time]:not(.browser-default), .wpcf7-form input[type=date]:not(.browser-default), .wpcf7-form input[type=datetime]:not(.browser-default), .wpcf7-form input[type=datetime-local]:not(.browser-default), .wpcf7-form input[type=tel]:not(.browser-default), .wpcf7-form input[type=number]:not(.browser-default), .wpcf7-form input[type=search]:not(.browser-default), .wpcf7-form textarea.materialize-textarea, .wpcf7-form label { color: #000000; } .wpcf7-form .dropdown-content { background-color: #ffffff; } .wpcf7 .wpcf7-form .wpcf7-submit, .wpcf7 .wpcf7-form .btn-large, .wpcf7 .wpcf7-form .btn { background-color: #ffffff !important; } .wpcf7-form input[type=range]+.thumb { background-color: #ffffff !important; } .wpcf7-form input[type=range]::-webkit-slider-thumb { background: #ffffff !important; } .wpcf7-form input[type=range]::-ms-thumb { background: #ffffff !important; } .wpcf7-form input[type=range]::-moz-range-thumb { background: #ffffff !important; } .wpcf7-form .spinner-layer { border-color: #283dcd; } .wpcf7-form [type=radio]:checked+label:after, .wpcf7-form [type=radio].with-gap:checked+label:before, .wpcf7-form [type=radio].with-gap:checked+label:after { border: 2px solid #283dcd; } .wpcf7-form [type=radio]:checked+label:after, .wpcf7-form [type=radio].with-gap:checked+label:after, .wpcf7-form .switch label input[type=checkbox]:checked+.lever:after { background-color: #283dcd; } .wpcf7-form [type=checkbox]:checked+label:before { border-right: 2px solid #283dcd; border-bottom: 2px solid #283dcd; } .wpcf7 .wpcf7-form [type=checkbox].filled-in:checked+label:after { border: 2px solid #283dcd; background-color: #283dcd; } .wpcf7 .wpcf7-form .switch label input[type=checkbox]:checked+.lever { background-color: #8288cc; } .wpcf7-form .picker__date-display, .wpcf7-form .picker__date-display, .wpcf7-form .clockpicker-canvas line, .wpcf7-form .clockpicker-canvas circle, .wpcf7-form .picker__day--selected, .wpcf7-form .picker__day--selected:hover, .wpcf7-form .picker--focused .picker__day--selected { background-color: #283dcd; fill: #283dcd; stroke: #283dcd; } .wpcf7-form .picker__close, .wpcf7-form .picker__today, .wpcf7-form .picker__day.picker__day--today { color: #283dcd; } .wpcf7-form { font-family: 'Roboto', sans-serif !important;}
+</style>
+<link rel="stylesheet" id="mdcf7-google-fonts-css" href="https://www.phyn.com/wp-content/plugins/cf7-material-design/inc/../addons/css/materialicons.css?ver=5.3.2" type="text/css" media="all">
+<link rel="stylesheet" id="mdcf7-google-fonts2-css" href="https://www.phyn.com/wp-content/plugins/cf7-material-design/inc/../addons/css/roboto.css?ver=5.3.2" type="text/css" media="all">
+<!--n2css--><script type="text/javascript" src="https://www.phyn.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp"></script>
+<script type="text/javascript" src="https://www.phyn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<script type="text/javascript" src="https://www.phyn.com/wp-content/plugins/cf7-invisible-recaptcha/js/cf7_invisible_recaptcha.js?ver=1.2.3"></script>
+<link rel="https://api.w.org/" href="https://www.phyn.com/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.phyn.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.phyn.com/wp-includes/wlwmanifest.xml"> 
+<link rel="shortlink" href="https://www.phyn.com/?p=168">
+<link rel="alternate" type="application/json+oembed" href="https://www.phyn.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.phyn.com%2Fprivacy-policy%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.phyn.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.phyn.com%2Fprivacy-policy%2F&amp;format=xml">
+<meta name="generator" content="WPML ver:4.2.8 stt:65,1,18,4,2,64;">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,500,600,700">
+        <script type="text/javascript">
+            var ajaxurl = 'https://www.phyn.com/wp-admin/admin-ajax.php';
+        </script>
+        		<style type="text/css" id="wp-custom-css">
+			/* Default Phyn Phont integration - szd */
+@font-face {
+ font-family: PhynPhont; 
+ src: url(https://www.phyn.com/wp-content/uploads/GT-Walsheim-Regular.woff);  
+ font-weight: normal;  
+}
+@font-face {
+ font-family: PhynPhont; 
+ src: url(https://phyndev.wpengine.com/wp-content/uploads/GT-Walsheim-Light.woff);  
+ font-weight: 100;  
+}
+
+/* h1,h2,h3,h4,h5,h6,body {
+	font-family: PhynPhont;
+}
+*/		</style>
+		<style type="text/css">/** Mega Menu CSS: fs **/</style>
+
+                <meta name="google-site-verification" content="e1htrsYNbqCSzd6HeUX64CLMXb1T6TjD7exOMf3hZn0">
+    <script src="https://wapi.wiremo.co/v1/attach/carousel/5c101eb011ade715877c8504"></script><link rel="stylesheet" href="https://www.phyn.com/wp-content/themes/jbst-4-sass-master/assets/scripts/html5lightbox/icons/css/fontello.css" type="text/css"><script type="text/javascript" async="" src="https://fast.a.klaviyo.com/media/js/analytics/klaviyo_analytics.js?v=0"></script><style type="text/css">@font-face {
+  font-family: 'affirm';
+  src: url(data:font/woff2;base64,d09GMgABAAAAAAlYAA8AAAAAFEgAAAj7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0ZGVE0cGjYbIByCNgZgAIMOEQgKl1STPAtOAAE2AiQDgRgEIAWDDweBXRvXEKOikpOP7J8HtjG14VAQdRidULZRWmJz/PX9gfVZGNoYNTYNkUdykoOcYRFOjgiqZevZ3U9BEbJaB5JColAp+KxeCdwXEmXRCBmF/UIh1B3hZs0iKSTgoajWgaqnTVU5QXs1PVd9c+X97+fDncPk9NVmcrp3Maiw/LbS9KefxeqTq7lsVGfuqwEdAAnDKqRcgW30I8LmTrn+tfaqdzIvALg/jD6ejYqM3LvgfjwIIik0IuMz2RSIZR0JV2HT8ZXyK10hK4zqsTbkAKOC1kX1d6+EAHyuRIoB+C1p0XErAoaA9oImbIiSrWLEYGKGWDIbBms5wlJA8CmgT0MHzbwjfcDBAjRhgCgdnTQOo7gxY6eutggEs84OL5CK2RUNFcSyCZxnfxNBI16eCh49plnm3YfnUaseBiftfDKiReKW/gZMGGK4lgabkEQkbohUITFSUkpqLIjADiNG2mdR4OMQYMDo6BBkTmskKWxAXLacGgePgkgEkyqc7ONRzaDtDHTIiEwq4lBVESatQiS5EtUxW5nlRbTGmQjpLT0LYN6cJf4gMbiQphdTYB5CCx7zTrgIednDQABhdxBA1mwQ+jJRIceGpad8iejcehHEIJ9fp1FTF+ErXvi/y5VnKbyCuu3hq3JVm0/D1bAtbA1bwka5Sq4EJiRSSoMdGqINEPnMkQAkhZNAgZPQctN2hwPcPsHjg2DyiPcXoACwCkULqAlrUFVAx/gA5H+L1rquq3h6ILKgbEwIU4VVGEEYG8np/weNVsPj2dmx9mStVCTKNOHqaDdLzjFnarTMTF+28AMKteyMhtjBIIyYYHaOZBiVxam8tlpGXZHZ+TKI9B9M4yhKegE3HC+Pk1KtzLflEpNjEifNF73vN4tbHmmB8Jx3KJmOsvBx3RintyEkYEHWJImEIQQZEWwoEDX6BiinGF9yoNxGhnjV6ja5HafcRSHP3zSx4yFmCyvxmMwlNlx1MpmLYB9B2EUCSTc5CumvjGmYILMR7pBzjV6r4i+SbQaTj1xO4Yrf3sIUsnuQunEyJ4iLYIjPg5G4YLrsvp26w33LSYSU/8f4rpW4QvgwCKU/lMx5ykP2brfvn9YxXrchFGVENHzSNCjkqKQKKlsK0jbZRjdSD9Xh2sIy8JDY7AJxHiOu5FUk9KMh4GOxs4M5TlBKtoC0qH+cuoQ54DNNwsG+o0izAL4L3GXxntYmo7jIjpuAo3VjKbR7AwflxzNCBccU8HLDKoTnANrsrZ5hTagZwm2y2ea5bdwAgORtqK4n7cCBc4WA7I2l3WhbHifFHILrswp+x5kwtstHQDohZmcGGuedshntuXYZDEWKL86YnLN0W8bX5Rsg4uZ2ECB6g6KWdrloRSfG+faQf1WP8zk1S5a1AMxd9GKnUUhzbjK311k9kGQSFH3Esd6jTKhEEs/Lsft+nBJHE0tfJvylk733IR3OdnvQLwgY5og5C0H6h+CI6DNCyjLkil0Tu8exTHDUYldXn++xqMfaSBeLgVk8LU/GCuPwcFlb2dJixIRy9EDGFtYX/LnmL5WhELhKyZiYftsg//9zsN98LVO41tXqqFn2vEn1DzZ/3KRV6iJ1Xq9qiFLVKvX8jSG5NXxoZmOlZMHPW0tFthiT2MA4TdNBlo26sdAsNh+PH+fKL5US57ESf4AaX+j3lYTP7LHsKyZ7p1vElmOWFT0LF/G4l+seB5ten7f1yzdtdcuWoXK7wbbVhPVyPO4zLzz7o/SQRWxuBNfH7z9revYjytUzPDGIYWUwycYzmG8Bzo+XwnuO979zvAe/Djo/T3TKbpDkDdl9Mr6YdCXWcihriWXSiLYsG9XYbqw2VY+NebXG9vbqEaH84jHbq9zLnjSFSt562+M5ubOE2nXS0/72243w9dsKT3DyFFVy8mS75+2vqLUN69aRz5K55r6VOfkshEnWLDZn2GWK5j7L7fnza6x4iVgC+cdBkIhBbIxpOGiLSS4rSyaL4f3r4MkWd4f9S2vVQtpoNVEK4cBQKzEtozi1JDsbAKKL7XmQ2x1R56dosDfJAxIzrSnG4lLyYihx+fqRe8V5Lh0ACBZvArJr/wI+Qgj2NsmLetw/8gYKrRMA8q1RiIHsXwgxu3/98Atpv6mVvqifhl9I/1QrH3L8PBxZVFWUBkUDvM4oRzkpOHQRzDVAuVJDtE97en5NABAcPIRMNV/Gmb23LGgtyBzJPJUxkjGptXh4/TBknJnRGp4cMjRSgQBFahq1r3sWzJ7QdsHGO3PPLDYfgztmHp3Cvc2teQ175+bFSCdLaVHMsbYmD/saW+dEPQFyj0vHSFIkbWTXpNClqUVPOqVJGpKSeDE8PY+efWN7YgAAoO/keUmZorqzLXY0JhQb2rI1VItjo711zNatxKkZjW3rFD2+jPTuk772mrS6lI5ZlzonZfbt23NSZ6esW1+QRrx12+s9Z10MXSqpFn8z++A6bevooFXoJ2/alLp+d2rSkEXeZirETp5sdC9YkFTfP86XFcq6P2H/yuzMDCr123/TEtj23ZqMGVZPNj0+B3r23xnptmaPc2ZBbmtum7ZjUFGZWJxIVVg7G+rRZ/BP7Y3tiTmw3zmcMLwmsBhZoqHf2CvJWcFAJoPJQHv2F6GEt+5J8pyUjUAdzi/frSzrBGHWbxxmwaur/tDc4a7Kd57HAUMFz9Ex9F4hgkOE1L4WsIsb0MMErSjewK88h+wYhSrgrMBvrjXXavnRyt7akgAIqA5rWz5jp0RHwAiGMJIIVppZkEkLQI1fC6GftgGWtvapPDKwQYWLeNnYj0FARpkY4igLoMCPLVIzxQCmj8YlWeNOKBvbaUgvuHt+3+DBAJeCOozq4TUE/uJ3AyA5/8qL3goaMqxTvz4GLvGc4AOB47jinVqqI2k64rR3COrbIqjXiKAA22cqA5pfv8qCVyuLB197mPVWcRnt7/83ORd5nfmZK4gEjGACk0WRYpRStDLlKlSpVqNWnXoNGjVp1sITLMRGGIpAHMRFOCIQD/GRAAmxjp6pA5NcEaN9nU6ns/EoTnc6wQVuSIJkSIFUSIN0yIcCZSEAAA==) format("woff2"), url(data:application/font-woff;base64,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) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.__affirm-logo {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'affirm' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  white-space: nowrap;
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -ms-font-feature-settings: "liga" 1;
+  -webkit-font-feature-settings: "liga";
+          font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+          font-variant-ligatures: discretionary-ligatures;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.8em;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%; }
+  .__affirm-logo.__affirm-logo-black {
+    color: #060809; }
+    .__affirm-logo.__affirm-logo-black.__ligature__affirm_full_logo__:after, .__affirm-logo.__affirm-logo-black.__ligature__affirm_short_logo__:after {
+      color: #060809; }
+  .__affirm-logo.__affirm-logo-white {
+    color: #FFFFFF; }
+    .__affirm-logo.__affirm-logo-white.__ligature__affirm_full_logo__:after, .__affirm-logo.__affirm-logo-white.__ligature__affirm_short_logo__:after {
+      color: #FFFFFF; }
+  .__affirm-logo.__affirm-logo-blue {
+    color: #060809; }
+    .__affirm-logo.__affirm-logo-blue.__ligature__affirm_full_logo__:after, .__affirm-logo.__affirm-logo-blue.__ligature__affirm_short_logo__:after {
+      color: #0FA0EA; }
+    .__affirm-logo.__affirm-logo-blue.__affirm-logo-dark {
+      color: #fff; }
+  .__affirm-logo.__ligature__affirm_full_logo__:after, .__affirm-logo.__ligature__affirm_short_logo__:after {
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+  .__affirm-logo.__ligature__affirm_full_logo__ {
+    font-size: 1.236em; }
+    .__affirm-logo.__ligature__affirm_full_logo__:after {
+      content: "\E90C"; }
+  .__affirm-logo.__ligature__affirm_short_logo__:after {
+    content: "\E90A"; }
+
+@keyframes affirm_logo_listener {
+  from {
+    outline: 1px solid transparent; }
+  to {
+    outline: 0 solid transparent; } }
+
+@keyframes affirm_asset_listener {
+  from {
+    outline: 1px solid transparent; }
+  to {
+    outline: 0 solid transparent; } }
+
+.__affirm-logo:not(.__processed) {
+  animation: affirm_logo_listener 0.001s; }
+
+img[src*="cdn-assets.affirm.com"]:not(.__processed) {
+  animation: affirm_asset_listener 0.001s; }
+</style><script charset="utf-8" src="https://static.klaviyo.com/onsite/js/vendors~signupForms.e320b8f5fb903fb84bd3.js"></script><script charset="utf-8" src="https://static.klaviyo.com/onsite/js/signupForms.96929ff023f4b3770501.js"></script><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/795934853/?random=1585187379377&amp;cv=9&amp;fst=1585187379377&amp;num=1&amp;bg=ffffff&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635470&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=50&amp;u_tz=-240&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;gtm=2oa3i0&amp;sendb=1&amp;ig=1&amp;data=event%3Dgtag.config&amp;frm=0&amp;url=https%3A%2F%2Fwww.phyn.com%2Fprivacy-policy%2F&amp;tiba=Privacy%20Policy%20%7C%20Phyn.com&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script><link rel="preconnect" href="https://api-cf.affirm.com/api/v2/"><link rel="dns-prefetch" href="https://api-cf.affirm.com/api/v2/"><link rel="preconnect" href="https://api-cf.affirm.com/api/v2/" crossorigin=""><link rel="dns-prefetch" href="https://api-cf.affirm.com/api/v2/" crossorigin=""><link rel="preconnect" href="https://www.affirm.com"><link rel="dns-prefetch" href="https://www.affirm.com"><link rel="preconnect" href="https://www.affirm.com" crossorigin=""><link rel="dns-prefetch" href="https://www.affirm.com" crossorigin=""></head>
+    <body class="page-template-default page page-id-168 wp-custom-logo mega-menu-main-nav elementor-default" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+
+             <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56QG9GT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>      <header itemscope="" itemtype="https://schema.org/WPHeader">
+        <style>
+nav.bordered {
+	border-bottom: solid thin #f1f1f1;
+}
+
+#mega-menu-wrap-main-nav, ul#mega-menu-main-nav > li >a.mega-menu-link{
+  background-color: transparent !important;
+}
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top d-flex bordered">
+  <a class="navbar-brand custom-logo-link" href="https://www.phyn.com">
+    <img width="121" height="24" src="https://www.phyn.com/wp-content/uploads/logo-1.png" class="custom-logo" alt="Phyn, LLC" itemprop="logo">
+  </a>
+  <span class="navbar-text navbar-get-phyn">
+ 
+     <a href="https://www.phyn.com/get-phyn/">Get Phyn</a>    
+  </span>
+  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+    <div id="mega-menu-wrap-main-nav" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class="mega-toggle-block mega-menu-toggle-block mega-toggle-block-1" id="mega-toggle-block-1" tabindex="0"><span class="mega-toggle-label" role="button" aria-expanded="false"><span class="mega-toggle-label-closed">MENU</span><span class="mega-toggle-label-open">MENU</span></span></div></div></div><ul id="mega-menu-main-nav" class="mega-menu max-mega-menu mega-menu-horizontal" data-event="click" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="1024" data-unbind="true"><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-17744" id="mega-menu-item-17744"><a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Products<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-19316" id="mega-menu-item-19316"><a class="mega-menu-link" href="https://www.phyn.com/products/">All Products</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-has-description mega-menu-item-17745" id="mega-menu-item-17745"><a class="mega-custom-icon mega-menu-link" href="https://www.phyn.com/smart-water-assistant/"><span class="mega-description-group"><span class="mega-menu-title">Phyn</span><span class="mega-menu-description">Smart Water Assistant</span></span></a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-has-description mega-menu-item-17747" id="mega-menu-item-17747"><a class="mega-custom-icon mega-menu-link" href="https://www.phyn.com/plus-smart-water-assistant/"><span class="mega-description-group"><span class="mega-menu-title">Phyn Plus</span><span class="mega-menu-description">Smart Water Assistant + Shutoff</span></span></a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-19575" id="mega-menu-item-19575"><a class="mega-custom-icon mega-menu-link" href="https://www.phyn.com/phyn-xl-15/">Phyn XL 1.5"</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-19574" id="mega-menu-item-19574"><a class="mega-custom-icon mega-menu-link" href="https://www.phyn.com/phyn-xl-2/">Phyn XL 2"</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-has-description mega-menu-item-17746" id="mega-menu-item-17746"><a class="mega-custom-icon mega-menu-link" href="https://www.phyn.com/dashboard/"><span class="mega-description-group"><span class="mega-menu-title">Phyn</span><span class="mega-menu-description">Dashboard</span></span></a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-11998" id="mega-menu-item-11998"><a title="						" class="mega-menu-link" href="https://www.phyn.com/technology/" tabindex="0">Technology</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-11999" id="mega-menu-item-11999"><a title="						" class="mega-menu-link" href="https://www.phyn.com/mission/" tabindex="0">Mission</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-18394" id="mega-menu-item-18394"><a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Installation<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-18395" id="mega-menu-item-18395"><a class="mega-menu-link" href="https://www.phyn.com/swa-installation/">Smart Water Assistant</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-18396" id="mega-menu-item-18396"><a class="mega-menu-link" href="https://www.phyn.com/installation/">Phyn Plus</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-18616" id="mega-menu-item-18616"><a class="mega-menu-link" href="https://www.phyn.com/help-center/" tabindex="0">Help Center</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-hide-on-mobile mega-menu-item-10354" id="mega-menu-item-10354"><a class="mega-menu-link" href="https://www.phyn.com/get-phyn/" tabindex="0">Get Phyn</a></li></ul></div>  
+  </div>
+</nav>
+<style>
+.navbar-toggler>.close {
+display:inline;
+font-family: GTWalsheimMedium,sans-serif!important;
+color: #000000;
+opacity: 1;
+font-size: 20px;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+
+background-image: url('https://www.phyn.com/wp-content/uploads/768_headernavigation_menu_close.svg');
+width: 16px !important;
+height: 16px !important;
+}
+</style>
+            
+      </header>
+  <div class="container" id="content">
+	
+	<div id="inner-content" class="row">
+		
+		<main id="main" class="col-xl-12" role="main" itemprop="mainContentOfPage">
+			
+						<article id="post-168" class="post-168 page type-page status-publish hentry" role="article" itemscope="" itemtype="http://schema.org/WebPage">
+						
+
+					
+
+	    
+<h1 class="terms">PRIVACY POLICY</h1>
+
+
+
+<p>PHYN PRIVACY POLICY<br>
+We at Phyn are committed to protecting your privacy. Our goal is to provide you with a positive experience on our websites and when using our apps, products and services, while at the same time keeping your Personal Information, as defined below, secure. Our privacy practices are described below, as well as in separate notices given when an app, product or service is purchased or downloaded (our “Privacy Policy”).<br>
+For ease of reference, we will use the following terms in this Privacy Policy: <br>
+•    “Phyn”, “our”, “us” or “we” means Phyn, LLC and Phyn Oy, including their affiliated companies. </p>
+
+
+
+<p>•    “Phyn Products” includes all Phyn-branded apps, products and services.</p>
+
+
+
+<p>•    “Phyn Websites” include all global Phyn websites.</p>
+
+
+
+<p>This Privacy Policy covers all Phyn Products and Phyn Websites. By visiting Phyn Websites, using Phyn Products or providing us with your Personal Information (as defined below), you are accepting and consenting to the practices, terms and conditions described in this Privacy Policy, the terms of which you acknowledge you have read and understood.<br>
+If you are visiting a Phyn website from the European Economic Area (“EEA”), Uponor Corporation and its affiliates (“Uponor”) will also collect and process certain Personal Information that you provide on a form on EEA websites. For this Personal Information, Uponor’s Privacy Policy for Customer and Marketing Register, located here, will apply, and Uponor will process your Personal Information for marketing and other purposes as set out in their privacy policy. <br>
+If you are in the EEA, for the purposes of the EU General Data Protection Regulation 2016/679 (“GDPR”), the data controller is Phyn LLC of 1855 Del Amo Boulevard, Torrance, CA 90501 USA.<br>
+TYPES OF INFORMATION COVERED BY THIS PRIVACY POLICY<br>
+Personal Information. This means any information that (either in isolation or in combination with other information) can be used to identify you directly or indirectly. Some examples of Personal Information include your name, address, email address, phone number, any ID number or location data. <br>
+Aggregated Information. Information may be aggregated and/or anonymized. When information is aggregated, it is combined with information about other customers and users. Aggregated information that includes Personal Information is considered Personal Information until it has been anonymized.<br>
+Anonymized Information. When information is anonymized, Personal Information is removed from collected data and the remaining portion of the data is repurposed for internal or external use, such as, for example, to determine how many users of Phyn Products had a water leak in the past year, or how many users viewed a particular website video or advertisement. Such information cannot be used to identify you. Some examples include usage data relating to Phyn Websites and Phyn Products, language preferences and Phyn Website page views. <br>
+In most cases, usage data collected when you visit Phyn Websites or use Phyn Products is both aggregated and anonymized so it does not identify you personally and therefore is not Personal Information.<br>
+Children’s Personal Information. The Phyn Websites and Phyn Products are not directed to, nor does Phyn knowingly collect Personal Information from, children under the age of 16. If we are informed that we have collected the Personal Information of a child under the age of 16, we will delete that Personal Information from our systems. If you believe we might have inadvertently collected Personal Information from or about a child under the age of 16, please contact us at info@phyn.com. We also do not sell the information of minors under the age of 16 years of age.<br>
+HOW WE COLLECT INFORMATION<br>
+We collect and process the following data about you:<br>
+Information you give us. If you fill in forms on Phyn Websites or correspond with us by phone, email or otherwise, you may be providing us with information about you, which may include Personal Information. This includes information you provide when you register on Phyn Websites, register or return a Phyn Product, subscribe to any of our services, search for a product, place an order on Phyn Websites, participate in social media functions on Phyn Websites, enter a competition, promotion or survey, participate in a training session or other event, download firmware, software and apps, or when you report a problem with Phyn Websites or Phyn Products or otherwise request support. Personal Information you give us may include your name, home address, email address, password, phone number and other contact information, plumbing fixture inventory, Wi-Fi and other home network information, financial and credit card information and any other information that can be used to personally identify you.<br>
+Setup information: When you install the Phyn device, you’ll be asked to provide information to set up your account.  You will also be asked to provide an inventory of the plumbing fixtures in your home to allow Phyn to understand the normal water usage patterns in your home to detect leaks and quantify your water usage. <br>
+Mobile Phone Number: When you create a Phyn account, you will be asked to provide your mobile phone number in order to verify your identification. Once you provide this phone number, it will be stored along with your account information and will be used to send you SMS alerts regarding various functions of the service, including alerts about leaks, alerts about device connectivity and alerts about product enhancements, such as when new functionality has been unlocked for your account.  <br>
+Profile Information: Your account may allow you to provide certain basic profile information like your name and profile photo. Names and profile photos may be shown to others in connection with the Services. For example, if you invite someone as an additional authorized user, he or she may be able to see your name and photo. You should only use photos you are willing to make public.<br>
+Information we collect about you. We automatically collect information when you use Phyn Websites or Phyn Products, including:<br>
+•    Data from your Phyn Product’s sensors, including but not limited to alerts, notifications, user preferences, settings, and user actions, water usage information (including current flow rate, temperature and pressure rate) other data collected by Phyn via third party systems you’ve authorized Phyn to communicate with, and direct adjustments to your Phyn Product and Phyn app, including modifications or settings. We will also collect information as you use and interact with Phyn, including your activity using the Phyn app, clicking on the various functions and features and providing feedback from alerts and water consumption data to correct the system. This data helps your Phyn Product detect leaks. Information about leaks, notifications or alerts delivered through the Phyn app, and any actions you take in response to those notifications are also collected and used to improve the system’s ability to detect leaks and quantify water use. <br>
+•    Technical information from the Phyn Product: In order to improve your experience over time and help troubleshoot any problem you may encounter with the Phyn Product, we record your device’s model and serial number, software version, and other technical information. <br>
+•    Wi-Fi Network Information: To connect your Phyn Product to our app and services, or to access your Phyn Product over the Internet from a computer, a smartphone or a tablet, you will need to connect it to your Wi-Fi network. During setup, Phyn will ask for your Wi-Fi network name (SSID) and password to connect to the Internet. It will save this information on the Phyn Product firmware, along with your IP address, so that you can access it and control it from your computer, smartphone or tablet, and so that it can communicate with Phyn’s servers and download software updates. Once connected to your Wi-Fi network, your Phyn Product regularly sends the data described in this Privacy Policy (excluding your Wi-Fi password) to Phyn to provide you with services related to your water use.<br>
+•    Information about your visit to Phyn Websites, including the full Uniform Resource Locators (“URL”) you clickstream to, through and from Phyn Websites (including date and time), products you viewed or searched for, page response times, download errors, length of visits to certain pages, videos watched, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page.<br>
+Information we receive from other sources. We work closely with third parties who provide services to us (including, for example, business partners, subcontractors in technical, payment and delivery services, advertising networks, analytics providers, search information providers, credit reference agencies) and we may receive information about you from them.<br>
+HOW WE USE INFORMATION<br>
+We use the information we collect for a number of purposes. These purposes will be consistent with the reason you provided the information to us or for a directly related purpose. The uses we make of such information include the following:<br>
+•    To set up an account for you on Phyn Websites or Phyn Products.<br>
+•    To facilitate your purchase and/or download of Phyn Products.<br>
+•    To authenticate use of your account or purchases and/or use of a Phyn Product.<br>
+•    To register your Phyn Product in our product database.<br>
+•    To carry out our obligations arising from any contracts entered into between you and us and to provide you with the information, products and services that you request from us.<br>
+•    To assist you with customer support.<br>
+•    To communicate about and administer participation in customer promotions and surveys you choose to participate in.<br>
+•    To provide the Phyn Products or any services you request.<br>
+•    To provide you with information about the Phyn Products you use, such as new features, bug fixes, service downtimes or upgrades.<br>
+•    To provide you from time to time with information relating to your energy or water usage and suggest potential savings in water or energy usage, including making assessments and recommendations about your plumbing, water leaks and water use. </p>
+
+
+
+<p>•    To help us develop new Phyn Products and services and improve current Phyn Products and services. <br>
+•    To provide you, or permit selected third parties to provide you, with information about goods or services we feel may interest you. We (or selected third parties) will contact you by electronic means only if you have opted-in to receive marketing information. “Opt-in” means that you have taken an affirmative action to receive information, such as by checking a box or clicking a button.<br>
+•    To notify you about changes to Phyn Websites and Phyn Products and changes to our terms, conditions and policies.<br>
+•    To administer Phyn Websites and Phyn Products for internal operational purposes, including troubleshooting, data and statistical analysis, testing, research and survey purposes.<br>
+•    To improve Phyn Websites and Phyn Products and to ensure that content is presented in the most effective manner for you and for your computer or device.<br>
+•    To ensure the security of Phyn Websites and Phyn Products.<br>
+•    To monitor and regulate interactive features of Phyn Websites and Phyn Products that you may choose to participate in.<br>
+•    To help you navigate Phyn Websites.<br>
+•    To help you access and use certain features of Phyn Products remotely and to help you monitor and safeguard your home.<br>
+•    To measure or understand the effectiveness of advertising we serve to you and others who visit Phyn Websites and to deliver relevant personalized advertising to you and others.<br>
+•    To determine which aspects of Phyn Websites and Phyn Products are most useful to you and other users of Phyn Websites and Phyn Products.<br>
+WHY WE USE INFORMATION<br>
+Where we process your Personal Information to provide a product or service, we do so because it is necessary to perform contractual obligations that we owe to you. If you choose not to provide us with the Personal Information we need to provide you with a product or service, we will not be able to provide the product or service to you. When you purchase and/or download new Phyn products, we will only use your Personal Information for the purposes set out in this Privacy Policy, and any notification provided to you at the time of purchase or download.<br>
+We also use your Personal Information to protect our business (for example, against fraud), to comply with legal requirements to which we are subject (for example, tax or financial reporting requirements) and for other legitimate interests. <br>
+We will send you direct marketing only if you have given your consent to such communications. See the Marketing section below.<br>
+SHARING INFORMATION<br>
+Under no circumstances do we rent or sell your Personal Information. We will only share your Personal Information with third parties for marketing purposes if you have granted us permission to do so and in accordance with the Marketing section below. We share Personal Information in the following ways:<br>
+•    Within Phyn for purposes of data processing or storage.<br>
+•    Within Phyn’s corporate group, including with our subsidiaries, affiliated companies and divisions, all of whom may use your information for the purposes disclosed in this Privacy Policy.<br>
+•    With business partners, service vendors, authorized third-party agents, service providers or contractors to provide a requested service or transaction, including professional plumbing services to install your Phyn Product on the water supply line to your home, processing orders, hosting websites, storing your information, providing email communications on our behalf and providing customer support. For example, when making purchases on Phyn Website stores, Phyn uses a payment processor to verify your payment card information. Your payment card information is passed through to the payment processor and is not collected or stored by Phyn. The payment processor is authorized to use this information only to authenticate your purchase and for no other purpose. We only provide these third parties with the minimum amount of Personal Information necessary to complete or provide the requested service or transaction, and we do not allow third parties to use your Personal Information for a different purpose than what was disclosed to you.<br>
+•    Additional Authorized Users and Partners (“Authorized Users”): Phyn may provide you with the ability to enable Authorized Users to access your account. Information will only be shared with Authorized Users if you give explicit consent to this sharing. If you consent, the Authorized Users may control and view all of your devices, content, and third-party connections. One example of an Authorized User would be if you invite another person to access your Phyn account as an Authorized User. An invited user must have or create a Phyn account, and information about invited users (like email address, name, or changes to product settings) will be stored with your account. Another example would be if you sign up for programs offered by our partners (such as insurance companies); if you do this, we may share certain information with the partner. This could include your enrollment information, usage data and the activation status of your device. Usage data received through Phyn sensors may be shared with Authorized Users if you authorize them to receive such data (such as your plumber, property owner/manager or insurance company). Similarly, when you connect third-party devices and services to your Phyn Products, you are shown information about any proposed exchange of data. Your explicit consent is required to allow these exchanges on your behalf and you can change your mind at any time.<br>
+•    With service providers, advisors or other third parties to the extent reasonably necessary to proceed with the negotiation or completion of a merger, acquisition or sale of all or a portion of our assets. If Phyn merges with or acquires or is acquired by another entity, Personal Information would be transferred as a whole to the successor entity.<br>
+•    To comply with the law or legal process (such as responding to subpoenas or court orders), to comply with government reporting obligations and to exercise our legal rights or defend against legal claims.<br>
+•    To protect our legal rights or those of others, such as protecting the Phyn brand or investigating violations of Phyn terms of use, violations of law, intellectual property infringement, misuse of Phyn Websites, fraud or potential threats to personal safety.<br>
+In addition, we may use and share aggregated and anonymized information, including usage data about Phyn Products, with third parties for a variety of research purposes, including to analyze trends about water usage across all Phyn user homes, to show third parties how their products could work with Phyn Products and to help us make sales, marketing and business decisions. This aggregated and anonymized information may also be shared with other users to help them better understand their water usage compared to other Phyn users, to raise awareness about safety or conservation issues, or to help us generally improve our service. We may also share aggregated and anonymized information with our business partners, for example, if they are interested in providing demand-response services or other incentive programs. We’ve taken steps to ensure that this information cannot be linked back to you and we require third parties to keep all shared information in its anonymized form.<br>
+For certain Phyn Products, Phyn may provide the opportunity for you to connect and interface Phyn Products with one or more third party products and services, which will involve the exchange of information from your Phyn Product with the third-party product or service. Your explicit consent and authorization will be required at the time of connection to the third-party product or service and will be revocable by you at any time by sending us an email request at info@phyn.com. In some cases, if you purchase, use or download a third-party product or service that connects to a Phyn Product, you may also be subject to such third party’s privacy policy. Phyn is not responsible for the privacy practices of third party partners. If you access a Phyn Product through a third-party product in this manner, you consent and agree to the privacy policy of such third party. We encourage you to carefully read the privacy policies and terms of use of any third-party products that connect to Phyn Products.<br>
+Any third parties with whom we share your Personal Information are required to maintain the confidentiality of the information and are prohibited from using it for any other purpose. We will take all reasonable steps to make sure these third parties comply with the same privacy principles that govern our collection of your Personal Information.<br>
+We will ask for your consent, such as by email response, opt-in box or click through agreement acceptance, before we use or share your Personal Information for any other purpose.<br>
+MARKETING<br>
+We will process your Personal Information for marketing purposes, either from ourselves or a third party, only with your consent.<br>
+You have various choices in relation to your Personal Information. Some choices are presented up front in the form of opt-in notices or acceptance boxes for marketing to you or sharing your Personal Information with third parties. You always have the choice to opt-out if you later change your mind. One form of opt-out is clicking the Unsubscribe link in a marketing email. This will take you off our marketing email list. <br>
+Please note that these opt-in/opt-out choices do not apply to the receipt of mandatory website, service or software communications, such as update or downtime information, leak alerts or service integrated emails or receipt of order or shipping confirmations on Phyn Website stores, which you may receive periodically as part of Phyn performing its contract with you, unless you cancel your service or order or terminate use of software in accordance with the applicable terms of use or license agreement. <br>
+If you do not wish to receive direct marketing material from us or a third party, in addition to following the “Unsubscribe” instructions in a marketing email, you can send us an email request at info@phyn.com.<br>
+WHERE WE STORE YOUR INFORMATION<br>
+The data that we collect from you may be transferred to, and stored at, various locations globally, including the United States. It may also be processed by Phyn staff or contractors operating outside your country of residence (including, if you are in Europe, outside of the EEA, or, if you are in Australia or New Zealand (“ANZ”), outside of ANZ) who work for us or for one of our suppliers. Such staff may be engaged in, among other things, the fulfilment of your order, the processing of your payment details and the provision of support services. We also use cloud-based applications and services to store and process your Personal Information, which may result in your Personal Information being stored outside your country of residence (or the EEA or ANZ). <br>
+We will take such steps as are reasonable to make sure we and our service providers do not breach the privacy principles that govern our collection of your Personal Information and that your Personal Information is treated securely and in accordance with this privacy policy as well as applicable data protection laws. By providing your Personal Information to us, you fully understand that Phyn will transfer, process and store your Personal Information outside of your country of residence where data protection standards may be different, and disclose your Personal Information to overseas service providers who may not fully comply with the particular laws of your country. <br>
+Our Privacy Policy and our practices are designed to provide a globally consistent level of protection for Personal Information all over the world. This means that even in countries whose laws provide for less protection for your information, Phyn will still handle your information in the manner described in this Privacy Policy and in conformity with all applicable laws. This includes, where relevant, entering into EU standard contractual clauses (or equivalent measures) with the party outside the EEA (available here).<br>
+ACCESSING AND UPDATING YOUR PERSONAL INFORMATION<br>
+We need your help in keeping your Personal Information accurate and up to date, so please notify us of any changes to your Personal Information. You can access and update your Personal Information and communication preferences at any time in the following ways:<br>
+•    By clicking the “Unsubscribe” link in any email you receive from us.<br>
+•    By sending an email to info@phyn.com. Please be sure to include your name, email address and specific relevant details about the information you would like to change or the material that you no longer wish to receive.<br>
+•    For many Phyn Websites and Phyn Products, by signing in to your online account located at the URL provided when you signed up for the Phyn Website or service. <br>
+You have a number of rights in relation to your personal data.  These can differ by country and jurisdiction. You may have the following rights:<br>
+•    Confirm whether or not we are processing your Personal Information.<br>
+•    Provide a copy of any such Personal Information, as well as information regarding the purposes of the processing, the categories of data involved, to whom such information may be disclosed and for what period we envisage holding the data.<br>
+•    Correct your data if it is inaccurate or incomplete.<br>
+•    Delete your Personal Information, unless we are required to retain it by law or for some other lawful purpose such as to establish, exercise or defend legal claims, to perform a contract which we have entered into or for another one of our business purposes.<br>
+•    Provide you with a copy of Personal Information held on our current records. Note that California residents may be entitled to ask us for a notice describing what categories of personal information (if any) we share with third parties or affiliates for direct marketing.<br>
+•    Inform you of the source of the Personal Information, if we did not obtain it from you.<br>
+•    Inform you of the appropriate safeguards implemented in relation to any transfer of your Personal Information from within to outside the EEA.<br>
+If you are resident in the EEA, you also have the right to:<br>
+•    Withdraw your consent to our processing of your Personal Information at any time after you have consented, including opting-out of receiving marketing materials. The easiest way to do this is by clicking the “Unsubscribe” link in any email you receive from us.<br>
+•    If we are processing your Personal Information either on the basis of your consent or to perform a contract with you, to receive such data in a machine-readable format or where feasible to have us transfer it directly to a third party data controller.<br>
+•    Restrict our processing of your Personal Information where you believe such data to be inaccurate, our processing is unlawful, or that we no longer need to process such data for a particular purpose (unless we are not able to restrict such processing or delete the data due to a legal or other obligation or because you do not wish for us to delete it).<br>
+•    Object to such processing on grounds relating to your particular situation, where the legal justification for our processing of your Personal Information is our legitimate interest. We will abide by your request unless we have compelling legitimate grounds for the processing which override your interests and rights, or if we need to continue to process the data to establish, exercise or defend legal claims.<br>
+You can make a request to exercise any of these rights in relation to your Personal Information by sending the request by email to info@phyn.com or calling us at 877-460-2323.<br>
+We will respond to your request promptly upon receipt. If you are in the EEA, this will be within one month of receipt, or if further time is required, we will inform you of this and the reason for the delay. We may ask you to verify your identity before we can act on your request. We may conduct an identity verification by phone call or email. Depending on your request, we may ask for information such as your name, the last item you purchased from us, or the date of your last purchase from us. We may also ask you to provide a signed declaration confirming your identity.<br>
+If your Personal Information has been disclosed to a third party in accordance with this Privacy Policy, we will take reasonable steps to notify the third party of any updated information you provide to us. <br>
+If you are in the EEA, you also have the right to lodge a complaint with the local data protection authority if you believe that we have not complied with applicable data protection laws. Please click here for a list of contact details for the EEA data protection authorities.<br>
+AUTHORIZED AGENT</p>
+
+
+
+<p>You may use an authorized agent to submit a request to access your information, delete your information, or opt out of the sale of your information. To designate an agent for these purposes: </p>
+
+
+
+<p>   •    You must provide us with a copy of a written and signed permission given to your authorized agent; and</p>
+
+
+
+<p>   •     You must verify your own identity directly with us.</p>
+
+
+
+<p>INFORMATION FOR CALIFORNIA RESIDENTS <br> California Civil Code Sections 1798.115(c), 1798.130(a)(5)(c), 1798.130(c), and 1798.140 indicate that organizations should disclose whether certain categories of information are collected, “sold” or transferred for an organization’s “business purpose” (as those terms are defined under California law).  You can find a list of the categories of information that we collect and share <a href="https://www.phyn.com/california-personal-information-disclosure/">here</a>. Please note that because this list is comprehensive it may refer to types of information that we share about people other than yourself. If you would like more information concerning the categories of personal information (if any) we share with third parties or affiliates for those parties to use for direct marketing please submit a written request to us using the information in the “Contact Information” section below.  We do not discriminate against California residents who exercise any of their rights described in this Privacy Policy.<br> RETENTION OF PERSONAL INFORMATION<br> We will only retain your Personal Information to fulfill the purposes for which it was collected, as required for legitimate business purposes as described in this Privacy Policy or otherwise as permitted by law. When we no longer need to use Personal Information, we will remove it from our systems and records and/or take steps to anonymize it so that you can no longer be identified from it.<br> To determine the appropriate retention period for Personal Information, we consider the amount, nature, and sensitivity of the Personal Information, the potential risk of harm from unauthorized use or disclosure of your Personal Information, the purposes for which we process your Personal Information and whether we can achieve those purposes through other means, and the applicable legal requirements.<br> COOKIES, WEB BEACONS AND OTHER WEB TOOLS<br> We use automatic data collection tools like cookies, embedded web links and widgets. These tools collect certain information that your browser or your mobile device sends to Phyn Websites and Phyn Products. This section explains how we use these tools and your choices about them. <br> We use common tracking technologies. We collect personal information about users over time and across different devices and platforms when you use the Phyn Website, app or service.  For the purposes of this policy, “platform” includes our websites and mobile applications. We also have third parties that collect personal information this way. To do this, we use several common tracking tools. Our vendors may also use these tools. These may include browser cookies.  We may also use web beacons, flash cookies, and other technologies. <br> We use tracking technologies for a variety of reasons. We use tracking tools, including cookies, on our platforms.  Cookies are small files that download when you access certain platforms. We use tracking tools:<br> •    To recognize new or past customers.<br> •    To store your password and registration information if you are registered on our platform.<br> •    To identify your country and language and distinguish you from other users of Phyn Websites.<br> •    To optimize your browsing experience by preloading certain features of Phyn Websites and services on future visits to make loading times faster and more efficient.<br> •    To provide basic platform functionality and improve our platform.<br> •    To serve you with interest-based or targeted advertising (see below for more on interest-based advertising).  <br> •    To observe your behaviors and browsing activities over time across multiple devices or other platforms.  <br> •    To enable social sharing.<br> •    To better understand the interests of our customers and our platform visitors.<br> Where web tools collect your Personal Information, it is in our legitimate interests to process such information to provide and improve our products and services and to maintain our relationship with you.<br> We engage in interest-based advertising. We and our partners display interest-based advertising using information gathered about you over time across multiple devices or other platforms. This might include websites and apps. <br> Interest-based advertising or “online behavioral advertising” includes ads served to you after you leave our platform, encouraging you to return. They also include ads we think are relevant based on your shopping habits or online activities. These ads might be served on websites or on apps. They might also be served in emails. We might serve these ads, or third parties may serve ads. They might be about our products or other companies’ products. <br> How do we gather relevant information about you for interest-based advertising? To decide what is relevant to you, we use information you make available to us when you interact with us, our affiliates, and other third parties. We gather this information using the tracking tools described above. For example, we or our partners might look at your purchases or browsing behaviors. We might look at these activities on our platforms or the platforms of others. <br> We work with third parties who help gather this information. These third parties might link your name or email address to other information they collect. That might include past purchases made offline or online. Or, it might include online usage information.<br> You can control tracking tools. Your browser may give you the ability to control cookies.  How you do so depends on the type of cookie.  Certain browsers can be set to reject browser cookies. To find out more about how to enable, disable, or delete cookies from your web browser, please visit here and here. To control flash cookies, which we may use on certain platforms from time to time, you can go here. Why? Because flash cookies cannot be controlled through your browser settings.   <br> Our Do Not Track Policy: Some websites have “do not track” features that allow you to tell a website not to track you. These features are not all uniform. We do not currently respond to those signals.  If you block cookies, certain features on our platform may not work.  If you block or reject cookies, not all of the tracking described here will stop. <br> Certain options you select are browser and device specific.<br> You can opt-out of online behavioral advertising. The Self-Regulatory Program for Online Behavioral Advertising provides consumers with the ability to opt-out of having their online behavior recorded and used for advertising purposes. To opt-out of having your online behavior collected for advertising purposes from participating companies, click here. <br> Some tracking tools do not participate in the Self-Regulatory Program for Online Behavioral Advertising. For information about how to opt-out of having your online behavior collected through these tracking tools, click on the links in the descriptions provided under “We use specific tracking technologies” below.<br> The Digital Advertising Alliance also offers a tool for opting out of the collection of cross-app data on a mobile device for interest-based advertising. To exercise choice for companies participating in this tool, download the AppChoices app here. <br> Certain choices you make are both browser and device-specific. <br> We use specific tracking technologies. Here is more information about the tracking technologies and cookies we currently use on our platforms. We use all of these tracking technologies to improve our platforms and the experience of our visitors:<br> •    Double Click: We use Double Click (part of Google’s digital advertising offerings) to manage digital advertising on our website The DoubleClick platform includes the DoubleClick Advertising Exchange and Double Click Bid Manager. </p>
+
+
+
+<p>•    Facebook Connect and Facebook Social Plugins: We use this technology to allow users to share their experiences with our apps and websites on Facebook.  For example, we may collect your browser information, demographic data, and interaction data.</p>
+
+
+
+<p>•    Facebook Custom Audience: We use Facebook Custom Audience to deliver ads on Facebook to a certain group of users.</p>
+
+
+
+<p>•    Facebook Exchange (FBX): We use this technology to serve you ads on Facebook based on the pages you visited on our websites.</p>
+
+
+
+<p>•    Facebook Social Graph: We use this technology to measure the effectiveness of our marketing campaigns.</p>
+
+
+
+<p>•    Google AdSense: Google AdSense is a tool that allows us to display advertisements to you based on your interests. We or our business partners earn money when you view or click on the advertisements.</p>
+
+
+
+<p>•    Google AdWords Conversion: We use conversion tracking to help us understand how effective our digital campaigns are.</p>
+
+
+
+<p>•    Google AJAX Search API: This tool allows us to embed a Google-powered search box into our website. This allows users to perform keyword searches to help them navigate our website.</p>
+
+
+
+<p>•    Google Analytics: We use Google Analytics to collect information about how visitors use our website.  For example, we collect details of the site where the visitor has come from and the total number of times a visitor has been to our website.</p>
+
+
+
+<p>•    Google Dynamic Remarketing: We use these tracking tools to track user behavior over time and across third party sites to improve the effectiveness of our online advertising. We collect information about what ads users view and whether they click on the ads. We use this information to improve and customize our advertising.  </p>
+
+
+
+<p>•    Google Tag Manager: We use Google Tag Manager to track user behavior, traffic analysis and marketing optimization. </p>
+
+
+
+<p>•    LiveChat: We use LiveChat to communicate with potential purchasers on our e-commerce site and make the online sales process easier. </p>
+
+
+
+<p>•    MailChimp: We use MailChimp to help us design marketing email newsletters, share them on social networks, integrate with services you already use, and track your results.</p>
+
+
+
+<p>•    Mixpanel: We use Mixpanel to track and analyze how customers are using our products so that we can continue to increase functionality and improve experience. For more information on Mixpanel’s privacy practices, you can go here.</p>
+
+
+
+<p>•    Shopify: We use Shopify to showcase our products on our website, process payments and streamline our e-commerce efforts online.</p>
+
+
+
+<p>•    Twitter, Inc. and Twitter Button: Twitter is an online social networking service that enables users to send and read short messages. We use the Twitter cookies to enable social sharing buttons on our sites, as well as to track social media and other Web browsing behavior in order to target ads and promotions to your interests. For information on how to opt-out of Twitter cookies, you can go here.</p>
+
+
+
+<p>•    YouTube Video Tracking: We use YouTube Video Tracking to measure user engagement with our videos in order to improve our marketing and support video content.</p>
+
+
+
+<p>SECURITY<br> We will maintain appropriate technical and organizational measures designed to protect the information collected by Phyn Websites and Phyn Products. Unfortunately, the transmission of information via the Internet is not 100% secure. In the event that we are required by law to inform you of a breach to your personal information, we may notify you electronically, in writing, or by telephone, if permitted to do so by law.<br> It is important to note that if you use a computer or device that can be accessed by others, other people may be able to access unencrypted Personal Information. If you do not want your information to be available to others, exercise caution when using public computers or devices or when using any computer or device to which users unauthorized by you may have access.<br> We recommend that you take every precaution in protecting your Personal Information when you are on the Internet. For example, change your passwords often, use a combination of letters and numbers when creating passwords, and make sure you use a secure browser. You should also be aware that names that you give your Wi-Fi-enabled devices, home networks and services (also known as “friendly names”) may be detectable by others outside your home, so you should not use Personal Information as part of your friendly names.<br> UPDATES AND UPGRADES<br> Phyn Products may be updated or upgraded from time to time to provide additional features, address technical issues, and generally make your user experience better. Some Phyn Products include an auto-update feature, which gives us the ability to make updates automatically. You can change auto-update options by changing your settings within the Phyn Product account information. In very limited cases, updates may still be automatically applied, regardless of the auto-update setting. For example, we may provide an automatic update that prevents or fixes a security vulnerability or breach to your network.<br> THIRD PARTY AND SOCIAL MEDIA LINKED SITES<br> Phyn Websites and online services may contain links to websites or online services operated by third parties. Phyn Products may also use or offer products and services from third parties, such as a third-party app that works with a Phyn Product. Once you leave Phyn Websites and Phyn Products, your activities are governed by the terms of use and privacy policies of the third-party websites and online services. Phyn is not responsible for the privacy practices or the content of these websites and online services, and we encourage you to carefully read the terms of use and privacy policies of any website and online service you visit.<br> Phyn Websites and Phyn Products may contain social media features, such as Facebook “Like” buttons. These features may collect information about your device’s IP address, set cookies to facilitate interaction with social media features or link you to a social media website where you may post Personal Information. All interactions with social media features are governed by the privacy policy of the social media company providing the feature.<br> UPDATES TO THIS PRIVACY POLICY<br> We may update this Privacy Policy from time to time, so please review it frequently. If we change our Privacy Policy, we will post the revised version here, with an updated revision date. If we make material changes to our Privacy Policy, we will notify you by email or prominently post a notice on this website.<br> HOW TO CONTACT US<br> Should you have any privacy-related questions or comments related to this Privacy Policy, please contact us by email at info@phyn.com, if you are in California, by phone at 877-460-2323 or by mail at Phyn LLC, 1855 Del Amo Boulevard, Torrance, CA 90501 USA.<br> If you have complaints or concerns about this Privacy Policy, please contact us at either of the above addresses. We treat all complaints about a breach of the privacy laws seriously. Phyn will investigate your complaint and respond to you within a reasonable time.<br> Updated Effective January 1, 2020</p>
+	    
+						
+
+						    
+
+</article> <!-- end article -->
+			
+						
+		</main> <!-- end #main -->			
+	</div> <!-- end #inner-content -->
+</div> <!-- end #content -->
+			
+<footer class="container footer" role="contentinfo" itemscope="" itemtype="https://schema.org/WPfooter">
+  <div id="inner-footer" class="row">
+    <div class="col-12">
+      <nav role="navigation">
+        <ul id="menu-footer" class="menu"><li id="menu-item-wpml-ls-10-en" class="menu-item wpml-ls-slot-10 wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-10-en"><a title="English" href="https://www.phyn.com/privacy-policy/"><img class="wpml-ls-flag" src="https://www.phyn.com/wp-content/uploads/flags/flag-400.png" alt="en" title="English"><span class="wpml-ls-display">English</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-wpml-ls-10-fr" class="menu-item wpml-ls-slot-10 wpml-ls-item wpml-ls-item-fr wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-10-fr"><a title="French" href="https://www.phyn.com/fr/privacy-policy/"><img class="wpml-ls-flag" src="https://www.phyn.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png" alt="fr" title="Français"><span class="wpml-ls-display">French</span></a></li>
+	<li id="menu-item-wpml-ls-10-fi" class="menu-item wpml-ls-slot-10 wpml-ls-item wpml-ls-item-fi wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-10-fi"><a title="Finnish" href="https://www.phyn.com/fi/phynin-tietosuojaseloste/"><img class="wpml-ls-flag" src="https://www.phyn.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/fi.png" alt="fi" title="Suomi"><span class="wpml-ls-display">Finnish</span></a></li>
+	<li id="menu-item-wpml-ls-10-es" class="menu-item wpml-ls-slot-10 wpml-ls-item wpml-ls-item-es wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-10-es"><a title="Spanish" href="https://www.phyn.com/es/politica-de-privacidad/"><img class="wpml-ls-flag" src="https://www.phyn.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png" alt="es" title="Español"><span class="wpml-ls-display">Spanish</span></a></li>
+	<li id="menu-item-wpml-ls-10-se" class="menu-item wpml-ls-slot-10 wpml-ls-item wpml-ls-item-se wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-10-se"><a title="Swedish" href="https://www.phyn.com/se/integritetspolicy/"><img class="wpml-ls-flag" src="https://www.phyn.com/wp-content/uploads/flags/se.png" alt="se" title="Swedish"><span class="wpml-ls-display">Swedish</span></a></li>
+	<li id="menu-item-wpml-ls-10-dk" class="menu-item wpml-ls-slot-10 wpml-ls-item wpml-ls-item-dk wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-10-dk"><a title="Danish" href="https://www.phyn.com/dk/privacy-policy/"><img class="wpml-ls-flag" src="https://www.phyn.com/wp-content/uploads/flags/da.png" alt="dk" title="Denmark"><span class="wpml-ls-display">Danish</span></a></li>
+</ul>
+</li>
+<li id="menu-item-11696" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11696"><a href="https://www.phyn.com/faq/">Faq</a></li>
+<li id="menu-item-12006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12006"><a title="						" href="https://www.phyn.com/careers/">Careers</a></li>
+<li id="menu-item-12005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12005"><a title="						" href="https://www.phyn.com/contact-us/">Contact</a></li>
+<li id="menu-item-12004" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12004"><a title="						" href="https://www.phyn.com/press-center/">Press</a></li>
+<li id="menu-item-12003" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12003"><a title="						" href="https://www.phyn.com/terms/">Terms</a></li>
+<li id="menu-item-12002" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-168 current_page_item menu-item-12002"><a title="						" href="https://www.phyn.com/privacy-policy/" aria-current="page">Privacy Policy</a></li>
+<li id="menu-item-12001" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12001"><a title="						" href="https://www.phyn.com/warranty/">Warranty</a></li>
+</ul>
+        <span class="footer-float__right">
+          <span class="footer__copyright">
+            ©2020 Phyn LLC All rights reserved            
+          </span>
+          <a href="https://twitter.com/phyn?lang=en" target="_blank">
+            <img src="https://www.phyn.com/wp-content/uploads/1280_footer_twitter.svg" class="footer-twitter">
+          </a>
+          <a href="https://www.instagram.com/phyn/" target="_blank">
+            <img src="https://www.phyn.com/wp-content/uploads/1280_footer_instagram.svg" class="footer-instagram">
+          </a>
+          <a href="https://www.facebook.com/phyntech/" target="_blank">
+            <img src="https://www.phyn.com/wp-content/uploads/1280_footer_facebook.svg" class="footer-facebook">
+          </a>
+          <a href="https://www.linkedin.com/company/phyn/" target="_blank">
+            <img src="https://www.phyn.com/wp-content/uploads/1280_footer_linkedin.svg" class="footer-linkedin">
+          </a>
+        </span>
+      </nav>
+    </div>
+    </div> <!-- end #inner-footer -->
+    </footer> <!-- end .footer -->
+    <!--
+The IP2Location Redirection is using IP2Location LITE geolocation database. Please visit https://lite.ip2location.com for more information.
+-->
+<!-- Start of Wiremo script -->
+            <script>
+                (function () {
+                    var d = document,
+                        s = d.createElement('script');
+                    s.src = 'https://wapi.wiremo.co/v1/attach/carousel/5c101eb011ade715877c8504';
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+	<!-- End of Wiremo Script --><link rel="stylesheet" id="fwpcl-front-css" href="https://www.phyn.com/wp-content/plugins/facetwp-conditional-logic/assets/css/front.css?ver=1.3.0" type="text/css" media="all">
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.phyn.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.phyn.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.6"></script>
+<script type="text/javascript" src="https://www.phyn.com/wp-content/themes/jbst-4-sass-master/assets/scripts/html5lightbox/html5lightbox.js?ver=1.0.0"></script>
+<script type="text/javascript" src="https://www.phyn.com/wp-content/plugins/wp-reviews-by-wiremo/classes/../assets/js/scripts.js?ver=1.7"></script>
+<script type="text/javascript" src="https://www.phyn.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.phyn.com/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=2.7.4"></script>
+<script type="text/javascript" src="https://www.phyn.com/wp-content/plugins/megamenu-pro/assets/public.js?ver=1.9"></script>
+<script type="text/javascript" src="https://www.phyn.com/wp-content/themes/jbst-4-sass-master/assets/scripts/scripts.js?ver=1582236662"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var parameters = {"file":"FIELD","files":"FIELDS"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.phyn.com/wp-content/plugins/cf7-material-design/inc/../addons/js/material-cf7.js?ver=5.3.2"></script>
+<script type="text/javascript">
+jQuery(document).ready(function ($) { jQuery('.wpcf7 .wpcf7-date').pickadate({ selectMonths: true, selectYears: 10, min: [1997,1,14], max: [2027,1,14], monthsFull: ['January', 'February', 'March', 'Aprill', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], weekdaysFull: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], weekdaysShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'], today: 'TODAY', clear: 'CLEAR', close: 'OK', format: 'yyyy-mm-dd', closeOnSelect: false }); jQuery('.wpcf7 .timepicker').pickatime({ default: 'now', fromnow: 0, twelvehour: false, cleartext: 'CLEAR', donetext: 'OK', canceltext: 'CANCEL', autoclose: false, ampmclickable: true
+}); });
+</script>
+<script type="text/javascript" src="https://www.phyn.com/wp-includes/js/wp-embed.min.js?ver=5.3.2"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var FWPCL = {"rulesets":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.phyn.com/wp-content/plugins/facetwp-conditional-logic/assets/js/front.js?ver=1.3.0"></script>
+<script>var FWP_HTTP = FWP_HTTP || {}; FWP_HTTP.lang = 'en';</script>    <script>
+    AOS.init({
+      //offset: 100,
+      //mirror: true,
+      once: false,
+      //easing: 'ease-in-out',
+    })
+    </script>
+       <link rel="stylesheet" href="https://www.phyn.com/wp-content/themes/jbst-4-sass-master/bootstrap-cookie/cookiealert.css">
+       <script src="https://www.phyn.com/wp-content/themes/jbst-4-sass-master/bootstrap-cookie/cookiealert.js"></script>
+<div class="container gdpr-cook fixed-bottom">
+	<div class="row">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+			<div class="alert cookiealert show" role="alert">
+                    This website uses cookies to give you the best possible user experience. By continuing to use the website without changing your browser settings you agree to the use of cookies. For further information on cookies, please read our&nbsp;   				<a href="https://www.phyn.com/privacy-policy/" target="_blank"> privacy policy</a>.
+
+    			<button type="button" class="acceptcookies" aria-label="Close">
+        			 Accept    			</button>
+			</div>
+		</div>
+	</div> 
+</div> 
+
+<script>
+	/*
+ * Bootstrap Cookie Alert by Wruczek
+ * https://github.com/Wruczek/Bootstrap-Cookie-Alert
+ * Released under MIT license
+ */
+(function () {
+    "use strict";
+
+    var cookieAlert = document.querySelector(".cookiealert");
+    var acceptCookies = document.querySelector(".acceptcookies");
+
+    var removeFixedBottom = document.querySelector(".gdpr-cook");
+     var hideCookieBar = document.querySelector(".hide-cookie-bar");
+console.log(removeFixedBottom)
+
+
+    if (!cookieAlert) {
+       return;
+    }
+
+    cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+
+    // Show the alert if we cant find the "acceptCookies" cookie
+    if (!getCookie("acceptGDPR")) {
+        console.log('no cookie here')
+        cookieAlert.classList.add("show");
+        removeFixedBottom.classList.add("fixed-bottom");
+        removeFixedBottom.classList.remove("hide-cookie-bar");
+    }
+
+    // When clicking on the agree button, create a 1 year
+    // cookie to remember user's choice and close the banner
+    acceptCookies.addEventListener("click", function () {
+        setCookie("acceptGDPR", true, 365);
+        cookieAlert.classList.remove("show");
+        removeFixedBottom.classList.remove("fixed-bottom");
+        removeFixedBottom.classList.add("hide-cookie-bar");
+    });
+
+    // Cookie functions from w3schools
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) === ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) === 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+})();
+
+</script>     <script>
+
+
+  jQuery( document ).ready(function() {
+      var theLink = jQuery("#menu-item-wpml-ls-10-en>a");
+    console.log(theLink)
+
+    theLink.click(function(event) {
+    	event.preventDefault();
+    })
+});
+
+
+</script>
+
+<script type="text/javascript">
+	var _affirm_config = { 
+    	public_api_key: /* Replace with your Affirm Public API Key */ "JUECCDAOGKF0982E", /* Replace with your Affirm Public API Key */
+    	script: "https://cdn1.affirm.com/js/v2/affirm.js"
+  	};
+  	(function(l,g,m,e,a,f,b){var d,c=l[m]||{},h=document.createElement(f),n=document.getElementsByTagName(f)[0],k=function(a,b,c){return function(){a[b]._.push([c,arguments])}};c[e]=k(c,e,"set");d=c[e];c[a]={};c[a]._=[];d._=[];c[a][b]=k(c,a,b);a=0;for(b="set add save post open empty reset on off trigger ready setProduct".split(" ");a<b.length;a++)d[b[a]]=k(c,e,b[a]);a=0;for(b=["get","token","url","items"];a<b.length;a++)d[b[a]]=function(){};h.async=!0;h.src=g[f];n.parentNode.insertBefore(h,n);delete g[f];d(g);l[m]=c})(window,_affirm_config,"affirm","checkout","ui","script","ready");
+	// END AFFIRM.JS EMBED CODE
+
+</script>
+<script type="text/javascript">
+window.__lc = window.__lc || {};
+window.__lc.license = 10094788;
+(function() {
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+</script>
+<noscript>
+<a href="https://www.livechatinc.com/chat-with/10094788/">Chat with us</a>,
+powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener" target="_blank">LiveChat</a>
+</noscript>
+<!-- End of LiveChat code -->    <script async="" type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=JB6hLA"></script>
+  
+   <!-- end page --><div class="hiddendiv common"></div><script src="https://secure.livechatinc.com/licence/10094788/v2/get_dynamic_config.js?t=1585187379134&amp;referrer=&amp;url=https%3A%2F%2Fwww.phyn.com%2Fprivacy-policy%2F&amp;params=&amp;channel_type=code&amp;jsonp=__lc_data_776211"></script>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","137066443405777");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=137066443405777&amp;ev=PageView&amp;noscript=1"></noscript>
+
+<script type="text/javascript" id="" src="https://www.googletagmanager.com/gtag/js?id=AW-795934853"></script><script type="text/javascript" id="" src="//static.klaviyo.com/onsite/js/klaviyo.js?company_id=JB6hLA"></script><div id="dynamic-react-root"></div>
+<script type="text/javascript" id="">window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date);gtag("config","AW-795934853");</script><script src="https://secure.livechatinc.com/licence/10094788/v2/get_static_config.0.604.1.1.820.1.20.7.1.1.6.1.57.js?&amp;jsonp=__lc_data_static_config"></script><div id="chat-widget-container" style="opacity: 0; visibility: hidden; z-index: -1; position: fixed; bottom: 0px; width: 352px; height: 652px; max-width: 100%; max-height: calc(100% - 0px); min-height: 0px; min-width: 0px; background-color: transparent; border: 0px; overflow: hidden; right: 0px; transition: none 0s ease 0s !important;"><iframe src="https://secure.livechatinc.com/licence/10094788/v2/open_chat.cgi?license=10094788&amp;group=0&amp;embedded=1&amp;widget_version=3&amp;unique_groups=0" allowtransparency="true" allow="autoplay" id="chat-widget" name="chat-widget" scrolling="no" role="application" aria-label="LiveChat chat widget" style="width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; transition: none 0s ease 0s !important;"></iframe></div><div id="1585187379886.958" data-test-id="toast-wrapper" style="height: 1px; width: 1px; position: fixed; z-index: 2147483646;"><iframe src="https://www.affirm.com/apps/toast/" data-test-id="toast-frame" style="height: 100%; width: 100%; margin: 0px; border: 0px; padding: 0px;"></iframe></div></body></html>

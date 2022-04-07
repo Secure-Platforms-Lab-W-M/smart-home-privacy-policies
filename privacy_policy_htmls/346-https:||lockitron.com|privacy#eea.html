@@ -1,0 +1,547 @@
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="Checkout"><head>
+      <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<script type="text/javascript" src="https://bam.nr-data.net/1/8aa6e34bd4?a=1587860&amp;v=1167.2a4546b&amp;to=dlpfTEsLD1pQExcOB1lFHhBWEAtTR0g%3D&amp;rst=1073&amp;ref=https://lockitron.com/privacy&amp;ap=13&amp;be=259&amp;fe=1037&amp;dc=923&amp;perf=%7B%22timing%22:%7B%22of%22:1585186657630,%22n%22:0,%22f%22:0,%22dn%22:1,%22dne%22:25,%22c%22:25,%22s%22:34,%22ce%22:73,%22rq%22:73,%22rp%22:198,%22rpe%22:208,%22dl%22:205,%22di%22:923,%22ds%22:923,%22de%22:926,%22dc%22:1037,%22l%22:1037,%22le%22:1038%7D,%22navigation%22:%7B%7D%7D&amp;fp=920&amp;fcp=920&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-1167.min.js"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script src="/cdn-cgi/apps/head/R07oCk3CLiAUjgEDbtLXYzVeYhM.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"8aa6e34bd4","applicationID":"1587860","transactionName":"dlpfTEsLD1pQExcOB1lFHhBWEAtTR0g=","queueTime":0,"applicationTime":13,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"8aa6e34bd4",applicationID:"1587860"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+      <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+      <meta content="authenticity_token" name="csrf-param">
+<meta content="F5+6H0eF0Dt4SwnTZ4abooax1smprrYTsN+zpG6/l3U=" name="csrf-token">
+      <title>Lockitron</title>
+      <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6297512/703724/css/fonts.css">
+      <link href="/assets/store/style-598ed8069f6909bab6844f10a23e9c19.css" media="screen" rel="stylesheet" type="text/css">
+      <script src="/assets/store-025f60c4c648844b0c77f2dae4cd5f30.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <header>
+  <div class="container">
+    <div class="logo">
+      <h1><a href="https://lockitron.com/">Lockitron</a></h1>
+    </div>
+    <nav class="nav-collapse">
+      <ul class="nav">
+        <li class="active"><a href="/">Meet Lockitron</a></li>
+
+    
+        <li><a href="/account/login" class="login" id="login_button">Login</a></li>
+        <li><a href="/faq">Support</a></li>
+        <li><a href="http://blog.lockitron.com">Blog</a></li>
+        <li><a href="//store.lockitron.com" id="buy"><i class="fa fa-shopping-cart"></i>Store</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <section class="subheader">
+  <div class="container" id="fading">
+    <h2 class="uppercase"><strong id="title">Privacy</strong></h2>
+  </div>
+</section>
+
+<section class="main-body">
+	<div class="container">
+		<div class="text-content">
+
+			<p><a href="#us">United States and Other Non-Eurpoean Countries – English</a></p>
+			<p><a href="#eea">European Economic Area Resident Privacy Policy – English</a></p>
+			<p><a href="#us_prior">United States and Other Countries – Prior version</a></p>
+			<br>
+
+			<h3 id="us">UNITED STATES AND OTHER NON-EUROPEAN COUNTRIES</h3>
+
+			<p>Effective Date: May 25, 2018</p>
+
+
+			<p>Your privacy is important to us.   This Privacy Policy describes the types of information we collect from and about you when you visit www.lockitron.com or any other of our websites where this policy is posted (each a “Site”), use our products, including, without limitation, Bolt and Bridge, use our mobile applications (each an “App”), including, without limitation, the Lockitron app, or otherwise interact with us or request services from us as described further in this Privacy Policy.  The Sites, Apps, and other interactions are collectively the “Services.”  This Privacy Policy also explains how we and our affiliated entities may use and disclose such information, as well as your ability to control certain uses of your personal information. 
+			The following policy applies to anyone who is not a resident of the European Economic Area (“EEA”).  If you a resident of the EEA, click here.  
+			By using any of our Services, you agree to the collection, use, and disclosure of your personal information as described in this Privacy Policy.  If you do not, please do not use the Services.</p>  
+
+			<p><b>INFORMATION COLLECTION</b></p>
+
+			<p><b>Information You Provide</b></p>
+
+			<p>We collect information from you when you choose to share it with us.  This may include when you use our Services, search for a retailer or dealer, create an online account with us, register a product with us, provide information to one of our sales coordinators, speak with one of our representatives by phone, sign up for newsletters or our email list, participate in a survey or promotion, request information from us, or otherwise contact us.</p>
+
+			<p>The information we collect from you may include, but is not limited to:</p>
+
+			<p>
+				</p><ul>
+					<li>- Contact information, including your name, address, email address, telephone, or mobile number;</li>
+					<li>- Employer-related information, such as your title and the company’s name, address, and phone number;</li>
+					<li>- Credit or debit card number or other financial information;</li>
+					<li>- Account number;</li>
+					<li>- Geolocation of any computer, mobile device, or other electronic device used to access a Site, App or product;</li>
+					<li>- Information regarding the products or equipment purchased;</li>
+					<li>- Information regarding your usage of, and performance of, our products, equipment and Apps; and</li>
+					<li>- Charges you incur and other information relating to your transactions.</li>
+				</ul>
+			<p></p>
+
+			<p><b>Information Collected from Third Parties or Other Sources</b></p>
+
+			<p>We may obtain personal or other information about you from third parties or other sources, and combine this information with the information we collect from and about you through the Services. Such information may include, but is not limited to:</p>
+			
+			<p>
+				</p><ul>
+					<li>- Information, including geolocation information, collected through one of our mobile applications;</li>
+					<li>- Information obtained through communications that you make through a third party, such as through our network of independent retailers and/or dealers;</li>
+					<li>- Information obtained through transactions you complete with us or our retailers, including charges you incur;</li>
+					<li>- Information about your credit history or other publicly available information about you from consumer reporting agencies; and</li>
+					<li>- Any other information obtained through companies that have business relationships with us, such as our licensees, affiliates, and business partners.</li>
+				</ul>
+			<p></p>
+
+			<p>We may also obtain information about you from other online sources, including when you connect with us through our official corporate pages on third party social networks (such as Facebook) or the “apps” on those pages.  This information may include, but is not limited to, name, user name, demographic information, updated address or contact information, interests, and publicly-observed data, such as from social media and online activity.  We may combine this information with the information we collect from and about you through the Services.</p>
+
+			<p><b>Information Automatically Collected</b></p>
+
+			<p>We may use cookies, web beacons, pixel tags, JavaScript, or other technologies to collect certain information about visitors to any of our Sites or Apps and interactions with our emails and online or mobile advertisements, and may use such information to allow us to keep track of analytics and certain statistical information which enables us to improve our Sites and Apps and provide you with more relevant content and advertising on our Sites, Apps, or other websites or mobile applications.</p>
+
+			<p>For example, we may automatically collect certain information from you, including but not limited to your browser type, device type, operating system, software version, Internet Protocol (“IP”) address, geolocation, phone model, phone operating system, and the domain name from which you accessed the Services.  We also may collect information about your use of a Site or App, including the date and time you visit the Site or App, the areas or pages of the Site or App that you visit, the amount of time you spend viewing or using the Site or App, the number of times you return to the Site or App, other click-stream or site usage data, emails that you open, forward or click-through to our Site or App, and other sites that you may visit.</p>
+
+			<p>We may also use third party cookies and other technologies to support our Services, provide services on our behalf, facilitate business transactions on our behalf, or provide relevant advertising to you.  Some of these third parties may use technology such as cookies, web beacons, pixel tags, log files, or Flash cookies on our Sites or Apps, which may send some of the above-referenced information to those third parties.</p>
+			
+			<p><b>Tracking Options and California Do Not Track Disclosures</b></p>
+
+			<p>Certain parts of our Sites and Apps require cookies. You are free to set your browser or operating system settings to limit certain tracking or to decline cookies, but by doing so you may not be able to use certain features on the applicable Site or App, or take full advantage of all of our offerings. Please refer to your Web browser’s or operating system’s website or “Help” section for more information on how to delete and/or disable your browser or operating system from receiving cookies or controlling your tracking preferences.</p>
+
+			<p>Our system may not respond to Do Not Track requests or headers from some or all browsers. To learn more about the use of cookies or other technologies to deliver more relevant advertising and to know your choices about not having this information used by certain service providers, please click here and here. On your mobile device, you may also adjust your privacy and advertising settings to control whether you want to receive more relevant advertising.</p>
+
+			<p>Certain parts of our Sites and/or Apps may also include advertisements from third parties.  You can opt-out of being targeted by certain third-party ad-servers and our served ads online using the National Advertising Initiative’s opt-out tool, the About Ads opt-out tool, or on TRUSTe’s site.</p>
+
+			<p>This Privacy Policy does not cover the collection methods or use of the information collected by Third-Party Ad-Servers, and we are not responsible for cookies or other tracking technology in third-party ads. We encourage you to review the privacy policies or statements of these third-party advertising companies to learn more about their use of cookies and other technologies. If you would like more information about this practice and to know your choices about not having this information used by third-party advertisers, please visit <a href="https://www.networkadvertising.org">http://www.networkadvertising.org</a> and <a href="http://www.aboutads.info/choices/">http://www.aboutads.info/choices/</a>.</p>
+
+			<p><b>Combination of Information</b></p>
+
+			<p>We may combine the information we receive from and about you, including information you provide to us and information we automatically collect through our Sites, Apps and other services, as well as information collected from other online sources or from third party sources to help us tailor our communications to you and to improve our Services.</p>
+
+			<p><b>INFORMATION USE</b></p>
+
+			<p>We may use the information we collect from and about you for any of the following purposes:</p>
+
+				<ul>
+					<li>- To validate, confirm, verify, and track your account, products or services (including to process payment card transactions, or to contact you about your account, products or services);</li>
+					<li>- To enhance your online experience, including as a way to recognize you and welcome you to a Site or App, make the account usage and purchasing process faster and smoother and provide you with customized Site or App content, targeted offers, and advertising on Sites, Apps (including geo-targeted advertising), or via email, telephone, text message, or by mail;</li>
+					<li>- To recognize your online activities over time and across different websites and devices;</li>
+					<li>- To contact you with information, newsletters, promotional materials and contests from us or on behalf of our business partners, licensees, and affiliates;</li>
+					<li>- We may also share user information with our co-sponsors, business partners and service providers to offer products or services which we believe may be valuable or useful to our visitors. They may use a pixel tag or other similar technology to collect anonymous information about your visits to Sites, and they may use that information to target advertisements for our products and Services.</li> 
+					<li>- To use your data in an aggregated non-specific format for analytical and demographic purposes;</li>
+					<li>- To review the usage and operations of our Sites, Apps and other Services, and improve our content, products, and services;</li>
+					<li>- To protect the security or integrity of the Sites, Apps, and our business, such as by protecting against and preventing fraud, unauthorized transactions, claims and other liabilities, and managing risk exposure, including by identifying potential hackers and other unauthorized users; and</li>
+					<li>- As otherwise described to you at the point of data collection.</li>
+				</ul>
+
+			<p>Additionally, if you use any of the Sites or Apps to connect with third party services you authorize us to use information from and about you, on your behalf, to interact with these third party services based on your requests.</p>
+
+			<p><b>INFORMATION SHARING</b></p>
+
+			<p>We may disclose the personal information we collect from and about you in the following ways:</p>
+				<ul>
+					<li>- With our affiliated companies, retailers and dealers, including subsidiaries of such companies;</li>
+					<li>- With our third party service providers that provide business, professional or technical support functions for us;</li>
+					<li>- With our agents, licensees, and other companies that assist us in providing a product or service to you, including, but not limited to, making your purchase and installation; providing you with customer assistance; processing and/or confirming your transactions; providing you with the services you requested; assessing creditworthiness; billing and collecting any amounts owed in connection with your account or products or services purchased; or recovering any monies due, such as through debt collection agencies;</li>
+					<li>- With our select licensees, affiliates, retailers and business partners that we believe may have offers of interest to you, including for their own marketing purposes; </li>
+					<li>- We may also engage one or more third-party service providers to serve online advertisements on our behalf;</li>
+					<li>- As necessary if we believe that there has been a violation of our Terms of Use or of our rights or the rights of any third party;</li>
+					<li>- To respond to judicial process or provide information to law enforcement or regulatory agencies or in connection with an investigation on matters related to public safety, as permitted by law, or otherwise as required by law; and</li>
+					<li>- As otherwise described to you at the point of collection.</li>
+				</ul>
+			<p></p>
+
+			<p>We may also share aggregate or anonymous non-personal information with third parties for their marketing or analytics uses.
+			Also, we may sell or purchase assets during the normal course of our business.  If another entity acquires us or any of our assets, information we have collected about you may be transferred to such entity.  In addition, if any bankruptcy or reorganization proceeding is brought by or against us, such information may be considered an asset of ours and may be sold or transferred to third parties.  Should such a sale or transfer occur, we will use reasonable efforts to try to require that the transferee use personal information provided through the Services in a manner that is consistent with this Privacy Policy.</p>
+			
+			<p><b>YOUR CALIFORNIA PRIVACY RIGHTS</b></p>
+
+			<p>If you are a California resident, you may request information about our disclosure of personal information to third parties or affiliated companies for their direct marketing purposes.  To make such a request, please contact us at:</p>
+
+			<p>The Chamberlain Group, Inc.<br>
+			Attention: Legal Department<br>
+			300 Windsor Drive<br>
+			Oak Brook, IL 60523 USA<br>
+			(630) 279-3600<br>
+			Email: legal@chamberlain.com</p>
+			<br>
+
+			<p>You must put the statement “Your California Privacy Rights” in the subject field. We are not responsible for notices that are not labeled or sent properly, or do not have complete information. </p>
+
+			<p>Non-affiliated third parties are independent from us and if you wish to receive information about your disclosure choices or stop communications from such third parties, you will need to contact those non-affiliated third parties directly.</p>
+			
+			<p><b>LINKS TO OTHER WEBSITES</b></p>
+
+			<p>The Sites, Apps, and email messages from us may contain links to third-party websites, which may have privacy policies that differ from our own.  You should be aware that the collection, retention and use of any data you provide on these websites will be governed by the privacy policy of the company providing the website and not by this policy.  We are not responsible for the practices of such websites.</p>
+			
+			<p><b>PUBLIC FORUMS</b></p>
+
+			<p>Any information you may disclose on our Sites or Apps, in blogs, on message boards, in chat rooms, or on other public areas on a Site, App, or other third-party website that the Site or App may link to, becomes public information.  Please exercise caution when disclosing personal information in these public areas. We reserve the right to remove any posting or content in a posting at our sole discretion.</p>
+			
+			<p><b>CHILDREN’S PRIVACY</b></p>
+
+			<p>Protecting children’s privacy is important to us. We do not direct our Sites or Apps to, nor do we knowingly collect any personal information from, children under the age of thirteen.  If we learn that a child under the age of thirteen has provided personally identifiable information to a Site or App, we will use reasonable efforts to remove such information from the files of such Site or App.</p>
+			
+			<p><b>DATA SECURITY</b></p>
+
+			<p>We have taken certain physical, administrative, and technical steps to safeguard the information we collect from and about our customers and Site and App visitors. While we make every reasonable effort to help ensure the integrity and security of our network and systems, we cannot guarantee our security measures.</p>
+			
+			<p><b>DATA STORAGE</b></p>
+
+			<p>Your personal information may be stored on servers in the United States and is subject to the laws of the United States, where the data protection and other laws may differ from those of other countries. Your personal information may be disclosed in response to inquiries or requests from government authorities or to respond to judicial process in the countries in which we operate.</p>
+			
+			<p><b>YOUR OPTIONS AND ACCESS TO YOUR PERSONAL INFORMATION</b></p>
+
+			<p>We provide our customers with the opportunity to opt-out of having their information used for purposes not directly related to purchase, processing, registration or ongoing services.  To “opt out” of receiving future e-mail marketing messages from us, you can click on the “unsubscribe” link at the bottom of an e-mail marketing message or contact us as provided below under “Contact Us”. Please allow 10 business days for your request to take effect.</p>  
+			
+			<p>To access, review, or update your information stored by us, you may visit the Account Profile page on the Sites or the Apps, where you can view, update, or change your personal information and update your member profile, password, and associated information.</p>  
+			
+			<p>If you have any additional questions concerning access to or updating your personal information, please contact us at the information provided in the “Contact Us” section below.</p>
+
+			<p><b>CONTACT US</b></p>
+
+			<p>We hope this policy answers your questions about the collection, use and disclosure of your personal data by The Chamberlain Group, Inc. and its wholly and majority-owned entities (referred to herein as “we,” “our,” or “us”). If you have additional questions about this Privacy Policy or the practices described herein, you may contact us at 630-279-3600 or write to us at the following address:</p>
+
+			<p>The Chamberlain Group, Inc.<br>
+			Attention: Legal Department<br>
+			300 Windsor Drive<br>
+			Oak Brook, IL 60523 USA<br>
+			(630) 279-3600<br>
+			Email: legal@chamberlain.com</p>
+			<br>
+
+			<p><b>USER’S ACCEPTANCE OF THIS PRIVACY POLICY</b></p>
+
+			<p>By using the Services, you signify your acceptance to the terms of this Privacy Policy.  If you do not agree with the terms of this Privacy Policy, please do not use our Services.</p>
+			
+			<p><b>REVISIONS TO THIS PRIVACY POLICY</b></p>
+
+			<p>We reserve the right, at its sole discretion, to change, modify, add, remove, or otherwise revise portions of this Privacy Policy at any time. If we do, we will make you aware of the change(s) on the Site or App by including a link to the previous version of the Privacy Policy. Your continued use of the Site or App following the posting of changes to these terms means you accept these changes.  If we change this Privacy Policy in a material way, we will provide appropriate notice to you.</p>
+
+			<h3 id="eea">EUROPEAN ECONOMIC AREA </h3>
+
+			<p>Last modified: 25 May 2018</p>
+
+			<p><b>INTRODUCTION</b></p>
+
+			<p>We are committed to protecting your privacy. References in this policy to “we”, “us”, and “our” are references to the entity responsible for the processing of your personal data, which generally is the entity that obtains your personal data in the respective case. 
+			This policy describes the types of information we may collect from you or that you may provide when you visit the website www.lockitron.com or any other of our websites where this policy is posted,  use our products, including, without limitation, Bolt and Bridge, use our mobile applications, including, without limitation, the Lockitron app, or other services (collectively the "Website") and our practices for collecting, using, maintaining, protecting, and disclosing that information. This policy does not apply to information collected by us offline or through any other means, including on any other website operated by us or a third party or through any application or content (including advertising) that may link to or be accessible from the Website.</p>
+			
+			<p>We provide this policy to explain the type of information we collect and to inform you of the specific practices and guidelines that protect the security and confidentiality of your personal data. Please read this policy carefully. If any term in this policy is unacceptable to you, please do not use the Website or provide any personal data. This policy may change from time to time (see Revisions to Our Privacy Policy).</p>
+
+			<p><b>INFORMATION WE COLLECT ABOUT YOU AND HOW WE COLLECT IT</b></p>
+			<p>We collect several types of information from and about users of our Website, which may include information defined as personal data or personally identifiable information under an applicable law (“personal data”). For example, we may collect any of the following information about you:</p>
+				<ul>
+					<li>- Name</li>
+					<li>- Address</li>
+					<li>- Email address</li>
+					<li>- User Id</li>
+					<li>- Device ID</li>
+					<li>- Serial Number of products</li>
+					<li>- Dealer ID</li>
+					<li>- Employee ID</li>
+					<li>- Government issued ID number</li>
+					<li>- Phone number</li>
+					<li>- IP address (gateway and device)</li>
+					<li>- Device state for entryway products</li>
+					<li>- Geolocation of your gateway and device</li>
+					<li>- Logging information regarding device usage</li>
+				</ul>
+
+			<p>Information You Give to Us.  The information we collect on or through our Website may include:</p>
+				<ul>
+					<li>- Information that you provide by filling in forms on our Website. This includes information provided when you sign up for our products, services, newsletters and other types of information material; when we process and respond to your inquiries related to products, tech data sheets, technical support and customer service; and when you provide feedback on our Website.</li> 
+					<li>- Records and copies of your correspondence with us (including email addresses).</li>
+				</ul>
+			<p>Information We Collect About You.  As with many other websites, as you navigate through and interact with our Website, we may use automatic data collection technologies to collect certain information about your equipment, browsing actions, and patterns, including:</p>
+				<ul>
+					<li>- Details of your visits to our Website, including resources that you access and use on our Website, traffic data, location data, logs, language, date and time of access, frequency, and other communication data.</li>
+					<li>- Information about your computer, mobile devices and internet connection, including your IP address, operating system, host domain, and browser type.</li>
+					<li>- Details of referring websites (URL).</li> 
+				</ul>
+			<p>The information we collect automatically is statistical data that helps us improve our Website and deliver a better and more personalized service, including by enabling us to:</p>
+				<ul>
+					<li>- Determine web site traffic patterns.</li>
+					<li>- Count web visits.</li>
+					<li>- Determine traffic sources so we can measure and improve the performance and security of our site.</li>
+					<li>- Help us to know which pages and content are the most and least popular.</li> 
+					<li>- Observe site search patterns to provide more intuitive navigation cues.</li>
+					<li>- Determine user frequency and recency.</li> 
+				</ul>
+			<p>Google Analytics. This Website uses Google Analytics, a web analytics service provided by Google, Inc. (“Google”). Google Analytics uses cookies, which are text files placed on your computer, to help the Website analyze how users use the site. The information generated by the cookie about your use of the Website will be transmitted to and stored by Google on servers in the United States of America (USA).</p>
+			
+			<p>Google will use this information on behalf of us as the operator of this Website for the purpose of evaluating your use of the Website, compiling reports on Website activity for Website operators and providing them other services relating to Website activity and internet usage.</p> 
+
+			<p>In case IP anonymization is activated on this Website, your IP address will be truncated within the area of Member States of the European Union or other parties to the Agreement on the European Economic Area. Only in exceptional cases the whole IP address will be first transferred to a Google server in the USA and truncated there. The IP anonymization is active on this Website.</p>
+			
+			<p>The IP address, that your browser conveys within the scope of Google Analytics, will not be associated with any other data held by Google.</p> 
+
+			<p>You may refuse the use of cookies by selecting the appropriate settings on your browser, however please note that if you do this you may not be able to use the full functionality of this Website.</p>
+			
+			<p>You can also opt-out from being tracked by Google Analytics with effect for the future by downloading and installing Google Analytics Opt-out Browser Add-on for your current web browser: (<a href="https://tools.google.com/dlpage/gaoptout?hl=en-GB">click here or visit https://tools.google.com/dlpage/gaoptout?hl=en-GB</a>).</p> 
+
+			<p>Cookies Used on This Website.  Our Website uses single-session (temporary) and multi-session (persistent) cookies. Temporary cookies last only as long as your web browser is open, and are used for technical purposes such as enabling better navigation on our Website. Once you close your browser, the cookie disappears. Persistent cookies are stored on your computer for longer periods and are used for purposes including tracking the number of unique visitors to our site and information such as the number of views a page gets, how much time a user spends on a page, and other pertinent web statistics. Cookies, by themselves, will not be used by us to disclose your individual identity. This information identifies your browser, but not you, to our servers when you visit the Website. If you want to disable the use of cookies or remove them at any time from your computer, you can disable or delete them using your browser (consult your browser's "Help" menu to learn how to delete cookies); however, you must enable cookies to access certain information on our Website.</p> 
+
+			<p>Below you will find a detailed list of the first-party cookies we may use on our Website:</p> 
+			
+			<p><b>FIRST-PARTY COOKIES</b></p>
+			<table>
+				<tbody><tr><td><b>Type of Cookie</b></td><td><b>Name</b></td><td><b>Purpose</b></td><td><b>Duration</b></td></tr>
+				<tr><td>Strictly Necessary</td><td>_cfduid</td><td>Used for load balancing</td><td>Session</td></tr>
+				<tr><td>Strictly Necessary</td><td>CSRF-Token</td><td>Used for web site security</td><td>Session</td></tr>
+				<tr><td>Strictly Necessary</td><td>XSRF-TOKEN</td><td>Used for web site security</td><td>Session</td></tr>
+				<tr><td>Functional</td><td>_forum_session</td><td>Used to store user information relevant to the current</td><td>Session</td></tr>
+				<tr><td>Functional</td><td>_t</td><td>Used to store a user token for website</td><td>2 Months</td></tr>
+				<tr><td>Strictly Required</td><td>Sessitron</td><td>Used to hold session ID informatio</td><td>No Expiration</td></tr>
+			</tbody></table>
+			<br>
+
+			<p><b>THIRD-PARTY COOKIES</b></p>
+			<table>
+				<tbody><tr><td><b>Type of Cookie</b></td><td><b>Name</b></td><td><b>Purpose</b></td><td><b>Duration</b></td></tr>
+				<tr><td>Functional</td><td>_stripe_mid</td><td>Used by Stripe.com to process payments for our website</td><td>Session</td></tr>
+				<tr><td>Functional</td><td>_stripe_sid</td><td>Used by Stripe.com to process payments for our website</td><td>Session</td></tr>
+				<tr><td>Performance</td><td>_ga</td><td>Used by Google Analytics to store browsing statistics</td><td>2 Years</td></tr>
+				<tr><td>Performance</td><td>_gat</td><td>Used by Google Analytics to store browsing statistics and performance</td><td>1 Minute</td></tr>
+				<tr><td>Performance</td><td>_gid</td><td>Used by Google Analytics to store browsing statistics</td><td>1 Day</td></tr>
+				<tr><td>Performance</td><td>__utmb</td><td>Used by Google Analytics to store browsing statistics</td><td>Session</td></tr>
+				<tr><td>Performance</td><td>__utma</td><td>Used by Google Analytics to store browsing statistics</td><td>2 Years</td></tr>
+				<tr><td>Performance</td><td>__utmc</td><td>Used by Google Analytics to store browsing statistics</td><td>Session</td></tr>
+				<tr><td>Performance</td><td>__utmt</td><td>Used by Google Analytics for performance</td><td>10 Minutes</td></tr>
+				<tr><td>Marketing</td><td>_utmz</td><td>Used by Google for tracking where the user navigated from website</td><td>6 months</td></tr>
+			</tbody></table>
+			<br>
+
+			<p><b>HOW WE USE YOUR INFORMATION</b></p>
+			<p>Below please find information about how we process information collected about you (including personal data) as well as the corresponding legal basis. We may process your information where the processing is:</p>
+				<ul>
+					<li>- Necessary for entering into or the performance of a contract with you. For example:</li>
+					<li>- To carry out our obligations arising from any contracts entered into between you and us and to provide you with the information, products, and services that you request from us.</li>
+					<li>- Necessary for us to comply with a legal obligation.</li>
+					<li>- Necessary for the purposes of the legitimate interests pursued by a third party or us (to the extent it does not infringe on any data subject’s fundamental rights and freedoms). For example:</li> 
+					<li>- To ensure that content from our Website is presented in the most effective manner for you and for your computer.</li> 
+					<li>- To allow you to participate in interactive features of our service (when you choose to do so).</li>
+					<li>- To keep our Website safe and secure.</li>
+					<li>- To provide you with technical support and to improve our Website and services.</li>
+					<li>- To provide you with information that you have requested and respond to your inquiries.</li>
+					<li>- To notify you about changes to our service or our Website.</li>
+					<li>- If you are an existing customer, to communicate (including by email and SMS) with you to provide information about goods and services similar to those that were the subject of a previous sale or negotiations of a sale to you.</li> 
+					<li>- Subject to applicable law and regulations, in the event of a sale, merger, consolidation, change in control, transfer of substantial assets, reorganization, or liquidation, to transfer, sell, or assign to third parties information concerning your relationship with us, including, without limitation, personal data that you provide and other information concerning your relationship with us.</li>
+					<li>- Pursuant to valid consent provided by you, in order to provide you with information about goods or services we feel may interest you. If you do not want us to use your data in this way, simply do not opt-in when we ask for your consent on the relevant forms where we collect your data.</li> 
+					<li>- For any other purpose where you have provided valid consent where it is legally required.</li>
+				</ul>
+
+			<p><b>DISCLOSURE OF YOUR INFORMATION</b></p>
+			<p>We may disclose aggregated information about our users, and information that does not identify any individual, without restriction. Subject to applicable law and regulations, we may disclose personal data that we collect or you provide as described in this Privacy Policy:</p>
+				<ul>
+					<li>- To our wholly and/or majority-owned entities for the foregoing described purposes.</li> 
+					<li>- To contractors, service providers, and other third parties we use to support our business or in connection with the administration and support of the activities noted above and who are bound by contractual obligations to keep personal data confidential and use it only for the purposes for which we disclose it to them (e.g., database hosting providers, managed services providers, developers, consultants).</li>
+					<li>- To a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which personal data held by us about our Website users is among the assets transferred.</li>
+					<li>- To fulfill the purpose for which you provide it. For example, if you ask us to communicate information to a third party dealer or installer who is installing or serving your product.</li> 
+					<li>- For any other purpose disclosed by us when you provide your information or with your consent when required by applicable law and regulations.</li>
+					<li>- If we are under a duty to disclose or share your personal data in order to comply with any legal obligation, or in order to enforce or apply our terms of use and other agreements, including for billing and collection purposes; or to protect the rights, property, or safety of us, our customers, or others. This may include exchanging information with other companies and organizations for the purposes of fraud protection and credit risk reduction.</li>
+				</ul>
+
+			<p><b>CROSS-BORDER TRANSFERS OF PERSONAL DATA</b></p>
+			<p>The data that we collect from you will be transferred to, and stored at, a destination outside the European Economic Area ("EEA").  It may also be processed by staff operating outside the EEA who work for us or other entities acting as data processors processing data on behalf of us. This includes staff engaged in, among other things, the fulfillment of your request or order and the provision of support services. We have implemented international data transfer agreements on the basis of EU Standard Contractual Clauses in order to provide appropriate and suitable safeguards for personal data being transferred to countries outside the EEA where an adequate level of protection is not already guaranteed. A copy can be obtained by contacting GDPR@Lockitron.com. We will take all steps reasonably necessary to ensure that your data is treated securely and subject to appropriate safeguards in accordance with this policy and applicable legislation.</p>
+
+			<p><b>DATA RETENTION</b></p>
+			<p>Unless otherwise required by law, we will also erase personal data when it is no longer necessary in relation to the purposes for which it was collected or otherwise processed; when you withdraw your consent (where lawfulness of processing was based on your consent) and there is no other legal ground for the processing; when you object to the processing and there are no overriding legitimate grounds for the processing; when your personal data has been unlawfully processed; and when it is necessary to comply with legal obligations.</p>
+			
+			<p>For example, we will maintain basic information about your account for as long as your account is active or warranty information for the life of the warranty.  Similarly, we will keep device state and logging information for 30 days, after which the data will be automatically deleted.</p>  
+
+			<p><b>CHOICES ABOUT HOW WE USE AND DISCLOSE YOUR INFORMATION</b></p>
+			<p>We strive to provide you with choices regarding the personal data you provide to us. We have created mechanisms to provide you with the following control over your information:</p>
+				<ul>
+					<li>- Cookie settings. You can set your browser to refuse all or some browser cookies, or to alert you when cookies are being sent. If you disable or refuse cookies, please note that some parts of this Website may then be inaccessible or not function properly.</li>
+					<li>- Do Not Track. Our system may not respond to Do Not Track requests or headers from some or all browsers.</li>
+					<li>- Promotional Offers. If you do not wish to have your contact information used by us to promote our own products or services, you can check certain boxes on the forms we use to collect your data. You can also always exercise your right to ask us not to process your personal data for marketing purposes by contacting us at GDPR@Lockitron.com. If we have sent you a promotional email, you may send us a return email asking to be omitted from future email distributions. Please note that this does not apply to information provided to us as a result of a product purchase, warranty registration, product service experience, or other transactions.</li>
+				</ul> 
+
+			<p><b>YOUR RIGHTS WITH REGARD TO YOUR PERSONAL DATA</b></p>
+			<p>We remind you that you may at any time exercise certain rights you may have under applicable law and regulation, including the following rights:</p>
+				<ul>
+					<li>- The right to request access to your personal data, which includes the right to obtain confirmation from us as to whether or not personal data concerning you is being processed, and where that is the case, access to the personal data and information related to how it is processed.</li>
+					<li>- The right to rectification or erasure of your personal data, which includes the right to have incomplete personal data completed, including by means of providing a supplementary statement, certain rights to request us to erase your personal data without undue delay.</li>
+					<li>- The right to restrict or object to processing concerning your personal data, which includes restricting us from continuing to process your personal data under certain circumstances (e.g., where you contest the accuracy of your personal data, processing is unlawful, your personal data is no longer needed for the purposes of processing, or you have otherwise objected to processing related to automated individual decision-making).</li>
+					<li>- The right to data portability, which includes certain rights to have your personal data transmitted from us to another controller. 
+					</li><li>- Where data processing is based on your consent, the right to withdraw consent at any time.</li>
+					<li>- The right to lodge a complaint with a supervisory authority.</li>
+				</ul>
+
+			<p>Any requests related to the above rights may be made by sending an email to GDPR@Lockitron.com.</p> 
+
+			<p><b>DATA SECURITY</b></p>
+
+			<p>We have taken certain physical, administrative, and technical steps to safeguard the information we collect from and about our customers and Website and mobile application visitors. While we make every reasonable effort to help ensure the integrity and security of our network and systems, we cannot guarantee our security measures.</p>  
+
+			<p><b>THIRD-PARTY WEBSITES</b></p>
+			<p>Our Website may contain links or references to other websites outside of our control. Please be aware that this policy does not apply to these websites. We encourage you to read the privacy statements and terms and conditions of linked or referenced websites you enter. These third-party websites may send their own cookies and other tracking devices to you, log your IP address, and otherwise collect data or solicit personal data. WE DO NOT CONTROL AND ARE NOT RESPONSIBLE FOR WHAT THIRD PARTIES DO IN CONNECTION WITH THEIR WEBSITES, OR HOW THEY HANDLE YOUR PERSONAL DATA. PLEASE EXERCISE CAUTION AND CONSULT THE PRIVACY POLICIES POSTED ON EACH THIRD-PARTY WEBSITE FOR FURTHER INFORMATION.</p> 
+
+			<p><b>CHILDREN UNDER THE AGE OF 16</b></p>
+			<p>Our Website is not intended for children under 16 years of age, and we do not knowingly collect or use any personal data from children under the age of 16. No one under the age of 16 may provide any information to or on the Website. If we learn we have collected or received personal data from a child under the age of 16, we will delete that information. If you believe we might have any information from or about a child under the age of 16, please contact us at GDPR@Lockitron.com.</p>
+
+			<p><b>REVISIONS TO OUR PRIVACY POLICY</b></p>
+			<p>We reserve the right to change this Privacy Policy at any time. Any changes we make will be posted on this page. If we make material changes to how we treat your personal data, we will notify you by email to the email address provided by you or through a notice on the Website home page. The date this Privacy Policy was last revised is identified at the top of the page. You are responsible for ensuring we have a deliverable email address for you, and for periodically monitoring and reviewing any updates to this Privacy Policy. Your continued use of our Website after such amendments will be deemed your acknowledgement of these changes to this Privacy Policy.</p>
+
+			<p><b>DATA CONTROLLER &amp; CONTACT INFORMATION</b></p>
+
+			<p>The Chamberlain Group, Inc. and its wholly and majority-owned entities (referred to herein as “we,” “our,” or “us”) are committed to protecting your privacy and we are the data controller with respect to your information as covered by this policy.</p>
+
+			<p>The Chamberlain Group, Inc.<br>
+			Attention: Legal Department<br>
+			300 Windsor Drive<br>
+			Oak Brook, IL 60523 USA<br>
+			(630) 279-3600</p>
+			<br>
+
+			<p>Should you have any questions or concerns about this policy and our privacy practices, you may also contact the Data Protection Officer of Chamberlain GmbH at:</p>
+			<p>Dr. Sebastian Kraska<br>
+			Rechtsanwalt, Dipl.-Kfm.<br>
+			Externer Datenschutzbeauftragter<br>
+			IITR Datenschutz GmbH<br>
+			Marienplatz 2<br>
+			80331 München, Germany<br>
+			(49) 89-1891-7360</p>
+			<br>			
+
+			<p>GDPR@Lockitron.com</p>
+			<br>
+
+			<p>Sitz: Eschenrieder Str. 62c, 82194 Gröbenzell<br>
+			Registergericht: Amtsgericht München<br>
+			Handelsregisternummer: HRB 170081<br>
+			Geschäftsführer: Dr. Sebastian Kraska<br>
+			USt.-ID. GmbH: DE256675995<br>
+			USt.-ID. RA: DE814144498</p> 
+			<br>			 
+
+			<h3 id="us_prior">PRIOR VERSION</h3>
+			<p><b>Website Visitors</b></p>
+			
+			<p>Like most website operators, Lockitron.com collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Lockitron.com’s purpose in collecting non-personally identifying information is to better understand how Lockitron.com’s visitors use its website. From time to time, Lockitron.com may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.</p>
+			
+			<p>Lockitron.com also collects potentially personally-identifying information like Internet Protocol (IP) addresses. Lockitron.com does not use such information to identify its visitors, however, and does not disclose such information, other than under the same circumstances that it uses and discloses personally-identifying information, as described below.
+			Gathering of Personally-Identifying Information</p>
+			
+			<p>Certain visitors to Lockitron.com’s websites choose to interact with Lockitron.com in ways that require Lockitron.com to gather personally-identifying information. The amount and type of information that Lockitron.com gathers depends on the nature of the interaction. For example, we ask visitors who create a Lockitron.com account to provide a name and email address. In each case, Lockitron.com collects such information only insofar as is necessary or appropriate to fulfill the purpose of the visitor’s interaction with Lockitron.com. Lockitron.com does not disclose personally-identifying information other than as described below. And visitors can always refuse to supply personally-identifying information, with the caveat that it may prevent them from engaging in certain website-related activities such as creating a Lockitron.com account.</p>
+			
+			<p><b>Aggregated Statistics</b></p>
+
+			<p>Lockitron.com may collect statistics about the behavior of visitors to its websites. For instance, Lockitron.com may reveal how much traffic it received. However, Lockitron.com does not disclose personally-identifying information other than as described below.
+			Protection of Certain Personally-Identifying Information</p>
+			
+			<p>Lockitron.com discloses potentially personally-identifying and personally-identifying information only to those of its employees, contractors, and affiliated organizations that (i) need to know that information in order to process it on Lockitron.com’s behalf or to provide services available at Lockitron.com’s websites, and (ii) that have agreed not to disclose it to others. Some of those employees, contractors and affiliated organizations may be located outside of your home country; by using Lockitron.com’s websites, you consent to the transfer of such information to them. Lockitron.com will not rent or sell potentially personally-identifying and personally-identifying information to anyone. Other than to its employees, contractors, and affiliated organizations, as described above, Lockitron.com discloses potentially personally-identifying and personally-identifying information only when required to do so by law, or when Lockitron.com believes in good faith that disclosure is reasonably necessary to protect the property or rights of Lockitron.com, third parties, or the public at large. If you are a registered user of a Lockitron.com website and have supplied your email address, Lockitron.com may occasionally send you an email to tell you about new features, solicit your feedback, or just keep you up to date with what’s going on with Lockitron.com and our products. We primarily use our blog and Twitter account to communicate this type of information, so we expect to keep this type of email to a minimum. If you send us a request (for example via a support email or via one of our feedback mechanisms), we reserve the right to publish it in order to help us clarify or respond to your request or to help us support other users. Lockitron.com takes all measures reasonably necessary to protect against the unauthorized access, use, alteration, or destruction of potentially personally-identifying and personally-identifying information.</p>
+			
+			<p><b>Cookies</b></p>
+			
+			<p>A cookie is a string of information that a website stores on a visitor’s computer, and that the visitor’s browser provides to the website each time the visitor returns. Lockitron.com uses cookies to help Lockitron.com identify and track visitors, their usage of Lockitron.com website, and their website access preferences. Lockitron.com visitors who do not wish to have cookies placed on their computers should set their browsers to refuse cookies before using Lockitron.com’s websites, with the drawback that certain features of Lockitron.com’s websites may not function properly without the aid of cookies.</p>
+			
+			<p><b>Privacy Policy Changes</b></p>
+			<p>Although most changes are likely to be minor, Lockitron.com may change its Privacy Policy from time to time, and in Lockitron.com’s sole discretion. Lockitron.com encourages visitors to frequently check this page for any changes to its Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.</p>
+		</div>
+	</div>
+</section>
+
+    <footer>
+ <div class="container">
+   <h1>Lockitron</h1>
+   <div class="right">
+   <div id="loop">
+     <h4>Stay in the loop</h4>
+     <p>Join our mailing list for updates</p>
+     <!-- Begin MailChimp Signup Form -->
+   <div id="mc_embed_signup">
+    <form action="//lockitron.us5.list-manage.com/subscribe/post?u=d4bf5489c1f03dcaf6fd08d50&amp;id=b310c6a14c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+     <div class="mc-field-group">
+       <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="hello@lockitron.com">
+        <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;"><input type="text" name="b_d4bf5489c1f03dcaf6fd08d50_b310c6a14c" tabindex="-1" value=""></div>
+       <button name="subscribe" id="mc-embedded-subscribe"><i class="fa fa fa-arrow-right"></i></button>
+      </div>
+    </form>
+   </div>
+  <!--End mc_embed_signup-->
+   </div>
+   <div id="site">
+     <h4>Site</h4>
+     <ul>
+       <li><a href="/faq">Help &amp; FAQs</a></li>
+       <li><a href="/media">Press &amp; Media</a></li>
+       <li><a href="/privacy">Privacy Policy</a></li>
+       <li><a href="/sales">Sales &amp; Distribution</a></li>
+      <li><a href="//api.lockitron.com/v2/documentation">API Documentation</a></li>
+       <li><a href="/security">Security</a></li>
+     </ul>
+   </div>
+   <div id="connect">
+     <h4>Connect</h4>
+     <ul>
+       <li><a href="http://blog.lockitron.com" id="blog">Blog<i class="fa farss"></i></a></li>
+       <li><a href="http://community.lockitron.com" id="community">Community<i class="fa farss"></i></a></li>
+       <li><a href="https://twitter.com/lockitron" id="twitter">Follow Us<i class="fa fatwitter"></i></a></li>
+       <li><a href="https://facebook.com/Lockitron" id="facebook">Like Us<i class="fa fafacebook"></i></a></li>
+       <li><a href="https://lockitron.us5.list-manage.com/subscribe?u=d4bf5489c1f03dcaf6fd08d50&amp;id=fc7481e328">Developer List</a></li>
+     </ul>
+   </div>
+ </div>
+  </div>
+ 
+</footer>
+<link href="/assets/popup-3d49aad1638b1476954576539c695c82.css" media="screen" rel="stylesheet" type="text/css">
+<!-- We hide the overlay by default. When you call AccountForm.show() it hides it in JS, removes the hidden class, and then fades it in -->
+<div id="popup_container" class="hidden">
+	<div id="account_popup" class="overlay">
+		<div id="login_modal" class="cover hidden">
+			<div class="popup">
+				<div class="heading">
+					<span>Login</span>
+					<a class="close" onclick="AccountForm.hide()"><i class="fa fa-times"></i></a>
+				</div>
+				<div class="popup_body">
+						<p class="flash hidden"></p>
+					<form accept-charset="UTF-8" action="/account/login" id="login_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="F5+6H0eF0Dt4SwnTZ4abooax1smprrYTsN+zpG6/l3U="></div>
+						<input type="email" placeholder="Email" required="" name="email">
+						<input type="password" placeholder="Password" required="" name="password">
+						<fieldset>
+							<!-- Generally, inline JS is bad. I'd just use Angular but I don't want to include all that JS on every single page. So, we use a little inline JS as a workaround. -->
+							<a id="cant_login" onclick="AccountForm.show(&quot;forgot&quot;)">Can't login?</a>
+							<input type="submit" class="button main-action" name="submit" value="Login">
+						</fieldset>
+</form>				</div>
+			</div>
+		</div>
+
+		<div id="forgot_modal" class="cover hidden">
+			<div class="popup">
+				<div class="heading">
+					<span>Can't login</span>
+					<a class="close" onclick="AccountForm.hide()"><i class="fa fa-times"></i></a>
+				</div>
+				<div class="popup_body">
+					<p class="flash hidden"></p>
+					<p>In order to reset your password, please enter the email or phone number you used to register your Lockitron account.</p>
+					<form accept-charset="UTF-8" action="/account/forgot" id="forgot_password_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="F5+6H0eF0Dt4SwnTZ4abooax1smprrYTsN+zpG6/l3U="></div>
+						<input type="text" id="forgot_password_identifier" placeholder="Email or Phone" name="identifier">
+						<input type="submit" class="button main-action" name="submit" value="Reset Password">
+</form>				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<script src="/assets/popup-caf300803c2396d024b262bf6b166075.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17601805-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  
+</body></html>

@@ -1,0 +1,967 @@
+<html class=" no-skrollr js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="de" style=""><head>
+
+<meta charset="utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2018 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+<base href="/">
+<link rel="shortcut icon" href="/typo3conf/ext/theme_xoro/Resources/Public/Icons/favicon.png" type="image/png">
+
+<meta name="generator" content="TYPO3 CMS">
+<meta name="copyright" content="MAS Elektronik AG">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="7 days">
+<meta name="application-name" content="MAS Elektronik AG">
+<meta name="abstract" content="MAS Elektronik AG">
+<meta name="keywords" content="XORO">
+<meta name="description" content="MAS Elektronik AG">
+<meta property="author" content="MAS Elektronik AG">
+<meta property="publisher" content="MAS Elektronik AG">
+<meta name="author_email" content="info@xoro.de">
+
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/theme_bootstrap4/Resources/Public/Contrib/font-awesome-4.6.3/css/font-awesome.min.css?1524765077" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/news/Resources/Public/Css/news-basic.css?1524809850" media="all">
+<link rel="stylesheet" type="text/css" href="typo3temp/DynCss/import.scss-6e3861cc-34803e25-c83560e8.css?1524809116" media="all">
+
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+/*<![CDATA[*/
+var TYPO3 = TYPO3 || {};
+TYPO3.settings = {"TS":{"themeName":"theme_xoro","relativePath":"typo3conf\/ext\/theme_xoro\/","resourcePublicPath":"typo3conf\/ext\/theme_xoro\/Resources\/Public\/","templatePageId":"1","baseurl":"\/","baseurlIcon":"http:\/\/demo.typo3-themes.org\/typo3conf\/ext\/theme_bootstrap\/Resources\/Public\/Icons\/","baseurlImage":"http:\/\/demo.typo3-themes.org\/typo3conf\/ext\/theme_bootstrap\/Resources\/Public\/Images\/","siteName":"XORO","siteSlogan":"FREE TO CHOOSE INNOVATIONS"}};/*]]>*/
+</script>
+<script src="typo3conf/ext/theme_bootstrap4/Resources/Public/Contrib/jquery/jquery-3.1.0.min.js?1524765074" type="text/javascript"></script>
+<script src="typo3conf/ext/theme_bootstrap4/Resources/Public/Contrib/Modernizr/modernizr.min.js?1524765239" type="text/javascript"></script>
+<script src="typo3conf/ext/theme_bootstrap4/Resources/Public/JavaScript/theme.js?1524765242" type="text/javascript"></script>
+<script src="typo3conf/ext/theme_bootstrap4/Resources/Public/Contrib/tether/dist/js/tether.min.js?1524765097" type="text/javascript"></script>
+<script src="typo3conf/ext/theme_bootstrap4/Resources/Public/Contrib/Bootstrap/dist/js/bootstrap.min.js?1524765226" type="text/javascript"></script>
+<script src="typo3conf/ext/theme_bootstrap4/Resources/Public/JavaScript/initialize.js?1524765242" type="text/javascript"></script>
+<script src="typo3conf/ext/theme_xoro/Resources/Public/JavaScript/colorbox.min.js?1524765297" type="text/javascript"></script>
+<script src="typo3conf/ext/theme_xoro/Resources/Public/JavaScript/owl.min.js?1524765297" type="text/javascript"></script>
+<script src="typo3conf/ext/theme_xoro/Resources/Public/JavaScript/masterslider.min.js?1524765297" type="text/javascript"></script>
+<script src="typo3conf/ext/theme_xoro/Resources/Public/JavaScript/matchheight.js?1524765297" type="text/javascript"></script>
+<script src="typo3conf/ext/theme_xoro/Resources/Public/JavaScript/mmenu/jquery.mmenu.all.js?1524765298" type="text/javascript"></script>
+<script src="typo3conf/ext/theme_xoro/Resources/Public/JavaScript/Default.js?1524765297" type="text/javascript"></script>
+<script src="typo3temp/assets/js/9a38f34785.js?1524766202" type="text/javascript"></script>
+
+
+<!-- Developed with TYPO3 theme_bootstrap4 -->
+	<!-- TYPO3-Themes - www.typo3-themes.org  -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><title>Startseite | XORO by MAS Elektronik</title><meta name="description" content=""><link rel="canonical" href="https://www.xoro.de/"><meta property="og:type" content="website"><meta property="og:title" content="Startseite"><meta property="og:url" content="https://www.xoro.de/"><meta property="og:site_name" content=""><meta name="twitter:card" content="summary"><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-2462060-3"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+    /* Google Analytics Optout */
+    var gaProperty = 'UA-2462060-3';
+    var disableStr = 'ga-disable-' + gaProperty;
+    if (document.cookie.indexOf(disableStr + '=true') > -1) {
+        window[disableStr] = true;
+    }
+
+    function gaOptout() {
+        document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        window[disableStr] = true;
+    }
+
+     /* Google Analytics */
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', gaProperty, { 'anonymize_ip': true });
+    /* End Google Analytics */
+</script>
+
+<script type="text/javascript">
+	/*<![CDATA[*/
+<!--
+function openPic(url, winName, winParams) {	//
+			var theWindow = window.open(url, winName, winParams);
+			if (theWindow)	{theWindow.focus();}
+		}
+
+// -->
+	/*]]>*/
+</script>
+</head>
+<body id="page-1" class="page-layout-3 page-level-0 page-layout-backend-contentstartsite page-parent-0 language-de scroll-offset-before" data-spy="scroll" data-target="body" data-offset="0"><nav id="mobile-menu" class="hidden-lg-up mm-menu mm-offcanvas mm-right mm-hasnavbar-top-2 mm-effect-menu-slide mm-effect-listitems-slide mm-pagedim-white mm-shadow-page mm-shadow-panels mm-theme-black" aria-hidden="true"><div class="mm-navbars-top"><div class="mm-navbar mm-navbar-size-1"><a class="fa fa-search" href="suchergebnisse/" style="font-size:24px"> Suche</a></div><div class="mm-navbar mm-navbar-size-1 mm-hasbtns"><a class="mm-prev mm-btn mm-hidden" aria-hidden="true"></a><a class="mm-title">Menu</a></div></div><div class="mm-panels"><div class="mm-panel mm-opened" id="mm-1"><div class="mm-navbar" aria-hidden="true"><a class="mm-title">Menu</a></div><ul class="mm-listview"><li class="nav-item dropdown state-ifsub uid-2 point-1 first"><a class="mm-next" href="#mm-2" aria-owns="mm-2" aria-haspopup="true"><span class="mm-sronly">Open submenu (Produkte)</span></a><a href="produkte/" class="nav-link">Produkte</a></li><li class="nav-item state-no uid-3 point-2 middle"><a href="aktuelles/" class="nav-link">Aktuelles</a></li><li class="nav-item dropdown state-ifsub uid-4 point-3 middle"><a class="mm-next" href="#mm-10" aria-owns="mm-10" aria-haspopup="true"><span class="mm-sronly">Open submenu (Downloads)</span></a><a href="downloads/" class="nav-link">Downloads</a></li><li class="nav-item state-no uid-5 point-4 middle"><a href="service/" class="nav-link">Service</a></li><li class="nav-item state-no uid-6 point-5 last"><a href="kontakt/" class="nav-link">Kontakt</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-2" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-1" aria-owns="mm-1" aria-haspopup="true"><span class="mm-sronly">Close submenu (Produkte)</span></a><a class="mm-title" href="#mm-1" aria-hidden="true">Produkte</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-605 point-1 first"><a href="produkte/kataloge/">Kataloge</a></li><li class="nav-item dropdown state-ifsub uid-532 point-2 middle"><a class="mm-next" href="#mm-3" aria-owns="mm-3" aria-haspopup="true"><span class="mm-sronly">Open submenu (Smart Home)</span></a><a href="produkte/smarthome/">Smart Home</a></li><li class="nav-item dropdown state-ifsub uid-26 point-3 middle"><a class="mm-next" href="#mm-4" aria-owns="mm-4" aria-haspopup="true"><span class="mm-sronly">Open submenu (Receiver)</span></a><a href="produkte/receiver/">Receiver</a></li><li class="nav-item dropdown state-ifsub uid-28 point-4 middle"><a class="mm-next" href="#mm-5" aria-owns="mm-5" aria-haspopup="true"><span class="mm-sronly">Open submenu (Fernseher)</span></a><a href="produkte/fernseher/">Fernseher</a></li><li class="nav-item dropdown state-ifsub uid-32 point-5 middle"><a class="mm-next" href="#mm-6" aria-owns="mm-6" aria-haspopup="true"><span class="mm-sronly">Open submenu (Audio)</span></a><a href="produkte/audio/">Audio</a></li><li class="state-no uid-48 point-6 middle"><a href="produkte/megapad/">MegaPAD</a></li><li class="nav-item dropdown state-ifsub uid-33 point-7 middle"><a class="mm-next" href="#mm-7" aria-owns="mm-7" aria-haspopup="true"><span class="mm-sronly">Open submenu (Antennen)</span></a><a href="produkte/antennen/">Antennen</a></li><li class="state-no uid-525 point-8 middle"><a href="produkte/roboter/">Roboter</a></li><li class="state-no uid-27 point-9 middle"><a href="produkte/ip-box-sat-ip-server/">IP-Box / SAT IP-Server</a></li><li class="state-no uid-30 point-10 middle"><a href="produkte/digitale-bilderrahmen/">Digitale Bilderrahmen</a></li><li class="nav-item dropdown state-ifsub uid-31 point-11 middle"><a class="mm-next" href="#mm-8" aria-owns="mm-8" aria-haspopup="true"><span class="mm-sronly">Open submenu (DVD Player)</span></a><a href="produkte/dvd-player/">DVD Player</a></li><li class="nav-item dropdown state-ifsub uid-34 point-12 last"><a class="mm-next" href="#mm-9" aria-owns="mm-9" aria-haspopup="true"><span class="mm-sronly">Open submenu (Zubehör)</span></a><a href="produkte/zubehoer/">Zubehör</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-3" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-2" aria-owns="mm-2" aria-haspopup="true"><span class="mm-sronly">Close submenu (Smart Home)</span></a><a class="mm-title" href="#mm-2" aria-hidden="true">Smart Home</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-595 point-1 first"><a href="produkte/smarthome/saugroboter/">Saugroboter</a></li><li class="state-no uid-537 point-2 middle"><a href="produkte/smarthome/zubehoer-mit-sprachsteuerung/">Zubehör mit Sprachsteuerung</a></li><li class="state-no uid-534 point-3 middle"><a href="produkte/smarthome/receiver-mit-sprachsteuerung/">Receiver mit Sprachsteuerung</a></li><li class="state-no uid-533 point-4 middle"><a href="produkte/smarthome/alexa-lautsprecher/">Alexa Lautsprecher</a></li><li class="state-no uid-624 point-5 last"><a href="produkte/smarthome/kamera/">Smart Home Kamera</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-4" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-2" aria-owns="mm-2" aria-haspopup="true"><span class="mm-sronly">Close submenu (Receiver)</span></a><a class="mm-title" href="#mm-2" aria-hidden="true">Receiver</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-518 point-1 first"><a href="produkte/receiver/receiver-mit-sprachsteuerung/">Mit Sprachsteuerung</a></li><li class="state-no uid-39 point-2 middle"><a href="produkte/receiver/antennenceiver-dvb-tt2/">Antennenreceiver (DVB-T/T2)</a></li><li class="state-no uid-40 point-3 middle"><a href="produkte/receiver/sat-receiver-dvb-s/">SAT-Receiver (DVB-S)</a></li><li class="state-no uid-41 point-4 middle"><a href="produkte/receiver/kabelreceiver-dvb-c/">Kabelreceiver (DVB-C)</a></li><li class="state-no uid-42 point-5 last"><a href="produkte/receiver/multiuner-receiver/">Multituner-Receiver</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-5" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-2" aria-owns="mm-2" aria-haspopup="true"><span class="mm-sronly">Close submenu (Fernseher)</span></a><a class="mm-title" href="#mm-2" aria-hidden="true">Fernseher</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-628 point-1 first"><a href="produkte/fernseher/beamer/">Beamer</a></li><li class="state-no uid-43 point-2 middle"><a href="produkte/fernseher/portabel/">Portabel</a></li><li class="state-no uid-44 point-3 last"><a href="produkte/fernseher/stationaer/">Stationär</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-6" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-2" aria-owns="mm-2" aria-haspopup="true"><span class="mm-sronly">Close submenu (Audio)</span></a><a class="mm-title" href="#mm-2" aria-hidden="true">Audio</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-107 point-1 first"><a href="produkte/audio/internetradio/">Internet Radio</a></li><li class="state-no uid-51 point-2 middle"><a href="produkte/audio/radio/">DAB Radio</a></li><li class="state-no uid-52 point-3 middle"><a href="produkte/audio/lautsprecher/">Lautsprecher</a></li><li class="state-no uid-53 point-4 last"><a href="produkte/audio/kopfhoerer/">Kopfhörer</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-7" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-2" aria-owns="mm-2" aria-haspopup="true"><span class="mm-sronly">Close submenu (Antennen)</span></a><a class="mm-title" href="#mm-2" aria-hidden="true">Antennen</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-615 point-1 first"><a href="produkte/antennen/mobilfunk-antennen/">Mobilfunk Antennen</a></li><li class="state-no uid-565 point-2 middle"><a href="produkte/antennen/multischalter/">Multischalter</a></li><li class="state-no uid-111 point-3 middle"><a href="produkte/antennen/sat-anlagen/">SAT-Anlagen</a></li><li class="state-no uid-112 point-4 last"><a href="produkte/antennen/dvb-t2-antennen/">DVB-T2 Antennen</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-8" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-2" aria-owns="mm-2" aria-haspopup="true"><span class="mm-sronly">Close submenu (DVD Player)</span></a><a class="mm-title" href="#mm-2" aria-hidden="true">DVD Player</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-49 point-1 first"><a href="produkte/dvd-player/portabel/">Portabel</a></li><li class="state-no uid-50 point-2 last"><a href="produkte/dvd-player/stationaer/">Stationär</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-9" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-2" aria-owns="mm-2" aria-haspopup="true"><span class="mm-sronly">Close submenu (Zubehör)</span></a><a class="mm-title" href="#mm-2" aria-hidden="true">Zubehör</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-54 point-1 first"><a href="produkte/zubehoer/receiver/">Receiver</a></li><li class="state-no uid-60 point-2 last"><a href="produkte/zubehoer/universal/">Universal</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-10" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-1" aria-owns="mm-1" aria-haspopup="true"><span class="mm-sronly">Close submenu (Downloads)</span></a><a class="mm-title" href="#mm-1" aria-hidden="true">Downloads</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-638 point-1 first"><a href="downloads/roboter/">Downloads für Roboter</a></li><li class="nav-item dropdown state-ifsub uid-119 point-2 middle"><a class="mm-next" href="#mm-11" aria-owns="mm-11" aria-haspopup="true"><span class="mm-sronly">Open submenu (Downloads für Receiver)</span></a><a href="downloads/receiver/">Downloads für Receiver</a></li><li class="nav-item dropdown state-ifsub uid-120 point-3 middle"><a class="mm-next" href="#mm-18" aria-owns="mm-18" aria-haspopup="true"><span class="mm-sronly">Open submenu (Downloads für IP-Box / SAT IP-Server)</span></a><a href="downloads/ip-box-sat-ip-server/">Downloads für IP-Box / SAT IP-Server</a></li><li class="nav-item dropdown state-ifsub uid-121 point-4 middle"><a class="mm-next" href="#mm-19" aria-owns="mm-19" aria-haspopup="true"><span class="mm-sronly">Open submenu (Downloads für Fernseher)</span></a><a href="downloads/fernseher/">Downloads für Fernseher</a></li><li class="nav-item dropdown state-ifsub uid-122 point-5 middle"><a class="mm-next" href="#mm-22" aria-owns="mm-22" aria-haspopup="true"><span class="mm-sronly">Open submenu (Downloads für Tablet PC / Digital Signage)</span></a><a href="downloads/tablet-pcdigital-signage/">Downloads für Tablet PC / Digital Signage</a></li><li class="nav-item dropdown state-ifsub uid-123 point-6 middle"><a class="mm-next" href="#mm-27" aria-owns="mm-27" aria-haspopup="true"><span class="mm-sronly">Open submenu (Downloads für Digitale Bilderrahmen)</span></a><a href="downloads/digitale-bilderrahmen/">Downloads für Digitale Bilderrahmen</a></li><li class="nav-item dropdown state-ifsub uid-124 point-7 middle"><a class="mm-next" href="#mm-28" aria-owns="mm-28" aria-haspopup="true"><span class="mm-sronly">Open submenu (Downloads für DVD Player)</span></a><a href="downloads/dvd-player/">Downloads für DVD Player</a></li><li class="nav-item dropdown state-ifsub uid-125 point-8 middle"><a class="mm-next" href="#mm-31" aria-owns="mm-31" aria-haspopup="true"><span class="mm-sronly">Open submenu (Downloads für Audio-Geräte)</span></a><a href="downloads/audio/">Downloads für Audio-Geräte</a></li><li class="nav-item dropdown state-ifsub uid-126 point-9 middle"><a class="mm-next" href="#mm-36" aria-owns="mm-36" aria-haspopup="true"><span class="mm-sronly">Open submenu (Downloads für Antennen)</span></a><a href="downloads/antennen/">Downloads für Antennen</a></li><li class="nav-item dropdown state-ifsub uid-151 point-10 middle"><a class="mm-next" href="#mm-39" aria-owns="mm-39" aria-haspopup="true"><span class="mm-sronly">Open submenu (Downloads für Zubehör &amp; Sonstiges)</span></a><a href="downloads/zubehoer-sonstiges/" target="_blank">Downloads für Zubehör &amp; Sonstiges</a></li><li class="state-no uid-160 point-11 last"><a href="downloads/suchergebnisse-downloads/">Suchergebnisse Downloads</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-11" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-10" aria-owns="mm-10" aria-haspopup="true"><span class="mm-sronly">Close submenu (Downloads für Receiver)</span></a><a class="mm-title" href="#mm-10" aria-hidden="true">Downloads für Receiver</a></div><ul role="menu" class="mm-listview"><li class="nav-item dropdown state-ifsub uid-550 point-1 first"><a class="mm-next" href="#mm-12" aria-owns="mm-12" aria-haspopup="true"><span class="mm-sronly">Open submenu (mit Sprachsteuerung)</span></a><a href="downloads/receiver/mit-sprachsteuerung/">mit Sprachsteuerung</a></li><li class="nav-item dropdown state-ifsub uid-127 point-2 middle"><a class="mm-next" href="#mm-13" aria-owns="mm-13" aria-haspopup="true"><span class="mm-sronly">Open submenu (Antennenreceiver (DVB-T2 HD))</span></a><a href="downloads/receiver/antennenreceiver-dvb-tt2/">Antennenreceiver (DVB-T2 HD)</a></li><li class="nav-item dropdown state-ifsub uid-501 point-3 middle"><a class="mm-next" href="#mm-14" aria-owns="mm-14" aria-haspopup="true"><span class="mm-sronly">Open submenu (Antennenreceiver (DVB-T))</span></a><a href="downloads/receiver/dvb-t/">Antennenreceiver (DVB-T)</a></li><li class="nav-item dropdown state-ifsub uid-128 point-4 middle"><a class="mm-next" href="#mm-15" aria-owns="mm-15" aria-haspopup="true"><span class="mm-sronly">Open submenu (Satellitenreceiver (DVB-S / DVB-S2))</span></a><a href="downloads/receiver/sat-receiver-dvb-s/">Satellitenreceiver (DVB-S / DVB-S2)</a></li><li class="nav-item dropdown state-ifsub uid-129 point-5 middle"><a class="mm-next" href="#mm-16" aria-owns="mm-16" aria-haspopup="true"><span class="mm-sronly">Open submenu (Kabelreceiver (DVB-C))</span></a><a href="downloads/receiver/kabelreceiver-dvb-c/">Kabelreceiver (DVB-C)</a></li><li class="nav-item dropdown state-ifsub uid-130 point-6 last"><a class="mm-next" href="#mm-17" aria-owns="mm-17" aria-haspopup="true"><span class="mm-sronly">Open submenu (Multi-Tuner-Receiver (DVB-C / DVB-T2))</span></a><a href="downloads/receiver/multituner-receiver/">Multi-Tuner-Receiver (DVB-C / DVB-T2)</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-12" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-11" aria-owns="mm-11" aria-haspopup="true"><span class="mm-sronly">Close submenu (mit Sprachsteuerung)</span></a><a class="mm-title" href="#mm-11" aria-hidden="true">mit Sprachsteuerung</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-555 point-1 first"><a href="downloads/receiver/mit-sprachsteuerung/xoro-hrt-7620-smart/">XORO HRT 7620 SMART</a></li><li class="state-no uid-553 point-2 middle"><a href="downloads/receiver/mit-sprachsteuerung/xoro-hrs-8659-smart/">XORO HRS 8659 SMART</a></li><li class="state-no uid-554 point-3 middle"><a href="downloads/receiver/mit-sprachsteuerung/xoro-hrs-8660-smart/">XORO HRS 8660 SMART</a></li><li class="state-no uid-551 point-4 middle"><a href="downloads/receiver/mit-sprachsteuerung/xoro-hrk-7659-smart/">XORO HRK 7659 SMART</a></li><li class="state-no uid-552 point-5 last"><a href="downloads/receiver/mit-sprachsteuerung/xoro-hrk-7660-smart/">XORO HRK 7660 SMART</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-13" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-11" aria-owns="mm-11" aria-haspopup="true"><span class="mm-sronly">Close submenu (Antennenreceiver (DVB-T2 HD))</span></a><a class="mm-title" href="#mm-11" aria-hidden="true">Antennenreceiver (DVB-T2 HD)</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-259 point-1 first"><a href="downloads/receiver/antennenreceiver-dvb-tt2/xorohrt8772hdd/">XORO HRT 8772 HDD</a></li><li class="state-no uid-258 point-2 middle"><a href="downloads/receiver/antennenreceiver-dvb-tt2/xorohrt8772twin/">XORO HRT 8772 TWIN</a></li><li class="state-no uid-257 point-3 middle"><a href="downloads/receiver/antennenreceiver-dvb-tt2/xorohrt8770twin/">XORO HRT 8770 TWIN</a></li><li class="state-no uid-177 point-4 middle"><a href="downloads/receiver/antennenreceiver-dvb-tt2/xorohrt8730/">XORO HRT 8730</a></li><li class="state-no uid-567 point-5 middle"><a href="downloads/receiver/antennenreceiver-dvb-tt2/xorohrt8730scart/">XORO HRT 8730 SCART</a></li><li class="state-no uid-256 point-6 middle"><a href="downloads/receiver/antennenreceiver-dvb-tt2/xorohrt8729/">XORO HRT 8729</a></li><li class="state-no uid-265 point-7 middle"><a href="downloads/receiver/antennenreceiver-dvb-tt2/xorohrt8724/">XORO HRT 8724</a></li><li class="state-no uid-264 point-8 middle"><a href="downloads/receiver/antennenreceiver-dvb-tt2/xorohrt8720/">XORO HRT 8720</a></li><li class="state-no uid-260 point-9 middle"><a href="downloads/receiver/antennenreceiver-dvb-tt2/xorohrt8719/">XORO HRT 8719</a></li><li class="nav-item dropdown state-ifsub uid-253 point-10 middle"><a href="downloads/receiver/antennenreceiver-dvb-tt2/xorohrt7620mehrereversionen/">XORO HRT 7620 (mehrere Versionen)</a></li><li class="nav-item dropdown state-ifsub uid-267 point-11 middle"><a href="downloads/receiver/antennenreceiver-dvb-tt2/xorohrt7619mehrereversionen/">XORO HRT 7619 (mehrere Versionen)</a></li><li class="state-no uid-600 point-12 last"><a href="downloads/receiver/antennenreceiver-dvb-tt2/xorohrt7610-hrt7610kit/">XORO HRT 7610 / HRT 7610 KIT</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-14" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-11" aria-owns="mm-11" aria-haspopup="true"><span class="mm-sronly">Close submenu (Antennenreceiver (DVB-T))</span></a><a class="mm-title" href="#mm-11" aria-hidden="true">Antennenreceiver (DVB-T)</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-502 point-1 first"><a href="downloads/receiver/dvb-t/xoro-hrt-8400/">XORO HRT 8400</a></li><li class="state-no uid-503 point-2 middle"><a href="downloads/receiver/dvb-t/xoro-hrt-8300/">XORO HRT 8300</a></li><li class="state-no uid-504 point-3 middle"><a href="downloads/receiver/dvb-t/xoro-hrt-7522set-hrt-7524/">XORO HRT 7522/SET HRT 7524</a></li><li class="state-no uid-505 point-4 middle"><a href="downloads/receiver/dvb-t/xoro-hrt-7521/">XORO HRT 7518 und HRT 7521</a></li><li class="state-no uid-506 point-5 middle"><a href="downloads/receiver/dvb-t/xoro-hrt-7520/">XORO HRT 7520</a></li><li class="state-no uid-508 point-6 middle"><a href="downloads/receiver/dvb-t/xoro-hrt-7515/">XORO HRT 7515</a></li><li class="state-no uid-509 point-7 middle"><a href="downloads/receiver/dvb-t/xoro-hrt-7510/">XORO HRT 7510</a></li><li class="state-no uid-510 point-8 middle"><a href="downloads/receiver/dvb-t/xoro-hrt-7500/">XORO HRT 7500</a></li><li class="state-no uid-511 point-9 middle"><a href="downloads/receiver/dvb-t/xoro-hrt-7000/">XORO HRT 7000</a></li><li class="state-no uid-512 point-10 middle"><a href="downloads/receiver/dvb-t/xoro-hrt-5000/">XORO HRT 5000</a></li><li class="state-no uid-513 point-11 middle"><a href="downloads/receiver/dvb-t/xoro-hrt-4000/">XORO HRT 4000</a></li><li class="state-no uid-514 point-12 middle"><a href="downloads/receiver/dvb-t/xoro-hrt-3500/">XORO HRT 3500</a></li><li class="state-no uid-515 point-13 middle"><a href="downloads/receiver/dvb-t/xoro-hrt-1300/">XORO HRT 1300</a></li><li class="state-no uid-516 point-14 middle"><a href="downloads/receiver/dvb-t/xoro-hrt-1285-hrt3510/">XORO HRT 1285 und HRT3510</a></li><li class="state-no uid-517 point-15 last"><a href="downloads/receiver/dvb-t/xoro-hrt-1100-hrt-1101/">XORO HRT 1100 und HRT 1101</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-15" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-11" aria-owns="mm-11" aria-haspopup="true"><span class="mm-sronly">Close submenu (Satellitenreceiver (DVB-S / DVB-S2))</span></a><a class="mm-title" href="#mm-11" aria-hidden="true">Satellitenreceiver (DVB-S / DVB-S2)</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-360 point-1 first"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs8760ci/">XORO HRS 8760 CI+</a></li><li class="state-no uid-346 point-2 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs9500ip/">XORO HRS 9500 IP</a></li><li class="state-no uid-316 point-3 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-9300-hdd/">XORO HRS 9300 HDD</a></li><li class="state-no uid-315 point-4 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-9200-ci/">XORO HRS 9200 CI+</a></li><li class="state-no uid-150 point-5 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-9199-lan/">XORO HRS 9199 LAN</a></li><li class="state-no uid-314 point-6 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-9198-lan/">XORO HRS 9198 LAN</a></li><li class="state-no uid-357 point-7 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs9190lan/">XORO HRS 9190 LAN</a></li><li class="state-no uid-356 point-8 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs9100/">XORO HRS 9100</a></li><li class="state-no uid-313 point-9 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8900-hbb/">XORO HRS 8900 Hbb+</a></li><li class="state-no uid-312 point-10 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8820-ip/">XORO HRS 8820 IP</a></li><li class="state-no uid-311 point-11 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8810-hbb/">XORO HRS 8810 Hbb+</a></li><li class="state-no uid-355 point-12 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs8800hd/">XORO HRS 8800 HD+</a></li><li class="state-no uid-144 point-13 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8755-ci/">XORO HRS 8755 CI+</a></li><li class="state-no uid-310 point-14 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8750-ci/">XORO HRS 8750 CI+</a></li><li class="state-no uid-309 point-15 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8746-ci/">XORO HRS 8746 CI+</a></li><li class="state-no uid-354 point-16 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs8700ciplus/">XORO HRS 8700 CI+</a></li><li class="state-no uid-148 point-17 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8688/">XORO HRS 8688</a></li><li class="state-no uid-353 point-18 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs8680pvr/">XORO HRS 8680 PVR</a></li><li class="state-no uid-325 point-19 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs8670lan/">XORO HRS 8670 LAN</a></li><li class="state-no uid-308 point-20 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8666/">XORO HRS 8666</a></li><li class="state-no uid-147 point-21 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs8664/">XORO HRS 8664</a></li><li class="state-no uid-146 point-22 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8660/">XORO HRS 8660</a></li><li class="state-no uid-145 point-23 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8659/">XORO HRS 8659</a></li><li class="state-no uid-307 point-24 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8656/">XORO HRS 8656</a></li><li class="state-no uid-326 point-25 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs8655/">XORO HRS 8655</a></li><li class="state-no uid-352 point-26 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs8625/">XORO HRS 8625</a></li><li class="state-no uid-291 point-27 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8600-ci/">XORO HRS 8600 CI</a></li><li class="state-no uid-290 point-28 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8590-lan/">XORO HRS 8590 LAN</a></li><li class="state-no uid-306 point-29 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8588/">XORO HRS 8588</a></li><li class="state-no uid-305 point-30 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8580/">XORO HRS 8580</a></li><li class="nav-item dropdown state-ifsub uid-327 point-31 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs8566mehrereversionen/">XORO HRS 8566 (mehrere Versionen)</a></li><li class="state-no uid-303 point-32 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8564/">XORO HRS 8564</a></li><li class="state-no uid-302 point-33 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8560/">XORO HRS 8560</a></li><li class="state-no uid-301 point-34 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8559/">XORO HRS 8559</a></li><li class="nav-item dropdown state-ifsub uid-318 point-35 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8556-mehrere-versionen/">XORO HRS 8556 (mehrere Versionen)</a></li><li class="state-no uid-300 point-36 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8555/">XORO HRS 8555</a></li><li class="state-no uid-299 point-37 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8540/">XORO HRS 8540</a></li><li class="state-no uid-287 point-38 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8530-pro/">XORO HRS 8530 Pro</a></li><li class="nav-item dropdown state-ifsub uid-317 point-39 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8530-mehrere-versionen/">XORO HRS 8530 (mehrere Versionen)</a></li><li class="state-no uid-298 point-40 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8525/">XORO HRS 8525</a></li><li class="state-no uid-284 point-41 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8520/">XORO HRS 8520</a></li><li class="state-no uid-283 point-42 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-8500/">XORO HRS 8500</a></li><li class="state-no uid-351 point-43 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs5500/">XORO HRS 5500</a></li><li class="state-no uid-296 point-44 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-3500/">XORO HRS 3500</a></li><li class="state-no uid-350 point-45 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs3400/">XORO HRS 3400</a></li><li class="state-no uid-295 point-46 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-3000/">XORO HRS 3000</a></li><li class="state-no uid-324 point-47 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs2670lan/">XORO HRS 2670 LAN</a></li><li class="state-no uid-349 point-48 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs2620/">XORO HRS 2620</a></li><li class="nav-item dropdown state-ifsub uid-620 point-49 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs2610mehrereversionen/">XORO HRS 2610 (mehrere Versionen)</a></li><li class="state-no uid-292 point-50 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xoro-hrs-2600/">XORO HRS 2600</a></li><li class="state-no uid-348 point-51 middle"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs2510/">XORO HRS 2510</a></li><li class="state-no uid-347 point-52 last"><a href="downloads/receiver/sat-receiver-dvb-s/xorohrs2500/">XORO HRS 2500</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-16" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-11" aria-owns="mm-11" aria-haspopup="true"><span class="mm-sronly">Close submenu (Kabelreceiver (DVB-C))</span></a><a class="mm-title" href="#mm-11" aria-hidden="true">Kabelreceiver (DVB-C)</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-339 point-1 first"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk9200ciplus/">XORO HRK 9200 CI+</a></li><li class="state-no uid-340 point-2 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk8910hbbplus/">XORO HRK 8910 Hbb+</a></li><li class="state-no uid-273 point-3 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xoro-hrk-8760-ci/">XORO HRK 8760 CI+</a></li><li class="state-no uid-276 point-4 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk8750ci/">XORO HRK 8750 CI+</a></li><li class="state-no uid-275 point-5 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk8740ci/">XORO HRK 8740 CI+</a></li><li class="state-no uid-341 point-6 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk7800/">XORO HRK 7800</a></li><li class="state-no uid-545 point-7 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xoro-hrk-7720/">XORO HRK 7720</a></li><li class="state-no uid-544 point-8 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xoro-hrk-7719/">XORO HRK 7719</a></li><li class="state-no uid-182 point-9 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xoro-hrk-7688/">XORO HRK 7688</a></li><li class="state-no uid-332 point-10 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk7672hdd/">XORO HRK 7672 HDD</a></li><li class="state-no uid-331 point-11 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk7672twin/">XORO HRK 7672 TWIN</a></li><li class="state-no uid-330 point-12 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk7670twin/">XORO HRK 7670 TWIN</a></li><li class="state-no uid-338 point-13 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xoro-hrk-7664/">XORO HRK 7664</a></li><li class="state-no uid-181 point-14 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xoro-hrk-7660/">XORO HRK 7660</a></li><li class="state-no uid-180 point-15 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xoro-hrk-7659/">XORO HRK 7659</a></li><li class="state-no uid-271 point-16 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xoro-hrk-2610/">XORO HRK 7658</a></li><li class="state-no uid-321 point-17 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk7656/">XORO HRK 7656</a></li><li class="state-no uid-334 point-18 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk7655/">XORO HRK 7655</a></li><li class="state-no uid-584 point-19 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk7622/">XORO HRK 7622</a></li><li class="state-no uid-320 point-20 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk7618/">XORO HRK 7618</a></li><li class="state-no uid-345 point-21 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk7564/">XORO HRK 7564</a></li><li class="state-no uid-272 point-22 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xoro-hrk-7560/">XORO HRK 7560</a></li><li class="state-no uid-274 point-23 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xoro-hrk-7555/">XORO HRK 7555</a></li><li class="state-no uid-344 point-24 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk7550/">XORO HRK 7550</a></li><li class="state-no uid-343 point-25 middle"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk7540/">XORO HRK 7540</a></li><li class="state-no uid-342 point-26 last"><a href="downloads/receiver/kabelreceiver-dvb-c/xorohrk2610/">XORO HRK 2610</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-17" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-11" aria-owns="mm-11" aria-haspopup="true"><span class="mm-sronly">Close submenu (Multi-Tuner-Receiver (DVB-C / DVB-T2))</span></a><a class="mm-title" href="#mm-11" aria-hidden="true">Multi-Tuner-Receiver (DVB-C / DVB-T2)</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-361 point-1 first"><a href="downloads/receiver/multituner-receiver/hrm-8761-ci/">XORO HRM 8761 CI+</a></li><li class="state-no uid-280 point-2 middle"><a href="downloads/receiver/multituner-receiver/xoro-hrm-8760ci/">XORO HRM 8760 CI+</a></li><li class="state-no uid-333 point-3 middle"><a href="downloads/receiver/multituner-receiver/xorohrm7670twin/">XORO HRM 7670 TWIN</a></li><li class="state-no uid-282 point-4 middle"><a href="downloads/receiver/multituner-receiver/xoro-hrm-7620/">XORO HRM 7620</a></li><li class="state-no uid-281 point-5 middle"><a href="downloads/receiver/multituner-receiver/xoro-hrm-7619/">XORO HRM 7619</a></li><li class="state-no uid-335 point-6 middle"><a href="downloads/receiver/multituner-receiver/xoro-hrm-7615/">XORO HRM 7615</a></li><li class="state-no uid-336 point-7 last"><a href="downloads/receiver/multituner-receiver/xorohrc9000/">XORO HRC 9000</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-18" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-10" aria-owns="mm-10" aria-haspopup="true"><span class="mm-sronly">Close submenu (Downloads für IP-Box / SAT IP-Server)</span></a><a class="mm-title" href="#mm-10" aria-hidden="true">Downloads für IP-Box / SAT IP-Server</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-463 point-1 first"><a href="downloads/ip-box-sat-ip-server/xoro-satip-server-8100/">XORO SAT-IP Server 8100</a></li><li class="state-no uid-187 point-2 middle"><a href="downloads/ip-box-sat-ip-server/xoro-hst-260/">XORO HST 260</a></li><li class="state-no uid-188 point-3 middle"><a href="downloads/ip-box-sat-ip-server/xoro-hst-260-s/">XORO HST 260 S</a></li><li class="state-no uid-189 point-4 last"><a href="downloads/ip-box-sat-ip-server/xoro-hst-260-t2c/">XORO HST 260 T2/C</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-19" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-10" aria-owns="mm-10" aria-haspopup="true"><span class="mm-sronly">Close submenu (Downloads für Fernseher)</span></a><a class="mm-title" href="#mm-10" aria-hidden="true">Downloads für Fernseher</a></div><ul role="menu" class="mm-listview"><li class="nav-item dropdown state-ifsub uid-131 point-1 first"><a class="mm-next" href="#mm-20" aria-owns="mm-20" aria-haspopup="true"><span class="mm-sronly">Open submenu (Portable Fernseher)</span></a><a href="downloads/fernseher/portable-serie/">Portable Fernseher</a></li><li class="nav-item dropdown state-ifsub uid-132 point-2 last"><a class="mm-next" href="#mm-21" aria-owns="mm-21" aria-haspopup="true"><span class="mm-sronly">Open submenu (Stationäre Fernseher)</span></a><a href="downloads/fernseher/stationaer/">Stationäre Fernseher</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-20" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-19" aria-owns="mm-19" aria-haspopup="true"><span class="mm-sronly">Close submenu (Portable Fernseher)</span></a><a class="mm-title" href="#mm-19" aria-hidden="true">Portable Fernseher</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-622 point-1 first"><a href="downloads/fernseher/portable-serie/xoro-ptl-1455/">XORO PTL 1455</a></li><li class="state-no uid-608 point-2 middle"><a href="downloads/fernseher/portable-serie/xoro-ptl-1450/">XORO PTL 1450</a></li><li class="state-no uid-607 point-3 middle"><a href="downloads/fernseher/portable-serie/xoro-ptl-1055/">XORO PTL 1055</a></li><li class="state-no uid-521 point-4 middle"><a href="downloads/fernseher/portable-serie/xoroptl1050/">XORO PTL 1050</a></li><li class="state-no uid-497 point-5 middle"><a href="downloads/fernseher/portable-serie/xoro-ptlptc-1250/">XORO PTL/PTC 1250</a></li><li class="state-no uid-191 point-6 middle"><a href="downloads/fernseher/portable-serie/xoro-ptl-700-900-1010/">XORO PTL 700/900/1010/1012</a></li><li class="state-no uid-465 point-7 middle"><a href="downloads/fernseher/portable-serie/xoro-ptl-1011/">XORO PTL 1011</a></li><li class="state-no uid-467 point-8 last"><a href="downloads/fernseher/portable-serie/xoro-ptl-1330/">XORO PTL 1330</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-21" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-19" aria-owns="mm-19" aria-haspopup="true"><span class="mm-sronly">Close submenu (Stationäre Fernseher)</span></a><a class="mm-title" href="#mm-19" aria-hidden="true">Stationäre Fernseher</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-359 point-1 first"><a href="downloads/fernseher/stationaer/allgemeinedownloads/">Allgemeine Downloads</a></li><li class="state-no uid-520 point-2 middle"><a href="downloads/fernseher/stationaer/xoro-htl-1550/">XORO HTL 1550 KIT</a></li><li class="nav-item dropdown state-ifsub uid-452 point-3 middle"><a href="downloads/fernseher/stationaer/46er-serie/">46er Serie</a></li><li class="nav-item dropdown state-ifsub uid-476 point-4 last"><a href="downloads/fernseher/stationaer/auslaufmodelle/">Auslaufmodelle</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-22" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-10" aria-owns="mm-10" aria-haspopup="true"><span class="mm-sronly">Close submenu (Downloads für Tablet PC / Digital Signage)</span></a><a class="mm-title" href="#mm-10" aria-hidden="true">Downloads für Tablet PC / Digital Signage</a></div><ul role="menu" class="mm-listview"><li class="nav-item dropdown state-ifsub uid-457 point-1 first"><a class="mm-next" href="#mm-23" aria-owns="mm-23" aria-haspopup="true"><span class="mm-sronly">Open submenu (Notebook)</span></a><a href="downloads/tablet-pcdigital-signage/notebook/">Notebook</a></li><li class="nav-item dropdown state-ifsub uid-133 point-2 middle"><a class="mm-next" href="#mm-24" aria-owns="mm-24" aria-haspopup="true"><span class="mm-sronly">Open submenu (PAD)</span></a><a href="downloads/tablet-pcdigital-signage/xoro-pad/">PAD</a></li><li class="nav-item dropdown state-ifsub uid-134 point-3 middle"><a class="mm-next" href="#mm-25" aria-owns="mm-25" aria-haspopup="true"><span class="mm-sronly">Open submenu (TelePAD)</span></a><a href="downloads/tablet-pcdigital-signage/telepad/">TelePAD</a></li><li class="nav-item dropdown state-ifsub uid-135 point-4 last"><a class="mm-next" href="#mm-26" aria-owns="mm-26" aria-haspopup="true"><span class="mm-sronly">Open submenu (MegaPAD)</span></a><a href="downloads/tablet-pcdigital-signage/megapad/">MegaPAD</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-23" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-22" aria-owns="mm-22" aria-haspopup="true"><span class="mm-sronly">Close submenu (Notebook)</span></a><a class="mm-title" href="#mm-22" aria-hidden="true">Notebook</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-456 point-1 last"><a href="downloads/tablet-pcdigital-signage/notebook/note-140/">Note 140</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-24" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-22" aria-owns="mm-22" aria-haspopup="true"><span class="mm-sronly">Close submenu (PAD)</span></a><a class="mm-title" href="#mm-22" aria-hidden="true">PAD</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-389 point-1 first"><a href="downloads/tablet-pcdigital-signage/xoro-pad/xoro-pad-9718dr/">XORO PAD 9718DR</a></li><li class="state-no uid-388 point-2 middle"><a href="downloads/tablet-pcdigital-signage/xoro-pad/xoro-pad-9719qr/">XORO PAD 9719QR</a></li><li class="state-no uid-387 point-3 middle"><a href="downloads/tablet-pcdigital-signage/xoro-pad/xoro-pad-900/">XORO PAD 900</a></li><li class="state-no uid-386 point-4 middle"><a href="downloads/tablet-pcdigital-signage/xoro-pad/xoro-pad-9716dr/">XORO PAD 9716DR</a></li><li class="state-no uid-542 point-5 middle"><a href="downloads/tablet-pcdigital-signage/xoro-pad/xoro-pad-8w4/">XORO PAD 8W4</a></li><li class="state-no uid-206 point-6 middle"><a href="downloads/tablet-pcdigital-signage/xoro-pad/xoro-pad-9w4/">XORO PAD 9W4</a></li><li class="state-no uid-207 point-7 middle"><a href="downloads/tablet-pcdigital-signage/xoro-pad/xoro-pad-9w4-pro/">XORO PAD 9W4 PRO</a></li><li class="state-no uid-543 point-8 middle"><a href="downloads/tablet-pcdigital-signage/xoro-pad/xoro-pad-10w4/">XORO PAD 10W4</a></li><li class="state-no uid-204 point-9 last"><a href="downloads/tablet-pcdigital-signage/xoro-pad/xoro-pad-10w6/">XORO PAD 10W6 und PAD 10W6 3 G</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-25" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-22" aria-owns="mm-22" aria-haspopup="true"><span class="mm-sronly">Close submenu (TelePAD)</span></a><a class="mm-title" href="#mm-22" aria-hidden="true">TelePAD</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-376 point-1 first"><a href="downloads/tablet-pcdigital-signage/telepad/xoro-telepad-730/">XORO TelePAD 730</a></li><li class="state-no uid-375 point-2 last"><a href="downloads/tablet-pcdigital-signage/telepad/xoro-telepad-830/">XORO TelePAD 830</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-26" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-22" aria-owns="mm-22" aria-haspopup="true"><span class="mm-sronly">Close submenu (MegaPAD)</span></a><a class="mm-title" href="#mm-22" aria-hidden="true">MegaPAD</a></div><ul role="menu" class="mm-listview"><li class="nav-item dropdown state-ifsub uid-428 point-1 first"><a href="downloads/tablet-pcdigital-signage/megapad/xoro-megapad-14-zoll/">XORO MegaPAD 14 Zoll</a></li><li class="nav-item dropdown state-ifsub uid-431 point-2 middle"><a href="downloads/tablet-pcdigital-signage/megapad/xoro-megapad-15-zoll/">XORO MegaPAD 15 Zoll</a></li><li class="nav-item dropdown state-ifsub uid-426 point-3 middle"><a href="downloads/tablet-pcdigital-signage/megapad/xoro-megapad-18-zoll/">XORO MegaPAD 18 Zoll</a></li><li class="nav-item dropdown state-ifsub uid-425 point-4 middle"><a href="downloads/tablet-pcdigital-signage/megapad/xoro-megapad-21-zoll/">XORO MegaPAD 21 Zoll</a></li><li class="nav-item dropdown state-ifsub uid-427 point-5 middle"><a href="downloads/tablet-pcdigital-signage/megapad/megapad-24-zoll/">XORO MegaPAD 24 Zoll</a></li><li class="nav-item dropdown state-ifsub uid-429 point-6 middle"><a href="downloads/tablet-pcdigital-signage/megapad/xoro-megapad-27-zoll/">XORO MegaPAD 27 Zoll</a></li><li class="nav-item dropdown state-ifsub uid-430 point-7 last"><a href="downloads/tablet-pcdigital-signage/megapad/xoro-megapad-32-zoll/">XORO MegaPAD 32 Zoll</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-27" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-10" aria-owns="mm-10" aria-haspopup="true"><span class="mm-sronly">Close submenu (Downloads für Digitale Bilderrahmen)</span></a><a class="mm-title" href="#mm-10" aria-hidden="true">Downloads für Digitale Bilderrahmen</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-395 point-1 first"><a href="downloads/digitale-bilderrahmen/xoro-cpf8a1/">XORO CPF8A1</a></li><li class="state-no uid-396 point-2 middle"><a href="downloads/digitale-bilderrahmen/xoro-cpf10a1/">XORO CPF10A1</a></li><li class="state-no uid-397 point-3 middle"><a href="downloads/digitale-bilderrahmen/xoro-cpf16b1/">XORO CPF16B1</a></li><li class="state-no uid-363 point-4 middle"><a href="downloads/digitale-bilderrahmen/xoro-dpf-8a1/">XORO DPF 8A1</a></li><li class="state-no uid-223 point-5 middle"><a href="downloads/digitale-bilderrahmen/xoro-dpf-8a2/">XORO DPF 8A2</a></li><li class="state-no uid-364 point-6 middle"><a href="downloads/digitale-bilderrahmen/xoro-dpf-10a1/">XORO DPF 10A1</a></li><li class="state-no uid-224 point-7 middle"><a href="downloads/digitale-bilderrahmen/xoro-dpf-10b1/">XORO DPF 10B1</a></li><li class="state-no uid-365 point-8 middle"><a href="downloads/digitale-bilderrahmen/xoro-dpf-12a1/">XORO DPF 12A1</a></li><li class="state-no uid-366 point-9 middle"><a href="downloads/digitale-bilderrahmen/xoro-dpf-15a1/">XORO DPF 15A1</a></li><li class="state-no uid-225 point-10 middle"><a href="downloads/digitale-bilderrahmen/xoro-dpf-15b1/">XORO DPF 15B1</a></li><li class="state-no uid-226 point-11 middle"><a href="downloads/digitale-bilderrahmen/xoro-dpf-18b1/">XORO DPF 18B1</a></li><li class="state-no uid-227 point-12 last"><a href="downloads/digitale-bilderrahmen/xoro-dpf-21a2/">XORO DPF 21A2</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-28" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-10" aria-owns="mm-10" aria-haspopup="true"><span class="mm-sronly">Close submenu (Downloads für DVD Player)</span></a><a class="mm-title" href="#mm-10" aria-hidden="true">Downloads für DVD Player</a></div><ul role="menu" class="mm-listview"><li class="nav-item dropdown state-ifsub uid-410 point-1 first"><a class="mm-next" href="#mm-29" aria-owns="mm-29" aria-haspopup="true"><span class="mm-sronly">Open submenu (Stationär)</span></a><a href="downloads/dvd-player/stationaer/">Stationär</a></li><li class="nav-item dropdown state-ifsub uid-409 point-2 last"><a class="mm-next" href="#mm-30" aria-owns="mm-30" aria-haspopup="true"><span class="mm-sronly">Open submenu (Portabel)</span></a><a href="downloads/dvd-player/portabel/">Portabel</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-29" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-28" aria-owns="mm-28" aria-haspopup="true"><span class="mm-sronly">Close submenu (Stationär)</span></a><a class="mm-title" href="#mm-28" aria-hidden="true">Stationär</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-478 point-1 first"><a href="downloads/dvd-player/stationaer/xoro-hsd-8460/">XORO HSD 8460</a></li><li class="state-no uid-479 point-2 middle"><a href="downloads/dvd-player/stationaer/xoro-hsd-8470/">XORO HSD 8470</a></li><li class="nav-item dropdown state-ifsub uid-477 point-3 last"><a href="downloads/dvd-player/stationaer/auslaufmodelle/">Auslaufmodelle</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-30" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-28" aria-owns="mm-28" aria-haspopup="true"><span class="mm-sronly">Close submenu (Portabel)</span></a><a class="mm-title" href="#mm-28" aria-hidden="true">Portabel</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-483 point-1 first"><a href="downloads/dvd-player/portabel/xoro-hsd-1011/">XORO HSD 1011</a></li><li class="state-no uid-228 point-2 middle"><a href="downloads/dvd-player/portabel/xoro-hsd-7701/">XORO HSD 7701</a></li><li class="state-no uid-481 point-3 middle"><a href="downloads/dvd-player/portabel/xoro-hsd-9910/">XORO HSD 9910</a></li><li class="state-no uid-482 point-4 middle"><a href="downloads/dvd-player/portabel/xoro-hsd-9912/">XORO HSD 9912</a></li><li class="nav-item dropdown state-ifsub uid-480 point-5 last"><a href="downloads/dvd-player/portabel/auslaufmodelle/">Auslaufmodelle</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-31" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-10" aria-owns="mm-10" aria-haspopup="true"><span class="mm-sronly">Close submenu (Downloads für Audio-Geräte)</span></a><a class="mm-title" href="#mm-10" aria-hidden="true">Downloads für Audio-Geräte</a></div><ul role="menu" class="mm-listview"><li class="nav-item dropdown state-ifsub uid-139 point-1 first"><a class="mm-next" href="#mm-32" aria-owns="mm-32" aria-haspopup="true"><span class="mm-sronly">Open submenu (DAB Radio)</span></a><a href="downloads/audio/dab-radio/">DAB Radio</a></li><li class="nav-item dropdown state-ifsub uid-138 point-2 middle"><a class="mm-next" href="#mm-33" aria-owns="mm-33" aria-haspopup="true"><span class="mm-sronly">Open submenu (Internet Radio)</span></a><a href="downloads/audio/internet-radio/">Internet Radio</a></li><li class="nav-item dropdown state-ifsub uid-141 point-3 middle"><a class="mm-next" href="#mm-34" aria-owns="mm-34" aria-haspopup="true"><span class="mm-sronly">Open submenu (Kopfhörer)</span></a><a href="downloads/audio/kopfhoerer/">Kopfhörer</a></li><li class="nav-item dropdown state-ifsub uid-140 point-4 last"><a class="mm-next" href="#mm-35" aria-owns="mm-35" aria-haspopup="true"><span class="mm-sronly">Open submenu (Lautsprecher)</span></a><a href="downloads/audio/lautsprecher/">Lautsprecher</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-32" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-31" aria-owns="mm-31" aria-haspopup="true"><span class="mm-sronly">Close submenu (DAB Radio)</span></a><a class="mm-title" href="#mm-31" aria-hidden="true">DAB Radio</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-392 point-1 first"><a href="downloads/audio/dab-radio/xoro-dab600-ir/">XORO DAB 600 IR</a></li><li class="state-no uid-235 point-2 middle"><a href="downloads/audio/dab-radio/xoro-dab-100/">XORO DAB 100</a></li><li class="state-no uid-236 point-3 last"><a href="downloads/audio/dab-radio/xoro-dab-200/">XORO DAB 200</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-33" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-31" aria-owns="mm-31" aria-haspopup="true"><span class="mm-sronly">Close submenu (Internet Radio)</span></a><a class="mm-title" href="#mm-31" aria-hidden="true">Internet Radio</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-232 point-1 first"><a href="downloads/audio/internet-radio/xoro-hmt-200/">XORO HMT 200</a></li><li class="state-no uid-399 point-2 middle"><a href="downloads/audio/internet-radio/xoro-hmt-362/">XORO HMT 362</a></li><li class="state-no uid-233 point-3 middle"><a href="downloads/audio/internet-radio/xoro-hmt-390q/">XORO HMT 390Q</a></li><li class="state-no uid-234 point-4 last"><a href="downloads/audio/internet-radio/xoro-hmt-400/">XORO HMT 400</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-34" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-31" aria-owns="mm-31" aria-haspopup="true"><span class="mm-sronly">Close submenu (Kopfhörer)</span></a><a class="mm-title" href="#mm-31" aria-hidden="true">Kopfhörer</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-461 point-1 first"><a href="downloads/audio/kopfhoerer/xoro-khb-300/">XORO KHB 300</a></li><li class="state-no uid-462 point-2 last"><a href="downloads/audio/kopfhoerer/xoro-khb-500/">XORO KHB 500</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-35" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-31" aria-owns="mm-31" aria-haspopup="true"><span class="mm-sronly">Close submenu (Lautsprecher)</span></a><a class="mm-title" href="#mm-31" aria-hidden="true">Lautsprecher</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-634 point-1 first"><a href="downloads/audio/lautsprecher/xoro-hsb55/">XORO HSB 55</a></li><li class="state-no uid-541 point-2 middle"><a href="downloads/audio/lautsprecher/xoro-xvs100/">XORO XVS 100</a></li><li class="state-no uid-540 point-3 middle"><a href="downloads/audio/lautsprecher/xoro-xvs200/">XORO XVS 200</a></li><li class="state-no uid-459 point-4 middle"><a href="downloads/audio/lautsprecher/xoro-hxs-910-wifi/">XORO HXS 910 WIFI</a></li><li class="state-no uid-404 point-5 middle"><a href="downloads/audio/lautsprecher/xoro-hxs-650-nfc/">XORO HXS 650 NFC</a></li><li class="state-no uid-403 point-6 middle"><a href="downloads/audio/lautsprecher/hxs-700-bt/">XORO HXS 700 BT</a></li><li class="state-no uid-402 point-7 middle"><a href="downloads/audio/lautsprecher/xoro-hxs-800-bt/">XORO HXS 800 BT</a></li><li class="state-no uid-401 point-8 middle"><a href="downloads/audio/lautsprecher/xoro-hxs-900-nfc/">XORO HXS 900 NFC</a></li><li class="state-no uid-394 point-9 middle"><a href="downloads/audio/lautsprecher/xoro-hsb75/">XORO HSB75</a></li><li class="state-no uid-393 point-10 last"><a href="downloads/audio/lautsprecher/xoro-hsb50/">XORO HSB50</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-36" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-10" aria-owns="mm-10" aria-haspopup="true"><span class="mm-sronly">Close submenu (Downloads für Antennen)</span></a><a class="mm-title" href="#mm-10" aria-hidden="true">Downloads für Antennen</a></div><ul role="menu" class="mm-listview"><li class="nav-item dropdown state-ifsub uid-142 point-1 first"><a class="mm-next" href="#mm-37" aria-owns="mm-37" aria-haspopup="true"><span class="mm-sronly">Open submenu (SAT-Anlagen)</span></a><a href="downloads/antennen/sat-anlagen/">SAT-Anlagen</a></li><li class="nav-item dropdown state-ifsub uid-143 point-2 last"><a class="mm-next" href="#mm-38" aria-owns="mm-38" aria-haspopup="true"><span class="mm-sronly">Open submenu (DVB-T2 Antennen)</span></a><a href="downloads/antennen/dvb-t2-antennen/">DVB-T2 Antennen</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-37" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-36" aria-owns="mm-36" aria-haspopup="true"><span class="mm-sronly">Close submenu (SAT-Anlagen)</span></a><a class="mm-title" href="#mm-36" aria-hidden="true">SAT-Anlagen</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-492 point-1 first"><a href="downloads/antennen/sat-anlagen/xoro-mta-50/">XORO MTA 50</a></li><li class="state-no uid-493 point-2 middle"><a href="downloads/antennen/sat-anlagen/xoro-mta-55/">XORO MTA 55</a></li><li class="state-no uid-494 point-3 middle"><a href="downloads/antennen/sat-anlagen/xoro-mta-65/">XORO MTA 65</a></li><li class="state-no uid-495 point-4 middle"><a href="downloads/antennen/sat-anlagen/xoro-mta-80/">XORO MTA 80</a></li><li class="state-no uid-489 point-5 middle"><a href="downloads/antennen/sat-anlagen/xoro-mra-38/">XORO MRA 38</a></li><li class="state-no uid-490 point-6 middle"><a href="downloads/antennen/sat-anlagen/xoro-mra-45/">XORO MRA 45</a></li><li class="state-no uid-491 point-7 middle"><a href="downloads/antennen/sat-anlagen/xoro-mra-60/">XORO MRA 60</a></li><li class="state-no uid-487 point-8 middle"><a href="downloads/antennen/sat-anlagen/xoro-mba-26/">XORO MBA 26</a></li><li class="state-no uid-488 point-9 middle"><a href="downloads/antennen/sat-anlagen/xoro-mba-36/">XORO MBA 36</a></li><li class="state-no uid-485 point-10 middle"><a href="downloads/antennen/sat-anlagen/xoro-mpa-38/">XORO MPA 38</a></li><li class="state-no uid-486 point-11 middle"><a href="downloads/antennen/sat-anlagen/xoro-mpa-38-pro/">XORO MPA 38 Pro</a></li><li class="state-no uid-398 point-12 last"><a href="downloads/antennen/sat-anlagen/xoro-mca-38-set/">XORO MCA 38 Set</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-38" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-36" aria-owns="mm-36" aria-haspopup="true"><span class="mm-sronly">Close submenu (DVB-T2 Antennen)</span></a><a class="mm-title" href="#mm-36" aria-hidden="true">DVB-T2 Antennen</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-237 point-1 first"><a href="downloads/antennen/dvb-t2-antennen/xoro-han-100/">XORO HAN 100</a></li><li class="state-no uid-238 point-2 middle"><a href="downloads/antennen/dvb-t2-antennen/xoro-han-150/">XORO HAN 150</a></li><li class="state-no uid-240 point-3 middle"><a href="downloads/antennen/dvb-t2-antennen/xoro-han-300/">XORO HAN 300</a></li><li class="state-no uid-243 point-4 middle"><a href="downloads/antennen/dvb-t2-antennen/xoro-han-600/">XORO HAN 600</a></li><li class="state-no uid-245 point-5 middle"><a href="downloads/antennen/dvb-t2-antennen/xoro-han-700/">XORO HAN 700</a></li><li class="state-no uid-246 point-6 last"><a href="downloads/antennen/dvb-t2-antennen/xoro-han-800/">XORO HAN 800</a></li></ul></div><div class="mm-panel mm-hidden" id="mm-39" aria-hidden="true"><div class="mm-navbar" aria-hidden="true"><a class="mm-btn mm-prev" href="#mm-10" aria-owns="mm-10" aria-haspopup="true"><span class="mm-sronly">Close submenu (Downloads für Zubehör &amp; Sonstiges)</span></a><a class="mm-title" href="#mm-10" aria-hidden="true">Downloads für Zubehör &amp; Sonstiges</a></div><ul role="menu" class="mm-listview"><li class="state-no uid-637 point-1 first"><a href="downloads/zubehoer-sonstiges/sanbot/">Sanbot S1</a></li><li class="state-no uid-636 point-2 middle"><a href="downloads/zubehoer-sonstiges/xoro-skd10/">XORO SKD10</a></li><li class="state-no uid-635 point-3 middle"><a href="downloads/zubehoer-sonstiges/xoro-skb20/">XORO SKB20</a></li><li class="state-no uid-633 point-4 middle"><a href="downloads/zubehoer-sonstiges/xoro-hsr100/">XORO HSR 100</a></li><li class="state-no uid-561 point-5 middle"><a href="downloads/zubehoer-sonstiges/xoro-mpb-2005/">XORO MPB 2005</a></li><li class="state-no uid-560 point-6 middle"><a href="downloads/zubehoer-sonstiges/xoro-mpb-1008/">XORO MPB 1008</a></li><li class="state-no uid-559 point-7 middle"><a href="downloads/zubehoer-sonstiges/xoro-mpb-1000/">XORO MPB 1000</a></li><li class="state-no uid-558 point-8 middle"><a href="downloads/zubehoer-sonstiges/xoro-mpb-840/">XORO MPB 840</a></li><li class="state-no uid-557 point-9 middle"><a href="downloads/zubehoer-sonstiges/xoro-mpb-520/">XORO MPB 520</a></li><li class="state-no uid-556 point-10 middle"><a href="downloads/zubehoer-sonstiges/xoro-hss-50/">XORO HSS 50</a></li><li class="state-no uid-549 point-11 middle"><a href="downloads/zubehoer-sonstiges/xoro-ca1224/">XORO CA1224</a></li><li class="state-no uid-548 point-12 middle"><a href="downloads/zubehoer-sonstiges/xoro-amw-100/">XORO AMW 100</a></li><li class="state-no uid-547 point-13 middle"><a href="downloads/zubehoer-sonstiges/xoro-hsg-60/">XORO HSG 60</a></li><li class="state-no uid-546 point-14 middle"><a href="downloads/zubehoer-sonstiges/xoro-hwr-300/">XORO HWR 300</a></li><li class="state-no uid-400 point-15 last"><a href="downloads/zubehoer-sonstiges/xoro-hwl-155n/">XORO HWL 155N</a></li></ul></div></div>
+					   
+					</nav>
+
+<!-- theme_bootstrap4: Layouts/Startsite.html [begin] -->
+<a href="#area-main" class="sr-only sr-only-focusable">
+	Direkt zum Inhalt
+</a>
+<div id="mm-0" class="mm-page mm-slideout"><div id="layout-startsite">
+
+	
+
+	
+		<!-- theme_bootstrap4: Partials/Area/Header.html [begin] -->
+
+		<header id="area-header" class="">
+			
+			<nav id="menu-main" class="navbar navbar-dark bg-inverse navbar-toggleable-md yamm fixed-top">
+				<div class="container">
+					<div id="header-logo-main" class="navbar-brand">
+						<a href="/" title="XORO" class="logo-main"><img src="typo3conf/ext/theme_xoro/Resources/Public/Images/logo_xoro.png" width="178" height="59" class="img-fluid" alt="XORO" title="XORO"></a>
+					</div>
+					
+					
+					<button id="my-icon" class="hamburger hamburger--arrow" type="button">
+					   <span class="hamburger-box">
+						  <span class="hamburger-inner"></span>
+					   </span>
+					</button>
+					
+					<div id="navbar-main" class="collapse navbar-collapse justify-content-end hidden-sm-up">
+					
+                   
+                    <ul class="navbar-nav">
+                      
+                        
+                           			 <li class="dropdown yamm-fw nav-item align-self-center" id="page-id-2">                                      
+                                      <a href="produkte/" class="nav-link">Produkte</a>                                      
+                                      
+                                      	                                   	 
+                                           
+                                                  
+                                                  <ul class="dropdown-menu">
+                                                   <li class="grid-demo">
+                                                   <div class="row">
+                                                    
+                                                    	 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                                                                      <a class="" href="produkte/kataloge/">
+                                                                         
+                                                                                
+                                                                                    <img class="img-responsive" alt=" XORO_Kataloge_web.jpg" src="fileadmin/_processed_/6/f/csm_XORO_Kataloge_web_8913533072.jpg" width="216" height="154">
+                                                                                
+                                                                            	
+                                                                            
+                                                                          <p>Kataloge</p>                                                                          
+                                                                        
+                                                                       
+													  					</a>
+                                                                    
+														</div>        
+                                                    
+                                                    	 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                                                                      <a class="sub" href="produkte/smarthome/">
+                                                                         
+                                                                                
+                                                                                    <img class="img-responsive" alt=" HRS8659_FRONT_Smart_works_with_web.jpg" src="fileadmin/_processed_/0/f/csm_HRS8659_FRONT_Smart_works_with_web_2a5e56ff58.jpg" width="223" height="154">
+                                                                                
+                                                                            	
+                                                                            
+                                                                          <p>Smart Home</p>                                                                          
+                                                                        
+                                                                       
+													  					</a>
+                                                                    
+														</div>        
+                                                    
+                                                    	 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                                                                      <a class="sub" href="produkte/receiver/">
+                                                                         
+                                                                                
+                                                                                    <img class="img-responsive" alt=" HRT8772HDD_right_closed.jpg" src="fileadmin/_processed_/8/d/csm_HRT8772HDD_right_closed_6b6f754e64.jpg" width="216" height="154">
+                                                                                
+                                                                            	
+                                                                            
+                                                                          <p>Receiver</p>                                                                          
+                                                                        
+                                                                       
+													  					</a>
+                                                                    
+														</div>        
+                                                    
+                                                    	 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                                                                      <a class="sub" href="produkte/fernseher/">
+                                                                         
+                                                                                
+                                                                                    <img class="img-responsive" alt=" HTL_4046_BG.jpg" src="fileadmin/_processed_/1/c/csm_HTL_4046_BG_2a7d3046af.jpg" width="231" height="154">
+                                                                                
+                                                                            	
+                                                                            
+                                                                          <p>Fernseher</p>                                                                          
+                                                                        
+                                                                       
+													  					</a>
+                                                                    
+														</div>        
+                                                    
+                                                    	 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                                                                      <a class="sub" href="produkte/audio/">
+                                                                         
+                                                                                
+                                                                                    <img class="img-responsive" alt=" XORO_DAB600IR_Front.jpg" src="fileadmin/_processed_/9/d/csm_XORO_DAB600IR_Front_313f2fca1e.jpg" width="231" height="154">
+                                                                                
+                                                                            	
+                                                                            
+                                                                          <p>Audio</p>                                                                          
+                                                                        
+                                                                       
+													  					</a>
+                                                                    
+														</div>        
+                                                    
+                                                    	 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                                                                      <a class="" href="produkte/megapad/">
+                                                                         
+                                                                                
+                                                                                    <img class="img-responsive" alt=" MegaPad43_right_mit_Bild.jpg" src="fileadmin/_processed_/3/2/csm_MegaPad43_right_mit_Bild_d4f98905a6.jpg" width="214" height="154">
+                                                                                
+                                                                            	
+                                                                            
+                                                                          <p>MegaPAD</p>                                                                          
+                                                                        
+                                                                       
+													  					</a>
+                                                                    
+														</div>        
+                                                    
+                                                    	 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                                                                      <a class="sub" href="produkte/antennen/">
+                                                                         
+                                                                                
+                                                                                    <img class="img-responsive" alt=" Mobilfunk_LTE_Family-web.jpg" src="fileadmin/_processed_/9/d/csm_Mobilfunk_LTE_Family-web_dbd5c19b82.jpg" width="218" height="154">
+                                                                                
+                                                                            	
+                                                                            
+                                                                          <p>Antennen</p>                                                                          
+                                                                        
+                                                                       
+													  					</a>
+                                                                    
+														</div>        
+                                                    
+                                                    	 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                                                                      <a class="" href="produkte/roboter/">
+                                                                         
+                                                                                
+                                                                                    <img class="img-responsive" alt=" HSR100_white_2_web.jpg" src="fileadmin/_processed_/2/a/csm_HSR100_white_2_web_a3073635e3.jpg" width="214" height="154">
+                                                                                
+                                                                            	
+                                                                            
+                                                                          <p>Roboter</p>                                                                          
+                                                                        
+                                                                       
+													  					</a>
+                                                                    
+														</div>        
+                                                    
+                                                    	 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                                                                      <a class="" href="produkte/ip-box-sat-ip-server/">
+                                                                         
+                                                                                
+                                                                                    <img class="img-responsive" alt=" hst260_right2_01.jpg" src="fileadmin/_processed_/c/7/csm_hst260_right2_01_5f3c739658.jpg" width="220" height="154">
+                                                                                
+                                                                            	
+                                                                            
+                                                                          <p>IP-Box / SAT IP-Server</p>                                                                          
+                                                                        
+                                                                       
+													  					</a>
+                                                                    
+														</div>        
+                                                    
+                                                    	 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                                                                      <a class="" href="produkte/digitale-bilderrahmen/">
+                                                                         
+                                                                                
+                                                                                    <img class="img-responsive" alt=" DPF21A2_Bild.jpg" src="fileadmin/_processed_/9/6/csm_DPF21A2_Bild_a642973770.jpg" width="231" height="154">
+                                                                                
+                                                                            	
+                                                                            
+                                                                          <p>Digitale Bilderrahmen</p>                                                                          
+                                                                        
+                                                                       
+													  					</a>
+                                                                    
+														</div>        
+                                                    
+                                                    	 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                                                                      <a class="sub" href="produkte/dvd-player/">
+                                                                         
+                                                                                
+                                                                                    <img class="img-responsive" alt=" hsd_8470_closd.jpg" src="fileadmin/_processed_/3/d/csm_hsd_8470_closd_a150761269.jpg" width="301" height="154">
+                                                                                
+                                                                            	
+                                                                            
+                                                                          <p>DVD Player</p>                                                                          
+                                                                        
+                                                                       
+													  					</a>
+                                                                    
+														</div>        
+                                                    
+                                                    	 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                                                                      <a class="sub " href="produkte/zubehoer/">
+                                                                         
+                                                                                
+                                                                                    <img class="img-responsive" alt=" anw100_Airmaus_panel.png" src="fileadmin/_processed_/8/f/csm_anw100_Airmaus_panel_6cbb22c8c7.png" width="206" height="154">
+                                                                                
+                                                                            	
+                                                                            
+                                                                          <p>Zubehör</p>                                                                          
+                                                                        
+                                                                       
+													  					</a>
+                                                                    
+														</div>        
+                                                    
+													   </div>
+                                                    </li>
+													  </ul>
+												
+                                           
+                                        
+                                        
+                                      
+                                    </li>
+							
+                           
+                                 
+                           
+                      
+                        
+                           			 <li class="dropdown yamm-fw nav-item align-self-center" id="page-id-3">                                      
+                                      <a href="aktuelles/" class="nav-link">Aktuelles</a>                                      
+                                      
+                                    </li>
+							
+                           
+                                 
+                           
+                      
+                        
+                           				 <li class="dropdown yamm-fw nav-item align-self-center" id="page-id-4">                                      
+                                      <a href="downloads/" class="nav-link">Downloads</a>                                      
+                                      
+                                    </li>
+							
+                           
+                                 
+                           
+                      
+                        
+                           			 <li class="dropdown yamm-fw nav-item align-self-center" id="page-id-5">                                      
+                                      <a href="service/" class="nav-link">Service</a>                                      
+                                      
+                                    </li>
+							
+                           
+                                 
+                           
+                      
+                        
+                           			 <li class="dropdown yamm-fw nav-item align-self-center" id="page-id-6">                                      
+                                      <a href="kontakt/" class="nav-link">Kontakt</a>                                      
+                                      
+                                    </li>
+							
+                           
+                                 
+                           
+                      
+						<li class="nav-item align-self-center dropdown yamm-fw suche-dropdown">
+                  			<a class="nav-link" href="#" data-toggle="dropdown">
+                  				<i class="fa fa-search" style="font-size: 24px; color: #fff" aria-hidden="true"></i>
+                  			</a>
+                  			<div class="dropdown-menu">
+                   				<div class="grid-demo">
+                   					 <div class="row">
+                   					 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                   					 		<form method="get" id="form_kesearch_searchfield" name="form_kesearch_searchfield" action="index.php">
+  <input type="hidden" name="id" value="67">
+  <div class="row">
+  	<div class="col-xl-10 col-lg-10 col-md-10">
+	 <input type="text" class="form-control" id="ke_search_searchfield_sword" name="tx_kesearch_pi1[sword]" placeholder="Suchbegriff eingeben">
+	</div>
+	<div class="col-xl-2 col-lg-2 col-md-2">
+		<input type="submit" id="ke_search_searchfield_submit" alt="Suchen" class="btn btn-shop-black">
+	</div>
+  </div>
+ 
+  
+</form>
+
+										 </div>
+									</div>
+								</div>
+							  
+							</div>
+                  		</li>
+                   		<li class="nav-item dropdown">
+                   			<a href="https://www.facebook.com/xoroofficial/" class="nav-link" style="margin-top: 0px" target="_blank"><i class="fa fa-facebook" style="font-size: 24px; color: #fff" aria-hidden="true"></i></a>
+                   			
+                   		</li>
+                   		<li class="nav-item last-item dropdown">
+                   		<a href="https://www.instagram.com/xoro.official/" class="nav-link" style="margin-top: 30px" target="_blank"><i class="fa fa-instagram" style="font-size: 24px; color: #fff" aria-hidden="true"></i></a>
+						</li>
+                    </ul>
+          
+          
+          
+						
+					</div>
+					
+				</div>
+			</nav>
+			
+		</header>
+
+		<!-- theme_bootstrap4: Partials/Area/Header.html [end] -->
+	
+	
+		
+				<section id="area-feature" class="background-grey-gradient">
+					<div class="container">
+					
+
+
+
+	
+	
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="c1148" class=" 5000 slide ">
+
+	
+
+			<div id="slider-1148" class="carousel slide" data-interval="5000" data-ride="carousel" data-pause="hover" data-wrap="true">
+				<ol class="carousel-indicators ">
+					
+
+						<li data-target="#slider-1148" data-slide-to="0" class="active">
+
+						</li>
+
+					
+
+						<li data-target="#slider-1148" data-slide-to="1">
+
+						</li>
+
+					
+
+						<li data-target="#slider-1148" data-slide-to="2">
+
+						</li>
+
+					
+
+						<li data-target="#slider-1148" data-slide-to="3">
+
+						</li>
+
+					
+
+						<li data-target="#slider-1148" data-slide-to="4">
+
+						</li>
+
+					
+
+						<li data-target="#slider-1148" data-slide-to="5">
+
+						</li>
+
+					
+
+						<li data-target="#slider-1148" data-slide-to="6">
+
+						</li>
+
+					
+
+						<li data-target="#slider-1148" data-slide-to="7">
+
+						</li>
+
+					
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					
+						<div class="carousel-item  active">
+							
+<div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="img-fluid" src="fileadmin/slider/Produktanzeigen/LTE-WLAN_Antennen.png" width="1140" height="340" alt=""></figure></div></div></div></div></div><div class="carousel-caption"><div class="container"><div class="row"><div class="col-xl-6 col-lg-6 col-md-6 col-sm-5 col-xs-8"><header><h2 class="">
+				LTE- und WLAN Antennen 
+			</h2><h3 class="">
+				für den Innen- und Außenbereich
+			</h3></header><p><a href="produkte/antennen/mobilfunk-antennen/" class="btn btn-primary">Mehr erfahren</a></p></div></div></div></div>
+
+
+						</div>
+					
+						<div class="carousel-item ">
+							
+<div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="img-fluid" src="fileadmin/slider/Produktanzeigen/HLB_500-4.png" width="1140" height="340" alt=""></figure></div></div></div></div></div><div class="carousel-caption"><div class="container"><div class="row"><div class="col-xl-6 col-lg-6 col-md-6 col-sm-5 col-xs-8"><header><h2 class="">
+				XORO HLB 500
+			</h2><h3 class="">
+				1080P LED+LCD Beamer
+			</h3></header><p><a href="produkte/details/xoro-hlb-500/" class="btn btn-primary">zum Produkt</a></p></div></div></div></div>
+
+
+						</div>
+					
+						<div class="carousel-item ">
+							
+<div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="img-fluid" src="fileadmin/slider/Events/PTL_1450_xmas-4.png" width="1140" height="340" alt=""></figure></div></div></div></div></div><div class="carousel-caption"><div class="container"><div class="row"><div class="col-xl-6 col-lg-6 col-md-6 col-sm-5 col-xs-8"><header><h2 class="">
+				XORO PTL 1450
+			</h2><h3 class="">
+				Portabler 14 Zoll Full-HD Fernseher mit Irdeto embedded
+			</h3></header><p><a href="produkte/details/xoro-ptl-1450/" class="btn btn-primary">zum Produkt</a></p></div></div></div></div>
+
+
+						</div>
+					
+						<div class="carousel-item ">
+							
+<div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="img-fluid" src="fileadmin/slider/Produktanzeigen/HLB_300-3.png" width="2375" height="708" alt=""></figure></div></div></div></div></div><div class="carousel-caption"><div class="container"><div class="row"><div class="col-xl-6 col-lg-6 col-md-6 col-sm-5 col-xs-8"><header><h2 class="">
+				XORO HLB 300
+			</h2><h3 class="">
+				720P LED+LCD Beamer 
+			</h3></header><p><a href="produkte/details/xoro-hlb-300/" class="btn btn-primary">zum Produkt</a>​​​​​​​</p></div></div></div></div>
+
+
+						</div>
+					
+						<div class="carousel-item ">
+							
+<div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="img-fluid" src="fileadmin/slider/Produktanzeigen/HSB-55-2.png" width="1140" height="340" alt=""></figure></div></div></div></div></div><div class="carousel-caption"><div class="container"><div class="row"><div class="col-xl-6 col-lg-6 col-md-6 col-sm-5 col-xs-8"><header><h2 class="">
+				XORO HSB 55
+			</h2><h3 class="">
+				2-in1 Soundsystem
+			</h3></header><p><a href="produkte/details/xoro-hsb-55/" class="btn btn-primary">zum Produkt</a></p></div></div></div></div>
+
+
+						</div>
+					
+						<div class="carousel-item ">
+							
+<div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="img-fluid" src="fileadmin/slider/Produktanzeigen/HSR_100-3.png" width="1140" height="340" alt=""></figure></div></div></div></div></div><div class="carousel-caption"><div class="container"><div class="row"><div class="col-xl-6 col-lg-6 col-md-6 col-sm-5 col-xs-8"><header><h2 class="">
+				XORO HSR 100
+			</h2><h3 class="">
+				Leistungsstarker Saug- und Wischroboter
+			</h3></header><p><a href="produkte/details/xoro-hsr-100-1/" class="btn btn-primary">zum Produkt</a></p></div></div></div></div>
+
+
+						</div>
+					
+						<div class="carousel-item ">
+							
+<div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="img-fluid" src="fileadmin/slider/Events/HMT_500-xmas.png" width="1140" height="340" alt=""></figure></div></div></div></div></div><div class="carousel-caption"><div class="container"><div class="row"><div class="col-xl-6 col-lg-6 col-md-6 col-sm-5 col-xs-8"><header><h2 class="">
+				XORO HMT 500
+			</h2><h3 class="">
+				Microanlage mit DAB+/FM Tuner und CD Player
+			</h3></header><p><a href="produkte/details/xoro-hmt-500-1/" class="btn btn-primary">zum Produkt</a></p></div></div></div></div>
+
+
+						</div>
+					
+						<div class="carousel-item ">
+							
+<div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="img-fluid" src="fileadmin/slider/Produktanzeigen/PTL-1050_3_01.png" width="1140" height="340" alt=""></figure></div></div></div></div></div><div class="carousel-caption"><div class="container"><div class="row"><div class="col-xl-6 col-lg-6 col-md-6 col-sm-5 col-xs-8"><header><h2 class="">
+				XORO PTL 1050
+			</h2><h3 class="">
+				Erster freenet TV Fernseher mit Irdeto embedded 
+			</h3></header><p><a href="produkte/details/xoro-ptl-1050/" class="btn btn-primary">zum Produkt</a></p></div></div></div></div>
+
+
+						</div>
+					
+				</div>
+				<a class="carousel-control-prev " href="#slider-1148" role="button" data-slide="prev">
+					<i class="fa fa-chevron-left" aria-hidden="true"></i>
+					<span class="icon-prev" aria-hidden="true"></span>
+					<span class="sr-only"></span>
+				</a>
+				<a class="carousel-control-next " href="#slider-1148" role="button" data-slide="next">
+					<i class="fa fa-chevron-right" aria-hidden="true"></i>
+					<span class="icon-next" aria-hidden="true"></span>
+					<span class="sr-only"></span>
+				</a>
+			</div>
+		
+
+</div>
+
+
+
+
+
+					</div>
+				</section>
+			
+	
+		
+
+		<main id="area-main" tabindex="-1">
+		
+			
+		<!-- theme_bootstrap4: Templates/Theme/ContentStartsite.html [begin] -->
+		
+		<div id="template-content-startsite">
+			
+		<div id="partial-content-main" class="content-column">
+			
+			<!--TYPO3SEARCH_begin-->
+			
+
+	
+	
+
+	
+	
+		<div class="container">
+		
+		
+	
+
+	<div id="c3745" class=" mb50 mt50 background-black2 ">
+		
+		
+<div class="row">
+	<div class="col-sm-6 col-xl-8 col-lg-8 col-md-8 col-xs-12">
+		<h3>TECHNISCHE STÖRUNG DER TELEFONANLAGE</h3>
+		<p>Bitte schreiben Sie an <strong>vertrieb@mas.de</strong>&nbsp;und geben&nbsp;Sie in der&nbsp;E-Mail Ihre Telefonnummer&nbsp;an,&nbsp;wir rufen Sie dann gerne zurück.</p>
+	</div>
+	<div class="col-sm-6 col-xl-4 col-lg-4 col-md-4 col-xs-12 align-self-center" style="text-align: center">
+	<a href="javascript:linkTo_UnCryptMailto('ocknvq,xgtvtkgdBocu0fg');" title="Service Anfrage" class="btn btn-info">E-Mail</a>
+	</div>
+</div>
+
+
+	
+	</div>
+	
+	
+		</div>
+	
+	
+
+
+
+	
+	
+
+	
+	
+		<div class="container">
+		
+		
+	
+
+	<div id="c86" class="  ">
+		
+		
+<div id="c85" class="frame frame-default frame-type-header frame-layout-0"><header><div class="row"><div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 background-headline"><h2 class="">
+				XORO Aktuell
+			</h2></div></div></header></div>
+
+
+<div id="c3250" class="frame frame-default frame-type-textmedia frame-layout-0"><div class="ce-textpic ce-center ce-above"><div class="ce-bodytext"><p>Erfahren Sie von unseren Produktneuheiten als Erstes! Hier geht es zur <a href="https://xoro.us14.list-manage.com/subscribe?u=caf6ab13667899181ef069a45&amp;id=64f0ec266e" title="XORO Newsletter Anmeldung" target="_blank" class="external-link">Newsletter-Anmeldung</a>.&nbsp;</p></div></div></div>
+
+
+<div id="c87" class="frame frame-default frame-type-list frame-layout-0"><div class="news"><!--TYPO3SEARCH_end--><div id="owl-demo" class="owl-carousel owl-theme" style="opacity: 1; display: block;"><!--
+	=====================
+		Partials/List/Item.html
+--><div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 2760px; left: 0px; display: block;"><div class="owl-item" style="width: 230px;"><div class="col-md-12"><div class="article articletype-0 " itemscope="itemscope" itemtype="http://schema.org/Article" style="height: 574.719px;"><!-- header --><div class="news-list-date"><time datetime="2020-03-06">
+					06.03.2020
+					<meta itemprop="datePublished" content="2020-03-06"></time></div><div class="header"><h3><a title="AWN Boat Show" href="aktuelles/details/news/awn-boat-show/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=18d1c8e1bf8548df0c47429a02136816"><span itemprop="headline">AWN Boat Show</span></a></h3></div><div class="news-img-wrap" style=""><a title="AWN Boat Show" href="aktuelles/details/news/awn-boat-show/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=18d1c8e1bf8548df0c47429a02136816"><img class="img-fluid" src="fileadmin/Images/NEWS/hamburg-boat-show-by-awn.jpg" width="6071" height="7417" alt=""></a></div><!-- teaser --><div class="teaser-text"><div itemprop="description"><p>Wir sind als Aussteller mit dabei und freuen uns am 13.03. und 16.03. auf Ihren Besuch.</p></div><a class="btn btn-shop-black" title="AWN Boat Show" href="aktuelles/details/news/awn-boat-show/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=18d1c8e1bf8548df0c47429a02136816">
+			Weiterlesen
+		</a></div></div></div></div><div class="owl-item" style="width: 230px;"><div class="col-md-12"><div class="article articletype-0 " itemscope="itemscope" itemtype="http://schema.org/Article" style="height: 574.719px;"><!-- header --><div class="news-list-date"><time datetime="2020-02-28">
+					28.02.2020
+					<meta itemprop="datePublished" content="2020-02-28"></time></div><div class="header"><h3><a title="XORO PTL 1450 vom Lite Magazin ausgezeichnet" href="aktuelles/details/news/xoro-ptl-1450-vom-lite-magazin-ausgezeichnet/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=31f308ec324fe93811f980be3902628c"><span itemprop="headline">XORO PTL 1450 vom Lite Magazin ausgezeichnet</span></a></h3></div><div class="news-img-wrap" style="height: 236.719px;"><a title="XORO PTL 1450 vom Lite Magazin ausgezeichnet" href="aktuelles/details/news/xoro-ptl-1450-vom-lite-magazin-ausgezeichnet/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=31f308ec324fe93811f980be3902628c"><img class="img-fluid" src="fileadmin/Produkte/Fernseher/Portabel/PTL1450/Auszeichnungen/200221.Xoro-Testsiegel.jpg" width="273" height="193" alt=""></a></div><!-- teaser --><div class="teaser-text"><div itemprop="description"><p>Der portable freenet TV Fernseher XORO PTL 1450 wurde vom lite Magazin ausführlich getestet und mit "sehr gut" in der Preis/Leistung bewertet.</p></div><a class="btn btn-shop-black" title="XORO PTL 1450 vom Lite Magazin ausgezeichnet" href="aktuelles/details/news/xoro-ptl-1450-vom-lite-magazin-ausgezeichnet/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=31f308ec324fe93811f980be3902628c">
+			Weiterlesen
+		</a></div></div></div></div><div class="owl-item" style="width: 230px;"><div class="col-md-12"><div class="article articletype-0 " itemscope="itemscope" itemtype="http://schema.org/Article" style="height: 574.719px;"><!-- header --><div class="news-list-date"><time datetime="2020-02-18">
+					18.02.2020
+					<meta itemprop="datePublished" content="2020-02-18"></time></div><div class="header"><h3><a title="verbraucherschutz.de empfiehlt den XORO HSR 100" href="aktuelles/details/news/verbraucherschutzde-empfiehlt-den-xoro-hsr-100/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=9bef906f70781ee1a3b1d1f4406221ec"><span itemprop="headline">verbraucherschutz.de empfiehlt den XORO HSR 100</span></a></h3></div><div class="news-img-wrap" style="height: 236.719px;"><a title="verbraucherschutz.de empfiehlt den XORO HSR 100" href="aktuelles/details/news/verbraucherschutzde-empfiehlt-den-xoro-hsr-100/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=9bef906f70781ee1a3b1d1f4406221ec"><img class="img-fluid" src="fileadmin/Produkte/Roboter/Saugroboter/Auszeichnungen/vbs_empfehlungs_zeichen_vektor.jpg" width="400" height="538" alt=""></a></div><!-- teaser --><div class="teaser-text"><div itemprop="description"><p>Der Saug- und Wischroboter XORO HSR 100 wurde von verbraucherschutz.de getestet und ausgezeichnet.</p></div><a class="btn btn-shop-black" title="verbraucherschutz.de empfiehlt den XORO HSR 100" href="aktuelles/details/news/verbraucherschutzde-empfiehlt-den-xoro-hsr-100/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=9bef906f70781ee1a3b1d1f4406221ec">
+			Weiterlesen
+		</a></div></div></div></div><div class="owl-item" style="width: 230px;"><div class="col-md-12"><div class="article articletype-0 " itemscope="itemscope" itemtype="http://schema.org/Article" style="height: 574.719px;"><!-- header --><div class="news-list-date"><time datetime="2020-02-12">
+					12.02.2020
+					<meta itemprop="datePublished" content="2020-02-12"></time></div><div class="header"><h3><a title="XORO HSB 55 beim Lite Magazin im Test" href="aktuelles/details/news/xoro-hsb-55-beim-lite-magazin-im-test/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=c9bf63c481a8ad20b78827eba861d814"><span itemprop="headline">XORO HSB 55 beim Lite Magazin im Test</span></a></h3></div><div class="news-img-wrap" style="height: 236.719px;"><a title="XORO HSB 55 beim Lite Magazin im Test" href="aktuelles/details/news/xoro-hsb-55-beim-lite-magazin-im-test/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=c9bf63c481a8ad20b78827eba861d814"><img class="img-fluid" src="fileadmin/Produkte/Audio/Lautsprecher/HSB_55/Auszeichnungen/200203.Xoro-Testsiegel.jpg" width="273" height="193" alt=""></a></div><!-- teaser --><div class="teaser-text"><div itemprop="description"><p>Die 2-in-1 Soundbar HSB 55 wurde vom lite Magazin ausführlich getestet und mit dem "Preistipp" ausgezeichnet.</p></div><a class="btn btn-shop-black" title="XORO HSB 55 beim Lite Magazin im Test" href="aktuelles/details/news/xoro-hsb-55-beim-lite-magazin-im-test/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=c9bf63c481a8ad20b78827eba861d814">
+			Weiterlesen
+		</a></div></div></div></div><div class="owl-item" style="width: 230px;"><div class="col-md-12"><div class="article articletype-0 " itemscope="itemscope" itemtype="http://schema.org/Article" style="height: 574.719px;"><!-- header --><div class="news-list-date"><time datetime="2020-02-12">
+					12.02.2020
+					<meta itemprop="datePublished" content="2020-02-12"></time></div><div class="header"><h3><a title="Verwandeln Sie Ihr Zuhause in ein Heimkino - mit den LCD-Beamern von XORO" href="aktuelles/details/news/verwandeln-sie-ihr-zuhause-in-ein-heimkino-mit-den-lcd-beamern-von-xoro/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=4e46acc76e22c5d4846023378439cfcb"><span itemprop="headline">Verwandeln Sie Ihr Zuhause in ein Heimkino - mit den LCD-Beamern von XORO</span></a></h3></div><div class="news-img-wrap" style=""><a title="Verwandeln Sie Ihr Zuhause in ein Heimkino - mit den LCD-Beamern von XORO" href="aktuelles/details/news/verwandeln-sie-ihr-zuhause-in-ein-heimkino-mit-den-lcd-beamern-von-xoro/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=4e46acc76e22c5d4846023378439cfcb"><img class="img-fluid" src="fileadmin/user_upload/LCD_XORO_beamer_web.jpg" width="872" height="591" alt=""></a></div><!-- teaser --><div class="teaser-text"><div itemprop="description"><p>Buxtehude, Deutschland. Die MAS Elektronik AG kündigt die Verfügbarkeit von zwei neuen LCD Beamern an.</p></div><a class="btn btn-shop-black" title="Verwandeln Sie Ihr Zuhause in ein Heimkino - mit den LCD-Beamern von XORO" href="aktuelles/details/news/verwandeln-sie-ihr-zuhause-in-ein-heimkino-mit-den-lcd-beamern-von-xoro/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=4e46acc76e22c5d4846023378439cfcb">
+			Weiterlesen
+		</a></div></div></div></div><div class="owl-item" style="width: 230px;"><div class="col-md-12"><div class="article articletype-0 " itemscope="itemscope" itemtype="http://schema.org/Article" style="height: 574.719px;"><!-- header --><div class="news-list-date"><time datetime="2020-01-29">
+					29.01.2020
+					<meta itemprop="datePublished" content="2020-01-29"></time></div><div class="header"><h3><a title=" Neue Mobilfunk- und WLAN Antennen von XORO" href="aktuelles/details/news/neue-mobilfunk-und-wlan-antennen-von-xoro/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=07f179842dc39320731a0f6609515d5f"><span itemprop="headline"> Neue Mobilfunk- und WLAN Antennen von XORO</span></a></h3></div><div class="news-img-wrap" style=""><a title=" Neue Mobilfunk- und WLAN Antennen von XORO" href="aktuelles/details/news/neue-mobilfunk-und-wlan-antennen-von-xoro/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=07f179842dc39320731a0f6609515d5f"><img class="img-fluid" src="fileadmin/Images/NEWS/Mobilfunk_LTE_Family-web.jpg" width="1754" height="1240" alt=""></a></div><!-- teaser --><div class="teaser-text"><div itemprop="description"><p>Buxtehude, Deutschland. Die MAS Elektronik AG kündigt die Verfügbarkeit von fünf neuen 3G &amp; 4G Mobilfunk- und WLAN Antennen für den Innen- und...</p></div><a class="btn btn-shop-black" title=" Neue Mobilfunk- und WLAN Antennen von XORO" href="aktuelles/details/news/neue-mobilfunk-und-wlan-antennen-von-xoro/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=07f179842dc39320731a0f6609515d5f">
+			Weiterlesen
+		</a></div></div></div></div></div></div><!--
+	=====================
+		Partials/List/Item.html
+--><!--
+	=====================
+		Partials/List/Item.html
+--><!--
+	=====================
+		Partials/List/Item.html
+--><!--
+	=====================
+		Partials/List/Item.html
+--><!--
+	=====================
+		Partials/List/Item.html
+--><div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div><div class="owl-buttons"><div class="owl-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div><div class="owl-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div></div></div></div><!--TYPO3SEARCH_begin--></div></div>
+
+
+	
+	</div>
+	
+	
+		</div>
+	
+	
+
+
+
+	
+	
+
+	
+	
+		<div class="container">
+		
+		
+	
+
+	<div id="c3786" class=" mb50 mt50 background-black2 ">
+		
+		
+<div id="c3853" class="frame frame-default frame-type-textmedia frame-layout-0"><div class="ce-textpic ce-center ce-above"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="img-fluid" src="fileadmin/Images/NEWS/Banner/Sponsering_2019-4.jpg" width="1140" height="586" alt=""></figure></div></div></div></div></div></div></div>
+
+
+	
+	</div>
+	
+	
+		</div>
+	
+	
+
+
+
+	
+	
+
+	
+	
+
+	<div id="c23" class=" background-black ">
+		
+		
+
+	
+	
+
+	
+	
+		<div class="container">
+		
+		
+	
+
+	<div id="c25" class="  ">
+		
+		
+
+	
+	
+
+	
+	
+		<div class="container">
+		
+		
+	
+
+	<div id="c24" class="  ">
+		
+		
+<div id="c22" class="frame frame-default frame-type-header frame-layout-0"><header><div class="row"><div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 background-headline"><h2 class="">
+				Ausgezeichnet
+			</h2></div></div></header></div>
+
+
+	
+	</div>
+	
+	
+		</div>
+	
+	
+
+
+
+
+
+
+	
+	
+
+	
+	
+
+	<div id="c78" class="  ">
+		<div class="row">
+			
+		<div class="column-1 column-first col-lg-15 col-md-15 col-sm-15 col-xs-6">
+<div id="c3255" class="frame frame-default frame-type-textmedia frame-layout-0"><div class="ce-textpic ce-center ce-above"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><a href="index.php?eID=tx_cms_showpic&amp;file=3061&amp;md5=53bfe188f1440a4964a22a7e8897e611f2761faf&amp;parameters%5B0%5D=YTo1OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&amp;parameters%5B1%5D=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&amp;parameters%5B2%5D=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&amp;parameters%5B3%5D=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7czo0OiJjcm9wIjtzOjk4OiJ7ImRl&amp;parameters%5B4%5D=ZmF1bHQiOnsiY3JvcEFyZWEiOnsieCI6MCwieSI6MCwid2lkdGgiOjEsImhlaWdo&amp;parameters%5B5%5D=dCI6MX0sInNlbGVjdGVkUmF0aW8iOiJOYU4iLCJmb2N1c0FyZWEiOm51bGx9fSI7&amp;parameters%5B6%5D=fQ%3D%3D" onclick="openPic('\/index.php?eID=tx_cms_showpic\u0026file=3061\u0026md5=53bfe188f1440a4964a22a7e8897e611f2761faf\u0026parameters%5B0%5D=YTo1OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw\u0026parameters%5B1%5D=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi\u0026parameters%5B2%5D=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2\u0026parameters%5B3%5D=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7czo0OiJjcm9wIjtzOjk4OiJ7ImRl\u0026parameters%5B4%5D=ZmF1bHQiOnsiY3JvcEFyZWEiOnsieCI6MCwieSI6MCwid2lkdGgiOjEsImhlaWdo\u0026parameters%5B5%5D=dCI6MX0sInNlbGVjdGVkUmF0aW8iOiJOYU4iLCJmb2N1c0FyZWEiOm51bGx9fSI7\u0026parameters%5B6%5D=fQ%3D%3D','thePicture','width=800,height=343,status=0,menubar=0'); return false;" target="thePicture"><img class="img-fluid" src="fileadmin/Produkte/Audio/HMT_500/Auszeichnungen/Xoro_HMT500-web.jpg" width="713" height="306" alt=""></a></figure></div></div></div></div></div><div class="ce-bodytext"><p>Magazin: Digital Home<br> 02/2019<br><a href="produkte/details/xoro-hmt-500-1/">XORO HMT 500</a></p></div></div></div>
+
+</div>
+		<div class="column-2 column-middle col-lg-15 col-md-15 col-sm-15 col-xs-6">
+<div id="c3253" class="frame frame-default frame-type-textmedia frame-layout-0"><div class="ce-textpic ce-center ce-above"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><a href="index.php?eID=tx_cms_showpic&amp;file=3003&amp;md5=1e34cb498fdb4ea7048154fe848e024be87a2d44&amp;parameters%5B0%5D=YTo1OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&amp;parameters%5B1%5D=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&amp;parameters%5B2%5D=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&amp;parameters%5B3%5D=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7czo0OiJjcm9wIjtzOjk4OiJ7ImRl&amp;parameters%5B4%5D=ZmF1bHQiOnsiY3JvcEFyZWEiOnsieCI6MCwieSI6MCwid2lkdGgiOjEsImhlaWdo&amp;parameters%5B5%5D=dCI6MX0sInNlbGVjdGVkUmF0aW8iOiJOYU4iLCJmb2N1c0FyZWEiOm51bGx9fSI7&amp;parameters%5B6%5D=fQ%3D%3D" onclick="openPic('\/index.php?eID=tx_cms_showpic\u0026file=3003\u0026md5=1e34cb498fdb4ea7048154fe848e024be87a2d44\u0026parameters%5B0%5D=YTo1OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw\u0026parameters%5B1%5D=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi\u0026parameters%5B2%5D=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2\u0026parameters%5B3%5D=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7czo0OiJjcm9wIjtzOjk4OiJ7ImRl\u0026parameters%5B4%5D=ZmF1bHQiOnsiY3JvcEFyZWEiOnsieCI6MCwieSI6MCwid2lkdGgiOjEsImhlaWdo\u0026parameters%5B5%5D=dCI6MX0sInNlbGVjdGVkUmF0aW8iOiJOYU4iLCJmb2N1c0FyZWEiOm51bGx9fSI7\u0026parameters%5B6%5D=fQ%3D%3D','thePicture','width=800,height=433,status=0,menubar=0'); return false;" target="thePicture"><img class="img-fluid" src="fileadmin/Produkte/Digitale_Bilderrahmen/CPF_10A1/Auszeichnungen/Auszeichnung_XORO_CPF10A1_web.jpg" width="567" height="307" alt=""></a></figure></div></div></div></div></div><div class="ce-bodytext"><p>Portal: hifitest.de<br> 02/2019<br><a href="produkte/details/xoro-cpf-10a1/">XORO CPF 10A1</a><br> &nbsp;</p></div></div></div>
+
+</div>
+		<div class="column-3 column-middle col-lg-15 col-md-15 col-sm-15 col-xs-6">
+<div id="c28" class="frame frame-default frame-type-textmedia frame-layout-0"><div class="ce-textpic ce-center ce-above"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><a href="index.php?eID=tx_cms_showpic&amp;file=2911&amp;md5=992ffa68ec0ec934691b69aab3c02de8b21f26fb&amp;parameters%5B0%5D=YTo1OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&amp;parameters%5B1%5D=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&amp;parameters%5B2%5D=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&amp;parameters%5B3%5D=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7czo0OiJjcm9wIjtzOjk4OiJ7ImRl&amp;parameters%5B4%5D=ZmF1bHQiOnsiY3JvcEFyZWEiOnsieCI6MCwieSI6MCwid2lkdGgiOjEsImhlaWdo&amp;parameters%5B5%5D=dCI6MX0sInNlbGVjdGVkUmF0aW8iOiJOYU4iLCJmb2N1c0FyZWEiOm51bGx9fSI7&amp;parameters%5B6%5D=fQ%3D%3D" onclick="openPic('\/index.php?eID=tx_cms_showpic\u0026file=2911\u0026md5=992ffa68ec0ec934691b69aab3c02de8b21f26fb\u0026parameters%5B0%5D=YTo1OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw\u0026parameters%5B1%5D=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi\u0026parameters%5B2%5D=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2\u0026parameters%5B3%5D=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7czo0OiJjcm9wIjtzOjk4OiJ7ImRl\u0026parameters%5B4%5D=ZmF1bHQiOnsiY3JvcEFyZWEiOnsieCI6MCwieSI6MCwid2lkdGgiOjEsImhlaWdo\u0026parameters%5B5%5D=dCI6MX0sInNlbGVjdGVkUmF0aW8iOiJOYU4iLCJmb2N1c0FyZWEiOm51bGx9fSI7\u0026parameters%5B6%5D=fQ%3D%3D','thePicture','width=645,height=600,status=0,menubar=0'); return false;" target="thePicture"><img class="img-fluid" src="fileadmin/Produkte/Receiver/Smart/HRS_8660_Smart/Auszeichnungen/Xoro_HRS_8660_Smart_web.jpg" width="512" height="476" alt=""></a></figure></div></div></div></div></div><div class="ce-bodytext"><p>Magazin: Satellit<br> 01.2019<br><a href="produkte/details/xoro-hrs-8660-smart/">XORO HRS 8660 SMART</a><br> &nbsp;</p></div></div></div>
+
+</div>
+		<div class="column-4 column-last col-lg-15 col-md-15 col-sm-15 col-xs-6">
+<div id="c3267" class="frame frame-default frame-type-textmedia frame-layout-0"><div class="ce-textpic ce-center ce-above"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><a href="index.php?eID=tx_cms_showpic&amp;file=2924&amp;md5=2d41c790c81f2ee2f7b404d91b411f72d68a1b7d&amp;parameters%5B0%5D=YTo1OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&amp;parameters%5B1%5D=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&amp;parameters%5B2%5D=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&amp;parameters%5B3%5D=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7czo0OiJjcm9wIjtzOjk4OiJ7ImRl&amp;parameters%5B4%5D=ZmF1bHQiOnsiY3JvcEFyZWEiOnsieCI6MCwieSI6MCwid2lkdGgiOjEsImhlaWdo&amp;parameters%5B5%5D=dCI6MX0sInNlbGVjdGVkUmF0aW8iOiJOYU4iLCJmb2N1c0FyZWEiOm51bGx9fSI7&amp;parameters%5B6%5D=fQ%3D%3D" onclick="openPic('\/index.php?eID=tx_cms_showpic\u0026file=2924\u0026md5=2d41c790c81f2ee2f7b404d91b411f72d68a1b7d\u0026parameters%5B0%5D=YTo1OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw\u0026parameters%5B1%5D=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi\u0026parameters%5B2%5D=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2\u0026parameters%5B3%5D=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7czo0OiJjcm9wIjtzOjk4OiJ7ImRl\u0026parameters%5B4%5D=ZmF1bHQiOnsiY3JvcEFyZWEiOnsieCI6MCwieSI6MCwid2lkdGgiOjEsImhlaWdo\u0026parameters%5B5%5D=dCI6MX0sInNlbGVjdGVkUmF0aW8iOiJOYU4iLCJmb2N1c0FyZWEiOm51bGx9fSI7\u0026parameters%5B6%5D=fQ%3D%3D','thePicture','width=800,height=345,status=0,menubar=0'); return false;" target="thePicture"><img class="img-fluid" src="fileadmin/Produkte/Audio/DAB_120/Auszeichnungen/Digital_Home_012019_DAB120_web.jpg" width="283" height="122" alt=""></a></figure></div></div></div></div></div><div class="ce-bodytext"><p>Magazin: Digital Home<br> 01/2019<br><a href="produkte/details/xoro-dab-120/">XORO DAB 120</a><br> &nbsp;</p></div></div></div>
+
+</div>
+		<div class="column-5 column-last2 col-lg-15 col-md-15 col-sm-15 col-xs-6 align-self-center">
+<div id="c81" class="frame frame-default frame-type-textmedia frame-layout-0"><div class="ce-textpic ce-center ce-above"><div class="ce-bodytext"><p><a href="auszeichnungen/" class="btn btn-info">Alle Auszeichnungen &gt;</a></p></div></div></div>
+
+</div>
+	
+		</div>
+	</div>
+
+	
+	
+	
+
+
+
+	
+	</div>
+	
+	
+		</div>
+	
+	
+
+
+	
+	</div>
+	
+	
+	
+
+
+			<!--TYPO3SEARCH_end-->
+			
+			
+			
+		</div>
+
+	
+		</div>
+
+		<!-- theme_bootstrap4: Templates/Theme/ContentStartsite.html [end] -->
+	
+		</main>
+
+		<section id="area-extended">
+			
+		</section>
+
+	
+
+	
+		<!-- theme_bootstrap4: Partials/Area/Footer.html [begin] -->
+
+		<footer id="area-footer">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-6">
+						<div id="menu-footer">
+							
+							<ul class="nav flex-column"><li class="nav-item state-no uid-588 point-1 first"><a href="bilderdownload/" class="nav-link">Bilderdownload</a></li><li class="nav-item state-no uid-12 point-2 middle"><a href="xoro-connect/" class="nav-link">XORO Connect</a></li><li class="nav-item state-no uid-17 point-3 last"><a href="archiv/" class="nav-link">Archiv</a></li></ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-6">
+						<div id="menu-footer">
+						
+							<ul class="nav flex-column"><li class="nav-item state-no uid-14 point-1 first"><a href="karriere/" class="nav-link">Karriere</a></li><li class="nav-item state-no uid-16 point-2 middle"><a href="ueber-uns/" class="nav-link">Über uns</a></li><li class="nav-item state-no uid-18 point-3 last"><a href="auszeichnungen/" class="nav-link">Auszeichnungen</a></li></ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-6">
+						<div id="menu-footer">
+						
+							<ul class="nav flex-column"><li class="nav-item state-no uid-526 point-1 first"><a href="https://xoro.us14.list-manage.com/subscribe?u=caf6ab13667899181ef069a45&amp;id=64f0ec266e" class="nav-link">Newsletter</a></li><li class="nav-item state-no uid-15 point-2 middle"><a href="impressum/" class="nav-link">Impressum</a></li><li class="nav-item state-no uid-23 point-3 middle"><a href="datenschutz/" class="nav-link">Datenschutz</a></li><li class="nav-item state-no uid-13 point-4 last"><a href="agb/" class="nav-link">AGB</a></li></ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-6 hidden-sm-down">
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-6">
+						<div id="footer-logo-main">
+							<img src="fileadmin/_processed_/b/c/csm_Xoro_Digger_Logo_323f0aa842.png" width="370" height="60" class="img-fluid" alt="XORO" title="XORO">
+						</div>
+						<div class="footer-address">
+						MAS Elektronik AG<br>Weidegrund 3<br>21614 Buxtehude
+						</div>
+						<div class="footer-email">
+									<a href="javascript:linkTo_UnCryptMailto('ocknvq,kphqBocu0fg');">info@mas.de</a>
+								</div>
+								
+					</div>
+					
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12" style="text-align: center;color: #fff">
+					<span> 2020 &nbsp;© XORO</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- theme_bootstrap4: Partials/Area/Footer.html [end] -->
+	
+
+</div><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div></div>
+<!-- theme_bootstrap4: Layouts/Startsite.html [end] -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.2/isotope.pkgd.min.js" type="text/javascript"></script>
+<script src="typo3conf/ext/shop/Resources/Public/JavaScript/Logger.js?1524765467" type="text/javascript"></script>
+<script src="typo3conf/ext/cs_seo/Resources/Public/JavaScript/jquery.cs_seo.ga.js?1524809652" type="text/javascript"></script>
+<script src="typo3conf/ext/shop/Resources/Public/JavaScript/Translate.js?1524765466" type="text/javascript"></script>
+<script src="typo3conf/ext/shop/Resources/Public/JavaScript/FlashMessage.js?1524765467" type="text/javascript"></script>
+<script src="typo3conf/ext/shop/Resources/Public/JavaScript/Shop.js?1524765467" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Libraries/jquery.datetimepicker.min.js?1524764538" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Libraries/parsley.min.js?1524764535" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Powermail/Tabs.min.js?1524764539" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Powermail/Form.min.js?1524764540" type="text/javascript"></script>
+
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","url":"https:\/\/www.xoro.de\/","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.xoro.de\/suchergebnisse\/?searchterm={search_term_string}","query-input":"required name=search_term_string"}}</script><script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[]}</script>
+
+<div id="mm-blocker" class="mm-slideout"></div></body></html>

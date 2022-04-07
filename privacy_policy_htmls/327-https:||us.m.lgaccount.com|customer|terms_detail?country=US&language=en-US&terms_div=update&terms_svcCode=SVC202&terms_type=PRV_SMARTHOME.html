@@ -1,0 +1,1263 @@
+<html lang="en" class=" js "><head>
+	<title>Privacy Policy</title>
+	
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- <meta http-equiv="Pragma" content="no-cache" /> -->
+	<!-- <meta http-equiv="Cache-control" content="no-cache" /> -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<link rel="shortcut icon" type="image/x-icon" href="/resources/images/favicon.ico">
+
+	<link type="text/css" rel="stylesheet" href="/resources/div_cm/css/style.css?v=2.9">
+
+
+	<link type="text/css" rel="stylesheet" href="/resources/div_cm/css/en-us.css">
+
+
+
+	
+
+
+
+<!-- common.js = jquery.js + jquery.cookie.js + jquery.storage.js + md5.js + sha1.js + sha512.js + jencrypt.js + plugin.js + hmac-sha256.js + enc-base64-min.js + Base64.js -->
+<script type="text/javascript" src="/resources/js/new/lib/common_v1.0.js?v=1.0"></script>
+<script type="text/javascript" src="/resources/js/new/lib/Crypto.sha512.js"></script>
+<script type="text/javascript" src="/resources/js/new/config/config.js?v=1.9"></script>
+<script type="text/javascript" src="/resources/js/new/config/locale_config.js?v=1.0"></script>
+
+<script type="text/javascript">
+	var LayerPopup = {
+		IS_USE : false,
+		IS_SHOW : false,
+		make : function(type, id, message, callbackData) {
+			var _THIS = this,
+				btnName1 = 'OK',
+				btnName2 = 'Cancel'
+				;
+
+			message = message.replace(/\n/g, "<br/>");
+
+			var layerId = "layerPopup_" + id;
+			var html = '<div id="' + layerId + '" class="hna_gid_pop"><div class="pop_warp">';
+			html += '<div class="pop_contents"><div class="pop_contents_subject">';
+			html += message + '</div></div>';
+
+			if(type === "A") {
+				html += '<div class="pop_btn"><div class="pop_btn1">';
+			}
+			if(type === "C") {
+				html += '<div class="pop_btn"><div class="pop_btn2">';
+			}
+
+			html += '<button type="button" title="' + btnName1 + '" class="btn_ok"><span>' + btnName1 + '</span></button>';
+			if(type === "C") {
+				html += '<button type="button" title="' + btnName2 + '" class="btn_close"><span>' + btnName2 + '</span></button>';
+			}
+
+			html += '</div></div>';
+			html += '</div></div>';
+
+			$('body').append( html );
+
+			$("#" + layerId).css("display","block");
+			var tx = ($(window).width()-$("#" + layerId + " .pop_warp").width())/2;
+			var ty = ($(window).height()-$("#" + layerId + " .pop_warp").height())/2;
+			$("#" + layerId + " .pop_warp").css({left:tx+"px",top:ty+"px"});
+			$("body").css("overflow","hidden");
+			$("body").css("pointer-events", "");
+
+			if(type === "A") {
+				$("#" + layerId + " .btn_ok").on("click", function(e){
+					e.preventDefault();
+					_THIS.remove(layerId);
+					_THIS.callFuncA(id, callbackData);
+				});
+			}
+			if(type === "C") {
+				$("#" + layerId + " .btn_ok").on("click", function(e){
+					e.preventDefault();
+					_THIS.remove(layerId);
+					_THIS.callFuncC(id, "T", callbackData);
+				});
+				$("#" + layerId + " .btn_close").on("click", function(e){
+					e.preventDefault();
+					_THIS.remove(layerId);
+					_THIS.callFuncC(id, "F", callbackData);
+				});
+			}
+			_THIS.IS_SHOW = true;
+			$(".hna_gid_pop").css("z-index","110000");
+		},
+		remove : function(layerId) {
+			//$("#" + layerId).css("display","none");
+			$("body").css("overflow","auto");
+			$("#" + layerId + " .btn_ok").off("click");
+			$("#" + layerId + " .btn_close").off("click");
+			$("body #" + layerId).remove();
+			this.IS_SHOW = false;
+		},
+		callback : {},
+		callFuncA : function(id, callbackData) {
+			if(this.callback[id]) {
+				LGMUtil.debug("===== LayerPopup ID callback START: ", id);
+				if(callbackData)
+					this.callback[id](callbackData);
+				else
+					this.callback[id]();
+				LGMUtil.debug("===== LayerPopup ID callback END  : ", id);
+			}
+		},
+		callFuncC : function(id, flag, callbackData) {
+			if(this.callback[id]) {
+				if(this.callback[id][flag]) {
+					LGMUtil.debug("===== LayerPopup ID callback START: ", id);
+					if(callbackData)
+						this.callback[id][flag](callbackData);
+					else
+						this.callback[id][flag]();
+					LGMUtil.debug("===== LayerPopup ID callback END  : ", id);
+				}
+			}
+		},
+		alert : function(id, message, callbackData) {
+			if(this.IS_USE) {
+				this.make("A", id, message, callbackData);
+			}
+			else {
+				alert(message);
+				if("_tmp" !== id.slice(id.length-4, id.length)) {
+					this.callFuncA(id, callbackData);
+				}
+			}
+		},
+		confirm : function(id, message, callbackData) {
+			
+			if(this.IS_USE) {
+				this.make("C", id, message, callbackData);
+			}
+			else {
+				$('body').addClass("blur");
+				
+                setTimeout(function(){
+					if(confirm(message)){
+						$('body').removeClass("blur");
+						LayerPopup.callFuncC(id, "T", callbackData);  // true 인 경우 T.
+					}
+					else{
+						$('body').removeClass("blur");
+						LayerPopup.callFuncC(id, "F", callbackData);  // false 인 경우 F.
+					}
+                }, 100);
+					
+			}
+		}
+	};
+
+</script>
+
+<script type="text/javascript" src="/resources/js/new/util/util.js?v=3.9"></script>
+<script type="text/javascript" src="/resources/js/new/net/network.js?v=1.8"></script>
+<script type="text/javascript" src="/resources/js/new/storage/storage.js?v=1.2"></script>
+<!--script type="text/javascript" src="/resources/js/new/lib/jquery.nicescroll.min.js"></script-->
+
+
+
+
+
+<script type="text/javascript">
+LGMM.ERROR=(function(){
+
+   /**
+	* HTTP STATUS ERROR method
+	*
+	* @static
+	* @method _getHttpStatusErrorData
+	* @param {String} parameter String
+	* @return {Object} Returns param Object
+	*/
+	function _getHttpStatusErrorData(__opt){
+		var __msg = '';
+		switch(__opt){
+			case '400':
+				__msg = "400 Bad Request";
+			break;
+			case '401':
+				__msg = "401 Unauthorized";
+			break;
+			case '403':
+				__msg = "403 Forbidden";
+			break;
+			case '405':
+				__msg = "405 Method Not Allowed";
+			break;
+			case '406':
+				__msg = "406 Not Acceptable";
+			break;
+			case '411':
+				__msg = "411 Length Required";
+			break;
+			case '412':
+				__msg = "412 Precondition Failed";
+			break;
+			case '500':
+				__msg = "500 Internal Server Error";
+			break;
+		}
+
+		return {msg: __msg};
+	}
+
+	/**
+	* PLATFORM ERROR method
+	*
+	* @private
+	* @method _getPlatformError
+	* @param {String} parameter String
+	* @return {Object} Returns param Object
+	*/
+	function _getPlatformError(__opt){
+		var obj = null;
+		switch(__opt){
+			case 'EMP.100':
+				obj = {msg:'EMP.100 Invalid request error'};
+			break;
+			case 'EMP.101':
+				obj = {msg:'EMP.101 Invalid mandatory parameter(s)'};
+			break;
+			case 'EMP.102':
+				obj = {msg:'EMP.102 Invalid request error'};
+			break;
+			case 'EMP.103':
+				obj = {msg:'EMP.103 Invalid request error'};
+			break;
+			case 'EMP.105':
+				obj = {msg:'EMP.105 Request System IP address is not authorized by Service Platform'};
+			break;
+			case 'EMP.106':
+				obj = {msg:'EMP.106 Invalid request error a country'};
+			break;
+			case 'EMP.900':
+				obj = {msg:'EMP.900 Service Platform exception in system handling'};
+			break;
+			case 'EMP.901':
+				obj = {msg:'EMP.901 Service Platform external error'};
+			break;
+		}
+
+		return obj;
+	}
+
+	/**
+	* Membership Mobile Error method (ERR.xx)
+	*
+	* @private
+	* @method _getMembershipMobileErr
+	* @param {String} parameter String
+	* @return {Object} Returns param Object
+	*
+	*/
+	var _getMembershipMobileErr = function (__opt){
+		var obj = {msg:''};
+
+		switch(__opt){
+			case 'alert.03':    //인증 메일이 재발송 되었습니다.
+				obj = {msg:"Confirmation email re-sent."};
+			break;
+			case 'alert.14':    //비밀번호 변경이 완료되었습니다.
+				obj = {msg:"Your password has been changed."};
+			break;
+			case 'alert.19':    //13자리 이상 설정 시 기존에 사용하시던 서비스 및 디바이스에서는 로그인에 제한을 받을 수 있습니다. 입력하신 비밀번호로 설정하시겠습니까?
+				obj = {msg:"Setting your password to more than 13 characters may have restriction on signing in to your current services and devices. Do you want to continue as entered?"};
+			break;
+			case 'alert.20':    //고객님의 LG 계정으로 다른 서비스는 정상 이용 하실 수 있습니다. 서비스 탈퇴를 계속 하시겠습니까?
+				obj = {msg:"You may continue to use your LG Account for other services. Do you want to proceed with the LG service cancellation?"};
+			break;
+			case 'alert.22' :    //서비스를 이용하기 위해서는 본인 인증이 필요합니다.
+				obj = {msg:"User identity must be verified to use services."};
+			break;
+			case 'alert.24':    //LG계정과 가입된 모든 서비스에서 탈퇴 처리됩니다. 계속 하시겠습니까?
+				obj = {msg:"You are about to cancel your LG Account and all enrolled services. Do you want to continue?"};
+			break;
+			case 'alert.25':    //해당 서비스에 이미 가입되었습니다.
+				obj = {msg:"You are already registered to the service."};
+			break;
+			case 'alert.26':    //해당 영수 아이디는 이메일 아이디로 이미 전환되었습니다. 전환하신 이메일 아이디로 로그인하시기 바랍니다.
+				obj = {msg:"This alphanumeric ID has already been converted to E-mail ID. Please sign in with the converted E-mail ID."};
+			break;
+			case 'alert.27':    //URL로 접근할 수 없는 페이지입니다. 네트워크 상태를 확인하신 후 다시 접속하시기 바랍니다.
+				obj = {msg:"This page is not a URL accessible page. Please check your network and try again."};
+			break;
+			case 'alert.28':    //입력하신 정보는 다른 계정의 보조 메일로 등록되어 있는 정보 입니다. 다시 로그인 하시기 바랍니다.
+				obj = {msg:"The ID entered is a secondary email of another account. Please sign in with a different ID."};
+			break;
+			case 'alert.30':    //네트워크 상태를 확인하신 후 다시 접속하시기 바랍니다.
+				obj = {msg:"Please check your network and try again."};
+			break;
+			case 'alert.33':    //변경된 내용을 저장하시겠습니까?
+				obj = {msg:"Do you want to save changes made?"};
+			break;
+			case 'alert.37':    //동의 내역이 변경되었습니다.
+				obj = {msg:"The agreement has been changed."};
+			break;
+			case 'alert.38':    //선택 약관 동의를 철회하시면, 서비스 내 일부 기능 사용이 불가능 할 수 있습니다.
+				obj = {msg:"(Optional) If you withdraw your consent for agreements, you may not be able to use some features within the service."};
+			break;
+
+			case 'err_msg.01':  //국가를 선택해주세요.
+				obj = {msg:"Select country\/region."};
+			break;
+			case 'err_msg.02':  //이메일 주소를 입력해주세요.
+				obj = {msg:"Enter a valid email address."};
+			break;
+			case 'err_msg.03':  //사용할 수 없는 이메일 주소입니다.
+				obj = {msg:"Invalid email address."};
+			break;
+			case 'err_msg.04':  //이미 가입된 아이디에 등록된 이메일 주소 입니다. 다른 이메일 주소를 입력해주세요.
+				obj = {msg:"This email address has been registered. Enter another email address."};
+			break;
+			case 'err_msg.05':  //사용 정지된 이메일 주소입니다.
+				obj = {msg:"This email address cannot be used. Please enter another email address."};
+			break;
+			case 'err_msg.06':  //페이스북으로 로그인 된 계정입니다. ‘페이스북 로그인’으로 로그인 하세요.
+				obj = {msg:"This is a Facebook signed up account. Please sign in using \'Sign in with Facebook\'."};
+			break;
+			case 'err_msg.07':  //구글로 로그인 된 계정입니다. ‘구글 로그인’으로 로그인 하세요.
+				obj = {msg:"This is a Google signed up account. Please sign in using \'Sign in with Google\'."};
+			break;
+			case 'err_msg.08':  //아이디 또는 비밀번호가 정확하지 않습니다.
+				obj = {msg:"ID or password is not correct."};
+			break;
+			case 'err_msg.09':  //기존에 가입된 %국가 계정으로 사용할 수 없는 서비스입니다. 서비스 가능 국가 계정으로 가입해 주세요.
+				obj = {msg:"Your LG Account is registered for % only. Please sign up for a new account for the country of this service."};
+			break;
+			case 'err_msg.10':  //서비스를 이용하기 위해서는 영수아이디를 이메일아이디로 전환해야 합니다.
+				obj = {msg:"Convert your ID consisting of alphabets and numbers to email type to use this service."};
+			break;
+			case 'err_msg.11':  //비밀번호를 입력해주세요.
+				obj = {msg:"Enter your password."};
+			break;
+			case 'err_msg.12':  //비밀번호는 8자리 이상으로 영문 대문자, 영문 소문자, 숫자, 특수문자 중 최소 2가지를 포함하여야 합니다.
+				obj = {msg:"Passwords: Min. 8 characters consisting of at least two of the following: upper and lower upper case alphabet letters, numbers, and special characters."};
+			break;
+			case 'err_msg.13':  //3자리 이상 같은 문자나 숫자를 입력하실 수 없습니다. ex) 111, aaa, ###
+				obj = {msg:"Same characters\/numbers can not be used more than 2 times continously. ex)111,aaa,###"};
+			break;
+			case 'err_msg.14':  //3자리 이상 연속된 문자나 숫자를 입력하실 수 없습니다. ex) 123, abc
+				obj = {msg:"more than 2 consecutive characters and numbers are not allowed. ex) 123, abc"};
+			break;
+			case 'err_msg.15':  //이메일과 동일한 비밀번호는 설정하실 수 없습니다.
+				obj = {msg:"The same password with email is not allowed."};
+			break;
+			case 'err_msg.16':  //이전과 동일한 비밀번호는 사용하실 수 없습니다. 새로운 비밀번호를 사용해주세요.
+				obj = {msg:"New password can not be equal to the current password. Please reset the new password."};
+			break;
+			case 'err_msg.17':  //비밀번호 확인을 입력해주세요.
+				obj = {msg:"Confirm the password."};
+			break;
+			case 'err_msg.18':  //입력된 비밀번호와 일치하지 않습니다.
+				obj = {msg:"Password does not match previous entry."};
+			break;
+			case 'err_msg.19':  //현재 비밀번호와 일치하지 않습니다.
+				obj = {msg:"Incorrect password."};
+			break;
+			case 'err_msg.20':  //생년월일을 입력해주세요.
+				obj = {msg:"Enter your date of birth."};
+			break;
+			case 'err_msg.21':  //이름을 입력해주세요.
+				obj = {msg:"Enter your first name."};
+			break;
+			case 'err_msg.22':  //성을 입력해주세요.
+				obj = {msg:"Enter your last name."};
+			break;
+			case 'err_msg.23':  //일치하는 정보가 없습니다.
+				obj = {msg:"Matching data does not exist."};
+			break;
+			case 'err_msg.24':  //회원탈퇴에 동의해주세요.
+				obj = {msg:"Confirm the account deletion."};
+			break;
+			case 'err_msg.25':  //원하시는 탈퇴 서비스를 선택해주세요.
+				obj = {msg:"Select services to cancel."};
+			break;
+			case 'err_msg.26':  //입력하신 정보는 서비스 약관을 준수하지 않습니다.
+				obj = {msg:"The information that you entered does not comply with our terms of service."};
+			break;
+			case 'err_msg.27':  //입력하신 정보는 서비스 약관을 준수하지 않습니다. 귀하의 계정은 영구적으로 삭제됩니다. 자세한 내용은 [800-243-0000]으로 문의하시기 바랍니다.
+				obj = {msg:"The information that you entered does not comply with our terms of service. Your account will be deleted permanently. For more information please contact us at [800-243-0000]."};
+			break;
+			case 'err_msg.28':  //본 서비스는 %세 이상 이용이 가능한 서비스입니다.
+				obj = {msg:"You must be at least % years old to use this service."};
+			break;
+			case 'err_msg.29':  //페이스북으로 로그인한 계정입니다. 페이스북 사이트에서 확인해주세요.
+				obj = {msg:"A Facebook signed in account. Please visit Facebook to reset your password."};
+			break;
+			case 'err_msg.30':  //구글로 로그인한 계정입니다. 구글 사이트에서 확인해주세요.
+				obj = {msg:"A Google signed in account. Please visit Google to reset your password."};
+			break;
+			case 'err_msg.31':  //오늘 날짜 이후로 선택할 수 없습니다.
+				obj = {msg:"Future dates cannot be selected."};
+			break;
+			case 'err_msg.32':  //유효하지 않은 이메일입니다.  다른 이메일 주소를 입력해 주세요.
+				obj = {msg:"Email is not valid. Please enter another email address."};
+			break;
+			case 'err_msg.33':  //가입되어 있지 않은 아이디입니다.
+				obj = {msg:"Invalid ID."};
+			break;
+			case 'err_msg.34':  //이미 페이스북에서 사용 중인 이메일입니다. 다른 이메일 주소를 입력해 주세요.
+				obj = {msg:"The email is already in use on Facebook. Please enter another email address."};
+			break;
+			case 'err_msg.35':  //이미 구글에서 사용 중인 이메일입니다. 다른 이메일 주소를 입력해 주세요.
+				obj = {msg:"Email is already in use on Google. Please enter another email address."};
+			break;
+			case 'err_msg.36':  //사용하는 디바이스와 국가 정보가 일치하지 않습니다. 국가 설정을 변경해주세요.
+				obj = {msg:"Device does not match region settings. Change region settings."};
+			break;
+			case 'err_msg.37':  //모든 약관에 동의해야 합니다.
+				obj = {msg:"You must agree to all terms to proceed."};
+			break;
+			case 'err_msg.38':  //18세 이상이어야 합니다.
+				obj = {msg:"You must be at least 18 years old to proceed."};
+			break;
+			case 'err_msg.39':  //LG 계정으로 이미 가입되어 있는 계정입니다. LG 계정으로 로그인하세요.
+				obj = {msg:"This email has already been registered on LG Account. Please sign in to your LG Account"};
+			break;
+			case 'err_msg.40':  //처리중 오류가 발생 하였습니다.
+				obj = {msg:"Processing error."};
+			break;
+			case 'err_msg.41':  //아이디를 찾을 방법을 선택해주세요.
+				obj = {msg:"Select a method for finding your ID."};
+			break;
+			case 'err_msg.42':  //이메일 아이디의 형식이 잘못되었습니다. 정확하게 입력해주세요.
+				obj = {msg:"Invalid email format. Make sure that the email address has been entered correctly."};
+			break;
+			case 'err_msg.43':  //보안코드를 입력해주세요.
+				obj = {msg:"Type the text in the image."};
+			break;
+			case 'err_msg.44':  //보안코드를 정확히 입력해주세요.
+				obj = {msg:"Enter the security code as shown in the image."};
+			break;
+			case 'err_msg.45':  //이미 사용 중인 이메일 입니다. 다른 이메일 주소를 입력해주세요.
+				obj = {msg:"Email address is already in use. Enter another email address."};
+			break;
+			case 'err_msg.46':  //유효하지 않은 이메일입니다.  다른 이메일 주소를 입력해 주세요.
+				obj = {msg:"Email is not valid. Please enter another email address."};
+			break;
+			case 'err_msg.47':  //주소를 입력해주세요.
+				obj = {msg:"Enter your street address."};
+			break;
+			case 'err_msg.48':  //특수문자는 사용이 불가능합니다.
+				obj = {msg:"Special characters not permitted."};
+			break;
+			case 'err_msg.49':  //우편번호를 입력해주세요.
+				obj = {msg:"Enter your zip code."};
+			break;
+			case 'err_msg.50':  //State를 입력해주세요.
+				obj = {msg:"Enter your state."};
+			break;
+			case 'err_msg.51':  //City를 입력해주세요.
+				obj = {msg:"Enter your city."};
+			break;
+			case 'err_msg.52':  //Street Address를 입력해주세요.
+				obj = {msg:"Enter your street address."};
+			break;
+			case 'err_msg.53':  //해당 콘텐츠는 성인 전용입니다.
+				obj = {msg:"This content is for adults only."};
+			break;
+			case 'err_msg.54':  //성인 콘텐츠에 접근하기 위해 다시 로그인해 주세요.
+				obj = {msg:"Sign in again to access mature content."};
+			break;
+			case 'err_msg.55':  //가입이 가능한 연령이 아닙니다. 계정 정보는 영구히 삭제됩니다. 보다 자세한 내용은 %s에 문의하세요.
+				obj = {msg:"You do not meet the age requirement for account creation. Account information will be deleted permanently. Contact %s for detailed information."};
+			break;
+			case 'err_msg.56':  //비밀번호가 일치하지 않습니다.
+				obj = {msg:"Incorrect password. Please try again."};
+			break;
+			case 'err_msg.57':  //현재 비밀번호를 잘못 입력하셨습니다.
+				obj = {msg:"Check your password again."};
+			break;
+			case 'err_msg.58':  //해당 계정으로 로그인 시 연속적으로 비밀번호 입력 오류가 반복되었습니다.
+				obj = {msg:"Incorrect information was entered on several occasions while attempting to sign in to this account."};
+			break;
+			case 'err_msg.59':  //이메일 아이디 또는 영수 아이디를 입력해주세요.
+				obj = {msg:"Enter your alphanumeric or email ID."};
+			break;
+			case 'err_msg.60':  //이메일 인증이 필요합니다.
+				obj = {msg:"Email verification required."};
+			break;
+			case 'err_msg.61':  //구글로 로그인된 계정입니다. 구글 사이트에서 확인하세요.
+				obj = {msg:"You are using a Google account to access LG Services. Google account users must confirm via Google."};
+			break;
+			case 'err_msg.62':  //로그인이 만료되었습니다. 다시 로그인해 주세요.
+				obj = {msg:"Your session has timed out. Sign in again."};
+			break;
+			case 'err_msg.63':  //구글 또는 페이스북으로 로그인한 계정입니다. 해당 사이트에서 확인해주세요.
+				obj = {msg:"This is a SNS signed in account. Please visit the respective site to reset your password."};
+			break;
+			case 'err_msg.64':  //비밀번호에 사용할 수 없는 특수문자가 포함되어 있습니다.
+				obj = {msg:"Password contains invalid special character(s)."};
+			break;
+			case 'err_msg.65':  //비밀번호를 다시 입력해주세요.
+				obj = {msg:"Enter your password again."};
+			break;
+			case 'err_msg.66':  //현재 비밀번호를 입력해주세요.
+				obj = {msg:"Enter your password."};
+			break;
+			case 'err_msg.67':  //변경할 비밀번호를 입력해주세요.
+				obj = {msg:"Enter the new password."};
+			break;
+			case 'err_msg.68':  //변경할 비밀번호를 다시 입력해주세요.
+				obj = {msg:"Enter the new password again."};
+			break;
+			case 'err_msg.69':  //가입하신 국가에서는 지원하지 않는 서비스입니다.
+				obj = {msg:"This service is not available in your country of sign-up."};
+			break;
+			case 'err_msg.70':  //페이스북으로 로그인 된 계정입니다. 해당 계정으로 로그인 하세요.
+				obj = {msg:"This is a Facebook sign-in account. Please sign in using your Facebook account."};
+			break;
+			case 'err_msg.71':  //구글로 로그인 된 계정입니다. 해당 계정으로 로그인 하세요.
+				obj = {msg:"This is a Google sign-in account. Please sign in using your Google account."};
+			break;
+			case 'err_msg.72':  //SNS로 가입 된 계정입니다. 해당 계정으로 로그인 하세요.
+				obj = {msg:"This is a SNS signed up account. Please sign in using the respective account."};
+			break;
+			case 'err_msg.73':  //페이스북으로 로그인 된 계정입니다. 해당 계정으로 로그인 하시겠습니까?
+				obj = {msg:"This is a Facebook sign-in account. Do you want to sign in with Facebook?"};
+			break;
+			case 'err_msg.74':  //구글로 로그인 된 계정입니다. 해당 계정으로 로그인 하시겠습니까?
+				obj = {msg:"This is a Google sign-in account. Do you want to sign in with Google?"};
+			break;
+			case 'err_msg.75':  //구글 또는 페이스북으로 가입 된 계정입니다. 해당 계정으로 로그인 하시겠습니까?
+				obj = {msg:"This is a Google or Facebook sign-in account. Do you want to sign in with the respective account?"};
+			break;
+			case 'err_msg.76':  //도시를 선택해주세요.
+				obj = {msg:"Select city."};
+			break;
+			case 'err_msg.77':  //도로명을 입력하세요. (2자리 이상)
+				obj = {msg:"Enter road name. (min. 2 characters)"};
+			break;
+			case 'err_msg.78':  //읍/면/동을 입력하세요. (2자리 이상)
+				obj = {msg:"Enter Eup\/Myeon\/Dong. (min. 2 characters)"};
+			break;
+			case 'err_msg.79':  //회원 정보가 일치하지 않습니다.
+				obj = {msg:"You have entered an invalid user ID or password."};
+			break;
+			case 'err_msg.80':  //보조 이메일을 입력해주세요.
+				obj = {msg:"Enter secondary email address."};
+			break;
+			case 'err_msg.81':  //해당 국가에서 사용할 수 있는 서비스가 없습니다. 다른 국가를 선택해 주세요.
+				obj = {msg:"No services available in the selected country. Please select a different country."};
+			break;
+			case 'err_msg.82':  //해당 서비스는 선택하신 국가에서 사용할 수 없습니다. 다른 국가를 선택해 주세요.
+				obj = {msg:"This service is not available in the selected country. Please select a different country."};
+			break;
+			case 'err_msg.83':  //모든 약관을 읽고 동의합니다.
+				obj = {msg:"I have read and agree to all terms & conditions."};
+			break;
+			case 'err_msg.84':  //입력 시간이 만료되었습니다. 다시 시도해주세요
+				obj = {msg:"Input session has timed out. Please try again."};
+			break;
+			case 'err_msg.85':  //대표 보조 이메일을 설정해주세요.
+				obj = {msg:"Please select your primary alternate email."};
+			break;
+			case 'err_msg.86':  //유효하지 않은 계정이거나, 가입된 서비스가 없습니다
+				obj = {msg:"The account is invalid, or you are not subscribed to any services."};
+			break;
+			case 'err_msg.87':  //사용 정지된 이메일 주소입니다.
+				obj = {msg:"This email address has been disabled."};
+			break;
+			case 'err_msg.88':  //비밀번호를 재설정 하려면 기기의 국가 설정과 계정 정보의 국가 설정이 동일해야 합니다.
+				obj = {msg:"To be able to reset your password, the country setting on your device needs to match the one you entered in your account information."};
+			break;
+			case 'err_msg.89':  //기기의 국가 설정을 변경하시거나, 신규 계정을 생성하여 사용하시기 바랍니다.
+				obj = {msg:"Please change the country setting of your device or sign up for a new account."};
+			break;
+			case 'err_msg.90':  //비밀번호를 재설정 하시려면 회원가입 시 발송된 이메일의 인증이 필요합니다.
+				obj = {msg:"You must first verify your Email via the Verification Email sent to at sign-up before resetting your password."};
+			break;
+			case 'err_msg.93':  //선택 약관에 동의하지 않았습니다.
+				obj = {msg:"Please agree to the optional terms of use to continue."};
+			break;
+			case 'err_msg.94':  //원격연결기능 서비스를 제공하기 위해서 필요한 최소한의 개인정보이므로 동의를 해 주셔야만 서비스를 이용할 수 있습니다.
+				obj = {msg:"By agreeing to those terms, you consent to provide your personal information necessary in order for you to use our remote connection service."};
+			break;
+			case 'err_msg.97':  //라인으로 가입 된 계정입니다. '라인 로그인'으로 로그인 하세요.
+				obj = {msg:"This is a LINE signed up account. Please sign in using \'Sign in with LINE\'."};
+			break;
+			case 'err_msg.99':  //LG 계정 생성 및 제품 등록은 LG Smart ThinQ App에서 이용해주시기 바랍니다.
+				obj = {msg:"Use the LG Smart ThinQ app to create an account. Then follow the steps necessary to register your product."};
+			break;
+			case 'err_msg.101':  //현재 고객님의 국가에서는 지원되지 않는 서비스입니다.
+				obj = {msg:"Currently, the service is not supported in your country."};
+			break;
+			case 'err_msg.103':  //네이버로 가입 된 계정입니다. '네이버 로그인'으로 로그인 하세요.
+				obj = {msg:"This is a Naver signed up account. Please sign in using \'Sign in with Naver\'."};
+			break;
+			case 'err_msg.105':  //네이버로 로그인 하시려면 '확인' 버튼을 눌러주세요.
+				obj = {msg:"네이버로 로그인 하시려면 \'확인\' 버튼을 눌러주세요."};
+			break;
+			case 'err_msg.106':  //네이버로 가입 된 계정입니다. '네이버 로그인'으로 로그인 하세요.
+				obj = {msg:"이메일 아이디를 이용하시려면 \'새 계정 만들기\'를 선택하여 신규 계정을 생성해주세요."};
+			break;
+			case 'err_msg.107':  //LG 계정으로 이미 가입되어 있는 아이디(이메일)입니다.
+                obj = {msg:"LG 계정으로 이미 가입되어 있는 아이디(이메일)입니다."};
+            break;
+            case 'err_msg.108':  //기존 계정을 사용하려면 '취소' 후 LG 계정 로그인화면에서 아이디/패스워드를 입력해 주세요.
+                obj = {msg:"기존 계정을 사용하려면 \'취소\' 후 LG 계정 로그인화면에서 아이디\/패스워드를 입력해 주세요."};
+            break;
+            case 'err_msg.109':  // '확인'을 누르면 네이버 로그인으로 신규 가입되며 기존 LG 계정과 연동되지 않습니다.
+                obj = {msg:"확인\'을 누르면 네이버 로그인으로 신규 가입되며 기존 LG 계정과 연동되지 않습니다."};
+            break;
+            case 'err_msg.110':  // 아마존으로 가입 된 계정입니다. ‘아마존 로그인’으로 로그인 하세요.'
+                obj = {msg:"This is a Amazon signed up account. Please sign in using \'Sign in with Amazon\'."};
+            break;
+            case 'err_msg.111':  // 아마존 계정으로 로그인한 고객님은 다시 한번 로그인 해주세요.
+                obj = {msg:"Please log in again using your Amazon account."};
+            break;
+            case 'err_msg.112':  // 아마존으로 가입 된 계정입니다. 아마존 사이트에서 확인해주세요.
+                obj = {msg:"This is a Amazon signed up account. Please visit Amazon to reset your password."};
+            break;
+            case 'err_msg.113':  // 잘못된 요청입니다.
+                obj = {msg:"The webpage cannot be found."};
+            break;
+            case 'err_msg.114':  // 잘못된 요청입니다.
+                obj = {msg:"The webpage cannot be found. Unauthorized Access : Access is denied due to invalid credentials"};
+            break;
+            case 'err_msg.115':  // 잘못된 요청입니다.
+                obj = {msg:"We\'re sorry! The server encountered an internal error and was unable to complete your request. If the problem persists, please contact us at contact.lgaccount@lge.com"};
+            break;
+            case 'err_msg.116':  // 네이버로 가입 된 계정입니다. 네이버 사이트에서 확인해주세요.
+                obj = {msg:"This is a Naver signed up account. Please visit Naver to reset your password."};
+            break;
+            case 'err_msg.temp':  // 일시적으로 서비스를 사용할 수 없습니다.
+                obj = {msg:"일시적으로 서비스를 사용할 수 없습니다."};
+            break;
+            
+			case 'JS_alert.1':  //[LG Cloud] 일부 서비스 종료 안내
+				obj = {msg:"[LG Cloud] Partial Service Discontinuation Announcement"};
+			break;
+			case 'JS_alert.2':  //그 동안 LG Cloud를 이용해주신 모든 고객님들께 진심으로 감사의 인사를 드립니다.
+				obj = {msg:"Dear valued clients,Thank you for your patronage to LG Cloud up until now."};
+			break;
+			case 'JS_alert.3':  //서비스 운영정책이 변경됨에 따라 2015년 12월 1일부로 LG Cloud 일부 서비스가 종료됨을 알려드립니다.
+				obj = {msg:"We wish to inform you that a portion of LG Cloud services will be discontinued as of December 1st, 2015 due to changes in operation policies."};
+			break;
+			case 'JS_alert.4':  //아래 내용 확인하시어 이용에 불편 없으시길 바랍니다.
+				obj = {msg:"Please read the following contents carefully, so as to avoid any inconvenience during the transition."};
+			break;
+			case 'JS_alert.5':  //종료 서비스
+				obj = {msg:"Services to be Discontinued"};
+			break;
+			case 'JS_alert.6':  //＊LG Cloud의 TV 앱, 모바일(Android,iOS) 앱, PC 앱, 웹사이트(lgecloud.com)
+				obj = {msg:"＊LG Cloud’s TV app, mobile(Android, iOS) app, PC app, website(lgecloud.com)"};
+			break;
+			case 'JS_alert.7':  //＊LG 스마트폰의 갤러리/ 뮤직/ 파일관리자(폴라리스오피스)와 연동된 LG Cloud 서비스
+				obj = {msg:"＊LG Cloud synced with Gallery, Music, and File Manager(Polaris Office) on LG Smartphones"};
+			break;
+			case 'JS_alert.8':  //유지 서비스
+				obj = {msg:"Continuing Services"};
+			break;
+			case 'JS_alert.9':  //＊LG 스마트폰의 LG 백업 앱과 연동된 LG Cloud 서비스
+				obj = {msg:"＊LG Cloud synced with the LG Backup app on LG smartphones (Discontinuation expected on Septermber 1, 2016)"};
+			break;
+			case 'JS_alert.10': //＊LG 스마트TV의 아바타북 앱과 연동된 LG Cloud 서비스
+				obj = {msg:"＊LG Cloud synced with LG Smart TV\'s AvatarBook app (Discontinuation expected on June 30, 2016)"};
+			break;
+			case 'JS_alert.11': //＊LG 3D 캠코더의 LG Cloud 파일 저장 기능
+				obj = {msg:"＊LG Cloud synced with LG 3D camcorders (Discontinuation expected on June 30, 2016)"};
+			break;
+			case 'JS_alert.12': //2016년 1월 4일, LG Cloud에 저장되어있는 파일을 포함한 모든 개인 정보는 삭제될 예정입니다.
+				obj = {msg:"On January 4th, 2016, all personal information and data stored in LG Cloud will be deleted."};
+			break;
+			case 'JS_alert.13': //2015년 12월 31일까지 LG Cloud에 업로드 하셨던 파일을 반드시 백업 받으시기를 바랍니다.
+				obj = {msg:"We strongly recommend that you back up your LG Cloud data before December 31st, 2015."};
+			break;
+			case 'JS_alert.14': //그 동안 LG Cloud를 이용해 주셔서 다시 한 번 감사 드립니다.
+				obj = {msg:"Thank you again for using LG Cloud."};
+			break;
+			case 'JS_alert.15': //＊국가별 일정이 상이할 수 있음
+				obj = {msg:"＊Schedule may differ from country to country"};
+			break;
+			case 'JS_alert.16': //＊보다 자세한 사항은 LG Cloud 웹사이트(lgecloud.com)를 확인 해 주시길 바랍니다.
+				obj = {msg:"＊Please visit LG Cloud’s website(lgecloud.com) for more information."};
+			break;
+			case 'JS_alert.17': //[LG Cloud] Service Discontinuation Notice
+				obj = {msg:"[LG Cloud] Service Discontinuation Notice"};
+			break;
+			case 'JS_alert.18': //Dear valued clients.
+				obj = {msg:"Dear valued clients."};
+			break;
+			case 'JS_alert.19': //We regret to inform you that LG Cloud services will be discontinued due to changes in operational policies.
+				obj = {msg:"We regret to inform you that LG Cloud services will be discontinued due to changes in operational policies."};
+			break;
+			case 'JS_alert.20': //Please read the following contents carefully, so as to avoid any future inconvenience.
+				obj = {msg:"Please read the following contents carefully, so as to avoid any future inconvenience."};
+			break;
+			case 'JS_alert.21': //■ Date of Effect : June. 30th, 2016 at 00:00 (GMT +0)
+				obj = {msg:"■ Date of Effect : June. 30th, 2016 at 00:00 (GMT +0)"};
+			break;
+			case 'JS_alert.22': //■ Personal Information & Data Destruction :  starts Sept. 5th, 2016
+				obj = {msg:"■ Personal Information & Data Destruction :  starts Sept. 5th, 2016"};
+			break;
+			case 'JS_alert.23': //Note that the “LG Cloud as storage space” function on LG Backup will be discontinued on September 1st, 2016.
+				obj = {msg:"Note that the “LG Cloud as storage space” function on LG Backup will be discontinued on September 1st, 2016."};
+			break;
+			case 'JS_alert.24': //Your LG Backup account information and files backed up from your device will be kept until August 31st, 2016, but all other files you uploaded to LG Cloud will be deleted.
+				obj = {msg:"Your LG Backup account information and files backed up from your device will be kept until August 31st, 2016, but all other files you uploaded to LG Cloud will be deleted."};
+			break;
+			case 'JS_alert.25': //Smartphone backup data can only be viewed with the LG Backup service/app.
+				obj = {msg:"Smartphone backup data can only be viewed with the LG Backup service\/app."};
+			break;
+			case 'JS_alert.26': //Please back up all your files uploaded to LG Cloud by Sept. 4th, 2016.
+				obj = {msg:"Please back up all your files uploaded to LG Cloud by Sept. 4th, 2016."};
+			break;
+			case 'JS_alert.27': //We recommend you use the PC app as you can choose to download entire folders.
+				obj = {msg:"We recommend you use the PC app as you can choose to download entire folders."};
+			break;
+			case 'JS_alert.28': //Thank you once again for using LG Cloud.
+				obj = {msg:"Thank you once again for using LG Cloud."};
+			break;
+			case 'JS_alert.29': //Notice
+				obj = {msg:"Notice"};
+			break;
+			case 'JS_alert.30': //Due to the changes with the LG Backup service policy, the LG Cloud service that you have been using on LG Backup will be discontinued.
+				obj = {msg:"Due to the changes with the LG Backup service policy, the LG Cloud service that you have been using on LG Backup will be discontinued."};
+			break;
+			case 'JS_alert.31': //■ Date of Effect : September 1st, 2016 00:00 (GMT +0)
+				obj = {msg:"■ Date of Effect : September 1st, 2016 00:00 (GMT +0)"};
+			break;
+			case 'JS_alert.32': //■ Affected Service : The 'LG Cloud as storage space' function on LG Backup
+				obj = {msg:"■ Affected Service : The \'LG Cloud as storage space\' function on LG Backup"};
+			break;
+			case 'JS_alert.33': //(※ The changes will not affect other storage service on LG Backup)
+				obj = {msg:"(※ The changes will not affect other storage service on LG Backup)"};
+			break;
+			case 'JS_alert.34': //■ Note on Personal Information Destruction
+				obj = {msg:"■ Note on Personal Information Destruction"};
+			break;
+			case 'JS_alert.35': //After August 31st, 2016, all your files uploaded to LG Cloud will be deleted progressively and your LG Cloud membership will be cancelled.
+				obj = {msg:"After August 31st, 2016, all your files uploaded to LG Cloud will be deleted progressively and your LG Cloud membership will be cancelled."};
+			break;
+			case 'JS_alert.36': //We sincerely thank you for your patronage to LG Cloud until now.
+				obj = {msg:"We sincerely thank you for your patronage to LG Cloud until now."};
+			break;
+
+
+			case 'M0021.01' :   //LG 계정
+				obj = {msg:"LG Account"};
+			break;
+			case 'M0023.02' :	//아이디 [%]는 확인 되었으나, 인증 받은 보조 이메일 정보가 없어 비밀번호 재설정 메일을 발송할 수 없습니다.
+				obj = {msg:"The ID [%] has been verified. However, an email with instructions to reset your password cannot be sent as no verified secondary email information exists."};
+			break;
+			case 'M0023.03' :	//보조 이메일의 메일인증을 받은 후 다시 시도하시거나 새로운 계정을 만들어 이용해주시기 바랍니다.
+				obj = {msg:"Please verify your secondary email and try again, or create new LG Account to use the service."};
+			break;
+			case 'M003.02' :    //LG 계정 이용약관
+				obj = {msg:"LG Account terms & conditions"};
+			break;
+			case 'M0111.01' :   //이미 가입이 완료 되었습니다.
+				obj = {msg:"You are already a registered member."};
+			break;
+			case 'M018.04' :    //비밀번호는 8자리 이상으로 영문 대문자, 영문 소문자, 숫자, 특수문자 중 3가지 이상의 조합으로 사용하시는 것을 권장합니다.
+				obj = {msg:"It is advisable to use passwords that are min. 8 characters and contain a combination of three or more of the following: upper and lower upper case alphabet letters, numbers, and special characters."};
+			break;
+			case 'M018.07' :    //아이디와 동일한 비밀번호를 사용하지 않습니다.
+				obj = {msg:"Passwords cannot be identical to the user ID."};
+			break;
+			case 'M0192.02':    //검색 결과가 없습니다.
+				obj = {msg:"No results."};
+			break;
+			case 'M045-1.01' :  //20회 이상 로그인 실패 시에는 해당 아이디 사용이 불가능하오니 비밀번호 확인하신 후 다시 로그인하시기 바랍니다.
+				obj = {msg:"After 20 failed attempts to sign in, you will not be able to use the ID. Please make sure to enter the correct password to sign in."};
+			break;
+			case 'M047.01' :    //등록된 게시물이 없습니다.
+				obj = {msg:"No post available."};
+			break;
+			case 'M060.01' :    //다시 시도해주세요.
+				obj = {msg:"Please try again."};
+			break;
+
+
+			case 'Onyx.01' :    //로그인 중…
+				obj = {msg:"Logging in…"};
+			break;
+			case 'Onyx.02' :    //로딩 중…
+				obj = {msg:"Loading..."};
+			break;
+		}
+
+		return obj;
+	};
+
+	/**
+	* ERROR method
+	*
+	* @static
+	* @method _getErrorData
+	* @param {String} parameter String
+	* @return {Object} Returns param Object
+	*/
+	function _getErrorData(__opt){
+		var obj = {msg:''},
+			msg = __opt,
+			chkTxt = msg.substr(0,3);
+
+		switch(chkTxt){
+			case 'EMP':
+				obj = _getPlatformError(msg);
+			break;
+
+			default :
+				obj = _getMembershipMobileErr(msg);
+		}
+
+		return obj;
+	}
+
+	return {
+		getHttpStatusErrorData  : _getHttpStatusErrorData,
+		getErrorData            : _getErrorData
+	};
+})();
+</script>
+
+<script type="text/javascript">
+		var __callbackUrl = "";
+		var code_to_country = {
+			"AE" : 'United Arab Emirates',
+			"AL" : 'Albania',
+			"AM" : 'Armenia',
+			"AO" : 'Angola',
+			"AR" : 'Argentina',
+			"AT" : 'Austria',
+			"AU" : 'Australia',
+			"AZ" : 'Azerbaijan',
+			"BA" : 'Bosnia and Herzegovina',
+			"BD" : 'Bangladesh',
+			"BE" : 'Belgium',
+			"BF" : 'Burkina Faso',
+			"BG" : 'Bulgaria',
+			"BH" : 'Bahrain',
+			"BI" : 'Burundi',
+			"BJ" : 'Benin',
+			"BO" : 'Bolivia',
+			"BR" : 'Brazil',
+			"BY" : 'Belarus',
+			"CA" : 'Canada',
+			"CD" : 'DR Congo',
+			"CF" : 'Central African Republic',
+			"CG" : 'Congo',
+			"CH" : 'Switzerland',
+			"CI" : 'Cote D\'ivoire',
+			"CL" : 'Chile',
+			"CM" : 'Cameroon',
+			"CN" : 'China',
+			"CO" : 'Colombia',
+			"CR" : 'Costa Rica',
+			"CV" : 'Cape Verde',
+			"CZ" : 'Czech Republic',
+			"DE" : 'Germany',
+			"DJ" : 'Djibouti',
+			"DK" : 'Denmark',
+			"DM" : 'Dominica',
+			"DO" : 'Dominican Republic',
+			"DZ" : 'Algeria',
+			"EC" : 'Ecuador',
+			"EE" : 'Estonia',
+			"EG" : 'Egypt',
+			"ER" : 'Eritrea',
+			"ES" : 'Spain',
+			"ET" : 'Ethiopia',
+			"FI" : 'Finland',
+			"FR" : 'France',
+			"GA" : 'Gabon',
+			"GB" : 'United Kingdom',
+			"GE" : 'Georgia',
+			"GH" : 'Ghana',
+			"GM" : 'Gambia',
+			"GN" : 'Guinea',
+			"GQ" : 'Equatorial Guinea',
+			"GR" : 'Greece',
+			"GT" : 'Guatemala',
+			"GW" : 'Guinea Bissau',
+			"HK" : 'Hong Kong',
+			"HN" : 'Honduras',
+			"HR" : 'Croatia',
+			"HU" : 'Hungary',
+			"ID" : 'Indonesia',
+			"IE" : 'Ireland',
+			"IL" : 'Israel',
+			"IN" : 'India',
+			"IQ" : 'Iraq',
+			"IR" : 'Iran (Islamic Republic of)',
+			"IT" : 'Italy',
+			"JM" : 'Jamaica',
+			"JO" : 'Jordan',
+			"JP" : 'Japan',
+			"KE" : 'Kenya',
+			"KG" : 'Kyrgyzstan',
+			"KH" : 'Cambodia',
+			"KR" : 'Korea',
+			"KW" : 'Kuwait',
+			"KZ" : 'Kazakhstan',
+			"LB" : 'Lebanon',
+			"LK" : 'Sri lanka',
+			"LR" : 'Liberia',
+			"LT" : 'Lithuania',
+			"LU" : 'Luxembourg',
+			"LV" : 'Latvia',
+			"MA" : 'Morocco',
+			"MK" : 'Republic of Macedonia',
+			"ML" : 'Mali',
+			"MM" : 'Myanmar',
+			"MN" : 'Mongolia',
+			"MR" : 'Mauritania',
+			"MT" : 'Malta',
+			"MW" : 'Malawi',
+			"MX" : 'Mexico',
+			"MY" : 'Malaysia',
+			"NE" : 'Niger',
+			"NG" : 'Nigeria',
+			"NI" : 'Nicaragua',
+			"NL" : 'Netherlands',
+			"NO" : 'Norway',
+			"NP" : 'Nepal',
+			"NZ" : 'New Zealand',
+			"OM" : 'Oman',
+			"PA" : 'Panama',
+			"PE" : 'Peru',
+			"PH" : 'Philippines',
+			"PK" : 'Pakistan',
+			"PL" : 'Poland',
+			"PR" : 'Puerto Rico',
+			"PS" : 'Palestine',
+			"PT" : 'Portugal',
+			"PY" : 'Paraguay',
+			"QA" : 'Qatar',
+			"RO" : 'Romania',
+			"RS" : 'Serbia',
+			"RU" : 'Russian Federation',
+			"RW" : 'Rwanda',
+			"SA" : 'Saudi Arabia',
+			"SC" : 'Seychelles',
+			"SD" : 'Sudan',
+			"SE" : 'Sweden',
+			"SG" : 'Singapore',
+			"SI" : 'Slovenia',
+			"SK" : 'Slovakia',
+			"SL" : 'Sierra Leone',
+			"SN" : 'Senegal',
+			"SO" : 'Somalia',
+			"ST" : 'Sao Tome & Principe',
+			"SV" : 'El Salvador',
+			"SY" : 'Syria',
+			"TD" : 'Chad',
+			"TG" : 'Togo',
+			"TH" : 'Thailand',
+			"TN" : 'Tunisia',
+			"TR" : 'Turkey',
+			"TW" : 'Taiwan',
+			"TZ" : 'Tanzania',
+			"UA" : 'Ukraine',
+			"UG" : 'Uganda',
+			"US" : 'U.S.A',
+			"UY" : 'Uruguay',
+			"UZ" : 'Uzbekistan',
+			"VE" : 'Venezuela',
+			"VN" : 'Vietnam',
+			"XK" : 'Kosovo',
+			"YT" : 'Mayotte',
+			"ZA" : 'South Africa',
+			"ZM" : 'Zambia'
+		};
+		
+		function searchKey(KEY_NAME) {
+			var returnData = ""; 
+			$.ajax({
+				  type  : "POST",
+				  url   : LGMM.DEFAULT_CONTEXT_PATH + '/searchKey',
+				  async : false,
+				  data  : {
+					  key_name   : KEY_NAME,
+					  sever_type : LGMM.SERVER_TYPE
+				  },
+				  success : function(data) {
+					  var JSONData = JSON.parse(data);
+					  LGMUtil.debug( JSONData.returnData );
+					  returnData = JSONData.returnData;
+				  },
+				  error : function() { }
+			});
+			LGMUtil.debug("=-= return returnData =-=");
+			LGMUtil.debug( returnData );
+			return returnData;
+		};
+		//$(document).ready(function(){
+		//  $('body').on('touchstart', function(e){});
+		//});
+</script>
+	<script type="text/javascript" src="/resources/js/new/lib/modernizr.js"></script> <!-- for date picker -->
+	<script type="text/javascript" src="/resources/div_cm/js/lib/jquery.placeholder.min.js"></script>
+	<script type="text/javascript" src="/resources/div_cm/js/lib/m_plugin.js?v=1.0"></script>
+</head>
+
+<body class="en-us" data-country="US" data-lang="en">
+	<div id="wrap">
+
+		<div class="header">
+			<h1 id="termsTypeName">Privacy Policy</h1> <!-- 약관 명 -->
+		</div>
+
+		<div class="section tit_pad">
+		
+			<div class="terms_select_area" id="terms_history" style="">
+				<fieldset>
+					<legend class="hide-text">이용약관 상세보기 - 약관을 선택하시면 볼 수 있습니다.</legend>
+					<label for="terms_list" class="hide-text">약관 선택</label>
+					<select name="" id="terms_list" class="form-control" title="약관 선택"><option id="20190612001_US">Effective date 2019/06/12</option><option id="20190429001_US">Previous Implementation Date 2019/04/30</option><option id="20190107004_US">Previous Implementation Date 2019/01/07</option><option id="20181102001_US">Previous Implementation Date 2018/11/08</option><option id="20170912039_US">Previous Implementation Date 2017/10/18</option><option id="20151211007_US">Previous Implementation Date 2015/11/30</option></select>
+				</fieldset>
+			</div>
+		
+			<form class="terms">
+				<fieldset>
+					<legend>terms contents</legend>
+					<div class="terms_paragraph">
+					</div>
+
+					<button type="button" title="OK" class="main_btn_fo" id="btnConfirm">OK</button>
+				</fieldset>
+			</form>
+		</div>
+
+		<!-- footer -->
+		
+
+
+		<div class="footer">
+			<div class="footerCopy">
+				<span>Copyright © LG Electronics. All Rights Reserved.</span>
+				<button style="display:none;" type="button" title="Customer support" class="btn_support">Customer support</button>
+			</div>
+		</div>
+
+<script type="text/javascript">
+if(window.location.pathname.indexOf("login/sign_in") > -1 && window.location.pathname.indexOf("login/sign_in_lock") === -1){
+	$(".btn_support").show();
+	$(".btn_support").on('click', function(_e){
+		_e.preventDefault();
+		LGMUtil.formSubmit('/member/support', 'post', __params);
+	});
+}
+</script>
+
+
+	</div>
+
+<script type="text/javascript">
+	var _country = "US"
+		, _language = "en-US"
+		, _division = ""
+		, _callbackUrl = ""
+		, _terms_div = "update"
+		, _terms_svcCode = "SVC202"
+		, _terms_type = "PRV_SMARTHOME"
+		, _terms_id = ""
+		, _terms_publish = ""
+		, _third_party_service_name = ""
+		, _terms_url = ''
+		;
+	var terms_url_list = [];
+	if (LGMUtil.isNull( _country ) ) {
+		_country = "KR";
+	}
+	if (LGMUtil.isNull( _language ) ) {
+		_language = "ko-KR";
+	}
+	if (LGMUtil.isNull( _terms_div ) ) {
+		_terms_div = "update";
+	}
+
+	var __params = {
+		country     : _country,
+		language    : _language,
+		division	: _division,
+		callbackUrl : _callbackUrl
+	};
+
+	var timestampG = "1585186445"; // UtilFnc.getTimestamp
+	var signatureG = "kCnDPul8+SepGABMn+hL12T/PoNlJ5D+EsOqoci1ppw="; // UtilFnc.getSignatureHash
+
+	var _referrer = document.referrer;
+	$('#btnConfirm').on('click', function(__e) {
+		
+		if(_division.toUpperCase() === "HA" || _division.toUpperCase() === "HA:T20") {
+			_callbackUrl = 'iabClose';
+			LGMUtil.externSubmit(_callbackUrl, 'GET', {
+				errorCode           : 940,
+				errorDescription    : 'cancel'
+			});
+		} else {
+			if(_referrer.indexOf('customer/notice_terms') !== -1) {
+				window.history.back();
+			} else {
+				if( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+					window.history.back();
+				} else{
+					self.close();	
+				}
+				
+			}
+		}
+		
+		
+	});
+	
+	$("#terms_list").on("change", function() {
+		var idx = $("#terms_list option").index($("#terms_list option:selected"));
+		//alert(idx);
+		_setTermsDetail(terms_url_list[idx]);
+	}); 
+
+	$(window).ready(function(){
+		$("#terms_history").show();
+		_getTermsHistoryAPI();
+		_setTermsDetail(_terms_url);
+		
+		if(_division.toUpperCase() === "HA:WEBOS"){
+			$("#btnConfirm").hide();
+		}
+		
+	});
+
+	/**
+	 * 약관 히스토리 조회
+	 * @private
+	 */
+	function _getTermsHistoryAPI() {
+		if (_country === ''
+		|| _language === ''
+		|| _terms_svcCode === ''
+		|| _terms_type === '') {
+			return;
+		}
+		var api_url='';
+		
+		if (_terms_svcCode !== 'SVC709' && LGMUtil.isNull(_third_party_service_name)) {
+			_terms_svcCode = _terms_svcCode + ":" + _terms_type;    // 해당 약관 타입의 히스토리만 조회
+			api_url = LGMM.DEFAULT_API_URL + '/info/terms/history?req_cond=003&lang_type=001&opt_term_cond=100&term_data=';
+		}else if(_terms_svcCode !== 'SVC709' && !LGMUtil.isNull(_third_party_service_name)){
+			_terms_svcCode = "";
+			api_url = LGMM.DEFAULT_API_URL + '/info/terms/history?req_cond=003&lang_type=001&opt_term_cond=001&third_party_service_name='+_third_party_service_name;
+		}else{
+			api_url = LGMM.DEFAULT_API_URL + '/info/terms/history?req_cond=003&lang_type=001&opt_term_cond=001&term_data=';
+		}
+		
+		var cn_biz_info_param = '' ;
+				
+        if(_country === 'CN' && _terms_svcCode.substring(0,6) === 'SVC301'){
+        	cn_biz_info_param = '&cn_biz_info=C01';
+        }
+			
+		var _callAPI = {
+			getHeader: function () {
+				var obj = LGMUtil.sendHeader({
+					country         : _country,
+					language        : _language,
+					terms_publish   : _terms_publish
+				});
+				return obj;
+			},
+			call: function () {				
+				LGMNetwork.callAPI({
+					url         : api_url + _terms_svcCode + cn_biz_info_param,
+					type        : 'GET',
+					headerObj   : this.getHeader(),
+					successFn   : { fn: this.successFn, scope: this },
+					failFn      : { fn: this.failFn, scope: this }
+				});
+			},
+			successFn: function (__data) {
+				$('#terms_list').empty();
+				if (__data['info']) {
+					var terms_type = '';
+
+					if(_terms_svcCode.indexOf("SVC709") > -1 &&_terms_div === 'termsOfService') { //A_MEM
+						terms_type = 'A_MEM';
+					}else if(_terms_svcCode.indexOf("SVC709") > -1 && _terms_div == 'privatePolicy') { //A_PRV
+						terms_type = 'A_PRV';
+					}else{
+						terms_type = _terms_type;
+					}
+
+					var _first_url = '';
+
+					for(var i=0; i<__data['info']['terms'].length; i++) {
+						if(terms_type === __data['info']['terms'][i]['termsType']) {
+							if( $('#termsTypeName').text() === '') {
+								document.title = __data['info']['terms'][i]['termsTypeName'];
+								$('#termsTypeName').text( __data['info']['terms'][i]['termsTypeName'] );    // 약관 명
+							}
+
+							if( _first_url === '' ) {
+								_first_url = __data['info']['terms'][i]['termUrlList'][0].url;
+							}
+
+							if(_terms_id === __data['info']['terms'][i]['termsID']) {
+								_terms_url = __data['info']['terms'][i]['termUrlList'][0].url;
+								break;
+						   }
+							
+							var year = __data['info']['terms'][i].applyStartDate.substring(0,4)+"/";
+							var month = __data['info']['terms'][i].applyStartDate.substring(4,6)+"/";
+							var day = __data['info']['terms'][i].applyStartDate.substring(6,8);
+							if(i== 0){
+								var option = $("<option id='" + __data['info']['terms'][i]['termsID'] +"'>Effective date "+year+month+day+"</option>");
+							}else {
+								var option = $("<option id='" + __data['info']['terms'][i]['termsID'] +"'>Previous Implementation Date "+year+month+day+"</option>");
+							}
+			                $('#terms_list').append(option);
+			                terms_url_list[i] = __data['info']['terms'][i].termUrlList[0].url;
+						}
+						
+					}
+
+					if( _terms_url === '') {
+						_terms_url = _first_url;
+					}
+
+				} else {
+					this.failFn(__data);
+				}
+			},
+			failFn: function (__data) {
+				return false;
+			}
+		};
+
+		_callAPI.call();
+	}
+
+
+	function _setTermsDetail(_url) {
+		if(LGMUtil.isNull(_url)) {
+			return;
+		}
+
+		var  fnc = {
+			done: function (___msg) {
+				$('.terms_paragraph').html(___msg);
+			},
+			fail: function (___msg) {
+				$('.terms_paragraph').html('');
+			}
+		};
+
+		LGMNetwork.loadHTML({
+			url    : LGMM.PROXY_HTML, // url (서버로 호출)
+			target : _url,
+			done   : { fn: fnc.done, scope: fnc },
+			fail   : { fn: fnc.fail, scope: fnc }
+		});
+	}
+</script>
+
+</body></html>

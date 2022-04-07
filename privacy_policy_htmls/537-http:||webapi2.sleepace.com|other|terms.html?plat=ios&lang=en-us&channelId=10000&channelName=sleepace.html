@@ -1,0 +1,146 @@
+<html class="pixel-ratio-1 watch-active-state"><head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>terms</title>
+		<link rel="stylesheet" href="//resource.sleepace.com/static/resource/
+apph5/framework7/css/framework7.ios.css">
+		<link rel="stylesheet" href="//resource.sleepace.com/static/resource/
+apph5/framework7/css/framework7.ios.colors.min.css">
+		<link rel="stylesheet" href="//resource.sleepace.com/static/resource/
+apph5/framework7/css/app.css?v1.0.12
+">
+		<style>
+			.terms_box{
+				padding: 15px;
+			}
+			.terms_box *{
+				font-size: 15px;
+				line-height: 24px;
+			}
+			.terms_box p{
+				margin: 10px 0 0 0;
+			}
+		</style>
+	</head>
+
+	<body class="theme-white channel-id-10000">
+		<div class="views">
+			<div class="view view-main" data-page="index">
+
+				<div class="navbar" style="height: 44px;">
+					<div class="navbar-inner" style="top: 0px;">
+						<div class="left">
+							<a href="#" class="link back-app"> <i class="icon icon-back"></i></a>
+						</div>
+						<div class="center title" style="left: -300px;"></div>
+					</div>
+				</div>
+
+				<div class="pages">
+					<div data-page="index" class="page toolbar-fixed">
+						<div class="page-content" style="margin: 44px 0px 78px; padding-bottom: 70px;">
+							<div class="terms_box"></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<script type="text/javascript" src="//resource.sleepace.com/static/resource/
+apph5/framework7/js/framework7.min.js"></script>
+		<script type="text/javascript" src="//resource.sleepace.com/static/resource/
+js/getUrlParam.js"></script>
+		<script type="text/javascript" src="//resource.sleepace.com/static/resource/
+apph5/framework7/js/init-app.js?v1.0.12
+"></script>
+		<script>
+			var lang = getUrlParam('lang');
+			var channelName= getUrlParam('channelName');
+			var plat = getUrlParam('plat');
+			var channelId= getUrlParam('channelId');
+			var isIphoneX = getUrlParam('isIphoneX');
+			var browsHeight = getBrowsHeight();
+			if(lang=='zh-cn'){
+				lang='zh'
+			}
+			if(lang=='en-us'){
+				lang='en'
+			}
+			if (lang == 'ja') {
+				$$('body').css('font-family', 'meiryo');
+			}
+
+			$$('body').addClass('channel-id-'+channelId)
+			$$.ajax({
+				url: "/pro/terms/info",
+				type: "GET",
+				dataType: "json",
+				data: {
+					lang: lang,
+					channelId:channelId,
+					channelName:channelName
+				},
+				success: function(data) {
+					if (data.status) {
+						return
+					}
+//					$$(".title").text(data.data.title);
+					$$(".terms_box").html(data.data.content);
+				},
+				error: function(e) {
+
+				}
+			});
+
+			$$('.navbar').css('height', (browsHeight + 44) + 'px');
+			$$('.navbar .navbar-inner').css('top', browsHeight + 'px');
+			$$('.messagebar ~ .page-content, .toolbar-fixed .page-content').css({
+				'margin': (browsHeight + 44) + 'px 0 78px',
+				'padding-bottom': 26 + (browsHeight + 44) + 'px'
+			});
+
+			if ((channelId == 10700)||(channelId == 11700)) {
+				$$('.navbar').css('background', '#FFF');
+				$$('.pages').css('background', '#FFF');
+				$$('.page').css('background', '#FFF');
+				$$('i.icon.icon-back').css('background-image', 'url(/static/resource/apph5/framework7/images/nav_btn_back.png)');
+				$$('.navbar .navbar-inner').css('border-bottom', '1px solid #D9D9D9');
+				$$('body').css('color', '#503C3F');
+			}
+			if (channelId == 10800) {
+				$$('.navbar').css('background', '#4283FF');
+				$$('.pages').css('background', '#FFF');
+				$$('.page').css('background', '#FFF');
+				$$('i.icon.icon-back').css('background-image', 'url(/static/resource/apph5/framework7/images/nav_btn_back_p1.png)');
+				$$('body').css('color', '#4B4B4B');
+			}
+			if (channelId == 10900) {
+				$$('.navbar').css('background', '#1D222F');
+				$$('.pages').css('background', '#181C29');
+				$$('.page').css('background', '#181C29');
+				$$('i.icon.icon-back').css('background-image', 'url(/static/resource/apph5/framework7/images/d_c_btn_back@3x.png)');
+				$$('body').css('color', '#FFF');
+			}
+			if (channelId == 12300) {
+				$$('.navbar').css('background', '#00227D');
+				$$('.pages').css('background', '#FFF');
+				$$('.page').css('background', '#FFF');
+				$$('i.icon.icon-back').css('background-image', 'url(/static/resource/apph5/framework7/images/welcome_btn_nav_back@3x.png)');
+				$$('body').css('color', 'rgba(0,0,0,0.6)');
+			}
+			if (channelId == 13300) {
+				$$('.navbar').css('background', '#6E5773');
+				$$('.pages').css('background', '#FFF');
+				$$('.page').css('background', '#FFF');
+				$$('i.icon.icon-back').css('background-image', 'url(/static/resource/apph5/framework7/images/welcome_btn_nav_back@3x.png)');
+				$$('body').css('color', 'rgba(0,0,0,0.6)');
+			}
+			$$(".back-app").on('click', function() {
+				back2App(plat);
+			});
+		</script>
+	
+
+</body></html>

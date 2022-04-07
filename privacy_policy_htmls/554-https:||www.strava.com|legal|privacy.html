@@ -1,0 +1,1271 @@
+<html class="logged-out responsive feed3p0 old-login strava-orion responsive js no-touch history draganddrop localstorage svg fullscreen" dir="ltr" lang="en-US" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns="http://www.w3.org/TR/html5"><!--
+layout orion app
+--><head>
+<meta charset="UTF-8">
+<meta content="width = device-width, initial-scale = 1, maximum-scale = 1" name="viewport">
+<style type="text/css">
+.spinner, .spinner .status {
+  position: relative;
+}
+.spinner {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.spinner .status {
+  top: 2px;
+  margin-left: 0.5em;
+}
+.spinner .status:empty {
+  display: none;
+}
+.spinner.lg .graphic {
+  border-width: 3px;
+  height: 32px;
+  width: 32px;
+}
+.spinner.tiny {
+  height: 10px;
+  width: 10px;
+}
+.spinner.centered, .spinner.vcentered {
+  box-sizing: border-box;
+  width: 100%;
+}
+.spinner.vcentered {
+  left: 0;
+  margin-top: -12px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+}
+.spinner .graphic, .ajax-loading-image {
+  animation: spin 1.2s infinite linear;
+  box-sizing: border-box;
+  border-color: #eee;
+  border-radius: 50%;
+  border-style: solid;
+  border-top-color: #666;
+  border-top-style: solid;
+  border-width: 2px;
+  content: "";
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  vertical-align: middle;
+  width: 20px;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+</style>
+
+<link rel="stylesheet" media="screen" href="https://d3nn82uaxijpm6.cloudfront.net/assets/strava-app-icons-600bfc35a4fa5e12ab294da90c1e2a03139565c66ed55b2b6facbf55e66d739d.css">
+<link rel="stylesheet" media="screen" href="https://d3nn82uaxijpm6.cloudfront.net/assets/strava-orion-9e78d6f8d090cfb8b4229926849216aabab7bdadc5626e64b5a8b31737a27f8f.css">
+
+<link href="https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-180x180.png?v=dLlWydWlG8" rel="apple-touch-icon" sizes="180x180">
+<link href="https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-152x152.png?v=dLlWydWlG8" rel="apple-touch-icon" sizes="152x152">
+<link href="https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-144x144.png?v=dLlWydWlG8" rel="apple-touch-icon" sizes="144x144">
+<link href="https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-120x120.png?v=dLlWydWlG8" rel="apple-touch-icon" sizes="120x120">
+<link href="https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-114x114.png?v=dLlWydWlG8" rel="apple-touch-icon" sizes="114x114">
+<link href="https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-76x76.png?v=dLlWydWlG8" rel="apple-touch-icon" sizes="76x76">
+<link href="https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-72x72.png?v=dLlWydWlG8" rel="apple-touch-icon" sizes="72x72">
+<link href="https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-60x60.png?v=dLlWydWlG8" rel="apple-touch-icon" sizes="60x60">
+<link href="https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-57x57.png?v=dLlWydWlG8" rel="apple-touch-icon" sizes="57x57">
+<link href="https://d3nn82uaxijpm6.cloudfront.net/favicon-32x32.png?v=dLlWydWlG8" rel="icon" sizes="32x32" type="image/png">
+<link href="https://d3nn82uaxijpm6.cloudfront.net/icon-strava-chrome-192.png?v=dLlWydWlG8" rel="icon" sizes="192x192" type="image/png">
+<link href="https://d3nn82uaxijpm6.cloudfront.net/favicon-96x96.png?v=dLlWydWlG8" rel="icon" sizes="96x96" type="image/png">
+<link href="https://d3nn82uaxijpm6.cloudfront.net/favicon-16x16.png?v=dLlWydWlG8" rel="icon" sizes="16x16" type="image/png">
+<link href="/manifest.json?v=dLlWydWlG8" rel="manifest">
+<meta content="#FC5200" name="msapplication-TileColor">
+<meta content="https://d3nn82uaxijpm6.cloudfront.net/mstile-144x144.png?v=dLlWydWlG8" name="msapplication-TileImage">
+<meta content="#FC5200" name="theme-color">
+<meta content="Strava" name="apple-mobile-web-app-title">
+<meta content="Strava" name="application-name">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ec.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/en_US/sdk.js?hash=2bc6d0cb52993d256d1f908134635d23&amp;ua=modern_es6" async="" crossorigin="anonymous"></script><script id="facebook-jssdk" async="" src="//connect.facebook.net/en_US/sdk.js"></script><script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script><script async="" src="https://cdn.branch.io/branch-latest.min.js"></script><script async="" src="https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js"></script><script type="text/javascript" async="" src="https://cdn.segment.com/analytics.js/v1/4U9hx9LX3VDSlP3o5AoG4vHoGdJY340J/analytics.min.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-TP845S&amp;l=googleTagManagerDataLayer"></script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Strava",
+  "url": "https://www.strava.com/",
+  "logo": "https://d3nn82uaxijpm6.cloudfront.net/assets/brands/strava/logo-strava-lg-5671105ffddb86e437bb68503a4973e8bf07e2a41c0b332d3e3bced21d537e98.png",
+  "sameAs": [
+    "https://facebook.com/Strava",
+    "https://twitter.com/strava",
+    "https://instagram.com/strava",
+    "https://youtube.com/stravainc",
+    "https://blog.strava.com",
+    "https://github.com/strava",
+    "https://medium.com/strava-engineering"
+  ]
+}
+
+
+</script>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="oe8HyPivxxQ5y20C0rcUAp85OBcH0RIJJZdDPbsm9eXBuFRFQWX3EyA6xzemLkslrDOfzCIAkVXFieaUBnhqxA==">
+<script src="https://d3nn82uaxijpm6.cloudfront.net/packs/js/chunking_runtime-2afbc915eee13ecf6cb5.js"></script>
+<script src="https://d3nn82uaxijpm6.cloudfront.net/packs/js/global-0cbcd1c323b08c78106d.chunk.js"></script>
+<script src="https://d3nn82uaxijpm6.cloudfront.net/assets/strava-head-d0f4c1f1472bbfd71048d6bbbe5e3b9041ec1330343ab67cfc3a6099b8fee09e.js"></script>
+
+
+<link rel="stylesheet" media="screen" href="https://d3nn82uaxijpm6.cloudfront.net/assets/legal/show-09a5b958ddfd0330cf428d51aa680652404a4b6ef6e639a091a7a80a561f6e2f.css">
+<title>Strava Privacy Policy</title>
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+    {'gtm.start': new Date().getTime(),event:'gtm.js'}
+    );var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','googleTagManagerDataLayer', "GTM-TP845S");
+</script>
+
+
+<script>
+  !function(options){
+    window.Strava = window.Strava || {};
+    var _enabled = true;
+    var _snowplow = true;
+    var _options = options;
+    var _ready = null;
+    var _snowplowReady = null;
+  
+    window.Strava.ExternalAnalytics = window.Strava.ExternalAnalytics || (
+      {
+        isEnabled: function() {
+          return _enabled;
+        },
+        snowplowEnabled: function() {
+          return _snowplow;
+        },
+        isDebug: function() {
+          return _options.debug;
+        },
+        track: function() {
+          if(this.isEnabled()) {
+            analytics.track.apply(analytics, arguments)
+            this.log('%ctrack %O', arguments)
+          }
+        },
+        trackV2: function(event) {
+          var eventData = {
+            'category': event.category,
+            'page': event.page,
+            'action': event.action,
+            'element': event.element || null,
+            'properties': event.properties || {}
+          }
+          if (this.snowplowEnabled()) {
+            snowplow('trackSelfDescribingEvent', {
+              schema: 'iglu:com.strava/track/jsonschema/1-0-0',
+              data: eventData
+            });
+          } else {
+            !!console.table && console.table(eventData);
+          }
+          this.track(event.category, eventData);
+        },
+        page: function(category, name, properties, options) {
+          if(this.isEnabled()) {
+            var _category = category;
+            var _name = name;
+            if(!_name) {
+              _name = category;
+              _category = null;
+            }
+            var _properties = properties || {};
+            _properties.is_mobile = _options.is_mobile;
+            _properties.mobile_os = _options.os;
+            _properties.athlete_id = _options.athlete_id;
+            _properties.locale = _options.locale;
+            analytics.page(_category, _name, _properties, options)
+            this.log('%canalytics %O', [_category, _name, _properties, options])
+          }
+          if(this.snowplowEnabled()) {
+            snowplow('trackPageView');
+          }
+        },
+        trackLink: function() {
+          if(this.isEnabled()) {
+            analytics.trackLink.apply(analytics, arguments)
+            this.log('%cattaching to track link %O', arguments)
+          }
+        },
+        trackForm: function() {
+          if(this.isEnabled()) {
+            analytics.trackForm.apply(analytics, arguments);
+            this.log('%cattaching to track form %O', arguments);
+          }
+        },
+        identifyV2: function(athleteId, options, eventName) {
+          if (this.snowplowEnabled()) {
+            var properties = options || {}
+            properties.athlete_id = athleteId;
+            var eventData = {
+              'category': 'identify',
+              'page': null,
+              'action': eventName,
+              'element': null,
+              'properties': properties
+            };
+            snowplow('trackSelfDescribingEvent', {
+              schema: 'iglu:com.strava/track/jsonschema/1-0-0',
+              data: eventData
+            });
+          }
+          this.identify(athleteId, options);
+        },
+        identify: function() {
+          if(this.isEnabled()) {
+            analytics.identify.apply(analytics, arguments);
+            this.log('%cidentify(%O)', arguments);
+          }
+        },
+        reset: function() {
+          if(this.isEnabled()) {
+            analytics.reset.apply(analytics, arguments);
+            this.log('%creset(%O)', arguments);
+          }
+          if(this.snowplowEnabled()) {
+            snowplow('setUserId', null)
+            var spCookie = document.cookie.match('_sp_id\\.[a-f0-9]+')
+            if(spCookie != null) {
+              document.cookie = spCookie[0] + "= ; expires = Thu, 01 Jan 1970 00:00:00 GMT"
+            }
+          }
+        },
+        setupSnowplow: function(id) {
+          if(this.snowplowEnabled()) {
+            snowplow("newTracker", "cf", "c.strava.com", {
+              appId: "strava-web",
+              platform: "web"
+            });
+            snowplow('setUserId', id);
+          }
+        },
+        anonymousId: function() {
+          var d = jQuery.Deferred();
+          if (this.isEnabled()) {
+            if (!_ready) {
+              _ready = jQuery.Deferred();
+              analytics.ready(function(){
+                _ready.resolve(analytics.user().anonymousId());
+              });
+            }
+            _ready.always(function(anonymousId){
+              d.resolve(anonymousId);
+            });
+          } else {
+            d.reject(null);
+          }
+          return d;
+        },
+        getDomainUserId: function() {
+          var d = jQuery.Deferred();
+          if (this.snowplowEnabled()) {
+            if (!_snowplowReady) {
+              _snowplowReady = jQuery.Deferred();
+              snowplow(function(){
+                _snowplowReady.resolve(this.cf.getDomainUserId());
+              });
+            }
+            _snowplowReady.always(function(getDomainUserId){
+              d.resolve(getDomainUserId);
+            });
+          } else {
+            d.reject(null);
+          }
+          return d;
+        },
+        log: function(message, values) {
+          if(this.isDebug()) {
+            console.log(message, 'background-color: yellow; color: blue; font-size: medium;', values);
+          }
+        },
+        debug: function(value) {
+          _options.debug = value;
+        }
+      }
+    )
+  }({
+    is_mobile: false,
+    os: "",
+    debug: false,
+    athlete_id: null,
+    locale: "en-US"
+  });
+</script>
+
+<script>
+  !function(){
+    var analytics = window.analytics = window.analytics || [];
+    if(!analytics.initialize) {
+      if(analytics.invoked) {
+        window.console && console.error && console.error("Segment snippet included twice.");
+      } else {
+        analytics.invoked = !0;
+        analytics.methods = ["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];
+        analytics.factory = function(t) {
+          return function() {
+            var e = Array.prototype.slice.call(arguments);
+            e.unshift(t);
+            analytics.push(e);
+            return analytics
+          }
+        };
+        for(var t = 0; t < analytics.methods.length; t++) {
+          var e = analytics.methods[t];
+          analytics[e] = analytics.factory(e)
+        }
+        analytics.load = function(t) {
+          var e = document.createElement("script");
+          e.type = "text/javascript";
+          e.async = !0;
+          e.src = ("https:" === document.location.protocol ? "https://" : "http://") + "cdn.segment.com/analytics.js/v1/" + t + "/analytics.min.js";
+          var n = document.getElementsByTagName("script")[0];
+          n.parentNode.insertBefore(e,n)
+        };
+        analytics.SNIPPET_VERSION = "4.0.0";
+        analytics.load("4U9hx9LX3VDSlP3o5AoG4vHoGdJY340J");
+  
+        if (true) {
+          (function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js","snowplow"));
+          Strava.ExternalAnalytics.setupSnowplow();
+        }
+  
+        if(Strava.ExternalAnalytics.isDebug()) {
+          analytics.debug();
+        } else {
+          analytics.debug(false);
+        }
+  
+        Strava.ExternalAnalytics.page(null, null, null);
+      }
+    }
+  }();
+</script>
+
+<script>
+  !function(debug){
+    window.Strava = window.Strava || {};
+  
+    var _enabled = true;
+    var _debug = !!debug;
+    var _branchData = null;
+  
+    window.Strava.BranchIO = window.Strava.BranchIO || (
+      {
+        isEnabled: function() {
+          return _enabled;
+        },
+        isDebug: function() {
+          return _debug;
+        },
+        dataToLocalStorage: function() {
+          if (!_branchData) {
+            _branchData = new Strava.BranchAnalytics.BranchData();
+          }
+  
+          var d = this.data()
+          var that = this;
+          d.done(function(data) {
+            that.log('storing data %o to local storage', data)
+            _branchData.data(data)
+          });
+          d.fail(function(message) {
+            that.log('failed to retrieve data from branch');
+            _branchData.data({})
+          });
+          return d;
+        },
+        createLink: function(options) {
+          var d = jQuery.Deferred();
+          var data = null;
+          var callback = function(e, l) {
+            if (!e) {
+              d.resolve(l);
+            } else {
+              d.reject(e);
+            }
+          }
+          if (options.peek_data) {
+            data = this.dataFromLocalStorage();
+            if (data && data.data_parsed && data.data_parsed['~referring_link']) {
+              d.resolve(data.data_parsed['~referring_link']);
+            } else {
+              d.reject();
+            }
+          } else {
+            Strava.ExternalAnalytics
+              .anonymousId()
+              .always(function(anonymousId){
+                if (anonymousId) {
+                  options.data['anonymousId'] = anonymousId;
+                }
+  
+                Strava.ExternalAnalytics
+                  .getDomainUserId()
+                  .always(function(domainUserId){
+                    if (domainUserId) {
+                      options.data['domainUserId'] = domainUserId;
+                    }
+  
+                    branch.link(options, callback);
+                });
+            });
+          }
+          return d;
+        },
+        dataFromLocalStorage: function() {
+          if (!_branchData) {
+            _branchData = new Strava.BranchAnalytics.BranchData();
+          }
+          return _branchData.data();
+        },
+        clearLocalStorage: function() {
+          if (!_branchData) {
+            _branchData = new Strava.BranchAnalytics.BranchData();
+          }
+          _branchData.data({});
+        },
+        data: function(checkLocalStorage) {
+          var d = jQuery.Deferred();
+          var that = this;
+          var c = function(message, meta_data) {
+            var storedData = null;
+  
+            if(message) {
+              d.reject(message);
+            } else {
+              if (checkLocalStorage == true && (meta_data == null || meta_data.data == "" || meta_data.data == null)) {
+                storedData = that.dataFromLocalStorage();
+                that.clearLocalStorage();
+  
+                d.resolve(storedData);
+              } else {
+                d.resolve(meta_data);
+              }
+            }
+          };
+  
+          if(this.isEnabled()) {
+            branch.data(c);
+            this.log('%cdata (branch enabled)');
+          } else {
+            this.log('%cdata (branch disabled)');
+            d.resolve({});
+          }
+          return d;
+        },
+        identify: function(athleteId) {
+          var callback = function(error, data) {
+            if (error) {
+              console.log(error);
+            }
+          }
+          if(this.isEnabled()) {
+            branch.setIdentity(athleteId, callback);
+          }
+        },
+        track: function(eventName, metaData) {
+          var callback = function(error, data) {
+            if (error) {
+              console.log(error);
+            }
+          }
+          if(this.isEnabled()) {
+            branch.track(eventName, metaData, callback);
+          }
+        },
+        log: function(message, values) {
+          if(this.isDebug()) {
+            console.log(message, 'background-color: yellow; color: blue; font-size: medium;', values);
+          }
+        },
+        debug: function(value) {
+          _debug = value;
+        }
+      }
+    )
+  }(false);
+</script>
+
+<script>
+  (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode".split(" "), 0);
+  branch.init("key_live_lmpPsfj2DP8CflI4rmzfiemerte7sgwm", {});
+</script>
+
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style></head>
+<body><div id="stravaCookieBanner" style="background-color: rgba(18,18,20,0.95); border-radius: 8px; bottom: 20px; font-family: 'MaisonNeue', Helvetica, Arial, sans-serif; left: 20px; padding: 20px 40px 20px 20px; position: fixed; z-index: 11000; box-shadow: 0 12px 24px -12px rgba(18,18,20,0.12); max-width: 285px; -webkit-font-smoothing: antialiased;"><div class="cookie-banner-content" style="color: #cbcbd6; font-size: 14px; font-weight: 500; line-height: 1.5em; margin-left: auto; margin-right: auto; max-width: 1216px; justify-content: center;"><span>We use cookies to help make Strava better. By visiting this site, you agree to our <a href="https://strava.com/legal/privacy#cookies-and-similar-technologies" style="color: #fff; font-weight: 700; text-decoration: none;">cookie policy</a>.</span><button class="btn-dismiss-cookie-banner" style="background: none; border: none; color: #fff; cursor: pointer; display: inline-block; font-family: Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 100; height: 24px; line-height: 0; margin-left: 10px; margin-top: -4px; margin-bottom: 0; padding: 0; width: 24px; position: absolute; right: 20px; top: 20px;">×</button></div></div>
+<noscript>
+<iframe height='0' src='//www.googletagmanager.com/ns.html?id=GTM-TP845S' style='display:none;visibility:hidden' width='0'></iframe>
+</noscript>
+
+<header id="global-header"><!--
+deploy: a5fae67695dadbcd3370a3d0a9b69f074457b791
+-->
+<!--[if lte IE 8]>
+<div class='alert alert-warning message warning mb-0 text-center'>
+<p>It looks like you're using a version of Internet Explorer that Strava no longer supports. Please <a href='http://www.microsoft.com/en-us/download/ie.aspx?q=internet+explorer'>upgrade your web browser</a> &mdash; <a href='https://strava.zendesk.com/entries/20420212-Supported-Browsers-on-Strava'>Learn more</a>.</p>
+</div>
+<![endif]-->
+<nav class="collapsable-nav container nav-bar" role="navigation">
+<div title="Return to the Strava home page" class="branding"><a class="branding-content" href="/"><span class="sr-only">Strava</span></a></div>
+<!-- / Nav Menu Button -->
+<a href="#container-nav" aria-expanded="false" aria-controls="container-nav" data-toggle="collapse" class="btn btn-default btn-mobile-menu" role="button">Menu</a>
+<div class="collapse nav-container" id="container-nav">
+<ul class="user-nav nav-group">
+<li class="nav-item">
+<a class="nav-link" href="/mobile">Mobile</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/features">Features</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/premium?cta=premium&amp;element=nav&amp;source=global-header">Summit</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="http://blog.strava.com/?utm_source=website-header">Blog</a>
+</li>
+<li class="nav-object-group">
+<div class="nav-item logged_out_nav">
+<a class="btn btn-primary btn-signup" data-segioevent="{&quot;name&quot;:&quot;Signup Flow&quot;,&quot;method&quot;:&quot;web&quot;,&quot;source&quot;:&quot;Global Header&quot;}" href="/register?cta=sign-up&amp;element=global-header&amp;plan=free&amp;source=legal_show">
+Sign Up
+</a>
+</div>
+<div class="nav-item logged_out_nav">
+<a class="btn btn-default btn-login" data-segioevent="{&quot;name&quot;:&quot;Login Flow&quot;,&quot;method&quot;:&quot;web&quot;,&quot;source&quot;:&quot;Global Header&quot;}" href="https://www.strava.com/login?cta=log-in&amp;element=global-header&amp;source=legal_show">
+Log In
+</a>
+</div>
+</li>
+</ul>
+
+</div>
+</nav>
+</header>
+
+
+
+
+<div class="container" id="view-legal">
+<div class="row">
+<div class="col-lg-3 col-md-3" id="legal-nav" role="navigation">
+<ul class="collapse" id="legal-nav-items">
+<li class="">
+<a aria-selected="false" href="/legal/terms">Terms of Service</a>
+</li>
+<li class="selected">
+<a aria-selected="true" href="/legal/privacy">Privacy Policy</a>
+</li>
+<li class="">
+<a aria-selected="false" href="/legal/cookie_policy">Cookie Policy</a>
+</li>
+<li class="">
+<a aria-selected="false" href="/legal/legal_bases">Legal Bases</a>
+</li>
+<li class="">
+<a aria-selected="false" href="/legal/api">API Agreement</a>
+</li>
+</ul>
+
+</div>
+<article class="col-lg-7 col-md-9" id="legal-body">
+<h2>Strava Privacy Policy</h2>
+<p class="effective-date">Effective Date: December 11, 2019</p>
+<section id="principles">
+<p>Your privacy is very important to us. Before we get to the details, check out our Privacy Label to see a summary of our privacy practices. Click on the links to learn more and read the full policy below.</p>
+<a class="jump-link" href="#full_policy">Jump to full privacy policy</a>
+</section>
+<section id="label">
+<h3>Privacy Label</h3>
+<section class="label-section">
+<h4 class="label-heading">Collection and Sale of Data</h4>
+<ul>
+<li class="label-item">
+<span class="description">Do we sell your personal information?</span>
+<span class="value"><a href="#aggregate_information">No</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Do we share or sell aggregate information?</span>
+<span class="value"><a href="#aggregate_information">Yes</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Do we share your data with third party API partners?</span>
+<span class="value"><a href="#third_parties">Yes, with your consent</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Do we use sensitive categories of data, like health information?</span>
+<span class="value"><a href="#health_information">Yes, with your consent</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Do we use your contact list if you allow us access?</span>
+<span class="value"><a href="#contacts_information">Yes</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Do we delete your data when you request account deletion?</span>
+<span class="value"><a href="#deleting">Yes</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Do we retain your data for as long as we need it unless you request deletion?</span>
+<span class="value"><a href="#retention">Yes</a></span>
+<div class="clear"></div>
+</li>
+</ul>
+</section>
+<section class="label-section">
+<h4 class="label-heading">Privacy Tools and Controls</h4>
+<ul>
+<li class="label-item">
+<span class="description">Can you control who sees your activity and content?</span>
+<span class="value"><a href="#sharing">Yes</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Can you control who sees your location-based activity?</span>
+<span class="value"><a href="#sharing">Yes</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Are privacy controls set to “Everyone” by default?</span>
+<span class="value"><a href="#public_information">Yes</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Can you download and delete your data?</span>
+<span class="value"><a href="#deleting">Yes</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Do all members worldwide have the same suite of tools and controls?</span>
+<span class="value"><a href="#legal_bases">Yes</a></span>
+<div class="clear"></div>
+</li>
+</ul>
+</section>
+<section class="label-section">
+<h4 class="label-heading">Tracking</h4>
+<ul>
+<li class="label-item">
+<span class="description">Do we track your device location to provide Strava to you?</span>
+<span class="value"><a href="#location">Yes</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Do we track your device location while you are not using the app?</span>
+<span class="value"><a href="#location">No</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Do we use cookies?</span>
+<span class="value"><a href="#technical">Yes</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Do we track your browsing activities on other sites?</span>
+<span class="value">No</span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Do we listen to you using your device microphone?</span>
+<span class="value">No</span>
+<div class="clear"></div>
+</li>
+</ul>
+</section>
+<section class="label-section">
+<h4 class="label-heading">Communication</h4>
+<ul>
+<li class="label-item">
+<span class="description">Do we give you advance notice when we make important changes to our Privacy Policy?</span>
+<span class="value"><a href="#privacy_policy_information">Yes</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Do we send you marketing communications with opt out?</span>
+<span class="value"><a href="#marketing_and_push">Yes</a></span>
+<div class="clear"></div>
+</li>
+<li class="label-item">
+<span class="description">Do we send you push notifications with opt out?</span>
+<span class="value"><a href="#marketing_and_push">Yes</a></span>
+<div class="clear"></div>
+</li>
+</ul>
+</section>
+</section>
+<section id="introduction">
+<a name="full_policy"></a>
+<h3>Privacy Policy</h3>
+<h4>Introduction</h4>
+<p>Our privacy policy (the “Privacy Policy”) explains the information we collect, how we use and share it, how to manage your privacy controls and your rights in connection with our websites and the related mobile applications and services (collectively, the “Services”). Please also read our <a href="https://strava.com/legal/terms">Terms of Service</a> which sets out the terms governing the Services.</p>
+<p>Strava is headquartered in San Francisco and our Services are provided to you by Strava, Inc. If you are a resident of the European Economic Area (“EEA”), Strava, Inc. is the controller of your personal data for the purposes of EEA data protection law.</p>
+<p>This policy was written in English. To the extent a translated version conflicts with the English version, the English version controls. Unless indicated otherwise, this Privacy Policy does not apply to third party products or services or the practices of companies that we do not own or control, including other companies you might interact with on or through the Services.</p>
+<p>Questions or comments about this Privacy Policy may be submitted by mail to the address below or via <a href="https://support.strava.com">https://support.strava.com</a>.</p>
+<address>
+<b>Strava, Inc.</b>
+<br>
+208 Utah Street
+<br>
+San Francisco, CA 94103
+<br>
+USA
+<br>
+Attn: Legal
+<br>
+<a href="mailto:dpo@strava.com">
+DPO@strava.com
+</a>
+</address>
+</section>
+<section id="information_strava_collects">
+<a name="information-strava-collects"></a>
+<h3>Information Strava Collects</h3>
+<p>Strava collects information about you, including information that directly or indirectly identifies you, if you or your other members choose to share it with Strava. We receive information in a few different ways, including when you track, complete or upload activities using the Services. Strava also collects information about how you use the Services. There are also several opportunities for you to share information about yourself, your friends, and your activities with Strava. For example:</p>
+<section id="account_profile_activity_and_use_information">
+<h4>Account, Profile, Activity, and Use Information</h4>
+<p>We collect <b>basic account information</b> such as your name, email address, date of birth, gender, username and password that helps secure and provide you with access to our Services.</p>
+<p><b>Profile, activity and use information</b> is collected about you when you choose to upload a picture, activity (including date, time and geo-location information as well as your speed and pace and perceived exertion) or post, join a challenge, add your equipment usage, view others’ activities, or otherwise use the Services.</p>
+<p>We use your <b>contact information</b> so we can respond to your support requests and comments.</p>
+</section>
+<section id="location_information">
+<a name="location"></a>
+<h4>Location Information</h4>
+<p>We collect and process <b>location information</b> when you sign up for and use the Services. We do not track your device location while you are not using Strava, but in order to provide Strava’s core Services, it is necessary for us to track your device location while you use Strava. If you would like to stop the device location tracking, you may do so at any time by adjusting your device settings.</p>
+</section>
+<section id="content_you_share">
+<h4>Content You Share</h4>
+<p>We gather information from the photos, posts, comments, kudos, ratings, reviews, and <b>other content you share on the Services</b>, including when you participate in partner events or create segments or routes.</p>
+</section>
+<section id="contacts_information">
+<a name="contacts_information"></a>
+<h4>Contacts Information</h4>
+<p>You can choose to add your <b>contacts’ information</b> by connecting your contacts from your mobile device or social networking accounts to Strava. If you choose to share your contacts with Strava, Strava will, in accordance with your instructions, access and store your contacts’ information in order to identify connections and help you connect with them. <a href="https://support.strava.com/hc/articles/360016371512">Learn more</a> about how we collect information about your contacts, how we use that information, and the controls available to you.</p>
+</section>
+<section id="connected_devices_and_apps">
+<h4>Connected Devices and Apps</h4>
+<p>Strava collects information from <b>devices and apps you connect to Strava</b>. For example, you may connect your Garmin watch or Flywheel account to Strava and information from these devices and apps will be passed along to Strava.</p>
+</section>
+<section id="health_information">
+<a name="health_information"></a>
+<h4>Health Information</h4>
+<p>Strava may collect or infer <b>health information</b>. Certain health information may be inferred from sources such as heart rate or other measurements, including power, cadence, and weight or other indicators. Before you can upload health information to Strava, you must give your explicit consent to the processing of that health information by Strava. You can withdraw your consent to Strava processing your health information at any time.</p>
+</section>
+<section id="payment_information">
+<h4>Payment Information</h4>
+<p>When you make a payment on Strava, you may provide <b>payment information</b> such as your payment card or other payment details. We use Payment Card Industry compliant third-party payment services and we do not store your credit card information.</p>
+</section>
+<section id="third_party_accounts">
+<h4>Third-Party Accounts</h4>
+<p>Strava allows you to sign up and log in to the Services using accounts you create with third-party products and services, such as Facebook, Google, or Apple (collectively, “Third-Party Accounts”). If you access the Services with <b>Third-Party Accounts</b> we will collect information that you have agreed to make available such as your name, email address, profile information and preferences. This information is collected by the Third-Party Account provider and is provided to Strava under their privacy policies. You can generally control the information that we receive from these sources using the privacy controls in your Third-Party Account.</p>
+</section>
+<section id="technical_information">
+<a name="technical"></a>
+<h4>Technical Information and Log Files</h4>
+<p>We collect information from your browser, computer, or mobile device, which provide us with technical information when you access or use the Services. This technical information includes device and network information, cookies, log files and analytics information. Learn more about how we use cookies in our <a href="https://www.strava.com/legal/cookie_policy">Cookies Policy</a>.</p>
+<p>The Services use <b>log files</b>. The information stored in those files includes IP addresses, browser type, internet service provider (ISP), referring/exit pages, platform type, date/time stamp, and number of clicks. This information is used to analyze trends, administer, protect and secure the Services, track member movement in the aggregate, and gather broad demographic information for aggregate use. IP addresses may be linked to session IDs, athlete IDs and device identifiers.</p>
+</section>
+<section id="other_information">
+<h4>Other Information</h4>
+<p>We may <b>collect information from you through third parties</b>, such as when we collect your feedback through surveys.</p>
+<p>We may also collect <b>information about you from other members</b> such as when they give you kudos or comment on your activities.</p>
+</section>
+</section>
+<section id="how_strava_uses_information">
+<a name="how-strava-uses-information"></a>
+<h3>How Strava Uses Information</h3>
+<p>Strava uses the information we collect and receive to operate the Services and to customize them for you. For example, with your consent we use your heart rate information to provide you with interesting and useful performance analysis. Subject to your <a href="https://www.strava.com/settings/privacy">privacy controls</a>, your information, including parts of your profile, username, photos, members you follow and who follow you, clubs you belong to, your activities, the devices you use, and kudos and comments you give and receive will be shared on Strava so that you may be able to participate in the Services, for example to show your place on a leaderboard. Certain <a href="https://support.strava.com/hc/articles/360034758331&amp;sa=D&amp;ust=1570469544619000&amp;usg=AFQjCNFLQTZCb0JW-CwDLIHMnMZ2eGrHKw">information</a> (e.g., your name, and some profile information) is also available to non-members on the web. Your precise location information, such as a route or segment, may also be shared on Strava or to non-members, in accordance with your privacy controls.</p>
+<p>We use the information we collect about you, your followers, and your activities to customize your experience. For example, we may suggest segments, routes, challenges, or clubs that may interest you, or athletes that you may want to follow. We also use the information we collect to process payments, provide support related to the Services, protect members and enforce our <a href="https://www.strava.com/legal/terms">Terms of Service</a>, promote safety, and to communicate with you <a name="marketing_and_push"></a> (including to send marketing and push communications) where you have not opted out of receiving such messages and notifications.</p>
+<p>We also use the information we collect to analyze, develop and improve the Services. To do this, Strava may use third-party analytics providers to gain insights into how our Services are used and to help us improve the Services.</p>
+<p>We may also use the information we collect to market and promote the Services, activities on Strava, and other commercial products or services. This includes customizing your Strava experience. For example, if we know that you like to run, we may tell you about new running activities or show you sponsored content related to running. If we see that you run in a certain area, we may suggest a race in that area. Subject to your settings, we may also mention that you have used our partners’ products or services as part of your activities, which we refer to as <a href="https://support.strava.com/hc/articles/360015573312">Sponsored Integrations</a>.</p>
+<section id="aggregate_information">
+<a name="aggregate_information"></a>
+<h4>Aggregate Information</h4>
+<p><b>We do not sell your personal information</b>. Strava may aggregate the information you and others make available in connection with the Services and post it publicly or share it with third parties. Examples of the type of information we may aggregate include information about equipment, usage, demographics, routes and performance. Strava may <b>use, sell, license, and share</b> this <b>aggregated information</b> with third parties for research, business or other purposes such as to improve walking, running or riding in cities via <a href="https://metro.strava.com/">Strava Metro</a> or to help our partners understand more about athletes, including the people who use their products and services. Strava also uses aggregated data to generate our <a href="https://www.strava.com/heatmap">Global Heatmap</a>. Please visit your <a href="https://www.strava.com/settings/privacy">privacy controls</a> if you object to Strava using your information for these purposes.</p>
+</section>
+</section>
+<section id="how_information_is_shared">
+<a name="how-information-is-shared"></a>
+<h3>How Information is Shared</h3>
+<p>In addition to sharing aggregated data about our members as described above, we also share personal information in accordance with your preferences, as needed to run our business and provide the Services, and where required for legal purposes, as set forth below.</p>
+<section id="service_providers">
+<h4>Service Providers</h4>
+<p>We may share your information with third parties who provide services to Strava such as supporting,  improving, promoting and securing the Services, processing payments, or fulfilling orders. These service providers only have access to the information necessary to perform these limited functions on our behalf and are required to protect and secure your information. We may also engage service providers to collect information about your use of the Services over time on our behalf so that we or they may promote Strava or display information that may be relevant to your interests on the Services or other websites or services.</p>
+</section>
+<section id="publicly_available_information">
+<a name="public_information"></a>
+<h4>Publicly Available Information</h4>
+<p>When you join the Strava community, your profile and your activities are set to be viewable by <a href="https://support.strava.com/hc/articles/360034758331&amp;sa=D&amp;ust=1570469544826000&amp;usg=AFQjCNHAsHZ6e7c7CDxNVGzTr6bXjjfIiA">everyone</a> by default. Your name and other <a href="https://support.strava.com/hc/articles/115000164850-Profile-Page-Privacy-Controls">profile information</a> is viewable by other Strava members and the public and, subject to your privacy controls, additional information and content you share may also be viewable. For example, your photos and routes may be accessed by other Strava members and non-members or viewable on publicly accessible Strava pages. We provide a <a href="https://www.strava.com/settings/privacy">variety of tools</a> to control the sharing of your information and encourage our members to adjust their controls to align with their desired experience.</p>
+</section>
+<section id="sharing_information_and_activities">
+<a name="sharing"></a>
+<h4>Sharing Information and Activities</h4>
+<p>As a social network, we share your information with other Strava members and the public in accordance with your privacy controls. You can change the <a href="https://support.strava.com/hc/articles/360034758331">visibility</a> of the activities you upload to Strava. Also, you can tell us about important locations, such as your home or work address, by enabling a <a href="https://strava.com/settings/privacy">Privacy Zone</a> in your settings. We will make private any portion of your activity that starts or ends in your Privacy Zone. You can choose to invite your contacts to view your location and activities using <a href="https://blog.strava.com/summit-beacon/">Strava Beacon</a>. You can also <a href="https://support.strava.com/hc/articles/221089587-Sharing-your-Strava-Activities">share</a> your activities with your <a href="https://support.strava.com/hc/articles/216919127-Finding-Friends-and-Managing-Contacts-on-Strava">contacts</a> via text, email, or on social media applications like Facebook, Instagram, and Twitter. If you link your Strava account to other social networks and share your activities, they will be viewable on such third-party platforms, including your location information. You should use caution when sharing information via third parties and you should carefully review the privacy practices of such third parties.</p>
+</section>
+<section id="third_party_business">
+<a name="third_parties"></a>
+<h4>Third Party Business via API or Other Integrations</h4>
+<p>We enable you to share your information and content with third party apps, plugins, or websites that integrate with the Services, as well as with third parties who work with Strava to offer an integrated feature, such as a challenge sponsor or tracking watch. You can choose to share your profile data and activity data (including private activities). If you click on the link for a sponsored integration, you will leave our platform and the sponsor may be able to identify that you visited their platform from Strava. Information collected by these third parties is subject to their terms and policies. Strava is not responsible for the terms or policies of third parties.</p>
+</section>
+<section id="affiliates_and_acquirors">
+<h4>Affiliates and Acquirors of our Business or Assets</h4>
+<p>We may share your information with affiliates under common control with us, who are required to comply with the terms of this Privacy Policy with regard to your information. If Strava becomes involved in a business combination, securities offering, bankruptcy, reorganization, dissolution or other similar transaction, we may share or transfer your information in connection with such transaction.</p>
+</section>
+<section id="legal_requirements">
+<a name="legal-requirements"></a>
+<h4>Legal Requirements</h4>
+<p>We may preserve and share your information with third parties, including law enforcement, public or governmental agencies, or private litigants, within or outside your country of residence, if we determine that such disclosure is allowed by the law or reasonably necessary to comply with the law, including to respond to court orders, warrants, subpoenas, or other legal or regulatory process. We may also retain, preserve or disclose your information if we determine that this is reasonably necessary or appropriate to prevent any person from death or serious bodily injury, to address issues of national security or other issues of public importance, to prevent or detect violations of our <a href="https://strava.com/legal/terms">Terms of Service</a> or fraud or abuse of Strava or its members, or to protect our operations or our property or other legal rights, including by disclosure to our legal counsel and other consultants and third parties in connection with actual or potential litigation.</p>
+</section>
+<section id="dmca_notices">
+<h4>DMCA Notices</h4>
+<p>We may share your information with third parties when we forward <a href="https://strava.com/legal/terms#claims-of-infringement">Digital Millennium Copyright Act</a> (DMCA) notifications, which will be forwarded as submitted to us without any deletions.</p>
+</section>
+</section>
+<section id="how_we_protect_information">
+<h3>How We Protect Information</h3>
+<p>We take several measures to safeguard the collection, transmission and storage of the data we collect. We employ reasonable protections for your information that are appropriate to its sensitivity. The Services use industry standard Secure Sockets Layer (SSL) technology to allow for the encryption of personal information and credit card numbers. Strava engages providers that are industry leaders in online security, including Services verification, to strengthen the security of our Services. The Services are registered with site identification authorities so that your browser can confirm Strava’s identity before any personal information is sent. In addition, Strava’s secure servers protect this information using advanced firewall technology.</p>
+</section>
+<section id="managing_your_settings">
+<h3>Managing Your Settings</h3>
+<section id="privacy_controls">
+<h4>Privacy Controls</h4>
+<p>Strava offers several features and settings to help you manage your privacy and share your activities. Most privacy controls are located in your privacy controls page, but some are specific to individual activities, athletes, or <a href="https://support.strava.com/hc/articles/216918387-Strava-Routes">routes</a>. Strava provides you the option to <a href="https://support.strava.com/hc/articles/216919377-Activity-Privacy-Controls">make your activities private. </a><a href="https://www.strava.com/settings/privacy">Click here</a> to manage your privacy controls.</p>
+</section>
+<section id="adjust_preferences">
+<h4>Adjust Notification and Email Preferences</h4>
+<p>Strava offers various ways to manage the notifications you receive. You can choose to stop receiving certain emails and notifications by indicating your preference <a href="https://www.strava.com/settings/email">here</a>. You may also unsubscribe by following the instructions contained at the bottom of each email. Any administrative or service-related emails (to confirm a purchase, or an update to this Privacy Policy or our <a href="https://strava.com/legal/terms">Terms of Service</a>, etc.) generally do not offer an option to unsubscribe as they are necessary to provide the Services you requested.</p>
+</section>
+<section id="updating_account_information">
+<h4>Updating Account Information</h4>
+<p>You may correct, amend or update profile or account information at any time by adjusting that information in your account settings. If you need further assistance correcting inaccurate information, please contact Strava at <a href="https://support.strava.com">https://support.strava.com</a>. Strava will generally respond to your request within 10-14 business days.</p>
+</section>
+<section id="deleting_and_downloading">
+<a name="deleting"></a>
+<h4>Deleting Information and Accounts and Downloading Your Data</h4>
+<p>You can delete your account or download your data using our self-service tools. Click <a href="https://www.strava.com/account">here</a> to download your data, including your activity files. To request that your account is deleted, click <a href="https://www.strava.com/account">here</a>.</p>
+<p>After you make a deletion request, we permanently and irreversibly delete your personal data from our systems, including backups. Once deleted, your data, including your account, activities and place on leaderboards cannot be reinstated. Following your deletion of your account, it may take up to 90 days to delete your personal information and system logs from our systems. Additionally, we may <a href="#retention">retain</a> information where deletion requests are made to comply with the law and take other actions permitted by law.</p>
+<p>Note that content you have shared with others, such as photos, or that others have copied may also remain visible after you have deleted your account or deleted specific information from your own profile. Your public profile may be displayed in search engine results until the search engine refreshes its cache.</p>
+<p>Strava also provides you the option to remove individual activities you have posted from view on the Services without deleting your account. The activities will typically remain on Strava’s systems.</p>
+</section>
+</section>
+<section id="legal_bases">
+<a name="legal_bases"></a>
+<h3>Your Rights and Our Legal Bases</h3>
+<p>We provide the same suite of privacy tools and controls to all of our members worldwide. Particular rights may be available to you if you reside in certain locations, such as the <a href="https://www.strava.com/legal/legal_bases#eea_rights">EEA</a> or <a href="https://www.strava.com/legal/legal_bases#ca_rights">California</a>. <a href="https://www.strava.com/legal/legal_bases">Learn more</a> about your rights and how to exercise them.</p>
+<section id="your_legal_rights_in_eea"></section>
+<h4>Your Legal Rights in the EEA</h4>
+<p>If you are habitually located in the EEA, you have the right to access, rectify, download or erase your information, as well as the right to restrict and object to certain processing of your information. <a href="https://www.strava.com/legal/legal_bases">Learn more</a>.</p>
+<section id="our_legal_bases"></section>
+<h4>Our Legal Bases</h4>
+<p>Strava relies on a number of legal bases to collect, use, share, and otherwise process the information we have about you for the purposes described in this Privacy Policy, including:</p>
+<ul>
+<li>as necessary to provide the Services and fulfill our obligations pursuant to the <a href="https://strava.com/legal/terms">Terms of Service</a>. For example, we cannot provide the Services unless we collect and use your location information;</li>
+<li>where you have consented to the processing;</li>
+<li>where necessary to comply with a legal obligation, a court order, or to exercise and defend legal claims;</li>
+<li>to protect your vital interests, or those of others, such as in the case of emergencies; and</li>
+<li>where necessary for the purposes of Strava’s or a third party’s <a href="https://www.strava.com/legal/legal_bases#legitimate_interests">legitimate interests</a>, such as our interests in protecting our members, our partners’ interests in collaborating with our members, and our commercial interests in ensuring the sustainability of the Services.</li>
+</ul>
+</section>
+<section id="transfers">
+<h3>Transfers</h3>
+<p>The Services are operated from the United States. If you are located outside of the United States and choose to use the Services or provide information to us, you acknowledge and understand that your information will be transferred, processed and stored in the United States, as it is necessary to provide the Services and perform the <a href="https://strava.com/legal/terms">Terms of Service</a>. United States privacy laws may not be as protective as those in your jurisdiction.</p>
+</section>
+<section id="retention">
+<a name="retention"></a>
+<h3>Retention of Information</h3>
+<p>We retain information as long as it is necessary to provide the Services to you and others, subject to any legal obligations to further retain such information. Information associated with your account will generally be kept until it is no longer necessary to provide the Services or until your account is deleted. In addition, you can delete some items of information (e.g., profile information) and you can remove individual activities from view on the Services without deleting your account. For example, where you withdraw your consent to Strava processing your health-related information, Strava will delete all health-related information you uploaded. Following your deletion of your account, it may take up to 90 days to fully delete your personal information and system logs from our systems. Additionally, we may retain information where deletion requests are made  to comply with the law, prevent fraud, collect fees, resolve disputes, troubleshoot problems, assist with investigations, enforce the <a href="https://strava.com/legal/terms">Terms of Service</a> and take other actions permitted by law. The information we retain will be handled in accordance with this Privacy Policy.</p>
+<p>Information connected to you that is no longer necessary and relevant to provide our Services may be de-identified or aggregated with other non-personal data to provide insights which are commercially valuable to Strava, such as statistics of the use of the Services. For example, we may <a href="https://support.strava.com/hc/articles/216918827-Delete-your-Strava-Account">retain</a> publicly available segments or routes and other depersonalized geolocation information to continue to improve the Services and we use aggregated information in Strava Metro and our Global Heatmap. This information will be de-associated with your name and other identifiers.</p>
+</section>
+<section id="other_sites">
+<h3>Other Strava Sites</h3>
+<p>Strava maintains certain websites that can be accessed outside of <a href="https://strava.com">https://strava.com</a>, such as <a href="https://blog.strava.com">https://blog.strava.com</a> (the “Other Sites”). The Other Sites maintain the look and feel of the Services, but are hosted by outside service providers with their own terms and privacy policies. If you interact with the Other Sites, your information may be stored, processed, or shared outside of the Services. If you interact with the Other Sites, you acknowledge that you may be subject to the terms and conditions and policies applicable to such Other Site. Please be aware that any personal information you submit to the Other Sites may be read, collected, or used by other users of these forums indefinitely, and could be used to send you unsolicited messages. Strava is not responsible for the personal information you choose to submit via the Other Sites.</p>
+</section>
+<section id="privacy_policy_information">
+<a name="privacy_policy_information"></a>
+<h3>Privacy Policy Information</h3>
+<p>Strava reserves the right to modify this Privacy Policy at any time. Please review it occasionally. If Strava makes changes to this Privacy Policy, the updated Privacy Policy will be posted on the Services in a timely manner and, if we make material changes, we will provide a prominent notice. If you object to any of the changes to this Privacy Policy, you should stop using the Services and <a href="https://strava.com/account">delete your account</a>.</p>
+</section>
+
+<p class="copyright">
+©&nbsp;2019 Strava
+</p>
+</article>
+</div>
+<a class="nav-back-to-top" href="#view-legal">↑ Back to top</a>
+</div>
+
+<footer id="global-footer">
+<div class="container-fluid">
+<div class="row footer-nav footer-row">
+<div class="footer-nav-wrapper">
+<div class="footer-nav-menu col-lg-2 col-md-3 col-sm-3 col-xs-6">
+<h4 tabindex="0">
+Our Community
+</h4>
+<ul class="footer-nav-submenu list-unstyled text-left">
+<li>
+<a href="/about">
+About
+</a>
+</li>
+<li>
+<a href="/community-standards">
+Strava Community Standards
+</a>
+</li>
+<li>
+<a href="/careers">
+Careers
+</a>
+</li>
+<li>
+<a href="/pros">
+Pros on Strava
+</a>
+</li>
+</ul>
+</div>
+<div class="footer-nav-menu col-lg-2 col-md-3 col-sm-3 col-xs-6">
+<h4 tabindex="0">
+Follow
+</h4>
+<ul class="footer-nav-submenu list-unstyled text-left">
+<li>
+<a href="http://blog.strava.com/" target="_blank">
+Blog
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/Strava/" target="_blank">
+Facebook
+</a>
+</li>
+<li>
+<a href="https://instagram.com/strava" target="_blank">
+Instagram
+</a>
+</li>
+<li>
+<a href="http://twitter.com/strava" target="_blank">
+Twitter
+</a>
+</li>
+</ul>
+</div>
+<div class="footer-nav-menu col-lg-2 col-md-3 col-sm-3 col-xs-6">
+<h4 tabindex="0">
+Support
+</h4>
+<ul class="footer-nav-submenu list-unstyled text-left">
+<li>
+<a href="https://strava.zendesk.com/entries/61608110-How-to-contact-Strava-Support-Submit-a-ticket">
+Contact
+</a>
+</li>
+<li>
+<a href="https://strava.zendesk.com/entries/46363890-About-Strava-Maps">
+Community Forum
+</a>
+</li>
+<li>
+<a href="https://strava.zendesk.com/entries/46363890-About-Strava-Maps">
+About Our Maps
+</a>
+</li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 footer-nav-menu visible-lg-block">
+<h4>
+<a href="https://business.strava.com">
+Business
+</a>
+</h4>
+</div>
+<div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 footer-nav-menu visible-lg-block">
+<h4>
+<a href="/mobile">
+Mobile
+</a>
+</h4>
+</div>
+<div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 footer-nav-menu visible-lg-block">
+<h4>
+<a href="/premium">
+Summit
+</a>
+</h4>
+</div>
+<div class="footer-nav-menu col-md-3 col-sm-3 col-xs-6 hidden-lg">
+<h4 class="more">
+<span class="app-icon-wrapper  "><span class="app-icon icon-ellipsis icon-xl">More</span></span>
+</h4>
+<ul class="footer-nav-submenu list-unstyled text-left">
+<li>
+<a href="/mobile">
+Mobile
+</a>
+</li>
+<li>
+<a href="/premium">
+Summit
+</a>
+</li>
+<li>
+<a href="https://business.strava.com">
+Business
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row footer-other">
+<div class="col-md-12">
+<div class="privacy-terms">
+<a href="/legal/privacy">
+Privacy Policy
+</a>
+|
+<a href="/legal/terms">
+Terms and Conditions
+</a>
+</div>
+<div class="copyright">
+<p>© 2020 Strava</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+
+
+<script id="lightbox-template" type="text/template">
+<div class='lightbox-window modal-content'>
+<div class='close-lightbox'>
+<button class='btn btn-unstyled btn-close'>
+<div class='app-icon icon-close icon-xs icon-white'></div>
+</button>
+</div>
+</div>
+</script>
+<script id="popover-template" type="text/template">
+<div class='popover'></div>
+</script>
+<script>
+  window._asset_host = "https://d3nn82uaxijpm6.cloudfront.net";
+  window._measurement_preference = "meters";
+  window._date_preference = "%m/%d/%Y";
+  window._datepicker_preference_format = "mm/dd/yy";
+  
+  jQuery(document).ready(function() {
+    Strava.Util.EventLogging.createInstance("https://analytics.strava.com","7215fa60b5f01ecc3967543619f7e3d9", null);
+  });
+</script>
+<script>
+  //async script load for twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script src="https://d3nn82uaxijpm6.cloudfront.net/assets/strava/i18n/locales/en-US-2ba14df0ef082827f3708748de9db2c4f219b895e7dea50e1eca93fcf1818a2b.js"></script>
+<script src="https://d3nn82uaxijpm6.cloudfront.net/assets/application-0dc8ee2afb061916abeff0465149562c7c6eadcdafecae0a532475e266d47770.js"></script>
+
+<script src="https://www.strava.com/cookie-banner"></script>
+<script>
+  jQuery(document).ready(function(){
+    StravaCookieBanner.render();
+  });
+</script>
+
+
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId: "284597785309",
+      status: true,
+      cookie: true,
+      xfbml: true,
+      version: "v2.12"
+    });
+    Strava.Facebook.PermissionsManager.getInstance().facebookReady();
+    jQuery('#fb-root').trigger('facebook:init');
+  };
+  (function(d){
+    var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement('script'); js.id = id; js.async = true;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    ref.parentNode.insertBefore(js, ref);
+  }(document));
+</script>
+
+
+<script>
+  jQuery('document').ready(function() {
+    setTimeout(function() {
+      jQuery('#face-pile').css('visibility', 'visible');
+    }, 300);
+  });
+  var ua = navigator.userAgent;
+  var checker = {
+    ios: ua.match(/(iPhone|iPod|iPad)/),
+    android: ua.match(/Android/)
+  };
+  
+  var regButton = jQuery('#get-started-button');
+  if (checker.android || checker.ios) {
+    regUrl = regButton.attr('href');
+    if (checker.android) {
+      regUrl = 'https://market.android.com/details?id=com.strava';
+    } else if (checker.ios) {
+      regUrl = 'http://itunes.apple.com/app/strava-cycling/id426826309';
+    }
+    regButton.attr('href', regUrl).text('Get the App');
+  }
+  regButton.css('visibility', 'visible');
+</script>
+<script>
+  var currentAthlete = new Strava.Models.CurrentAthlete({"logged_in":false});
+  HAML.globals = function() {
+    return {
+      currentAthlete: currentAthlete,
+      renderPartial: function(name, context) {
+        if (context == null) {
+          context = this;
+        }
+        return JST[name](context);
+      }
+    }
+  }
+</script>
+
+<script>
+  new Strava.Initializer();
+</script>
+<script>
+  var mqTimeout;
+  var pinTimeout;
+  var mq;
+  var legalNav = jQuery('#legal-nav');
+  var legalNavItems = jQuery('#legal-nav-items');
+  
+  var bindActions = function(){
+    mq = window.matchMedia("(max-width: 767px)");
+    if (mq.matches) {
+      legalNav.on('click', function(){
+        legalNavItems.collapse('toggle');
+      });
+    } else {
+      legalNav.unbind('click');
+      legalNavItems.removeAttr('style');
+    }
+  }
+  
+  var windowTop;
+  var windowHeight;
+  var backToTop = jQuery('.nav-back-to-top');
+  var backToTopPinning = function(){
+    windowTop = jQuery(window).scrollTop();
+    windowHeight = jQuery(window).height();
+  
+    if (windowTop > windowHeight) {
+      if (!backToTop.hasClass('pinned')) {
+        backToTop.addClass('pinned');
+      }
+    } else {
+      jQuery('.nav-back-to-top.pinned').removeClass('pinned');
+    }
+  
+    if (windowTop + windowHeight > jQuery('#view-legal').height()) {
+      if (!backToTop.hasClass('pinned-bottom')) {
+        backToTop.addClass('pinned-bottom');
+      }
+    } else {
+      jQuery('.nav-back-to-top.pinned-bottom').removeClass('pinned-bottom');
+    }
+  }
+  
+  jQuery(document).ready(function(){
+    bindActions();
+    backToTopPinning();
+  
+    if (matchMedia) {
+      window.onresize = function(){
+        clearTimeout(mqTimeout);
+        mqTimeout = setTimeout(bindActions, 200);
+      };
+    }
+  
+    window.onscroll = function(){
+      clearTimeout(pinTimeout);
+      pinTimeout = setTimeout(backToTopPinning, 40);
+    }
+  });
+</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register("/service_worker.js?v=dLlWydWlG8").then(function(registration) {
+      }, function(err) {
+        console.log('ServiceWorker registration failed: ', err);
+      });
+    });
+  }
+</script>
+<script>
+  jQuery(document).ready(function() {
+    jQuery('a').each(addSegmentAttr);
+    jQuery('button').each(addSegmentAttr);
+    function addSegmentAttr(index, element){
+      var $element = jQuery(element);
+      var data = $element.data();
+      var external_analytics_event = data.segioevent;
+      if (external_analytics_event && external_analytics_event.name) {
+        var props = jQuery.extend({}, external_analytics_event);
+        delete props.name;
+  
+        Strava.ExternalAnalytics.trackLink($element, external_analytics_event.name, props);
+      }
+    }
+  
+    // Scroll Tracking
+    jQuery(document).one('scroll', function(){
+      Strava.ExternalAnalytics.track('Page Scrolled', null, null, null);
+    });
+  });
+</script>
+<script>
+  // Mobile Menu transition handler
+  jQuery('.collapsable-nav #container-nav')
+    .on('show.bs.collapse', function(){
+      jQuery('.smartbanner-content').slideUp(100);
+      jQuery('html').addClass('mobile-menu-open');
+    })
+    .on('hidden.bs.collapse', function(){
+      jQuery('.smartbanner-content').slideDown(100);
+      jQuery('html').removeClass('mobile-menu-open');
+    });
+</script>
+
+<script src="https://d3nn82uaxijpm6.cloudfront.net/assets/bootstrap.min-55483ca093070244e24730190b707a18467cb78d3262a0133d34b80fc82c8636.js"></script>
+
+
+
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.d0f13be8321eb432fba28cfc1c3351b1.html?origin=https%3A%2F%2Fwww.strava.com" title="Twitter settings iframe" style="display: none;"></iframe>
+</body></html>

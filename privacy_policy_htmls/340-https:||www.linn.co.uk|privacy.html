@@ -1,0 +1,2019 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
+<!-- Rollbar -->
+<script type="text/javascript" async="" src="https://www.google-analytics.com/gtm/js?id=GTM-N89DQG8&amp;t=gtm3&amp;cid=1660877294.1585186512"></script><script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script><script src="https://connect.facebook.net/signals/config/259824571056543?v=2.9.15&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/config/2270882009630249?v=2.9.15&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/config/174697136450242?v=2.9.15&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script><script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://static.hotjar.com/c/hotjar-1095875.js?sv=7"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-W2XCZR"></script><script>
+    var _rollbarConfig = {
+        accessToken: "799d660e5be14927a2f95e393fd7a695",
+        captureUncaught: true,
+        captureUnhandledRejections: true,
+        payload: {
+            environment: "production"
+        }
+    };
+    // Rollbar Snippet
+    !function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){var n=o(1),t=o(4);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.13.0/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){var n=o(2);function t(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var a=0;function l(r,e){this.options=r,this._rollbarOldOnError=null;var o=a++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var i=o(3),s=function(r,e){return new l(r,e)},d=function(r){return new i(s,r)};function c(r){return t(function(){var e=Array.prototype.slice.call(arguments,0),o={shim:this,method:r,args:e,ts:new Date};window._rollbarShims[this.shimId()].messages.push(o)})}l.prototype.loadFull=function(r,e,o,n,a){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=t(function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,t,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(t=n.args||[],i=0;i<t.length;++i)if("function"==typeof(l=t[i])){l(e);break}}"function"==typeof a&&a(e)}()}}),d.insertBefore(i,s)},l.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),u=0;u<p.length;++u)l.prototype[p[u]]=c(p[u]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var a=new d(e);return t(function(){e.captureUncaught&&(a._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,a,!0),e.wrapGlobalEventHandlers&&n.wrapGlobals(r,a,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,a,!0);var t=e.autoInstrument;return!1!==e.enabled&&(void 0===t||!0===t||"object"==typeof t&&t.network)&&r.addEventListener&&(r.addEventListener("load",a.captureLoad.bind(a)),r.addEventListener("DOMContentLoaded",a.captureDomContentLoaded.bind(a))),r[o]=a,a})()}},Rollbar:d}},function(r,e){function o(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var n;if("function"==typeof e._rollbarOldOnError)n=e._rollbarOldOnError;else if(r.onerror){for(n=r.onerror;n._rollbarOldOnError;)n=n._rollbarOldOnError;e._rollbarOldOnError=n}e.handleAnonymousErrors();var t=function(){var o=Array.prototype.slice.call(arguments,0);!function(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}(r,e,n,o)};o&&(t._rollbarOldOnError=n),r.onerror=t}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}},wrapGlobals:function(r,e,n){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&o(e,r[a].prototype,n)}}}},function(r,e){function o(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(o.prototype)}o.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=o},function(r,e){r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);
+    // End Rollbar Snippet
+    </script>
+<!-- End Rollbar -->
+          <!-- LogRocket -->
+            <script src="https://cdn.lr-ingest.io/LogRocket.min.js" crossorigin="anonymous"></script><script src="https://cdn.lr-ingest.io/logger.min.js" async=""></script>
+            <script>window.LogRocket && window.LogRocket.init('vejbmz/linn-website');</script>
+            <!-- End LogRocket -->
+          <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W2XCZR');</script>
+<!-- End Google Tag Manager -->
+              <title>Linn — Privacy Policy</title>
+    <meta name="description" content="Our privacy and legal polices">
+    <meta name="robots" content="noodp">
+    <meta name="robots" content="noodp">
+    <meta charset="UTF-8">
+    <meta content="IE=edge" httpequiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="Copyright (c) 2012 by Linn">
+    <meta name="google-site-verification" content="29PCVXsOvcqWtMAXMGb8RpWfXXQM94OKEIlu">
+    <meta name="p:domain_verify" content="b9e5bcf3e2708fa820b23a69a2850943">
+    <link type="image/x-icon" rel="shortcut icon" href="https://small.linncdn.com/website/responsive/images/favicon.ico">
+    <link rel="apple-touch-icon" href="https://small.linncdn.com/website/responsive/images/icons/linn-icon-x58.png">
+    <link rel="apple-touch-icon" href="https://small.linncdn.com/website/responsive/images/icons/linn-icon-x76.png" sizes="76x76">
+    <link rel="apple-touch-icon" href="https://small.linncdn.com/website/responsive/images/icons/linn-icon-x120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="https://small.linncdn.com/website/responsive/images/icons/linn-icon-x152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="https://small.linncdn.com/website/responsive/images/icons/linn-icon-x180.png" sizes="180x180">
+    <link rel="apple-touch-icon" href="https://small.linncdn.com/website/responsive/images/icons/linn-icon-x240.png" sizes="240x240">
+    <link rel="apple-touch-icon" href="https://small.linncdn.com/website/responsive/images/icons/linn-icon-x304.png" sizes="304x304">
+    <link rel="apple-touch-icon" href="https://small.linncdn.com/website/responsive/images/icons/linn-icon-x540.png" sizes="540x540">
+    <!--[if (!IE) | (gt IE 9)]><!-->
+    <link type="text/css" rel="stylesheet" href="https://small.linncdn.com/website/responsive/css/gridset/gridset.css?11Oct18">
+    <!--<![endif]-->
+    <!--[if IE 9]>
+    <link type="text/css" rel="stylesheet" href="https://small.linncdn.com/website/responsive/css/gridset/gridset-ie-9.css?11Oct18"/>
+    <![endif]-->
+    <!--[if lte IE 8]>
+    <link type="text/css" rel="stylesheet" href="https://small.linncdn.com/website/responsive/css/gridset/gridset-ie-lte8.css?11Oct18"/>
+    <![endif]-->
+    <!--[if (!IE) | (gt IE 8)]><!-->
+    <link type="text/css" rel="stylesheet" href="https://small.linncdn.com/website/responsive/css/linn.1.css?11Oct18">
+    <!--<![endif]-->
+    <!--[if (!IE) | (gt IE 8)]><!-->
+    <link type="text/css" rel="stylesheet" href="https://small.linncdn.com/website/responsive/css/linn.2.css?11Oct18">
+    <!--<![endif]-->
+    <!--[if (!IE) | (gt IE 8)]><!-->
+    <link type="text/css" rel="stylesheet" href="https://small.linncdn.com/website/responsive/css/linn.3.css?11Oct18">
+    <!--<![endif]-->
+    <!--[if lte IE 8]>
+    <link type="text/css" rel="stylesheet" href="https://small.linncdn.com/website/responsive/css/linn-ie-lte8.css?11Oct18"/>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="https://small.linncdn.com/website/responsive/scripts/html5shiv.js?11Oct18"></script>
+    <![endif]-->
+    <style type="text/css">
+        body {
+  background-color: #fff;
+}
+
+.privacy ul {
+margin: 18px 0 18px 0;
+margin: 1.125rem 0 1.125rem 0;
+}
+
+.privacy p + ul {
+margin: 0 0 18px 0;
+margin: 0 0 1.125rem 0;
+}
+
+.privacy .side-nav li {
+  padding-bottom: 0.75rem;
+  padding-bottom: 12px;
+}
+
+.privacy h2, h3 {
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+
+.privacy h3 {
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+                  
+.privacy h4 {
+    font-size: 20px;
+    font-size: 1.25rem;
+}
+                  
+    </style>
+
+<script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/778921835/?random=1585186511695&amp;cv=9&amp;fst=1585186511695&amp;num=1&amp;label=azLbCPLXlwQQ3uKf2gM&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635470&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=50&amp;u_tz=-240&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;gtm=2wg3i0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.linn.co.uk%2Fprivacy&amp;tiba=Linn%20%E2%80%94%20Privacy%20Policy&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script></head>
+<body class="orange">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2XCZR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+          <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <defs>
+    <symbol id="cn-flag" viewBox="0 0 480 480">
+      <title>CN Flag</title>
+      <polygon points="240 0 240 0 240 0 240 0" style="fill:none"></polygon><path d="M480,240C480,107.46,372.55,0,240,0h0C107.45,0,0,107.46,0,240S107.45,480,240,480,480,372.55,480,240ZM173.79,196.13l-42.32-30.75L89.15,196.13l16.16-49.75L63,115.63H115.3l16.16-49.75,16.17,49.75h52.31l-42.32,30.75Zm59.58-146,16,6.82L260.86,43.8l-1.53,17.37,16,6.82-17,3.91-1.53,17.37-9-15-17,3.91,11.45-13.15Zm25.26,189.48L257.82,257l-9.58-14.57-16.82,4.61,10.89-13.62-9.58-14.57L249,225l10.89-13.62-0.81,17.42L275.44,235ZM288.9,92.34L301,104.85l15.65-7.68-8.15,15.41,12.14,12.52-17.18-3-8.15,15.41-2.47-17.26-17.18-3,15.65-7.68Zm25.36,112.45L299.79,195l-13.73,10.75L290.85,189l-14.47-9.74,17.43-.63,4.79-16.77,6,16.38,17.43-.63L308.28,188.4Z" transform="translate(0 -0.01)" style="fill:#de2910"></path><polygon points="147.63 115.63 131.47 65.88 115.3 115.63 62.99 115.63 105.31 146.38 89.15 196.13 131.47 165.38 173.79 196.13 157.62 146.38 199.94 115.63 147.63 115.63" style="fill:#ffde00"></polygon><polygon points="247.88 74.31 256.85 89.27 258.38 71.9 275.37 67.98 259.33 61.16 260.86 43.79 249.41 56.95 233.36 50.12 242.33 65.07 230.89 78.23 247.88 74.31" style="fill:#ffde00"></polygon><polygon points="292.89 120.26 295.35 137.52 303.5 122.11 320.68 125.1 308.54 112.58 316.69 97.17 301.04 104.85 288.9 92.33 291.36 109.59 275.71 117.27 292.89 120.26" style="fill:#ffde00"></polygon><polygon points="304.58 178.27 298.61 161.89 293.81 178.66 276.39 179.28 290.86 189.02 286.06 205.79 299.8 195.04 314.26 204.78 308.28 188.4 322.01 177.65 304.58 178.27" style="fill:#ffde00"></polygon><polygon points="259.93 211.42 249.04 225.04 232.72 218.89 242.31 233.45 231.42 247.07 248.23 242.46 257.81 257.02 258.62 239.6 275.44 234.99 259.12 228.84 259.93 211.42" style="fill:#ffde00"></polygon>
+    </symbol>
+    <symbol id="de-flag" viewBox="0 0 480 480">
+      <title>DE Flag</title>
+      <path d="M468,329.82H12c31.52,95.77,121.68,164.91,228,164.91S436.48,425.59,468,329.82Z" transform="translate(0 -14.73)" style="fill: #ffe600"></path>
+      <path d="M240,14.73c-100.79,0-187,62.13-222.61,150.18H462.61C427,76.86,340.79,14.73,240,14.73Z" transform="translate(0 -14.73)"></path>
+      <path d="M17.39,164.91A240.8,240.8,0,0,0,12,329.82H468a240.8,240.8,0,0,0-5.39-164.91H17.39Z" transform="translate(0 -14.73)" style="fill: red"></path>
+    </symbol>
+    <symbol id="es-flag" viewBox="0 0 480 480">
+      <title>ES Flag</title>
+      <path d="M53,384a240,240,0,0,0,406.06,0H53Z" transform="translate(-16.02 -16.02)" style="fill: #c00"></path>
+      <path d="M256,16A239.82,239.82,0,0,0,53,128H459.05A239.82,239.82,0,0,0,256,16Z" transform="translate(-16.02 -16.02)" style="fill: #c00"></path>
+      <path d="M496,256a238.86,238.86,0,0,0-37-128H53a240.11,240.11,0,0,0,0,256H459.05A238.86,238.86,0,0,0,496,256Z" transform="translate(-16.02 -16.02)" style="fill: #ffde00"></path>
+    </symbol>
+    <symbol id="fr-flag" viewBox="0 0 480 480">
+      <title>FR Flag</title>
+      <path d="M239.57,480h0Z" transform="translate(0 -0.01)" style="fill:none"></path><path d="M336.66,459.73V20.28a240.51,240.51,0,0,0-193.32,0V459.73A239.13,239.13,0,0,0,239.57,480h0.86A239.13,239.13,0,0,0,336.66,459.73Z" transform="translate(0 -0.01)" style="fill:#fff"></path><path d="M0,240c0,98.16,58.93,182.53,143.34,219.72V20.28C58.93,57.47,0,141.85,0,240Z" transform="translate(0 -0.01)" style="fill:#00267f"></path><path d="M480,240c0-98.16-58.93-182.53-143.34-219.72V459.73C421.07,422.54,480,338.16,480,240Z" transform="translate(0 -0.01)" style="fill:#f31830"></path>
+    </symbol>
+    <symbol id="gb-flag" viewBox="0 0 480 480">
+      <title>GB Flag</title>
+      <path d="M310.76,469.39a240.41,240.41,0,0,0,121.54-85.78L310.76,322.84V469.39Z" transform="translate(0 0)" style="fill:#006"></path><path d="M169.26,10.6A240.41,240.41,0,0,0,47.69,96.39l121.56,60.78V10.6Z" transform="translate(0 0)" style="fill:#006"></path><path d="M432.31,96.39A240.41,240.41,0,0,0,310.76,10.61V157.17Z" transform="translate(0 0)" style="fill:#006"></path><path d="M47.7,383.62A240.41,240.41,0,0,0,169.26,469.4V322.84Z" transform="translate(0 0)" style="fill:#006"></path><path d="M3.74,282.46a238.25,238.25,0,0,0,21.57,64.9l73.2-36.6h63.28L39.49,371.91q3.94,6,8.21,11.71l121.56-60.78V469.4a238.35,238.35,0,0,0,28.3,6.86V282.46H3.74Z" transform="translate(0 0)" style="fill:#fff"></path><path d="M469.39,169.25a238.39,238.39,0,0,0-14.7-36.59l-73.19,36.59H318.23l122.29-61.14q-3.94-6-8.21-11.72L310.76,157.17V10.61a238.34,238.34,0,0,0-28.3-6.86V197.55h193.8A238.35,238.35,0,0,0,469.39,169.25Z" transform="translate(0 0)" style="fill:#fff"></path><path d="M240.43,0h0Z" transform="translate(0 0)" style="fill:#fff"></path><path d="M282.46,282.46v193.8a238.34,238.34,0,0,0,28.3-6.86V322.84l121.54,60.77a240.06,240.06,0,0,0,22.39-36.27l-73.18-36.59h63.28l21.07,10.54q1.88-5.22,3.52-10.54a238.34,238.34,0,0,0,6.86-28.3H282.46Z" transform="translate(0 0)" style="fill:#fff"></path><path d="M169.26,10.6V157.17L47.69,96.39a240,240,0,0,0-22.39,36.27l73.2,36.6H35.22L14.13,158.71q-1.88,5.22-3.53,10.55a238.35,238.35,0,0,0-6.86,28.3H197.56V3.74A238.35,238.35,0,0,0,169.26,10.6Z" transform="translate(0 0)" style="fill:#fff"></path><path d="M197.56,3.74V197.55H3.74a242.6,242.6,0,0,0,0,84.9H197.56v193.8a242.59,242.59,0,0,0,84.9,0V282.46h193.8a242.6,242.6,0,0,0,0-84.9H282.46V3.74a241.44,241.44,0,0,0-42-3.74h-0.86A241.44,241.44,0,0,0,197.56,3.74Z" transform="translate(0 0)" style="fill:#c00"></path><path d="M98.51,310.76l-73.2,36.6a239.71,239.71,0,0,0,14.18,24.55l122.3-61.15H98.51Z" transform="translate(0 0)" style="fill:#c00"></path><path d="M381.51,310.76l73.18,36.59a238.54,238.54,0,0,0,11.17-26.05l-21.07-10.54H381.51Z" transform="translate(0 0)" style="fill:#c00"></path><path d="M98.51,169.25l-73.2-36.6a238.54,238.54,0,0,0-11.17,26.05l21.09,10.55H98.51Z" transform="translate(0 0)" style="fill:#c00"></path><path d="M381.51,169.25l73.19-36.59a239.71,239.71,0,0,0-14.18-24.55L318.23,169.25h63.28Z" transform="translate(0 0)" style="fill:#c00"></path>
+    </symbol>
+    <symbol id="it-flag" viewBox="0 0 480 480">
+      <title>IT Flag</title>
+      <path d="M336.51,20.22a240.51,240.51,0,0,0-193,0V459.79a240.51,240.51,0,0,0,193,0V20.22Z" transform="translate(0 -0.01)" style="fill:#fff"></path><path d="M0,240c0,98.21,59,182.63,143.49,219.79V20.22C59,57.37,0,141.79,0,240Z" transform="translate(0 -0.01)" style="fill:#005700"></path><path d="M480,240c0-98.22-59-182.64-143.49-219.79V459.79C421,422.64,480,338.22,480,240Z" transform="translate(0 -0.01)" style="fill:#fc0000"></path>
+    </symbol>
+    <symbol id="jp-flag" viewBox="0 0 480 480">
+      <title>JP Flag</title>
+      <path d="M480,240C480,107.46,372.55,0,240,0S0,107.46,0,240,107.45,480,240,480,480,372.55,480,240ZM240,380A140,140,0,1,1,380,240,140,140,0,0,1,240,380Z" transform="translate(0 -0.01)" style="fill:#fff"></path><circle cx="240" cy="240" r="140" style="fill:#d30000"></circle>
+    </symbol>
+    <symbol id="nl-flag" viewBox="0 0 480 480">
+      <title>NL Flag</title>
+      <path d="M480,240a239.56,239.56,0,0,0-13.92-80.7H13.92a240.85,240.85,0,0,0,0,161.4H466.08A239.56,239.56,0,0,0,480,240Z" transform="translate(0 -0.01)" style="fill:#fff"></path><path d="M208.21,477.91a241.74,241.74,0,0,0,63.59,0H208.21Z" transform="translate(0 -0.01)" style="fill:#21468b"></path><path d="M466.08,320.71H13.92C43.64,403.95,118,466,208.21,477.91h63.59C362,466,436.36,403.95,466.08,320.71Z" transform="translate(0 -0.01)" style="fill:#21468b"></path><path d="M240,0C135.77,0,47.07,66.46,13.92,159.31H466.08C432.93,66.46,344.23,0,240,0Z" transform="translate(0 -0.01)" style="fill:#ae1c28"></path>
+    </symbol>
+    <symbol id="ru-flag" viewBox="0 0 480 480">
+      <title>RU Flag</title>
+      <path d="M240,0C135.5,0,46.62,66.8,13.67,160H466.33C433.38,66.8,344.5,0,240,0Z" transform="translate(0 -0.01)" style="fill:#fff"></path><path d="M480,240a239.58,239.58,0,0,0-13.67-80H13.67a240.83,240.83,0,0,0,0,160H466.33A239.58,239.58,0,0,0,480,240Z" transform="translate(0 -0.01)" style="fill:#01017e"></path><path d="M466.33,320H13.67C46.62,413.22,135.5,480,240,480S433.38,413.22,466.33,320Z" transform="translate(0 -0.01)" style="fill:#fe0101"></path>
+    </symbol>
+    <symbol id="se-flag" viewBox="0 0 480 480">
+      <title>SE Flag</title>
+      <path d="M240.43,480h0Z" transform="translate(0 -0.01)" style="fill:none"></path><path d="M251.43,0.28C247.64,0.11,243.83,0,240,0c-2.49,0-5,.05-7.44.13V0.28h18.88Z" transform="translate(0 -0.01)" style="fill:none"></path><path d="M136.56,23.39A240.39,240.39,0,0,0,4.77,192.17H136.56V23.39Z" transform="translate(0 -0.01)" style="fill:#004073"></path><path d="M4.84,288.17A240.4,240.4,0,0,0,136.56,456.62V288.17H4.84Z" transform="translate(0 -0.01)" style="fill:#003f73"></path><path d="M136.56,192.17H4.77l0,0.11h131.8v-0.11Z" transform="translate(0 -0.01)" style="fill:#fc0"></path><path d="M136.56,288H4.8l0,0.19H136.56V288Z" transform="translate(0 -0.01)" style="fill:#fc0"></path><path d="M137.54,192.17V22.93l-1,.46V192.17h1Z" transform="translate(0 -0.01)" style="fill:#fc0"></path><path d="M136.56,288.17V456.62l1,0.46V288.17h-1Z" transform="translate(0 -0.01)" style="fill:#fc0"></path><rect x="136.56" y="192.28" width="0.99" height="95.7" style="fill:#fc0"></rect><rect x="136.56" y="192.17" width="0.99" height="0.11" style="fill:#fc0"></rect><rect x="136.56" y="287.97" width="0.99" height="0.19" style="fill:#fc0"></rect><path d="M0,240a241.09,241.09,0,0,0,4.8,48H136.56v-95.7H4.75A241.09,241.09,0,0,0,0,240Z" transform="translate(0 -0.01)" style="fill:#fc0"></path><path d="M232.56,0.13a238.81,238.81,0,0,0-95,22.8V457.08a238.81,238.81,0,0,0,94.93,22.79V288.2h-3v-96h3V0.28h0.08V0.13Z" transform="translate(0 -0.01)" style="fill:#fc0"></path><path d="M475.25,192.28H232.56V288H475.19A242.06,242.06,0,0,0,475.25,192.28Z" transform="translate(0 -0.01)" style="fill:#fc0"></path><polygon points="232.56 288 232.56 192.28 232.47 192.28 232.47 192.19 229.51 192.19 229.51 288.19 232.47 288.19 232.47 288 232.56 288" style="fill:#fc0"></polygon><path d="M475.16,288.2H232.56V479.88c2.33,0.07,4.67.12,7,.12h0.86C356.28,479.8,452.87,397.51,475.16,288.2Z" transform="translate(0 -0.01)" style="fill:#003f73"></path><path d="M232.47,288.2V479.88h0.08V288.2h-0.08Z" transform="translate(0 -0.01)" style="fill:#003f73"></path><path d="M232.56,288.2h242.6l0-.19H232.56v0.19Z" transform="translate(0 -0.01)" style="fill:#003f73"></path><rect x="232.47" y="288" width="0.08" height="0.19" style="fill:#003f73"></rect><path d="M232.56,192.2H475.23C453.8,86.17,362.49,5.49,251.43.28H232.56V192.2Z" transform="translate(0 -0.01)" style="fill:#003f73"></path><rect x="232.47" y="0.28" width="0.08" height="191.92" style="fill:#003f73"></rect><path d="M232.56,192.28H475.25l0-.08H232.56v0.08Z" transform="translate(0 -0.01)" style="fill:#003f73"></path><rect x="232.47" y="192.19" width="0.08" height="0.08" style="fill:#003f73"></rect>
+    </symbol>
+  </defs>
+</svg>
+
+<section class="content-set ready" data-content-set-id="navigation">
+    
+<nav class="primary font-size-17-aa font-weight-normal-aa default-content" data-content-id="primary-nav">
+    
+<div class="height-full-aa" style="z-index:2">
+    
+<a class="pad-t-0-and-a-half-cc pad-t-0-and-a-half-ff pad-l-0-ii position-t-7-aa position-l-7-aa position-t-7-cc position-t-5-ff position-l-6-ff width-13-aa width-12-cc" href="/">
+    
+    
+<div class="aa-show ff-hide" id="linn-logo">
+    <svg id="linn-logo" data-name="linn-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.05 104.75"><title>Linn Logo</title><path d="M38.16,39.67l0.55-.55L63.42,11.94A36.26,36.26,0,0,1,74.54,38.16v1.65H38.16V39.67ZM38,74.54A36.42,36.42,0,0,1,1.78,41.46H74.41A36.66,36.66,0,0,1,38,74.54M1.65,38A36.5,36.5,0,0,1,12.77,11.81L38,39.67H1.65V38M38,37.34l-21.83-24H60ZM38,1.65a36.59,36.59,0,0,1,25.12,10H13a36,36,0,0,1,25-10M38,0a38.1,38.1,0,1,0,38,38.16A38,38,0,0,0,38,0"></path><path d="M1.65,104.61H16.06l2.2-4.26-1.1-.55c-1.1,2.06-4.26,3.29-7,3.29s-3-.82-2.88-1.65V89.23a1.32,1.32,0,0,1,1.24-1.1h1.1V86.9H1.78v1.24H3a1.21,1.21,0,0,1,1.1,1.24V102a1.24,1.24,0,0,1-1.24,1.51H1.78v1.1H1.65Z"></path><path d="M56.56,89.64v12.49a1.47,1.47,0,0,1-1,1.24H54.91v1.24h5.63v-1.24H59.72a1.56,1.56,0,0,1-1-1.24v-11L70.7,104.75l2.06-.27v-15a1.34,1.34,0,0,1,1.1-1.37h0.69V86.9H68.91v1.24H69.6a1.36,1.36,0,0,1,1.1,1.37v10.57L59.17,87H54.5v1.24H55a1.23,1.23,0,0,1,1.51,1.37"></path><path d="M33.5,89.64v12.49a1.47,1.47,0,0,1-1,1.24H31.85v1.24h5.63v-1.24H36.65a1.56,1.56,0,0,1-1-1.24v-11l11.94,13.59,2.06-.27v-15a1.34,1.34,0,0,1,1.1-1.37h0.69V86.9H45.85v1.24h0.69a1.36,1.36,0,0,1,1.1,1.37v10.57L36.1,87H31.44v1.24H32a1.23,1.23,0,0,1,1.51,1.37"></path><path d="M26.22,102.14V89.37a1.3,1.3,0,0,1,1.51-1.24h0.69V86.9H20.73v1.24h0.69a1.3,1.3,0,0,1,1.51,1.24v12.77a1.5,1.5,0,0,1-1.51,1.37H20.73v1.24h7.69v-1.24H27.73a1.5,1.5,0,0,1-1.51-1.37"></path></svg>
+</div>
+<div class="aa-hide ff-show display-inline-block width-16-aa">
+    <svg id="linn-logo-min" data-name="linn-logo-min" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105.35 29.46"><title>Linn Logo</title><path d="M100.23,6.67V7.81h0.63a1.27,1.27,0,0,1,1,1.21v9.57L91.43,6.67H87.19V7.81h0.55A1.26,1.26,0,0,1,89,9.27V20.71a1.12,1.12,0,0,1-.94,1.08H87.5v1.14h5.1V21.78H91.88A1.33,1.33,0,0,1,91,20.71v-10l10.91,12.41,1.83-.22V9.07a1.31,1.31,0,0,1,1-1.26h0.61V6.67h-5.12Z"></path><path d="M79,7.81h0.63a1.27,1.27,0,0,1,1,1.21v9.57L70.2,6.67H66V7.81H66.5a1.26,1.26,0,0,1,1.3,1.46V20.71a1.12,1.12,0,0,1-.94,1.08H66.25v1.14h5.1V21.78H70.65a1.34,1.34,0,0,1-.92-1.08v-10L80.64,23.14l1.82-.22V9.07a1.31,1.31,0,0,1,1-1.26h0.6V6.67H79V7.81Z"></path><path d="M55.85,7.81h0.61A1.24,1.24,0,0,1,57.86,9v11.6a1.35,1.35,0,0,1-1.4,1.22H55.85v1.14h7V21.78H62.17a1.24,1.24,0,0,1-1.38-1.15V9a1.23,1.23,0,0,1,1.38-1.16H62.8V6.67h-7V7.81Z"></path><path d="M46.41,21.46c-2.5,0-2.71-.81-2.69-1.53V8.71a1.1,1.1,0,0,1,1.08-1h1V6.59H38.69V7.73h1.12a1,1,0,0,1,1,1.1V20.34a1.17,1.17,0,0,1-1.1,1.4h-1v1.14H51.77l2-3.93-1-.49c-1,1.92-3.91,3-6.42,3"></path><path d="M14.75,15.38L15,15.14,24.54,4.62a14.08,14.08,0,0,1,4.29,10.11q0,0.33,0,.65H14.75Zm0,13.44A14.11,14.11,0,0,1,.7,16H28.76a14.11,14.11,0,0,1-14,12.8M0.64,14.73A14.08,14.08,0,0,1,4.92,4.62l9.79,10.76H0.65c0-.22,0-0.43,0-0.65M23.18,5.16l-8.45,9.29L6.28,5.16H23.18ZM14.73,0.64a14.07,14.07,0,0,1,9.71,3.89H5A14.07,14.07,0,0,1,14.73.64m0-.64A14.73,14.73,0,1,0,29.46,14.73,14.73,14.73,0,0,0,14.73,0"></path></svg>
+</div>
+</a>
+
+</div>
+<div class="pad-t-0-aa pad-l-0-gg" style="z-index:1">
+    
+<div class="height-13-aa height-16-ii text-align-right-aa">
+    
+<nav class="margin-l-20-aa pad-l-9-aa display-inline-block primary">
+    <ul class="text-align-right-aa display-inline-block">
+<li class="hh-hide"><a href="/sources">Sources</a></li>
+<li class="hh-hide"><a href="/speakers-and-amps">Speakers &amp; Amps</a></li>
+<li class="gg-hide"><a href="/music-systems">Music Systems</a></li>
+<li class="gg-hide"><a href="/whole-home">Whole Home</a></li>
+<li class="gg-hide"><a href="/try-linn">Try Linn</a></li>
+<li class="ff-hide"><a href="/about">About Us</a></li>
+<li class="">
+<button class="font-weight-light-aa height-9-aa pad-r-8-aa margin-r-6-aa border-t-none-aa border-b-none-aa border-l-none-aa border-r-none-aa font-size-17-aa line-height-36-aa content-switch" type="button" data-target-content-id="full-menu">
+<span class="hh-hide">Full </span><span class="ii-hide">Menu</span>
+<i class="burger chicken margin-t-1-and-a-half-aa"></i>
+</button>
+</li>
+</ul>
+
+                                    
+</nav>
+</div>
+</div>
+</nav>
+<nav class="white-back-aa shadow-right-aa expanded-menu font-weight-normal-aa" style="z-index:100" data-content-id="full-menu">
+    
+<div class="secondary0-back-aa white-back-ii height-full-aa height-14-ii ff-hide ii-all ii-show position-r-aa position-none-ii width-half-aa border-secondary1-ii border-b-hair-ii pad-t-1-and-a-half-ii">
+    
+<a class="aa-hide ff1-ff4 ff-show pad-t-4-ff pad-b-3-ff pad-l-6-ff" style="z-index:1" href="/">
+    
+    <svg id="linn-logo-min" class="width-16-ff" data-name="linn-logo-min" xmlns="http://www.w3.org/2000/svg" viewBox=" 0 0 105.35 29.46"><title>Linn Logo</title><path d="M100.23,6.67V7.81h0.63a1.27,1.27,0,0,1,1,1.21v9.57L91.43,6.67H87.19V7.81h0.55A1.26,1.26,0,0,1,89,9.27V20.71a1.12,1.12,0,0,1-.94,1.08H87.5v1.14h5.1V21.78H91.88A1.33,1.33,0,0,1,91,20.71v-10l10.91,12.41,1.83-.22V9.07a1.31,1.31,0,0,1,1-1.26h0.61V6.67h-5.12Z"></path><path d="M79,7.81h0.63a1.27,1.27,0,0,1,1,1.21v9.57L70.2,6.67H66V7.81H66.5a1.26,1.26,0,0,1,1.3,1.46V20.71a1.12,1.12,0,0,1-.94,1.08H66.25v1.14h5.1V21.78H70.65a1.34,1.34,0,0,1-.92-1.08v-10L80.64,23.14l1.82-.22V9.07a1.31,1.31,0,0,1,1-1.26h0.6V6.67H79V7.81Z"></path><path d="M55.85,7.81h0.61A1.24,1.24,0,0,1,57.86,9v11.6a1.35,1.35,0,0,1-1.4,1.22H55.85v1.14h7V21.78H62.17a1.24,1.24,0,0,1-1.38-1.15V9a1.23,1.23,0,0,1,1.38-1.16H62.8V6.67h-7V7.81Z"></path><path d="M46.41,21.46c-2.5,0-2.71-.81-2.69-1.53V8.71a1.1,1.1,0,0,1,1.08-1h1V6.59H38.69V7.73h1.12a1,1,0,0,1,1,1.1V20.34a1.17,1.17,0,0,1-1.1,1.4h-1v1.14H51.77l2-3.93-1-.49c-1,1.92-3.91,3-6.42,3"></path><path d="M14.75,15.38L15,15.14,24.54,4.62a14.08,14.08,0,0,1,4.29,10.11q0,0.33,0,.65H14.75Zm0,13.44A14.11,14.11,0,0,1,.7,16H28.76a14.11,14.11,0,0,1-14,12.8M0.64,14.73A14.08,14.08,0,0,1,4.92,4.62l9.79,10.76H0.65c0-.22,0-0.43,0-0.65M23.18,5.16l-8.45,9.29L6.28,5.16H23.18ZM14.73,0.64a14.07,14.07,0,0,1,9.71,3.89H5A14.07,14.07,0,0,1,14.73.64m0-.64A14.73,14.73,0,1,0,29.46,14.73,14.73,14.73,0,0,0,14.73,0"></path></svg>
+</a>
+
+</div>
+<a class="pad-l-0-ii ff-hide position-t-7-aa position-l-7-aa width-13-aa" href="/
+
+          
+                      
+                ">
+    
+    <svg id="linn-logo" data-name="linn-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.05 104.75"><title>Linn Logo</title><path d="M38.16,39.67l0.55-.55L63.42,11.94A36.26,36.26,0,0,1,74.54,38.16v1.65H38.16V39.67ZM38,74.54A36.42,36.42,0,0,1,1.78,41.46H74.41A36.66,36.66,0,0,1,38,74.54M1.65,38A36.5,36.5,0,0,1,12.77,11.81L38,39.67H1.65V38M38,37.34l-21.83-24H60ZM38,1.65a36.59,36.59,0,0,1,25.12,10H13a36,36,0,0,1,25-10M38,0a38.1,38.1,0,1,0,38,38.16A38,38,0,0,0,38,0"></path><path d="M1.65,104.61H16.06l2.2-4.26-1.1-.55c-1.1,2.06-4.26,3.29-7,3.29s-3-.82-2.88-1.65V89.23a1.32,1.32,0,0,1,1.24-1.1h1.1V86.9H1.78v1.24H3a1.21,1.21,0,0,1,1.1,1.24V102a1.24,1.24,0,0,1-1.24,1.51H1.78v1.1H1.65Z"></path><path d="M56.56,89.64v12.49a1.47,1.47,0,0,1-1,1.24H54.91v1.24h5.63v-1.24H59.72a1.56,1.56,0,0,1-1-1.24v-11L70.7,104.75l2.06-.27v-15a1.34,1.34,0,0,1,1.1-1.37h0.69V86.9H68.91v1.24H69.6a1.36,1.36,0,0,1,1.1,1.37v10.57L59.17,87H54.5v1.24H55a1.23,1.23,0,0,1,1.51,1.37"></path><path d="M33.5,89.64v12.49a1.47,1.47,0,0,1-1,1.24H31.85v1.24h5.63v-1.24H36.65a1.56,1.56,0,0,1-1-1.24v-11l11.94,13.59,2.06-.27v-15a1.34,1.34,0,0,1,1.1-1.37h0.69V86.9H45.85v1.24h0.69a1.36,1.36,0,0,1,1.1,1.37v10.57L36.1,87H31.44v1.24H32a1.23,1.23,0,0,1,1.51,1.37"></path><path d="M26.22,102.14V89.37a1.3,1.3,0,0,1,1.51-1.24h0.69V86.9H20.73v1.24h0.69a1.3,1.3,0,0,1,1.51,1.24v12.77a1.5,1.5,0,0,1-1.51,1.37H20.73v1.24h7.69v-1.24H27.73a1.5,1.5,0,0,1-1.51-1.37"></path></svg>
+</a>
+<div class="inner-aa">
+    <ul class="aa-all font-size-17-aa font-weight-bold-aa pad-l-0-zz pad-l-6-aa pad-r-5-aa pad-l-0-ff pad-r-0-ff black-text-aa overflow-hidden-aa">
+    <li class="aa2-aa12 dd3-dd12 ff-all ii-hide secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa">
+    
+<a class="aa2-aa4 ff1-ff4 ff-hide white-back-aa pad-t-6-and-a-half-aa pad-b-4-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                            " href="/  ">
+    Home
+    
+</a>
+
+<a class="aa-hide ff1-ff4 ff-show white-back-aa pad-t-5-and-a-half-ff pad-b-4-ff pad-l-6-ff" href="/">
+    
+    <svg id="linn-logo-min" class="width-16-ff" data-name="linn-logo-min" xmlns="http://www.w3.org/2000/svg" viewBox=" 0 0 105.35 29.46"><title>Linn Logo</title><path d="M100.23,6.67V7.81h0.63a1.27,1.27,0,0,1,1,1.21v9.57L91.43,6.67H87.19V7.81h0.55A1.26,1.26,0,0,1,89,9.27V20.71a1.12,1.12,0,0,1-.94,1.08H87.5v1.14h5.1V21.78H91.88A1.33,1.33,0,0,1,91,20.71v-10l10.91,12.41,1.83-.22V9.07a1.31,1.31,0,0,1,1-1.26h0.61V6.67h-5.12Z"></path><path d="M79,7.81h0.63a1.27,1.27,0,0,1,1,1.21v9.57L70.2,6.67H66V7.81H66.5a1.26,1.26,0,0,1,1.3,1.46V20.71a1.12,1.12,0,0,1-.94,1.08H66.25v1.14h5.1V21.78H70.65a1.34,1.34,0,0,1-.92-1.08v-10L80.64,23.14l1.82-.22V9.07a1.31,1.31,0,0,1,1-1.26h0.6V6.67H79V7.81Z"></path><path d="M55.85,7.81h0.61A1.24,1.24,0,0,1,57.86,9v11.6a1.35,1.35,0,0,1-1.4,1.22H55.85v1.14h7V21.78H62.17a1.24,1.24,0,0,1-1.38-1.15V9a1.23,1.23,0,0,1,1.38-1.16H62.8V6.67h-7V7.81Z"></path><path d="M46.41,21.46c-2.5,0-2.71-.81-2.69-1.53V8.71a1.1,1.1,0,0,1,1.08-1h1V6.59H38.69V7.73h1.12a1,1,0,0,1,1,1.1V20.34a1.17,1.17,0,0,1-1.1,1.4h-1v1.14H51.77l2-3.93-1-.49c-1,1.92-3.91,3-6.42,3"></path><path d="M14.75,15.38L15,15.14,24.54,4.62a14.08,14.08,0,0,1,4.29,10.11q0,0.33,0,.65H14.75Zm0,13.44A14.11,14.11,0,0,1,.7,16H28.76a14.11,14.11,0,0,1-14,12.8M0.64,14.73A14.08,14.08,0,0,1,4.92,4.62l9.79,10.76H0.65c0-.22,0-0.43,0-0.65M23.18,5.16l-8.45,9.29L6.28,5.16H23.18ZM14.73,0.64a14.07,14.07,0,0,1,9.71,3.89H5A14.07,14.07,0,0,1,14.73.64m0-.64A14.73,14.73,0,1,0,29.46,14.73,14.73,14.73,0,0,0,14.73,0"></path></svg>
+</a>
+
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa pad-t-3-aa pad-b-3-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/sources                                       ">
+    
+    <span class="">Sources
+
+                          
+                                      
+                                </span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa accordian-switch                                                                                         shadow-left-aa secondary0-back-hover-aa" href="/sources
+
+                      
+                                  
+                            " data-accordian-max-width-enabled="579px
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">Sources</span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 ii-all font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-5-ii">
+    <li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/sources">
+    Overview
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                     ff-hide" href="/sources/network-music-players
+
+                              
+                                          
+                                    ">
+    Network Music Players
+
+                              
+                                          
+                                    
+    
+</a>
+
+<a class="underline-hover
+
+                              
+                                          
+                                     aa-hide ff-show" href="/sources/network-music-players
+
+                              
+                                          
+                                    ">
+    Network Players
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/sources/turntables
+
+                              
+                                          
+                                    ">
+    Turntables
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li>
+</ul>
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa pad-t-3-aa pad-b-3-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/speakers-and-amps">
+    
+    <span class="">Speakers &amp; Amps</span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa accordian-switch                                                                                         shadow-left-aa secondary0-back-hover-aa" href="/speakers-and-amps" data-accordian-max-width-enabled="579px
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">Speakers &amp; Amps</span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 ii-all font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-5-ii">
+    <li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/speakers-and-amps">
+    Overview
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff6-ff7 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/speakers-and-amps/speakers
+
+                              
+                                          
+                                    ">
+    Speakers
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/speakers-and-amps/power-amps
+
+                              
+                                          
+                                    ">
+    Amps
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff6-ff7 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/speakers-and-amps/upgrades
+
+                              
+                                          
+                                    ">
+    Upgrades
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/speakers-and-amps/accessories
+
+                              
+                                          
+                                    ">
+    Accessories
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li>
+</ul>
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa pad-t-3-aa pad-b-3-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/music-systems
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">Music Systems
+
+                          
+                                      
+                                </span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa accordian-switch                                                                                         shadow-left-aa secondary0-back-hover-aa" href="/music-systems
+
+                      
+                                  
+                            " data-accordian-max-width-enabled="579px
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">Music Systems
+
+                          
+                                      
+                                </span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 ii-all font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-5-ii">
+    <li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover" href="/music-systems
+
+                              
+                                          
+                                    ">
+    Overview
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/music-systems/klimax
+
+                              
+                                          
+                                    ">
+    Klimax
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/music-systems/akubarik
+
+                              
+                                          
+                                    ">
+    Akubarik
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/music-systems/akudorik
+
+                              
+                                          
+                                    ">
+    Akudorik
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/music-systems/series-5
+
+                              
+                                          
+                                    ">
+    Series 5
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/music-systems/majik
+
+                              
+                                          
+                                    ">
+    Majik
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li>
+</ul>
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa pad-t-3-aa pad-b-3-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/whole-home
+
+                      
+                                  
+                            ">
+    
+    <span class="">Whole Home
+
+                          
+                                      
+                                </span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa shadow-left-aa secondary0-back-hover-aa" href="/whole-home
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">Whole Home
+
+                          
+                                      
+                                </span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 ii-all ii-hide font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-5-ii">
+    <li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                     ff-hide" href="/whole-home
+
+                              
+                                          
+                                    ">
+    Overview
+
+                              
+                                          
+                                    
+    
+</a>
+
+<a class="underline-hover
+
+                              
+                                          
+                                     aa-hide ff-show" href="/whole-home">
+    Overview
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li>
+</ul>
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa pad-t-3-aa pad-b-3-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/try-linn                                                ">
+    
+    <span class="">Try Linn
+
+                          
+                                      
+                                </span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa shadow-left-aa secondary0-back-hover-aa accordian-switch" href="/try-linn                                                     " data-accordian-max-width-enabled="579px                                                        ">
+    
+    <span class="ii2-ii11">Try Linn
+
+                          
+                                      
+                                </span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 ii-all ii-hide font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-5-ii">
+    <li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/book-a-demo">
+    Book a Demo
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/find-a-shop">
+    Find a Shop
+    
+</a>
+
+</li>
+</ul>
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa pad-t-3-aa pad-b-3-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/about
+
+                      
+                                  
+                            ">
+    
+    <span class="">About Us
+
+                          
+                                      
+                                </span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa accordian-switch                                                                                         shadow-left-aa secondary0-back-hover-aa" href="/about
+
+                      
+                                  
+                            " data-accordian-max-width-enabled="579px
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">About Us
+
+                          
+                                      
+                                </span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 ii-all font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-5-ii">
+    <li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                     ff-hide" href="/about
+
+                              
+                                          
+                                    ">
+    What We Do
+
+                              
+                                          
+                                    
+    
+</a>
+
+<a class="underline-hover
+
+                              
+                                          
+                                     aa-hide ff-show" href="/about
+
+                              
+                                          
+                                    ">
+    What We Do
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                     ff-hide" href="/about/our-story
+
+                              
+                                          
+                                    ">
+    Our Story
+
+                              
+                                          
+                                    
+    
+</a>
+
+<a class="underline-hover
+
+                              
+                                          
+                                     aa-hide ff-show" href="/about/our-story
+
+                              
+                                          
+                                    ">
+    Our Story
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/find-a-shop#visit
+
+                              
+                                          
+                                    ">
+    Visit Linn
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/support
+
+                              
+                                          
+                                    ">
+    Contact Us
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li>
+</ul>
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa pad-t-3-aa pad-b-3-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/events
+
+                      
+                                  
+                            ">
+    
+    <span class="">Events
+
+                          
+                                      
+                                </span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa shadow-left-aa secondary0-back-hover-aa" href="/events
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">Events
+
+                          
+                                      
+                                </span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 ii-all ii-hide font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-5-ii">
+    <li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                     ff-hide" href="/events
+
+                              
+                                          
+                                    ">
+    Book Now
+
+                              
+                                          
+                                    
+    
+</a>
+
+<a class="underline-hover
+
+                              
+                                          
+                                     aa-hide ff-show" href="/events
+
+                              
+                                          
+                                    ">
+    Book Now
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li>
+</ul>
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa pad-t-3-aa pad-b-3-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/technology
+
+                      
+                                  
+                            ">
+    
+    <span class="">Technology
+
+                          
+                                      
+                                </span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa accordian-switch                                                                                         shadow-left-aa secondary0-back-hover-aa" href="/technology
+
+                      
+                                  
+                            " data-accordian-max-width-enabled="579px
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">Technology
+
+                          
+                                      
+                                </span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 hh5-hh12 ii-all font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-5-ii">
+    <li class="pad-r-3-aa ff6-ff8 hh6-hh9 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                     ff-hide" href="/technology/space-optimisation
+
+                              
+                                          
+                                    ">
+    Space Optimisation
+
+                              
+                                          
+                                    
+    
+</a>
+
+<a class="underline-hover
+
+                              
+                                          
+                                     aa-hide ff-show" href="/technology/space-optimisation
+
+                              
+                                          
+                                    ">
+    Space Optimisation
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 hh6-hh8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/technology/exakt
+
+                              
+                                          
+                                    ">
+    Exakt
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/technology/katalyst
+
+                              
+                                          
+                                    ">
+    Katalyst
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li>
+</ul>
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa pad-t-3-aa pad-b-3-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/community
+
+                      
+                                  
+                            ">
+    
+    <span class="">Community
+
+                          
+                                      
+                                </span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa accordian-switch                                                                                         shadow-left-aa secondary0-back-hover-aa" href="/
+
+                      
+                                  
+                            " data-accordian-max-width-enabled="579px
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">Community
+
+                          
+                                      
+                                </span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 ii-all font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-5-ii">
+    <li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/blog">
+    Blog
+    
+</a>
+
+</li><li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="https://www.facebook.com/linnproducts
+
+                              
+                                          
+                                    ">
+    Facebook
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="https://twitter.com/linnproducts
+
+                              
+                                          
+                                    ">
+    Twitter
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li>
+</ul>
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa pad-t-3-aa pad-b-3-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/software
+
+                      
+                                  
+                            ">
+    
+    <span class="">Software
+
+                          
+                                      
+                                </span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa shadow-left-aa secondary0-back-hover-aa" href="/software
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">Software
+
+                          
+                                      
+                                </span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 ii-all ii-hide font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-5-ii">
+    <li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                     ff-hide" href="/software
+
+                              
+                                          
+                                    ">
+    Downloads
+
+                              
+                                          
+                                    
+    
+</a>
+
+<a class="underline-hover
+
+                              
+                                          
+                                     aa-hide ff-show" href="/software">
+    Downloads
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li>
+</ul>
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa pad-t-3-aa pad-b-3-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/support
+
+                      
+                                  
+                            ">
+    
+    <span class="">Support
+
+                          
+                                      
+                                </span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa accordian-switch                                                                                         shadow-left-aa secondary0-back-hover-aa" href="/support
+
+                      
+                                  
+                            " data-accordian-max-width-enabled="579px
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">Support
+
+                          
+                                      
+                                </span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 ii-all font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-5-ii">
+    <li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/support
+
+                              
+                                          
+                                    ">
+    Contact Support
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/warranty
+
+                              
+                                          
+                                    ">
+    Warranty
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li>
+</ul>
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa pad-t-3-aa pad-b-3-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/support
+
+                      
+                                  
+                            ">
+    
+    <span class="">Company Information
+
+                          
+                                      
+                                </span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa accordian-switch                                                                                         shadow-left-aa secondary0-back-hover-aa" href="/support
+
+                      
+                                  
+                            " data-accordian-max-width-enabled="579px
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">Company Information
+
+                          
+                                      
+                                </span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 ii-all font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-5-ii">
+    <li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/support
+
+                              
+                                          
+                                    ">
+    Contact Us
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/careers
+
+                              
+                                          
+                                    ">
+    Careers
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/company-history
+
+                              
+                                          
+                                    ">
+    Company History
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/tunedem
+
+                              
+                                          
+                                    ">
+    Tune Dem
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li><li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/find-a-shop#visit
+
+                              
+                                          
+                                    ">
+    Visit Linn
+
+                              
+                                          
+                                    
+    
+</a>
+
+</li>
+</ul>
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa border-secondary2-aa border-secondary1-ii border-b-hair-aa pad-t-3-aa pad-b-3-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/account">
+    
+    <span class="">My Account</span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa accordian-switch                                                                                         shadow-left-aa secondary0-back-hover-aa" href="/support
+
+                      
+                                  
+                            " data-accordian-max-width-enabled="579px
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">My Account</span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 ii-all font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-5-ii">
+    <li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/account                                                              ">
+    Account Home
+    
+</a>
+
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/account/music-systems">
+    Manage Systems
+    
+</a>
+
+</li>
+</ul>
+</li><li class="aa2-aa12 dd3-dd12 ff-all ii-all secondary0-back-aa pad-t-3-aa pad-b-8-aa pad-t-0-ii pad-b-0-ii">
+    
+<a class="aa2-aa4 ff1-ff4 ii-hide white-back-aa pad-t-3-and-a-half-aa pad-l-6-ff underline-hover
+
+                      
+                                  
+                             position-t-aa position-l-aa position-r-aa position-b-aa" href="/trade
+
+                      
+                                  
+                            ">
+    
+    <span class="">Trade
+
+                          
+                                      
+                                </span>
+
+</a>
+
+<a class="aa-hide ii-all ii-show white-back-aa pad-t-3-aa pad-b-3-aa accordian-switch                                                                                         shadow-left-aa secondary0-back-hover-aa" href="/trade
+
+                      
+                                  
+                            " data-accordian-max-width-enabled="579px
+
+                      
+                                  
+                            ">
+    
+    <span class="ii2-ii11">Trade
+
+                          
+                                      
+                                </span>
+
+</a>
+<ul class="aa5-aa12 ff5-ff12 ii-all font-size-16-aa line-height-30-aa float-items pad-l-5-aa pad-l-0-ff pad-t-3-ii pad-b-10-ii">
+    <li class="pad-r-3-aa ff6-ff8 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                    " href="/trade
+
+                              
+                                          
+                                    ">
+    Trade Site
+
+                              
+                                          
+                                    
+    
+</a>
+</li><li class="pad-r-3-aa ff9-ff11 ii2-ii11 jj2-jj11">
+    
+<a class="underline-hover
+
+                              
+                                          
+                                        " href="/account/music-systems">
+    Manage Systems
+    
+</a>
+
+</li>
+
+</ul>
+</li>
+</ul>
+</div>
+<button class="pad-l-4-aa pad-r-6-aa pad-r-13-jj height-13-aa height-13-ii position-t-1-aa position-r-2-aa position-t-2-ii position-r-1-jj border-t-none-aa border-b-none-aa border-l-none-aa border-r-none-aa font-size-17-aa background-none content-switch                                                     margin-t-0-and-a-half-ii selected" type="button" data-target-content-id="primary-nav">
+<p class="margin-r-5-aa margin-r-6-jj pad-t-4-aa pad-t-0-ii font-weight-light-aa jj-hide">Close</p><i class="burger close margin-t-2-aa margin-r-1-aa position-t-4-aa"><svg id="close" data-name="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.91 20.91" class="width-3-ii pad-t-1-ii"><title>close</title><polygon points="20.91 1.21 19.7 0 10.46 9.25 1.21 0 0 1.21 9.25 10.46 0 19.7 1.21 20.91 10.46 11.67 19.7 20.91 20.91 19.7 11.67 10.46 20.91 1.21"></polygon></svg></i>
+</button>
+
+</nav>
+</section>
+
+<section class="aa-all privacy" id="introduction">
+    
+<div class="height-19-aa height-4-ff">
+    
+</div>
+
+<div class="aa-all bb-all cc-all dd-all ee-all ff-all gg-all hh-all ii-all">
+    
+<div class="aa2-aa3 bb2-bb3 cc2-cc3 dd1-dd3 ee1-ee3 ff-hide pad-t-11-aa pad-r-6-aa pad-l-4-dd pad-l-4-ee">
+    <span class="font-size-18-aa font-weight-bold-aa line-height-24-aa pad-b-1-aa display-block">On this page</span>
+
+<nav class="on-page side-nav">
+    <ul>
+<li><a href="#terms">Key terms</a></li>
+<li><a href="#information-we-collect">Information we collect</a></li>
+<li><a href="#how-we-use-information">How we use information we collect</a></li>
+<li><a href="#information-we-share">Information we share</a></li>
+<li><a href="#legal-basis">Legal basis</a></li>
+<li><a href="#your-rights-and-privacy-controls">Your rights and privacy controls</a></li>
+<li><a href="#keeping-your-information-secure">Keeping your information secure</a></li>
+<li><a href="#cookies">Cookies</a></li>
+<li><a href="#changes">Changes to our Privacy Policy</a></li>
+<li><a href="#contact-us">Contact Us</a></li>
+</ul>
+
+</nav><span class="font-size-18-aa font-weight-bold-aa line-height-24-aa pad-b-1-aa display-block margin-t-6-aa">Related content</span>
+
+<nav class="on-page side-nav">
+    <ul>
+<li><a href="/terms-and-conditions">Terms &amp; Conditions of Sale</a></li>
+<li><a href="/legal-notice">Legal Notice</a></li>
+</ul>
+
+</nav>
+</div>
+<div class="aa4-aa8 bb4-bb9 cc4-cc9 dd4-dd10 ee4-ee10 ff2-ff11 pad-t-8-ff pad-t-6-gg pad-t-4-hh pad-t-0-ii">
+    <h1>Privacy Policy</h1>
+<span class="display-block pad-t-1-aa secondary3-text-aa">Last updated 3rd December 2019</span>
+
+<div class="font-size-21-aa line-height-24-aa pad-t-4-aa pad-b-6-aa">
+    <p>At Linn we are committed to keeping your data safe, and handling it in accordance with our legal obligations.</p>
+
+<p>This Privacy Policy, together with our <a href="/terms-and-conditions">Terms &amp; Conditions of Sale</a> and <a href="legal-notice">Legal Notice</a>, sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us.</p>
+
+</div>
+<div class="pad-b-6-aa" id="terms">
+    <h3>Key terms</h3>
+
+<p>In this Privacy Policy, these terms have the following meanings:</p>
+
+<p>"We" and "us" means Linn Products Ltd.</p>
+
+<p>"Websites" means all of our websites, including: </p>
+
+<ul>
+<li>Linn Website (https://www.linn.co.uk), </li>
+<li>Linn Forums (https://forums.linn.co.uk), </li>
+<li>Linn Docs (http://docs.linn.co.uk), </li>
+<li>Linn OSS (http://oss.linn.co.uk), </li>
+<li>Linn Shop (http:// shop.linn.co.uk)</li>
+<li>Linn Microsite (http://linnproducts.co.uk)</li>
+</ul>
+
+<p>"Applications" means software we write and distribute, including:</p>
+
+<ul>
+<li>Kazoo</li>
+<li>Konfig</li>
+<li>Kazoo Server</li>
+<li>Songcast</li>
+<li>Kinsky</li>
+</ul>
+
+<p>"Cloud Platform" means the web-based services provided by us to support product features including:</p>
+
+<ul>
+<li>User accounts</li>
+<li>System configuration</li>
+<li>Playlists</li>
+<li>Pins</li>
+<li>Favourites</li>
+</ul>
+
+<p>"Products" means Linn music systems and components.</p>
+<p><a href="#introduction">Back to top</a></p>
+
+</div>
+<div class="pad-t-6-aa pad-b-6-aa" id="information-we-collect">
+    <h2>Information we collect</h2>
+
+<p>The information we collect varies based on the products, services and applications you use.</p>
+
+<div class="pad-t-2-aa">
+    <h3>Information that you provide</h3>
+
+<p><strong>Contact data:</strong> You may provide us with contact information, such as your name, email address, phone number and address.  This may be information that we receive from you when you book tickets to an event; request a product demonstration; create a user account; contact an authorised Linn Retailer via one of our websites; or contact our service department. Calls may be recorded for training and quality purposes.</p>
+
+<p><strong>Marketing preferences:</strong> If you opt-in for marketing communications, we will record that information alongside any contact data you provide.</p>
+
+<p><strong>Product data:</strong>  You may provide us with information about the products that you own.  This may be information that we receive from you when you contact our service department, or when we're processing your order, or when you register a product though one of our applications or websites.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h3>Information we collect automatically</h3>
+
+<p><strong>Log data:</strong> When you use our websites or services, we record information about your interaction in log files. The data logged includes information about the device making the request, including its type, IP address, browser type and cookie data.  We also log information about when the interaction took place and the services used.</p>
+
+<p><strong>Website activity data:</strong> To gain a better understanding of how our websites are used, we use cookies and other tracking tools such as Google Analytics to collect and aggregate website activity data.  Read more about our <a href="#cookies">cookie policy</a>.</p>
+
+<p><strong>Product activity data:</strong> With your consent, we collect information about the activity of your product. This data includes the product serial number, software version, system configuration and information about any connected products.</p>
+
+<p><strong>Application activity data:</strong> To gain a better understanding of how our applications are used, we collect and aggregate application activity data. This data includes information about features in use, the product version, and the operating system and IP address of the device used.</p>
+
+<p><strong>Product state data:</strong> When you use our cloud platform, we need collect and use information about the current state of your product.  This information includes the product serial number and system configuration.  </p>
+
+<p><strong>Crash reporting data:</strong>  With your consent, we collect information about any failures that occur when you use our products or applications.  This information can include the device serial number, connected products, software version and technical data describing the failure.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h3>Information we receive from our authorised retailers</h3>
+
+<p><strong>Event and demonstration information:</strong> When you use our website to request a demonstration with one of our retailers, or book a place at one of our retailers' events, we will follow-up with the retailer to confirm that the booking went ahead and to record any feedback they have received.</p>
+
+<p><strong>Service and support data:</strong>  Your retailer may pass your contact information to our service department when seeking support with a repair, upgrade or installation.  We will record only the information necessary to allow us to provide the support requested.</p>
+
+</div><p><a href="#introduction">Back to top</a></p>
+
+</div>
+<div class="pad-t-6-aa pad-b-6-aa" id="how-we-use-information">
+    <h2>How we use information we collect</h2>
+
+<div class="pad-t-2-aa">
+    <h3>To deliver our services and process your requests</h3>
+
+<p>We use the information we collect to provide, operate and support the products and services we offer.</p>
+
+<p>For example, we may use your <em>contact data</em> to send you confirmation of any event bookings or demonstration requests you make.  Or we may process your <em>product data</em> as we fulfil your order.</p>
+
+<p>We collect and monitor <em>activity data</em> to help us effectively manage our platform and keep everything running smoothly.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h3>To provide support</h3>
+
+<p>We may use information we have collected when responding to enquiries, diagnosing problems, repairing products or providing other customer care and support services.</p>
+
+<p>For example, our service department will use your <em>product data</em> and any <em>service or support data</em> they have received when handling service requests, warranty claims or other queries.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h3>To communicate with you</h3>
+
+<p>We use the data we collect to deliver and personalise our communications with you. </p>
+
+<p>For example, we may use your <em>contact data</em> and <em>product data</em> to process and respond to queries or requests you make, or send administrative or support messages to you about your products or account.</p>
+
+<p>Furthermore, in accordance with your <em>marketing preferences</em>, we may contact you about products, services, events and other information that we think will be of interest to you.</p>
+
+<p>We may use data we collect, including your <em>event and demonstration information</em>, to gauge which products and services you may be interested in.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h3>To improve our products and services</h3>
+
+<p>We use the data we collect to help us improve our products, applications, websites and cloud platform.</p>
+
+<p>For example, aggregated <em>activity data</em> gives us insight into how our products and applications are used, helping us identify potential features and improvements.</p>
+
+<p><em>Crash reporting data</em>, along with <em>log data</em>, helps us better understand any failures that occur and under which configurations they arise. It can also give us a better understanding of the reliability of our products.</p>
+
+<p>In order to improve our ability to provide integrated services, support and other activities, we may consolidate information we receive from different sources.</p>
+
+<p>We may also aggregate data we have collected from different sources in order to perform statistical analysis and other reporting activities that enable us to make informed decisions about our business.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h3>To investigate and prevent security issues and abuse</h3>
+
+<p>We may use the data we collect to prevent or detect fraud, identity malicious activity, and to prevent or detect abuse of our websites and other services.</p>
+
+<p>We may also use information we hold to comply with our legal obligations.</p>
+
+</div><p><a href="#introduction">Back to top</a></p>
+
+</div>
+<div class="pad-t-6-aa pad-b-6-aa" id="information-we-share">
+    <h2>Information we share</h2>
+
+<p>Information about you is an important part of our business and we will not sell or rent it to others. </p>
+
+<div class="pad-t-2-aa">
+    <h3>Authorised distributors and retailers</h3>
+
+<p>When necessary, we may share some of your data with our authorised retailers and distributors.  This can happen, for example, when they need to contact you regarding services you have requested (such as events or product demonstrations) or to assist with product support or repair.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h3>Agents</h3>
+
+<p>We occasionally employ other companies and individuals to perform functions on our behalf. Examples include delivering goods, sending postal mail and email, removing repetitive information from customer lists, analysing data, providing marketing assistance, processing credit card payments and providing customer services. They have access to your personal data needed to perform their functions, but may not use it for any other purposes. Further, they must process personal data in accordance with this Privacy Policy and in accordance with all relevant legislation.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h3>Protection of Linn and others</h3>
+
+<p>We release your account details and other personal data when we believe release is appropriate to comply with law, to enforce or apply our <a href="/terms-and-conditions">Terms and Conditions</a> and other agreements or to protect the rights, property or safety of Linn, our users or others. This includes exchanging information with other companies and organisations for fraud protection and credit risk reduction. Obviously, however, this does not include selling, renting, sharing or otherwise disclosing personal data for commercial purposes in a way that is contrary to this Privacy Policy.</p>
+
+</div><p><a href="#introduction">Back to top</a></p>
+
+</div>
+<div class="pad-t-6-aa pad-b-6-aa" id="legal-basis">
+    <h2>Legal Basis</h2>
+
+<p>We collect and process your personal data on the following legal basis:</p>
+
+<div class="pad-t-2-aa">
+    <h3>Performance of a contract</h3>
+
+<p>The use of your personal information may be necessary to fulfil the agreement you have with us. For example, to deliver the services that you use, to fulfil requests that you make of us, or to provide support when requested.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h3>Legitimate interests</h3>
+
+<p>We may use your personal information for our legitimate interests. For example, it is in our legitimate interest to analyse usage data to improve our products and services, or (with your consent) to send you marketing communications, or to use your personal information for administrative or legal purposes.</p>
+
+</div><p><a href="#introduction">Back to top</a></p>
+
+</div>
+<div class="pad-t-6-aa pad-b-6-aa" id="your-rights-and-privacy-controls">
+    <h2>Your rights and privacy controls</h2>
+
+<div class="pad-t-2-aa">
+    <h3>Your rights</h3>
+
+<p>We want you to be in control of how your personal information is used by us. </p>
+
+<p>Where we use your information on the basis of your consent, you are entitled to withdraw that consent at any time. We provide various <a href="#privacy-controls">privacy controls</a> to help you with this.</p>
+
+<p>In addition, and subject to local law, you have the following rights:</p>
+
+<ul>
+<li>you can ask us for a copy of the personal information we hold about you;</li>
+<li>you can ask us to correct personal data about you that may be incomplete or inaccurate</li>
+<li>in certain circumstances, you can ask us to delete your data, or ask us to restrict how we process personal information we hold about you</li>
+</ul>
+
+<p>If you wish to exercise any of the rights set out above, please <a href="#contact-us">contact us</a>.</p>
+
+<p>We may need to request specific information from you to help us confirm your identity. This is to ensure we disclose personal data only to those with the right to receive it.</p>
+
+<p>We aim to respond to all requests within one month. If your request proves more complex, it may take us longer.  In that case, we will notify you and keep you up-to-date with our progress.</p>
+
+<p>You will not have to pay a fee to access your personal data (or to exercise any of your rights). However, we may charge a reasonable fee if your request is clearly unfounded, repetitive or excessive. Alternatively, we may refuse to comply with your request in these circumstances.</p>
+
+</div>
+<div class="pad-t-2-aa" id="privacy-controls">
+    <h3>Privacy controls</h3>
+
+<div class="pad-t-2-aa">
+    <h4>Marketing preferences</h4>
+
+<p>You can opt out of receiving direct marketing communications from us by following the 'unsubscribe' link we include in all of our marketing emails.</p>
+
+<p>Alternatively, you can <a href="#contact-us">contact us</a> directly and will will update your marketing preferences as you request.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h4>Product activity data &amp; crash reporting</h4>
+
+<p>You can control what activity and crash data we collect from your product using our <a href="/software#konfig">Konfig application</a>.</p>
+
+<p>Opting-out of data collection will cause all product activity data previously collected to be erased.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h4>Kazoo application activity data &amp; crash reporting</h4>
+
+<p>You can control what activity and crash data we collect from <a href="/software#kazoo">Kazoo</a> by visiting the 'Privacy' tab within the application settings.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h4>Product state data</h4>
+
+<p>When you elect to use services provided by our cloud platform, we will collect and retain information about your product.</p>
+
+<p>If you no longer wish to use these services, you can deactivate cloud services by unlinking your product in the settings window in <a href="/software#kazoo">Kazoo</a>.</p>
+
+<p>When you unlink your product, all related product state data will be deleted automatically.  This information will also be deleted if the product is reset to its factory settings.</p>
+
+</div>
+<div class="pad-t-2-aa" id="privacy-controls">
+    <h4>Linn account</h4>
+
+<p>If you are a registered user of any of the websites and wish to terminate your account with us, please <a href="#contact-us">contact us</a>, specifying which accounts you wish to be terminated.</p>
+
+</div>
+</div><p><a href="#introduction">Back to top</a></p>
+
+</div>
+<div class="pad-t-6-aa pad-b-6-aa" id="keeping-your-information-secure">
+    <h2>Keeping your information secure</h2>
+
+<div class="pad-t-2-aa">
+    <h3>Data security</h3>
+
+<p>We have implemented security measures to prevent your personal data from being accidentally lost, disclosed, used or accessed in an unauthorised way.</p>
+
+<p>However, while we strive to protect your personal data, we cannot guarantee its absolute security or ensure that personal data will never be disclosed in ways outwith our control and not otherwise described in this Privacy Policy. </p>
+
+<h4>Access to data</h4>
+
+<p>We limit access to your personal data to only those employees, agents, contractors or other third parties who have a business need to know. Your data will only be processed in accordance with this Privacy Policy and our instructions.</p>
+
+<h4>User account and service security</h4>
+
+<p>As a user of the websites or other services you may create an account. You are responsible for maintaining the confidentiality and security of your account. You should not reveal your account information (including your password) to anyone else. You agree to immediately notify Linn of any unauthorised use of your account or any other breach of security. We are not responsible for any losses arising out of the unauthorised use of your account.</p>
+
+<h4>Other websites</h4>
+
+<p>Our websites may contain links to the websites of our authorised retailers, distributors, advertisers and other affiliates. If you follow any link to any of these websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liabilities for these policies.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h3>Data retention</h3>
+
+<p>We will only keep your personal data for as long as necessary to fulfil the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements.</p>
+
+<p>We delete some information as soon as you opt-out of certain data collection activities.  See our <a href="#privacy-controls">privacy controls</a> for more details.</p>
+
+<p>In some circumstances we may anonymise your personal data (so that it can no longer be associated with you) for research or statistical purposes in which case we may use this information indefinitely without further notice to you.</p>
+
+</div><p><a href="#introduction">Back to top</a></p>
+
+</div>
+<div class="pad-t-6-aa pad-b-6-aa" id="cookies">
+    <h2>Cookies</h2>
+
+<div class="pad-t-2-aa">
+    <h3>How we use cookies</h3>
+
+<p>We use cookies for a variety of purposes.  Some cookies are associated with your account and allow us to keep you logged in.  Other cookies are not associated with you account, but are unique, and allow us to carry out usage analytics.</p>
+
+<p>Here is a summary of the kinds of cookies we use:</p>
+
+<p><strong>Authentication cookies.</strong> When you sign-in in to our website, we use cookies to keep you logged on and help us personalise your experience.</p>
+
+<p><strong>Activity cookies.</strong> These cookies allow our websites to remember pages you have visited and choices you make while browsing.</p>
+
+<p><strong>Analytics cookies.</strong> We use these cookies to help us understand how visitors interact with our websites.  For example, how long visitors spend on different page, how people arrive on our website, or in which countries our website is being viewed.  We primarily use cookies generated by Google Analytics for this purpose.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h3>Similar technologies</h3>
+
+<p>In addition to cookies, we may also use similar technologies, such as pixel tags, for the purposes outlined above.  </p>
+
+<p>We also use pixel tags in in our marketing emails (if you have opted-in) to help us to understand whether our email communication has been viewed.</p>
+
+</div>
+<div class="pad-t-2-aa">
+    <h3>How to control cookie settings</h3>
+
+<p>Most web browsers allow you to control how cookies are used, including disabling the use of cookies altogether. </p>
+
+<p>If you choose to prevent the use of cookies on our websites, you may find that that some features no longer function correctly, and that personalised features become unavailable.</p>
+
+</div><p><a href="#introduction">Back to top</a></p>
+
+</div>
+<div class="pad-t-6-aa pad-b-6-aa" id="changes">
+    <h2>Changes to our Privacy Policy</h2>
+
+<p>Any changes that we make to our Privacy Policy in the future will be posted on this page and, where appropriate, notified to you by email.</p>
+<p><a href="#introduction">Back to top</a></p>
+
+</div>
+<div class="pad-t-6-aa pad-b-6-aa" id="contact-us">
+    <h2>Contact us</h2>
+
+<p>If you have any questions about this Privacy Policy, or would like to exercise any of your rights, please contact us by email at helpline@linn.co.uk or by post to: </p>
+
+<p>Linn Products Limited<br>
+Glasgow Road<br>
+Waterfoot<br>
+Glasgow <br>
+G76 0EQ<br>
+United Kingdom.</p>
+
+<p>Linn Products Limited is the data controller for personal data collected through the Linn websites, applications products and services subject to this Privacy Policy.</p>
+<p><a href="#introduction">Back to top</a></p>
+
+</div>
+</div>
+</div>
+</section>    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js?11Oct18"></script><script type="text/javascript" id="gtm-vimeo-tracking">(function(g,d,k){function m(){var a=n(r("iframe"),t);a.length&&u(function(){h(a,v)})}function t(a){return-1<a.src.indexOf("player.vimeo.com/video/")}function u(a){l(d.Vimeo)?w("https://player.vimeo.com/api/player.js",a):a()}function v(a){if(!a.__vimeoTracked){a.__vimeoTracked=!0;var c=new Vimeo.Player(a),b=k._track.percentages,e={Play:"play",Pause:"pause","Watch to End":"ended"},f={};c.getVideoTitle().then(function(a){h(["Play","Pause","Watch to End"],function(b){if(k.events[b])c.on(e[b],function(){p(b,
+a)})});if(b)c.on("timeupdate",function(e){e=e.percent;for(var c in b)e>=b[c]&&!f[c]&&(f[c]=!0,p(c,a))})})}}function x(a){a=y({},{events:{Play:!0,Pause:!0,"Watch to End":!0},percentages:{each:[],every:[]}},a);h(["each","every"],function(b){var c=a.percentages[b];q(c)||(c=[c]);c&&(a.percentages[b]=z(c,Number))});var c=[].concat(a.percentages.each);a.percentages.every&&h(a.percentages.every,function(a){var b=100/a,e=[],d;for(d=1;d<b;d++)e.push(a*d);c=c.concat(n(e,function(a){return 0<a&&100>a}))});var b=
+A(c,function(a,b){a[b+"%"]=b/100;return a},{});a._track={percentages:b};return a}function B(a){a=a||{};var c=a.name||"dataLayer",b=a.name||d.GoogleAnalyticsObject||"ga",e="_gaq",f={gtm:function(a,b){g.push({event:"vimeoTrack",attributes:{videoAction:a,videoName:b}})},cl:function(a,b){d[e].push(["_trackEvent","Videos",a,b])},ua:function(a,c){d[b]("send","event","Videos",a,c)}};switch(a.type){case "gtm":var g=d[c]=d[c]||[];break;case "ua":d[b]=d[b]||function(){(d[b].q=d[b].q||[]).push(arguments)};d[b].l=
++new Date;break;case "cl":d[e]=d[e]||[];break;default:l(d[c])?b&&!l(d[b])?a.type="ua":l(d[e])||l(d[e].push)||(a.type="cl"):(a.type="gtm",g=d[c]=d[c]||[])}return f[a.type]}function y(){var a=[].slice.call(arguments),c=a.shift(),b,e;for(e=0;e<a.length;e++){var d=a[e];for(b in d)c[b]=d[b]}return c}function q(a){return Array.isArray_?Array.isArray_(a):"[object Array]"===Object.prototype.toString.call(a)}function h(a,c){if(Array.prototype.forEach_)return a.forEach.call(a,c);var b;for(b=0;b<a.length;b++)c.call(d,
+a[b],b,a)}function z(a,c){if(Array.prototype.map_)return a.map.call(a,c);var b=[];h(a,function(a,f,g){b.push(c.call(d,a,f,g))});return b}function n(a,c){if(Array.prototype.filter)return a.filter.call(a,c);var b=[];h(a,function(a,f,g){c.call(d,a,f,g)&&b.push(a)});return b}function A(a,c,b){if(Array.prototype.reduce)return a.reduce.call(a,c,b);var e;for(e=0;e<a.length;e++){var f=a[e];b=c.call(d,b,f,a,e)}return b}function l(a){return"undefined"===typeof a}function r(a){q(a)||(a=[a]);return[].slice.call(g.querySelectorAll(a.join()))}
+function w(a,c){function b(){c&&(c(),f.onload=null)}var d=g.getElementsByTagName("script")[0];var f=g.createElement("script");f.onload=b;f.src=a;f.async=!0;d.parentNode.insertBefore(f,d)}if(!navigator.userAgent.match(/MSIE [678]\./gi)){k=x(k);var p=B(k.syntax);"loading"!==g.readyState?m():g.addEventListener("DOMContentLoaded",m);g.addEventListener("load",m,!0)}})(document,window,{events:{Play:!0,Pause:!0,"Watch to End":!0},percentages:{every:25,each:[10,90]}});</script><script type="text/javascript" id="gtm-engagement-timer">(function(b,a){function f(c,b,d){var a="on"+b;c.addEventListener?c.addEventListener(b,d):c.attachEvent?c.attachEvent(a,function(a){return d.call(c,a)}):"undefined"===typeof c[a]&&(c[a]=function(a){var b=a;return function(a){b&&b.apply(c,a);return d.call(c,a)}}(c[a]))}function k(a){return"undefined"!==typeof a}function F(a,b){var d,c,g,e=null,h=0,l=function(){h=new Date;e=null;g=a.apply(d,c)};return function(){var f=new Date;h||(h=f);var k=b-(f-h);d=this;c=arguments;0>=k?(clearTimeout(e),e=null,h=
+f,g=a.apply(d,c)):e||(e=setTimeout(l,k));return g}}function w(){var c=+new Date;a.performance&&a.performance.timing&&a.performance.timing.domInteractive&&(c=a.performance.timing.domInteractive);return c}a.EngagementTimer=a.EngagementTimer||function(){function c(d){function c(a,d){r[a]=r[a]||[];r[a].push(d)}function g(){clearInterval(n);t=+new Date;n=setInterval(function(){var a=+new Date;p+=Math.ceil((a-t)/1E3);H();t=a},1E3);l("start",{data:{timestamp:t}})}function e(){clearInterval(n);n=!1;l("pause",
+{data:{timestamp:+new Date}})}function h(){p=0;x={};m=0;l("reset",{data:{timestamp:+new Date}})}function l(a,d){var c=r[a],b;if(c)for(b=0;b<c.length;b++)w(c[b],d)}function w(a,d){setTimeout(function(){a(d)},0)}function G(){clearTimeout(y);y=setTimeout(A,B);n||g()}function A(){e();l("idle",{data:{time:p}})}function I(a){setTimeout(function(){x[a]||a>J||a<K||(l("interval",{data:{time:a}}),x[a]=!0,m=a>m?a:m)},0)}function H(){var a=[],c=0,b;if(C.length)for(b=0;b<d.every.length;b++){var f=C[b];var e=Math.floor(p/
+f)*f;if(e<m)break;for(;e>m&&0<e&&50>c;)a.push(e),e=Math.max(0,e-f),c++}if(D.length)for(b=0;b<d.each.length;b++)f=D[b],f>m&&f<=p&&a.push(f);a.sort(function(a,b){return a>b?1:b>a?-1:0});for(b=0;b<a.length;b++)I(a[b])}var L=d.target||b,z=+new Date,p=Math.ceil((z-(d.startTime||E))/1E3),r={},x={},J=d.max||Infinity,K=d.min||0,C=d.every||[],D=d.each||[],B=1E3*(d.idleAfter-1),m=0,t,n,u;clearTimeout(y);var y=setTimeout(A,B);setTimeout(g,0);if(!d.engagementEvents||!d.engagementEvents.length)throw"Missing required configuration 'engagementEvents'";
+for(u=0;u<d.engagementEvents.length;u++)z=d.engagementEvents[u],f(L,z,F(G,500));if(d.idleOnVisibilityChange){if(k(b.hidden)){var v="hidden";var q="visibilitychange"}else k(b.mozHidden)?(v="mozHidden",q="mozvisibilitychange"):k(b.msHidden)?(v="msHidden",q="msvisibilitychange"):k(b.webkitHidden)&&(v="webkitHidden",q="webkitvisibilitychange");q?f(b,q,function(a){b[v]?e():g()}):(f(a,"blur",e),f(a,"focus",g))}return{on:c,start:g,pause:e,reset:h}}var E=w();return c}()})(document,window);
+(function(b){var a=EngagementTimer({every:[Number(google_tag_manager["GTM-W2XCZR"].macro(4))],idleAfter:Number(google_tag_manager["GTM-W2XCZR"].macro(5)),engagementEvents:["click","touchstart","scroll","keydown","mousemove"],idleOnVisibilityChange:!0,max:Number(google_tag_manager["GTM-W2XCZR"].macro(6)),min:Number(google_tag_manager["GTM-W2XCZR"].macro(7))});a.on("interval",function(a){b.dataLayer.push({event:"engagementTimer",attributes:{counter:a.data.time}})});b.EngagementTimer=null})(window);</script>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","174697136450242");fbq("init","2270882009630249");fbq("set","agent","tmgoogletagmanager","174697136450242");fbq("track","PageView");</script>
+
+
+    <script type="text/javascript" src="https://small.linncdn.com/website/common/scripts/linn.js?11Oct18"></script><script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?callback=__google_maps_api_provider_initializator__&amp;key=AIzaSyCQuVeJySNBaWw-ceWNQ0CxI4m88BygsCk"></script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '259824571056543');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=259824571056543&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+          <script type="text/javascript">
+_linkedin_partner_id = "1345057";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1345057&fmt=gif" />
+</noscript>
+
+              <script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 994570590;
+var google_conversion_label = "azLbCPLXlwQQ3uKf2gM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+          </script>
+
+
+
+
+</body></html>
