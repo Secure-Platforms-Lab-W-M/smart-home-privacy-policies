@@ -9,3 +9,5 @@ The `document_label` directory contains the JSON file, which includes document l
 ### NER Model:
 In addition to content and document labels, we annotated a set of 600 statements for NER evaluation. The model and train/test data can be found here: [NER Download](https://drive.google.com/drive/folders/1Dqxi3T_TARNRXVct1UWOCzxKiKfWWBkB?usp=sharing)
 
+### Initial_Vendor_List.tsv:
+This contains initial list of smart home vendors. Note that the "None" value is used for vendors for which we were not always able to locate the privacy policy links.
